@@ -1,0 +1,12 @@
+CC=gcc
+OBJS=alloca.o asprintf.o vasprintf.o c-parse.o c-lang.o attribs.o c-errors.o c-lex.o c-pragma.o c-decl.o c-typeck.o c-convert.o c-aux-info.o c-common.o c-format.o c-semantics.o c-objc-common.o main.o cpplib.o cpplex.o cppmacro.o cppexp.o cppfiles.o cpphash.o cpperror.o cppinit.o cppdefault.o line-map.o mkdeps.o prefix.o version.o mbchar.o alias.o bb-reorder.o bitmap.o builtins.o caller-save.o calls.o cfg.o cfganal.o cfgbuild.o cfgcleanup.o cfglayout.o cfgloop.o cfgrtl.o combine.o conflict.o convert.o cse.o cselib.o dbxout.o debug.o dependence.o df.o diagnostic.o doloop.o dominance.o dwarf2asm.o dwarf2out.o dwarfout.o emit-rtl.o except.o explow.o expmed.o expr.o final.o flow.o fold-const.o function.o gcse.o genrtl.o ggc-common.o global.o graph.o haifa-sched.o hash.o hashtable.o hooks.o ifcvt.o insn-attrtab.o insn-emit.o insn-extract.o insn-opinit.o insn-output.o insn-peep.o insn-recog.o integrate.o intl.o jump.o langhooks.o lcm.o lists.o local-alloc.o loop.o obstack.o optabs.o params.o predict.o print-rtl.o print-tree.o profile.o real.o recog.o reg-stack.o regclass.o regmove.o regrename.o reload.o reload1.o reorg.o resource.o rtl.o rtlanal.o rtl-error.o sbitmap.o sched-deps.o sched-ebb.o sched-rgn.o sched-vis.o sdbout.o sibcall.o simplify-rtx.o ssa.o ssa-ccp.o ssa-dce.o stmt.o stor-layout.o stringpool.o timevar.o toplev.o tree.o tree-dump.o tree-inline.o unroll.o varasm.o varray.o vmsdbgout.o xcoffout.o ggc-page.o i386.o xmalloc.o xexit.o hashtab.o safe-ctype.o splay-tree.o xstrdup.o md5.o fibheap.o xstrerror.o concat.o partition.o hex.o lbasename.o getpwd.o ucbqsort.o
+
+CFLAGS=-DSPEC_CPU -DNDEBUG -I. -O2 -DSPEC_CPU_LP64 -g
+
+all: gcc
+
+gcc: $(OBJS)
+	$(CC) $^ -o $@
+
+clean:
+	rm -rf *.o *.ll *.s *.tmp rt.c

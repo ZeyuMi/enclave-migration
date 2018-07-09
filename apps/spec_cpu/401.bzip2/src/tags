@@ -1,0 +1,643 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDWEIGHTS	huffman.c	69;"	d	file:
+ADD_CHAR_TO_BLOCK	bzlib.c	317;"	d	file:
+ALREADY_SPEC	spec.c	17;"	d	file:
+APPEND_FILESPEC	bzip2.c	182;"	d	file:
+APPEND_FILESPEC	bzip2.c	242;"	d	file:
+APPEND_FLAG	bzip2.c	185;"	d	file:
+APPEND_FLAG	bzip2.c	239;"	d	file:
+AssertD	bzlib_private.h	101;"	d
+AssertD	bzlib_private.h	108;"	d
+AssertD	bzlib_private.h	126;"	d
+AssertH	bzlib_private.h	124;"	d
+AssertH	bzlib_private.h	98;"	d
+BIGFREQ	blocksort.c	1060;"	d	file:
+BIGFREQ	blocksort.c	793;"	d	file:
+BZ2_blockSort	blocksort.c	/^void BZ2_blockSort ( EState* s )$/;"	f
+BZ2_bsInitWrite	compress.c	/^void BZ2_bsInitWrite ( EState* s )$/;"	f
+BZ2_bzBuffToBuffCompress	bzlib.c	/^int BZ_API(BZ2_bzBuffToBuffCompress) $/;"	f
+BZ2_bzBuffToBuffDecompress	bzlib.c	/^int BZ_API(BZ2_bzBuffToBuffDecompress) $/;"	f
+BZ2_bzCompress	bzlib.c	/^int BZ_API(BZ2_bzCompress) ( bz_stream *strm, int action )$/;"	f
+BZ2_bzCompressEnd	bzlib.c	/^int BZ_API(BZ2_bzCompressEnd)  ( bz_stream *strm )$/;"	f
+BZ2_bzCompressInit	bzlib.c	/^int BZ_API(BZ2_bzCompressInit) $/;"	f
+BZ2_bzDecompress	bzlib.c	/^int BZ_API(BZ2_bzDecompress) ( bz_stream *strm )$/;"	f
+BZ2_bzDecompressEnd	bzlib.c	/^int BZ_API(BZ2_bzDecompressEnd)  ( bz_stream *strm )$/;"	f
+BZ2_bzDecompressInit	bzlib.c	/^int BZ_API(BZ2_bzDecompressInit) $/;"	f
+BZ2_bzRead	bzlib.c	/^int BZ_API(BZ2_bzRead) $/;"	f
+BZ2_bzReadClose	bzlib.c	/^void BZ_API(BZ2_bzReadClose) ( int *bzerror, BZFILE *b )$/;"	f
+BZ2_bzReadGetUnused	bzlib.c	/^void BZ_API(BZ2_bzReadGetUnused) $/;"	f
+BZ2_bzReadOpen	bzlib.c	/^BZFILE* BZ_API(BZ2_bzReadOpen) $/;"	f
+BZ2_bzWrite	bzlib.c	/^void BZ_API(BZ2_bzWrite)$/;"	f
+BZ2_bzWriteClose	bzlib.c	/^void BZ_API(BZ2_bzWriteClose)$/;"	f
+BZ2_bzWriteClose64	bzlib.c	/^void BZ_API(BZ2_bzWriteClose64)$/;"	f
+BZ2_bzWriteOpen	bzlib.c	/^BZFILE* BZ_API(BZ2_bzWriteOpen) $/;"	f
+BZ2_bz__AssertH__fail	bzlib.c	/^void BZ2_bz__AssertH__fail ( int errcode )$/;"	f
+BZ2_bzclose	bzlib.c	/^void BZ_API(BZ2_bzclose) (BZFILE* b)$/;"	f
+BZ2_bzdopen	bzlib.c	/^BZFILE * BZ_API(BZ2_bzdopen)$/;"	f
+BZ2_bzerror	bzlib.c	/^const char * BZ_API(BZ2_bzerror) (BZFILE *b, int *errnum)$/;"	f
+BZ2_bzflush	bzlib.c	/^int BZ_API(BZ2_bzflush) (BZFILE *b)$/;"	f
+BZ2_bzlibVersion	bzlib.c	/^const char * BZ_API(BZ2_bzlibVersion)(void)$/;"	f
+BZ2_bzopen	bzlib.c	/^BZFILE * BZ_API(BZ2_bzopen)$/;"	f
+BZ2_bzread	bzlib.c	/^int BZ_API(BZ2_bzread) (BZFILE* b, void* buf, int len )$/;"	f
+BZ2_bzwrite	bzlib.c	/^int BZ_API(BZ2_bzwrite) (BZFILE* b, void* buf, int len )$/;"	f
+BZ2_compressBlock	compress.c	/^void BZ2_compressBlock ( EState* s, Bool is_last_block )$/;"	f
+BZ2_crc32Table	crctable.c	/^UInt32 BZ2_crc32Table[256] = {$/;"	v
+BZ2_decompress	decompress.c	/^Int32 BZ2_decompress ( DState* s )$/;"	f
+BZ2_hbAssignCodes	huffman.c	/^void BZ2_hbAssignCodes ( Int32 *code,$/;"	f
+BZ2_hbCreateDecodeTables	huffman.c	/^void BZ2_hbCreateDecodeTables ( Int32 *limit,$/;"	f
+BZ2_hbMakeCodeLengths	huffman.c	/^void BZ2_hbMakeCodeLengths ( UChar *len, $/;"	f
+BZ2_indexIntoF	bzlib.c	/^__inline__ Int32 BZ2_indexIntoF ( Int32 indx, Int32 *cftab )$/;"	f
+BZ2_rNums	randtable.c	/^Int32 BZ2_rNums[512] = { $/;"	v
+BZALLOC	bzlib_private.h	136;"	d
+BZFILE	bzlib.h	/^typedef void BZFILE;$/;"	t
+BZFREE	bzlib_private.h	137;"	d
+BZ_API	bzlib.h	240;"	d
+BZ_API	bzlib.h	244;"	d
+BZ_API	bzlib.h	248;"	d
+BZ_CONFIG_ERROR	bzlib.h	201;"	d
+BZ_DATA_ERROR	bzlib.h	196;"	d
+BZ_DATA_ERROR_MAGIC	bzlib.h	197;"	d
+BZ_EXPORT	bzlib.h	225;"	d
+BZ_EXTERN	bzlib.h	241;"	d
+BZ_EXTERN	bzlib.h	245;"	d
+BZ_EXTERN	bzlib.h	249;"	d
+BZ_FINALISE_CRC	bzlib_private.h	196;"	d
+BZ_FINISH	bzlib.h	186;"	d
+BZ_FINISH_OK	bzlib.h	191;"	d
+BZ_FLUSH	bzlib.h	185;"	d
+BZ_FLUSH_OK	bzlib.h	190;"	d
+BZ_GET_FAST	bzlib_private.h	478;"	d
+BZ_GET_FAST_C	bzlib_private.h	483;"	d
+BZ_GET_SMALL	bzlib_private.h	505;"	d
+BZ_GREATER_ICOST	compress.c	280;"	d	file:
+BZ_G_SIZE	bzlib_private.h	156;"	d
+BZ_HDR_0	bzlib_private.h	145;"	d
+BZ_HDR_B	bzlib_private.h	142;"	d
+BZ_HDR_Z	bzlib_private.h	143;"	d
+BZ_HDR_h	bzlib_private.h	144;"	d
+BZ_INITIALISE_CRC	bzlib_private.h	191;"	d
+BZ_IO_ERROR	bzlib.h	198;"	d
+BZ_ITAH	compress.c	606;"	d	file:
+BZ_ITAH	compress.c	623;"	d	file:
+BZ_ITER	compress.c	408;"	d	file:
+BZ_ITER	compress.c	425;"	d	file:
+BZ_ITUR	compress.c	457;"	d	file:
+BZ_ITUR	compress.c	470;"	d	file:
+BZ_LCCWIN32	bzip2.c	131;"	d	file:
+BZ_LCCWIN32	bzip2.c	135;"	d	file:
+BZ_LCCWIN32	bzip2.c	136;"	d	file:
+BZ_LESSER_ICOST	compress.c	279;"	d	file:
+BZ_MAX_ALPHA_SIZE	bzlib_private.h	149;"	d
+BZ_MAX_CODE_LEN	bzlib_private.h	150;"	d
+BZ_MAX_SELECTORS	bzlib_private.h	159;"	d
+BZ_MAX_UNUSED	bzlib.h	290;"	d
+BZ_MEM_ERROR	bzlib.h	195;"	d
+BZ_M_FINISHING	bzlib_private.h	215;"	d
+BZ_M_FLUSHING	bzlib_private.h	214;"	d
+BZ_M_IDLE	bzlib_private.h	212;"	d
+BZ_M_RUNNING	bzlib_private.h	213;"	d
+BZ_N_GROUPS	bzlib_private.h	155;"	d
+BZ_N_ITERS	bzlib_private.h	157;"	d
+BZ_N_OVERSHOOT	bzlib_private.h	223;"	d
+BZ_N_QSORT	bzlib_private.h	221;"	d
+BZ_N_RADIX	bzlib_private.h	220;"	d
+BZ_N_SHELL	bzlib_private.h	222;"	d
+BZ_N_SUFFIX_PAIRS	bzip2.c	1236;"	d	file:
+BZ_OK	bzlib.h	188;"	d
+BZ_OUTBUFF_FULL	bzlib.h	200;"	d
+BZ_PARAM_ERROR	bzlib.h	194;"	d
+BZ_RAND_DECLS	bzlib_private.h	/^      BZ_RAND_DECLS;$/;"	m	struct:__anon4
+BZ_RAND_DECLS	bzlib_private.h	/^      BZ_RAND_DECLS;$/;"	m	struct:__anon5
+BZ_RAND_DECLS	bzlib_private.h	167;"	d
+BZ_RAND_INIT_MASK	bzlib_private.h	171;"	d
+BZ_RAND_MASK	bzlib_private.h	175;"	d
+BZ_RAND_UPD_MASK	bzlib_private.h	177;"	d
+BZ_RUN	bzlib.h	184;"	d
+BZ_RUNA	bzlib_private.h	152;"	d
+BZ_RUNB	bzlib_private.h	153;"	d
+BZ_RUN_OK	bzlib.h	189;"	d
+BZ_SEQUENCE_ERROR	bzlib.h	193;"	d
+BZ_SETERR	bzlib.c	942;"	d	file:
+BZ_STREAM_END	bzlib.h	192;"	d
+BZ_S_INPUT	bzlib_private.h	218;"	d
+BZ_S_OUTPUT	bzlib_private.h	217;"	d
+BZ_UNEXPECTED_EOF	bzlib.h	199;"	d
+BZ_UNIX	bzip2.c	119;"	d	file:
+BZ_UNIX	bzip2.c	121;"	d	file:
+BZ_UNIX	bzip2.c	137;"	d	file:
+BZ_UNIX	bzip2.c	138;"	d	file:
+BZ_UPDATE_CRC	bzlib_private.h	201;"	d
+BZ_VERSION	bzlib_private.h	79;"	d
+BZ_X_BCRC_1	bzlib_private.h	338;"	d
+BZ_X_BCRC_2	bzlib_private.h	339;"	d
+BZ_X_BCRC_3	bzlib_private.h	340;"	d
+BZ_X_BCRC_4	bzlib_private.h	341;"	d
+BZ_X_BLKHDR_1	bzlib_private.h	332;"	d
+BZ_X_BLKHDR_2	bzlib_private.h	333;"	d
+BZ_X_BLKHDR_3	bzlib_private.h	334;"	d
+BZ_X_BLKHDR_4	bzlib_private.h	335;"	d
+BZ_X_BLKHDR_5	bzlib_private.h	336;"	d
+BZ_X_BLKHDR_6	bzlib_private.h	337;"	d
+BZ_X_CCRC_1	bzlib_private.h	365;"	d
+BZ_X_CCRC_2	bzlib_private.h	366;"	d
+BZ_X_CCRC_3	bzlib_private.h	367;"	d
+BZ_X_CCRC_4	bzlib_private.h	368;"	d
+BZ_X_CODING_1	bzlib_private.h	351;"	d
+BZ_X_CODING_2	bzlib_private.h	352;"	d
+BZ_X_CODING_3	bzlib_private.h	353;"	d
+BZ_X_ENDHDR_2	bzlib_private.h	360;"	d
+BZ_X_ENDHDR_3	bzlib_private.h	361;"	d
+BZ_X_ENDHDR_4	bzlib_private.h	362;"	d
+BZ_X_ENDHDR_5	bzlib_private.h	363;"	d
+BZ_X_ENDHDR_6	bzlib_private.h	364;"	d
+BZ_X_IDLE	bzlib_private.h	325;"	d
+BZ_X_MAGIC_1	bzlib_private.h	328;"	d
+BZ_X_MAGIC_2	bzlib_private.h	329;"	d
+BZ_X_MAGIC_3	bzlib_private.h	330;"	d
+BZ_X_MAGIC_4	bzlib_private.h	331;"	d
+BZ_X_MAPPING_1	bzlib_private.h	346;"	d
+BZ_X_MAPPING_2	bzlib_private.h	347;"	d
+BZ_X_MTF_1	bzlib_private.h	354;"	d
+BZ_X_MTF_2	bzlib_private.h	355;"	d
+BZ_X_MTF_3	bzlib_private.h	356;"	d
+BZ_X_MTF_4	bzlib_private.h	357;"	d
+BZ_X_MTF_5	bzlib_private.h	358;"	d
+BZ_X_MTF_6	bzlib_private.h	359;"	d
+BZ_X_ORIGPTR_1	bzlib_private.h	343;"	d
+BZ_X_ORIGPTR_2	bzlib_private.h	344;"	d
+BZ_X_ORIGPTR_3	bzlib_private.h	345;"	d
+BZ_X_OUTPUT	bzlib_private.h	326;"	d
+BZ_X_RANDBIT	bzlib_private.h	342;"	d
+BZ_X_SELECTOR_1	bzlib_private.h	348;"	d
+BZ_X_SELECTOR_2	bzlib_private.h	349;"	d
+BZ_X_SELECTOR_3	bzlib_private.h	350;"	d
+Bool	bzip2.c	/^typedef unsigned char   Bool;$/;"	t	file:
+Bool	bzlib_private.h	/^typedef unsigned char   Bool;$/;"	t
+Bool	spec.c	19;"	d	file:
+CC	Makefile	/^CC=clang$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-DSPEC_CPU -DNDEBUG -O2 -DSPEC_CPU_LP64 -g$/;"	m
+CLEARMASK	blocksort.c	1062;"	d	file:
+CLEARMASK	blocksort.c	795;"	d	file:
+CLEAR_BH	blocksort.c	253;"	d	file:
+CLEAR_BH	blocksort.c	379;"	d	file:
+Cell	bzip2.c	/^   Cell;$/;"	t	typeref:struct:zzzz	file:
+Char	bzip2.c	/^typedef char            Char;$/;"	t	file:
+Char	bzlib_private.h	/^typedef char            Char;$/;"	t
+DEBUG	spec.c	25;"	d	file:
+DEPTHOF	huffman.c	66;"	d	file:
+DOWNHEAP	huffman.c	84;"	d	file:
+DState	bzlib_private.h	/^   DState;$/;"	t	typeref:struct:__anon5
+ERROR_IF_EOF	bzip2.c	158;"	d	file:
+ERROR_IF_MINUS_ONE	bzip2.c	160;"	d	file:
+ERROR_IF_NOT_ZERO	bzip2.c	159;"	d	file:
+EState	bzlib_private.h	/^   EState;$/;"	t	typeref:struct:__anon4
+FALLBACK_QSORT_SMALL_THRESH	blocksort.c	135;"	d	file:
+FALLBACK_QSORT_SMALL_THRESH	blocksort.c	234;"	d	file:
+FALLBACK_QSORT_STACK_SIZE	blocksort.c	136;"	d	file:
+FALLBACK_QSORT_STACK_SIZE	blocksort.c	235;"	d	file:
+FILE_CHUNK	spec.c	133;"	d	file:
+FILE_NAME_LEN	bzip2.c	301;"	d	file:
+FUDGE_BUF	spec.c	42;"	d	file:
+False	bzip2.c	269;"	d	file:
+False	bzlib_private.h	90;"	d
+GET_BIT	decompress.c	110;"	d	file:
+GET_BITS	decompress.c	83;"	d	file:
+GET_LL	bzlib_private.h	502;"	d
+GET_LL4	bzlib_private.h	494;"	d
+GET_MTF_VAL	decompress.c	114;"	d	file:
+GET_UCHAR	decompress.c	107;"	d	file:
+ISFLAG	bzip2.c	1907;"	d	file:
+ISSET_BH	blocksort.c	254;"	d	file:
+ISSET_BH	blocksort.c	380;"	d	file:
+Int16	bzip2.c	/^typedef short           Int16;$/;"	t	file:
+Int16	bzlib_private.h	/^typedef short           Int16;$/;"	t
+Int32	bzip2.c	/^typedef int             Int32;$/;"	t	file:
+Int32	bzlib_private.h	/^typedef int             Int32;$/;"	t
+IntNative	bzip2.c	/^typedef int IntNative;$/;"	t	file:
+MAIN_QSORT_DEPTH_THRESH	blocksort.c	664;"	d	file:
+MAIN_QSORT_DEPTH_THRESH	blocksort.c	774;"	d	file:
+MAIN_QSORT_SMALL_THRESH	blocksort.c	663;"	d	file:
+MAIN_QSORT_SMALL_THRESH	blocksort.c	773;"	d	file:
+MAIN_QSORT_STACK_SIZE	blocksort.c	665;"	d	file:
+MAIN_QSORT_STACK_SIZE	blocksort.c	775;"	d	file:
+MAX_SPEC_FD	spec.c	44;"	d	file:
+MB	spec.c	284;"	d	file:
+MTFA_SIZE	bzlib_private.h	374;"	d
+MTFL_SIZE	bzlib_private.h	375;"	d
+MYMAX	huffman.c	67;"	d	file:
+MY_LSTAT	bzip2.c	177;"	d	file:
+MY_LSTAT	bzip2.c	199;"	d	file:
+MY_LSTAT	bzip2.c	201;"	d	file:
+MY_LSTAT	bzip2.c	234;"	d	file:
+MY_STAT	bzip2.c	178;"	d	file:
+MY_STAT	bzip2.c	200;"	d	file:
+MY_STAT	bzip2.c	202;"	d	file:
+MY_STAT	bzip2.c	235;"	d	file:
+MY_S_ISDIR	bzip2.c	180;"	d	file:
+MY_S_ISDIR	bzip2.c	237;"	d	file:
+MY_S_ISREG	bzip2.c	179;"	d	file:
+MY_S_ISREG	bzip2.c	236;"	d	file:
+N	decompress.c	/^   Int32  N;$/;"	v
+NORETURN	bzip2.c	191;"	d	file:
+NORETURN	bzip2.c	193;"	d	file:
+NORETURN	bzip2.c	232;"	d	file:
+NORETURN	bzlib.h	86;"	d
+NULL	bzlib_private.h	530;"	d
+OBJS	Makefile	/^OBJS=spec.bc blocksort.bc bzip2.bc bzlib.bc compress.bc crctable.bc decompress.bc huffman.bc randtable.bc$/;"	m
+OM_TEST	bzip2.c	296;"	d	file:
+OM_UNZ	bzip2.c	295;"	d	file:
+OM_Z	bzip2.c	294;"	d	file:
+O_BINARY	spec.c	136;"	d	file:
+PATH_SEP	bzip2.c	176;"	d	file:
+PATH_SEP	bzip2.c	233;"	d	file:
+RANDOM_CHUNKS	spec.c	107;"	d	file:
+RANDOM_CHUNK_SIZE	spec.c	106;"	d	file:
+RETURN	decompress.c	80;"	d	file:
+SETMASK	blocksort.c	1061;"	d	file:
+SETMASK	blocksort.c	794;"	d	file:
+SET_BH	blocksort.c	252;"	d	file:
+SET_BH	blocksort.c	378;"	d	file:
+SET_BINARY_MODE	bzip2.c	188;"	d	file:
+SET_BINARY_MODE	bzip2.c	203;"	d	file:
+SET_BINARY_MODE	bzip2.c	204;"	d	file:
+SET_BINARY_MODE	bzip2.c	215;"	d	file:
+SET_BINARY_MODE	bzip2.c	216;"	d	file:
+SET_BINARY_MODE	bzip2.c	245;"	d	file:
+SET_BINARY_MODE	bzlib.c	1452;"	d	file:
+SET_BINARY_MODE	bzlib.c	1454;"	d	file:
+SET_BINARY_MODE	bzlib.h	85;"	d
+SET_LL	bzlib_private.h	497;"	d
+SET_LL4	bzlib_private.h	488;"	d
+SM_F2F	bzip2.c	291;"	d	file:
+SM_F2O	bzip2.c	290;"	d	file:
+SM_I2O	bzip2.c	289;"	d	file:
+SPEC_BZIP	spec.c	15;"	d	file:
+SPEC_NULLCAST	bzlib.h	180;"	d
+SPEC_NULLCAST	bzlib.h	80;"	d
+SPEC_STDERR	bzlib.h	77;"	d
+SPEC_STDIN	bzlib.h	174;"	d
+SPEC_STDIN	bzlib.h	71;"	d
+SPEC_STDOUT	bzlib.h	177;"	d
+SPEC_STDOUT	bzlib.h	74;"	d
+True	bzip2.c	268;"	d	file:
+True	bzlib_private.h	89;"	d
+UChar	bzip2.c	/^typedef unsigned char   UChar;$/;"	t	file:
+UChar	bzlib_private.h	/^typedef unsigned char   UChar;$/;"	t
+UInt16	bzip2.c	/^typedef unsigned short  UInt16;$/;"	t	file:
+UInt16	bzlib_private.h	/^typedef unsigned short  UInt16;$/;"	t
+UInt32	bzip2.c	/^typedef unsigned int    UInt32;$/;"	t	file:
+UInt32	bzlib_private.h	/^typedef unsigned int    UInt32;$/;"	t
+UInt64	bzip2.c	/^   UInt64;$/;"	t	typeref:struct:__anon2	file:
+UNALIGNED_BH	blocksort.c	256;"	d	file:
+UNALIGNED_BH	blocksort.c	382;"	d	file:
+UPHEAP	huffman.c	73;"	d	file:
+VALIDATE_SKIP	spec.c	43;"	d	file:
+VPrintf0	bzlib_private.h	110;"	d
+VPrintf0	bzlib_private.h	127;"	d
+VPrintf1	bzlib_private.h	112;"	d
+VPrintf1	bzlib_private.h	128;"	d
+VPrintf2	bzlib_private.h	114;"	d
+VPrintf2	bzlib_private.h	129;"	d
+VPrintf3	bzlib_private.h	116;"	d
+VPrintf3	bzlib_private.h	130;"	d
+VPrintf4	bzlib_private.h	118;"	d
+VPrintf4	bzlib_private.h	131;"	d
+VPrintf5	bzlib_private.h	120;"	d
+VPrintf5	bzlib_private.h	132;"	d
+WEIGHTOF	huffman.c	65;"	d	file:
+WORD_BH	blocksort.c	255;"	d	file:
+WORD_BH	blocksort.c	381;"	d	file:
+_A_MULTIPLIER	spec.c	59;"	d	file:
+_BZLIB_H	bzlib.h	63;"	d
+_BZLIB_PRIVATE_H	bzlib_private.h	63;"	d
+_M_MODULUS	spec.c	60;"	d	file:
+_Q_QUOTIENT	spec.c	61;"	d	file:
+_R_REMAINDER	spec.c	62;"	d	file:
+__inline__	bzlib_private.h	93;"	d
+addFlagsFromEnvVar	bzip2.c	/^void addFlagsFromEnvVar ( Cell** argList, Char* varName ) $/;"	f	file:
+add_pair_to_block	bzlib.c	/^void add_pair_to_block ( EState* s )$/;"	f	file:
+applySavedMetaInfoToOutputFile	bzip2.c	/^void applySavedMetaInfoToOutputFile ( Char *dstName )$/;"	f	file:
+arr1	bzlib_private.h	/^      UInt32*  arr1;$/;"	m	struct:__anon4
+arr2	bzlib_private.h	/^      UInt32*  arr2;$/;"	m	struct:__anon4
+avail_in	bzlib.h	/^      unsigned int avail_in;$/;"	m	struct:__anon1
+avail_in_expect	bzlib_private.h	/^      UInt32   avail_in_expect;$/;"	m	struct:__anon4
+avail_out	bzlib.h	/^      unsigned int avail_out;$/;"	m	struct:__anon1
+b	bzip2.c	/^   struct { UChar b[8]; } $/;"	m	struct:__anon2	file:
+base	bzlib_private.h	/^      Int32    base   [BZ_N_GROUPS][BZ_MAX_ALPHA_SIZE];$/;"	m	struct:__anon5
+block	bzlib_private.h	/^      UChar*   block;$/;"	m	struct:__anon4
+blockCRC	bzlib_private.h	/^      UInt32   blockCRC;$/;"	m	struct:__anon4
+blockNo	bzlib_private.h	/^      Int32    blockNo;$/;"	m	struct:__anon4
+blockRandomised	bzlib_private.h	/^      Bool     blockRandomised;$/;"	m	struct:__anon5
+blockSize100k	bzip2.c	/^Int32   numFileNames, numFilesProcessed, blockSize100k;$/;"	v
+blockSize100k	bzlib_private.h	/^      Int32    blockSize100k;$/;"	m	struct:__anon4
+blockSize100k	bzlib_private.h	/^      Int32    blockSize100k;$/;"	m	struct:__anon5
+bsBuff	bzlib_private.h	/^      UInt32   bsBuff;$/;"	m	struct:__anon4
+bsBuff	bzlib_private.h	/^      UInt32   bsBuff;$/;"	m	struct:__anon5
+bsFinishWrite	compress.c	/^void bsFinishWrite ( EState* s )$/;"	f	file:
+bsLive	bzlib_private.h	/^      Int32    bsLive;$/;"	m	struct:__anon4
+bsLive	bzlib_private.h	/^      Int32    bsLive;$/;"	m	struct:__anon5
+bsNEEDW	compress.c	102;"	d	file:
+bsPutUChar	compress.c	/^void bsPutUChar ( EState* s, UChar c )$/;"	f	file:
+bsPutUInt32	compress.c	/^void bsPutUInt32 ( EState* s, UInt32 u )$/;"	f	file:
+bsW	compress.c	/^void bsW ( EState* s, Int32 n, UInt32 v )$/;"	f	file:
+buf	bzlib.c	/^      Char      buf[BZ_MAX_UNUSED];$/;"	m	struct:__anon3	file:
+buf	spec.c	/^    unsigned char *buf;$/;"	m	struct:spec_fd_t	file:
+bufN	bzlib.c	/^      Int32     bufN;$/;"	m	struct:__anon3	file:
+bzFile	bzlib.c	/^   bzFile;$/;"	t	typeref:struct:__anon3	file:
+bz_config_ok	bzlib.c	/^int bz_config_ok ( void )$/;"	f	file:
+bz_stream	bzlib.h	/^   bz_stream;$/;"	t	typeref:struct:__anon1
+bzalloc	bzlib.h	/^      void *(*bzalloc)(void *,int,int);$/;"	m	struct:__anon1
+bzerrorstrings	bzlib.c	/^static char *bzerrorstrings[] = {$/;"	v	file:
+bzfree	bzlib.h	/^      void (*bzfree)(void *,void *);$/;"	m	struct:__anon1
+bzopen_or_bzdopen	bzlib.c	/^BZFILE * bzopen_or_bzdopen$/;"	f	file:
+cadvise	bzip2.c	/^void cadvise ( void )$/;"	f	file:
+calculatedBlockCRC	bzlib_private.h	/^      UInt32   calculatedBlockCRC;$/;"	m	struct:__anon5
+calculatedCombinedCRC	bzlib_private.h	/^      UInt32   calculatedCombinedCRC;$/;"	m	struct:__anon5
+cftab	bzlib_private.h	/^      Int32    cftab[257];$/;"	m	struct:__anon5
+cftabCopy	bzlib_private.h	/^      Int32    cftabCopy[257];$/;"	m	struct:__anon5
+cleanUpAndFail	bzip2.c	/^void cleanUpAndFail ( Int32 ec )$/;"	f	file:
+code	bzlib_private.h	/^      Int32    code    [BZ_N_GROUPS][BZ_MAX_ALPHA_SIZE];$/;"	m	struct:__anon4
+combinedCRC	bzlib_private.h	/^      UInt32   combinedCRC;$/;"	m	struct:__anon4
+compress	bzip2.c	/^void compress ( Char *name )$/;"	f	file:
+compressStream	bzip2.c	/^void compressStream ( int stream, int zStream )$/;"	f
+compressedStreamEOF	bzip2.c	/^void compressedStreamEOF ( void )$/;"	f	file:
+configError	bzip2.c	/^void configError ( void )$/;"	f	file:
+containsDubiousChars	bzip2.c	/^Bool containsDubiousChars ( Char* name )$/;"	f	file:
+copyFileName	bzip2.c	/^void copyFileName ( Char* to, Char* from ) $/;"	f	file:
+copy_input_until_stop	bzlib.c	/^Bool copy_input_until_stop ( EState* s )$/;"	f	file:
+copy_output_until_stop	bzlib.c	/^Bool copy_output_until_stop ( EState* s )$/;"	f	file:
+countHardLinks	bzip2.c	/^Int32 countHardLinks ( Char* name )$/;"	f	file:
+crcError	bzip2.c	/^void crcError ( void )$/;"	f	file:
+currBlockNo	bzlib_private.h	/^      Int32    currBlockNo;$/;"	m	struct:__anon5
+dbglvl	spec.c	/^int dbglvl=4;$/;"	v
+debug	spec.c	29;"	d	file:
+debug	spec.c	35;"	d	file:
+debug1	spec.c	30;"	d	file:
+debug1	spec.c	36;"	d	file:
+debug2	spec.c	31;"	d	file:
+debug2	spec.c	37;"	d	file:
+debug3	spec.c	32;"	d	file:
+debug3	spec.c	38;"	d	file:
+debug4	spec.c	33;"	d	file:
+debug4	spec.c	39;"	d	file:
+debug_time	spec.c	/^int debug_time () {$/;"	f
+default_bzalloc	bzlib.c	/^void* default_bzalloc ( void* opaque, Int32 items, Int32 size )$/;"	f	file:
+default_bzfree	bzlib.c	/^void default_bzfree ( void* opaque, void* addr )$/;"	f	file:
+deleteOutputOnInterrupt	bzip2.c	/^Bool    keepInputFiles, smallMode, deleteOutputOnInterrupt;$/;"	v
+es	decompress.c	/^   Int32  es;$/;"	v
+exitValue	bzip2.c	/^Int32   exitValue;$/;"	v
+fallbackQSort3	blocksort.c	/^void fallbackQSort3 ( UInt32* fmap, $/;"	f	file:
+fallbackSimpleSort	blocksort.c	/^void fallbackSimpleSort ( UInt32* fmap, $/;"	f	file:
+fallbackSort	blocksort.c	/^void fallbackSort ( UInt32* fmap, $/;"	f	file:
+fclose	bzlib.h	138;"	d
+fclose	bzlib.h	140;"	d
+ferror	bzlib.h	120;"	d
+ferror	bzlib.h	122;"	d
+fflush	bzlib.h	132;"	d
+fflush	bzlib.h	134;"	d
+fgetc	bzlib.h	150;"	d
+fgetc	bzlib.h	152;"	d
+fileExists	bzip2.c	/^Bool fileExists ( Char* name )$/;"	f	file:
+fileMetaInfo	bzip2.c	/^struct MY_STAT fileMetaInfo;$/;"	v	typeref:struct:MY_STAT	file:
+flush_RL	bzlib.c	/^void flush_RL ( EState* s )$/;"	f	file:
+fmin	blocksort.c	125;"	d	file:
+fmin	blocksort.c	229;"	d	file:
+fopen	bzlib.h	126;"	d
+fopen	bzlib.h	128;"	d
+fopen_output_safely	bzip2.c	/^FILE* fopen_output_safely ( Char* name, const char* mode )$/;"	f
+forceOverwrite	bzip2.c	/^Bool    forceOverwrite, testFailsExist, unzFailsExist, noisy;$/;"	v
+fpop	blocksort.c	131;"	d	file:
+fpop	blocksort.c	231;"	d	file:
+fpush	blocksort.c	127;"	d	file:
+fpush	blocksort.c	230;"	d	file:
+fputc	bzlib.h	156;"	d
+fputc	bzlib.h	158;"	d
+fread	bzlib.h	108;"	d
+fread	bzlib.h	110;"	d
+fswap	blocksort.c	110;"	d	file:
+fswap	blocksort.c	232;"	d	file:
+ftab	bzlib_private.h	/^      UInt32*  ftab;$/;"	m	struct:__anon4
+fvswap	blocksort.c	113;"	d	file:
+fvswap	blocksort.c	233;"	d	file:
+fwrite	bzlib.h	114;"	d
+fwrite	bzlib.h	116;"	d
+generateMTFValues	compress.c	/^void generateMTFValues ( EState* s )$/;"	f	file:
+getc	bzlib.h	144;"	d
+getc	bzlib.h	146;"	d
+groupNo	decompress.c	/^   Int32  groupNo;$/;"	v
+groupPos	decompress.c	/^   Int32  groupPos;$/;"	v
+handle	bzlib.c	/^      int     handle;$/;"	m	struct:__anon3	file:
+handle_compress	bzlib.c	/^Bool handle_compress ( bz_stream* strm )$/;"	f	file:
+hasSuffix	bzip2.c	/^Bool hasSuffix ( Char* s, Char* suffix )$/;"	f	file:
+inName	bzip2.c	/^Char    inName [FILE_NAME_LEN];$/;"	v
+inUse	bzlib_private.h	/^      Bool     inUse[256];$/;"	m	struct:__anon4
+inUse	bzlib_private.h	/^      Bool     inUse[256];$/;"	m	struct:__anon5
+inUse16	bzlib_private.h	/^      Bool     inUse16[16];$/;"	m	struct:__anon5
+incs	blocksort.c	/^Int32 incs[14] = { 1, 4, 13, 40, 121, 364, 1093, 3280,$/;"	v	file:
+init_RL	bzlib.c	/^void init_RL ( EState* s )$/;"	f	file:
+initialisedOk	bzlib.c	/^      Bool      initialisedOk;$/;"	m	struct:__anon3	file:
+ioError	bzip2.c	/^void ioError ( void )$/;"	f	file:
+isempty_RL	bzlib.c	/^Bool isempty_RL ( EState* s )$/;"	f	file:
+k0	bzlib_private.h	/^      Int32    k0;$/;"	m	struct:__anon5
+keepInputFiles	bzip2.c	/^Bool    keepInputFiles, smallMode, deleteOutputOnInterrupt;$/;"	v
+lastErr	bzlib.c	/^      Int32     lastErr;$/;"	m	struct:__anon3	file:
+len	bzlib_private.h	/^      UChar    len     [BZ_N_GROUPS][BZ_MAX_ALPHA_SIZE];$/;"	m	struct:__anon4
+len	bzlib_private.h	/^      UChar    len  [BZ_N_GROUPS][BZ_MAX_ALPHA_SIZE];$/;"	m	struct:__anon5
+len	spec.c	/^    int len;$/;"	m	struct:spec_fd_t	file:
+len_pack	bzlib_private.h	/^      UInt32   len_pack[BZ_MAX_ALPHA_SIZE][4];$/;"	m	struct:__anon4
+license	bzip2.c	/^void license ( void )$/;"	f	file:
+limit	bzlib_private.h	/^      Int32    limit  [BZ_N_GROUPS][BZ_MAX_ALPHA_SIZE];$/;"	m	struct:__anon5
+limit	spec.c	/^    int limit;$/;"	m	struct:spec_fd_t	file:
+link	bzip2.c	/^      struct zzzz *link;$/;"	m	struct:zzzz	typeref:struct:zzzz::zzzz	file:
+ll16	bzlib_private.h	/^      UInt16   *ll16;$/;"	m	struct:__anon5
+ll4	bzlib_private.h	/^      UChar    *ll4;$/;"	m	struct:__anon5
+longestFileName	bzip2.c	/^Int32   longestFileName;$/;"	v
+main	bzip2.c	/^IntNative main ( IntNative argc, Char *argv[] )$/;"	f
+main	spec.c	/^int main (int argc, char *argv[]) {$/;"	f
+mainGtU	blocksort.c	/^Bool mainGtU ( UInt32  i1, $/;"	f	file:
+mainQSort3	blocksort.c	/^void mainQSort3 ( UInt32* ptr,$/;"	f	file:
+mainSimpleSort	blocksort.c	/^void mainSimpleSort ( UInt32* ptr,$/;"	f	file:
+mainSort	blocksort.c	/^void mainSort ( UInt32* ptr, $/;"	f	file:
+makeMaps_d	decompress.c	/^void makeMaps_d ( DState* s )$/;"	f	file:
+makeMaps_e	compress.c	/^void makeMaps_e ( EState* s )$/;"	f	file:
+mapSuffix	bzip2.c	/^Bool mapSuffix ( Char* name, $/;"	f	file:
+minLens	bzlib_private.h	/^      Int32    minLens[BZ_N_GROUPS];$/;"	m	struct:__anon5
+mkCell	bzip2.c	/^Cell *mkCell ( void )$/;"	f	file:
+mmed3	blocksort.c	/^UChar mmed3 ( UChar a, UChar b, UChar c )$/;"	f	file:
+mmin	blocksort.c	641;"	d	file:
+mmin	blocksort.c	770;"	d	file:
+mnextsize	blocksort.c	654;"	d	file:
+mnextsize	blocksort.c	771;"	d	file:
+mnextswap	blocksort.c	656;"	d	file:
+mnextswap	blocksort.c	772;"	d	file:
+mode	bzlib_private.h	/^      Int32    mode;$/;"	m	struct:__anon4
+mpop	blocksort.c	648;"	d	file:
+mpop	blocksort.c	769;"	d	file:
+mpush	blocksort.c	643;"	d	file:
+mpush	blocksort.c	768;"	d	file:
+mswap	blocksort.c	614;"	d	file:
+mswap	blocksort.c	766;"	d	file:
+mtfFreq	bzlib_private.h	/^      Int32    mtfFreq    [BZ_MAX_ALPHA_SIZE];$/;"	m	struct:__anon4
+mtfa	bzlib_private.h	/^      UChar    mtfa   [MTFA_SIZE];$/;"	m	struct:__anon5
+mtfbase	bzlib_private.h	/^      Int32    mtfbase[256 \/ MTFL_SIZE];$/;"	m	struct:__anon5
+mtfv	bzlib_private.h	/^      UInt16*  mtfv;$/;"	m	struct:__anon4
+mvswap	blocksort.c	617;"	d	file:
+mvswap	blocksort.c	767;"	d	file:
+myMalloc	bzip2.c	/^void *myMalloc ( Int32 n )$/;"	f	file:
+mySIGSEGVorSIGBUScatcher	bzip2.c	/^void mySIGSEGVorSIGBUScatcher ( IntNative n )$/;"	f	file:
+mySignalCatcher	bzip2.c	/^void mySignalCatcher ( IntNative n )$/;"	f	file:
+myfeof	bzip2.c	/^Bool myfeof ( int f )$/;"	f	file:
+myfeof	bzlib.c	/^static Bool myfeof ( int f )$/;"	f	file:
+nInUse	bzlib_private.h	/^      Int32    nInUse;$/;"	m	struct:__anon4
+nInUse	bzlib_private.h	/^      Int32    nInUse;$/;"	m	struct:__anon5
+nMTF	bzlib_private.h	/^      Int32    nMTF;$/;"	m	struct:__anon4
+name	bzip2.c	/^      Char        *name;$/;"	m	struct:zzzz	file:
+nblock	bzlib_private.h	/^      Int32    nblock;$/;"	m	struct:__anon4
+nblock	decompress.c	/^   Int32  nblock;$/;"	v
+nblockMAX	bzlib_private.h	/^      Int32    nblockMAX;$/;"	m	struct:__anon4
+nblockMAX	decompress.c	/^   Int32  nblockMAX;$/;"	v
+nblock_used	bzlib_private.h	/^      Int32    nblock_used;$/;"	m	struct:__anon5
+nextSym	decompress.c	/^   Int32  nextSym;$/;"	v
+next_in	bzlib.h	/^      char *next_in;$/;"	m	struct:__anon1
+next_out	bzlib.h	/^      char *next_out;$/;"	m	struct:__anon1
+noisy	bzip2.c	/^Bool    forceOverwrite, testFailsExist, unzFailsExist, noisy;$/;"	v
+notAStandardFile	bzip2.c	/^Bool notAStandardFile ( Char* name )$/;"	f	file:
+numFileNames	bzip2.c	/^Int32   numFileNames, numFilesProcessed, blockSize100k;$/;"	v
+numFilesProcessed	bzip2.c	/^Int32   numFileNames, numFilesProcessed, blockSize100k;$/;"	v
+numZ	bzlib_private.h	/^      Int32    numZ;$/;"	m	struct:__anon4
+opMode	bzip2.c	/^Int32   opMode;$/;"	v
+opaque	bzlib.h	/^      void *opaque;$/;"	m	struct:__anon1
+origPtr	bzlib_private.h	/^      Int32    origPtr;$/;"	m	struct:__anon4
+origPtr	bzlib_private.h	/^      Int32    origPtr;$/;"	m	struct:__anon5
+outName	bzip2.c	/^Char    outName[FILE_NAME_LEN];$/;"	v
+outOfMemory	bzip2.c	/^void outOfMemory ( void )$/;"	f	file:
+outputHandleJustInCase	bzip2.c	/^FILE    *outputHandleJustInCase;$/;"	v
+outputHandleJustInCase	bzip2.c	/^int     outputHandleJustInCase;$/;"	v
+pad	bzip2.c	/^void pad ( Char *s )$/;"	f	file:
+panic	bzip2.c	/^void panic ( Char* s )$/;"	f	file:
+perm	bzlib_private.h	/^      Int32    perm   [BZ_N_GROUPS][BZ_MAX_ALPHA_SIZE];$/;"	m	struct:__anon5
+pos	spec.c	/^    int pos;$/;"	m	struct:spec_fd_t	file:
+prepare_new_block	bzlib.c	/^void prepare_new_block ( EState* s )$/;"	f	file:
+progName	bzip2.c	/^Char    *progName;$/;"	v
+progNameReally	bzip2.c	/^Char    progNameReally[FILE_NAME_LEN];$/;"	v
+ptr	bzlib_private.h	/^      UInt32*  ptr;$/;"	m	struct:__anon4
+putc	bzlib.h	162;"	d
+putc	bzlib.h	164;"	d
+ran	spec.c	/^double ran()$/;"	f
+read	bzlib.h	96;"	d
+read	bzlib.h	98;"	d
+redundant	bzip2.c	/^void redundant ( Char* flag )$/;"	f	file:
+rewind	bzlib.h	90;"	d
+rewind	bzlib.h	92;"	d
+rfreq	bzlib_private.h	/^      Int32    rfreq   [BZ_N_GROUPS][BZ_MAX_ALPHA_SIZE];$/;"	m	struct:__anon4
+saveInputFileMetaInfo	bzip2.c	/^void saveInputFileMetaInfo ( Char *srcName )$/;"	f	file:
+save_EOB	bzlib_private.h	/^      Int32    save_EOB;$/;"	m	struct:__anon5
+save_N	bzlib_private.h	/^      Int32    save_N;$/;"	m	struct:__anon5
+save_alphaSize	bzlib_private.h	/^      Int32    save_alphaSize;$/;"	m	struct:__anon5
+save_curr	bzlib_private.h	/^      Int32    save_curr;$/;"	m	struct:__anon5
+save_es	bzlib_private.h	/^      Int32    save_es;$/;"	m	struct:__anon5
+save_gBase	bzlib_private.h	/^      Int32*   save_gBase;$/;"	m	struct:__anon5
+save_gLimit	bzlib_private.h	/^      Int32*   save_gLimit;$/;"	m	struct:__anon5
+save_gMinlen	bzlib_private.h	/^      Int32    save_gMinlen;$/;"	m	struct:__anon5
+save_gPerm	bzlib_private.h	/^      Int32*   save_gPerm;$/;"	m	struct:__anon5
+save_gSel	bzlib_private.h	/^      Int32    save_gSel;$/;"	m	struct:__anon5
+save_groupNo	bzlib_private.h	/^      Int32    save_groupNo;$/;"	m	struct:__anon5
+save_groupPos	bzlib_private.h	/^      Int32    save_groupPos;$/;"	m	struct:__anon5
+save_i	bzlib_private.h	/^      Int32    save_i;$/;"	m	struct:__anon5
+save_j	bzlib_private.h	/^      Int32    save_j;$/;"	m	struct:__anon5
+save_nGroups	bzlib_private.h	/^      Int32    save_nGroups;$/;"	m	struct:__anon5
+save_nSelectors	bzlib_private.h	/^      Int32    save_nSelectors;$/;"	m	struct:__anon5
+save_nblock	bzlib_private.h	/^      Int32    save_nblock;$/;"	m	struct:__anon5
+save_nblockMAX	bzlib_private.h	/^      Int32    save_nblockMAX;$/;"	m	struct:__anon5
+save_nextSym	bzlib_private.h	/^      Int32    save_nextSym;$/;"	m	struct:__anon5
+save_t	bzlib_private.h	/^      Int32    save_t;$/;"	m	struct:__anon5
+save_zj	bzlib_private.h	/^      Int32    save_zj;$/;"	m	struct:__anon5
+save_zn	bzlib_private.h	/^      Int32    save_zn; $/;"	m	struct:__anon5
+save_zt	bzlib_private.h	/^      Int32    save_zt;$/;"	m	struct:__anon5
+save_zvec	bzlib_private.h	/^      Int32    save_zvec;$/;"	m	struct:__anon5
+seedi	spec.c	/^long int seedi;$/;"	v
+selector	bzlib_private.h	/^      UChar    selector   [BZ_MAX_SELECTORS];$/;"	m	struct:__anon4
+selector	bzlib_private.h	/^      UChar    selector   [BZ_MAX_SELECTORS];$/;"	m	struct:__anon5
+selectorMtf	bzlib_private.h	/^      UChar    selectorMtf[BZ_MAX_SELECTORS];$/;"	m	struct:__anon4
+selectorMtf	bzlib_private.h	/^      UChar    selectorMtf[BZ_MAX_SELECTORS];$/;"	m	struct:__anon5
+sendMTFValues	compress.c	/^void sendMTFValues ( EState* s )$/;"	f	file:
+seqToUnseq	bzlib_private.h	/^      UChar    seqToUnseq[256];$/;"	m	struct:__anon5
+setExit	bzip2.c	/^void setExit ( Int32 v )$/;"	f	file:
+showFileNames	bzip2.c	/^void showFileNames ( void )$/;"	f	file:
+small	bzlib.h	237;"	d
+smallDecompress	bzlib_private.h	/^      Bool     smallDecompress;$/;"	m	struct:__anon5
+smallMode	bzip2.c	/^Bool    keepInputFiles, smallMode, deleteOutputOnInterrupt;$/;"	v
+snocString	bzip2.c	/^Cell *snocString ( Cell *root, Char *name )$/;"	f	file:
+spec_compress	spec.c	/^void spec_compress(int in, int out, int lev) {$/;"	f
+spec_fd	spec.c	/^} spec_fd[MAX_SPEC_FD];$/;"	v	typeref:struct:spec_fd_t
+spec_fd_t	spec.c	/^struct spec_fd_t {$/;"	s	file:
+spec_fread	spec.c	/^int spec_fread (unsigned char *buf, int size, int num, int fd) {$/;"	f
+spec_fwrite	spec.c	/^int spec_fwrite(unsigned char *buf, int size, int num, int fd) {$/;"	f
+spec_getc	spec.c	/^int spec_getc (int fd) {$/;"	f
+spec_init	spec.c	/^int spec_init () {$/;"	f
+spec_initbufs	spec.c	/^void spec_initbufs() {$/;"	f
+spec_load	spec.c	/^int spec_load (int num, char *filename, int size) {$/;"	f
+spec_putc	spec.c	/^int spec_putc(unsigned char ch, int fd) {$/;"	f
+spec_random_load	spec.c	/^int spec_random_load (int fd) {$/;"	f
+spec_read	spec.c	/^int spec_read (int fd, unsigned char *buf, int size) {$/;"	f
+spec_reset	spec.c	/^int spec_reset(int fd) {$/;"	f
+spec_rewind	spec.c	/^int spec_rewind(int fd) {$/;"	f
+spec_uncompress	spec.c	/^void spec_uncompress(int in, int out, int lev) {$/;"	f
+spec_ungetc	spec.c	/^int spec_ungetc (unsigned char ch, int fd) {$/;"	f
+spec_write	spec.c	/^int spec_write(int fd, unsigned char *buf, int size) {$/;"	f
+srcMode	bzip2.c	/^Int32   srcMode;$/;"	v
+state	bzlib.h	/^      void *state;$/;"	m	struct:__anon1
+state	bzlib_private.h	/^      Int32    state;$/;"	m	struct:__anon4
+state	bzlib_private.h	/^      Int32    state;$/;"	m	struct:__anon5
+state_in_ch	bzlib_private.h	/^      UInt32   state_in_ch;$/;"	m	struct:__anon4
+state_in_len	bzlib_private.h	/^      Int32    state_in_len;$/;"	m	struct:__anon4
+state_out_ch	bzlib_private.h	/^      UChar    state_out_ch;$/;"	m	struct:__anon5
+state_out_len	bzlib_private.h	/^      Int32    state_out_len;$/;"	m	struct:__anon5
+state_out_pos	bzlib_private.h	/^      Int32    state_out_pos;$/;"	m	struct:__anon4
+storedBlockCRC	bzlib_private.h	/^      UInt32   storedBlockCRC;$/;"	m	struct:__anon5
+storedCombinedCRC	bzlib_private.h	/^      UInt32   storedCombinedCRC;$/;"	m	struct:__anon5
+strm	bzlib.c	/^      bz_stream strm;$/;"	m	struct:__anon3	file:
+strm	bzlib_private.h	/^      bz_stream* strm;$/;"	m	struct:__anon4
+strm	bzlib_private.h	/^      bz_stream* strm;$/;"	m	struct:__anon5
+tPos	bzlib_private.h	/^      UInt32   tPos;$/;"	m	struct:__anon5
+testFailsExist	bzip2.c	/^Bool    forceOverwrite, testFailsExist, unzFailsExist, noisy;$/;"	v
+testStream	bzip2.c	/^Bool testStream ( int zStream )$/;"	f	file:
+testf	bzip2.c	/^void testf ( Char *name )$/;"	f	file:
+tmpName	bzip2.c	/^Char    tmpName[FILE_NAME_LEN];$/;"	v
+total_in_hi32	bzlib.h	/^      unsigned int total_in_hi32;$/;"	m	struct:__anon1
+total_in_lo32	bzlib.h	/^      unsigned int total_in_lo32;$/;"	m	struct:__anon1
+total_out_hi32	bzlib.h	/^      unsigned int total_out_hi32;$/;"	m	struct:__anon1
+total_out_lo32	bzlib.h	/^      unsigned int total_out_lo32;$/;"	m	struct:__anon1
+tt	bzlib_private.h	/^      UInt32   *tt;$/;"	m	struct:__anon5
+uInt64_from_UInt32s	bzip2.c	/^void uInt64_from_UInt32s ( UInt64* n, UInt32 lo32, UInt32 hi32 )$/;"	f	file:
+uInt64_isZero	bzip2.c	/^Bool uInt64_isZero ( UInt64* n )$/;"	f	file:
+uInt64_qrm10	bzip2.c	/^Int32 uInt64_qrm10 ( UInt64* n )$/;"	f	file:
+uInt64_toAscii	bzip2.c	/^void uInt64_toAscii ( char* outbuf, UInt64* n )$/;"	f	file:
+uInt64_to_double	bzip2.c	/^double uInt64_to_double ( UInt64* n )$/;"	f	file:
+unRLE_obuf_to_output_FAST	bzlib.c	/^Bool unRLE_obuf_to_output_FAST ( DState* s )$/;"	f	file:
+unRLE_obuf_to_output_SMALL	bzlib.c	/^Bool unRLE_obuf_to_output_SMALL ( DState* s )$/;"	f	file:
+uncompress	bzip2.c	/^void uncompress ( Char *name )$/;"	f	file:
+uncompressStream	bzip2.c	/^Bool uncompressStream ( int zStream, int stream )$/;"	f
+ungetc	bzlib.h	168;"	d
+ungetc	bzlib.h	170;"	d
+unseqToSeq	bzlib_private.h	/^      UChar    unseqToSeq[256];$/;"	m	struct:__anon4
+unzFailsExist	bzip2.c	/^Bool    forceOverwrite, testFailsExist, unzFailsExist, noisy;$/;"	v
+unzSuffix	bzip2.c	/^Char* unzSuffix[BZ_N_SUFFIX_PAIRS] $/;"	v
+unzftab	bzlib_private.h	/^      Int32    unzftab[256];$/;"	m	struct:__anon5
+usage	bzip2.c	/^void usage ( Char *fullProgName )$/;"	f	file:
+verbosity	bzip2.c	/^Int32   verbosity;$/;"	v
+verbosity	bzlib_private.h	/^      Int32    verbosity;$/;"	m	struct:__anon4
+verbosity	bzlib_private.h	/^      Int32    verbosity;$/;"	m	struct:__anon5
+workFactor	bzip2.c	/^Int32   workFactor;$/;"	v
+workFactor	bzlib_private.h	/^      Int32    workFactor;$/;"	m	struct:__anon4
+write	bzlib.h	102;"	d
+write	bzlib.h	104;"	d
+writing	bzlib.c	/^      Bool      writing;$/;"	m	struct:__anon3	file:
+zSuffix	bzip2.c	/^Char* zSuffix[BZ_N_SUFFIX_PAIRS] $/;"	v
+zbits	bzlib_private.h	/^      UChar*   zbits;$/;"	m	struct:__anon4
+zzzz	bzip2.c	/^   struct zzzz {$/;"	s	file:

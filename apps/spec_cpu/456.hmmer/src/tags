@@ -1,0 +1,1445 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AINFO	msa.h	/^typedef struct aliinfo_s AINFO;$/;"	t	typeref:struct:aliinfo_s
+AINFO_GA	msa.h	86;"	d
+AINFO_NC	msa.h	85;"	d
+AINFO_TC	msa.h	84;"	d
+ALILENGTH	config.h	69;"	d
+AMINO_ALPHABET	squid.h	135;"	d
+ANY	hsregex.c	228;"	d	file:
+ANYBUT	hsregex.c	230;"	d	file:
+ANYOF	hsregex.c	229;"	d	file:
+ASSIGN_INSERT	modelmakers.c	56;"	d	file:
+ASSIGN_MATCH	modelmakers.c	53;"	d	file:
+AddToHistogram	histogram.c	/^AddToHistogram(struct histogram_s *h, float sc)$/;"	f
+AlignmentBootstrap	shuffle.c	/^AlignmentBootstrap(char **ali1, char **ali2, int nseq, int alen)$/;"	f
+AlignmentHomogenousGapsym	alignio.c	/^AlignmentHomogenousGapsym(char **aseq, int nseq, int alen, char gapsym)$/;"	f
+AlignmentIdentityBySampling	aligneval.c	/^AlignmentIdentityBySampling(char **aseq, int L, int N, int nsample)$/;"	f
+AlignmentShuffle	shuffle.c	/^AlignmentShuffle(char **ali1, char **ali2, int nseq, int alen)$/;"	f
+AllocAlignment	alignio.c	/^AllocAlignment(int nseq, int alen, char ***ret_aseq, AINFO *ainfo)$/;"	f
+AllocFancyAli	tophits.c	/^AllocFancyAli(void)$/;"	f
+AllocHistogram	histogram.c	/^AllocHistogram(int min, int max, int lumpsize)$/;"	f
+AllocPhylo	cluster.c	/^AllocPhylo(int N)$/;"	f
+AllocPlan7	plan7.c	/^AllocPlan7(int M) $/;"	f
+AllocPlan7Body	fast_algorithms.c	/^AllocPlan7Body(struct plan7_s *hmm, int M) $/;"	f
+AllocPlan7Body	plan7.c	/^AllocPlan7Body(struct plan7_s *hmm, int M) $/;"	f
+AllocPlan7Matrix	core_algorithms.c	/^AllocPlan7Matrix(int rows, int M, int ***xmx, int ***mmx, int ***imx, int ***dmx)$/;"	f
+AllocPlan7Shell	plan7.c	/^AllocPlan7Shell(void) $/;"	f
+AllocShadowMatrix	core_algorithms.c	/^AllocShadowMatrix(int rows, int M, char ***xtb, char ***mtb, char ***itb, char ***dtb)$/;"	f
+AllocTophits	tophits.c	/^AllocTophits(int lumpsize)$/;"	f
+Alphabet	globals.h	/^char  Alphabet[MAXCODE+1]; \/* ACGT, for instance Kaivalya 10\/3\/03   *\/ $/;"	v
+AlphabetType2String	debug.c	/^AlphabetType2String(int type)$/;"	f
+Alphabet_iupac	globals.h	/^int   Alphabet_iupac;    \/* total size of alphabet + IUPAC degen. *\/$/;"	v
+Alphabet_size	globals.h	/^int   Alphabet_size;     \/* uniq alphabet size: 4 or 20           *\/$/;"	v
+Alphabet_type	globals.h	/^int   Alphabet_type;     \/* hmmNUCLEIC or hmmAMINO                *\/$/;"	v
+BACK	hsregex.c	232;"	d	file:
+BEGIN	structs.h	594;"	d
+BOL	hsregex.c	226;"	d	file:
+BRANCH	hsregex.c	231;"	d	file:
+BlosumWeights	weight.c	/^BlosumWeights(char **aseqs, int nseq, int alen, float maxid, float *wgt)$/;"	f
+Byteswap	types.c	/^Byteswap(char *swap, int nbytes)$/;"	f
+CC	Makefile	/^CC=clang$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-DSPEC_CPU -DNDEBUG -O2 -DSPEC_CPU_LP64 -g$/;"	m
+CHOOSE	sre_random.h	16;"	d
+CLOSE	hsregex.c	239;"	d	file:
+CLUSTER_MAX	squid.h	/^enum clust_strategy { CLUSTER_MEAN, CLUSTER_MAX, CLUSTER_MIN };$/;"	e	enum:clust_strategy
+CLUSTER_MEAN	squid.h	/^enum clust_strategy { CLUSTER_MEAN, CLUSTER_MAX, CLUSTER_MIN };$/;"	e	enum:clust_strategy
+CLUSTER_MIN	squid.h	/^enum clust_strategy { CLUSTER_MEAN, CLUSTER_MAX, CLUSTER_MIN };$/;"	e	enum:clust_strategy
+CONFIGH_INCLUDED	config.h	18;"	d
+CUT_GA	structs.h	/^  enum { CUT_NONE, CUT_GA, CUT_NC, CUT_TC } autocut;$/;"	e	enum:threshold_s::__anon2
+CUT_NC	structs.h	/^  enum { CUT_NONE, CUT_GA, CUT_NC, CUT_TC } autocut;$/;"	e	enum:threshold_s::__anon2
+CUT_NONE	structs.h	/^  enum { CUT_NONE, CUT_GA, CUT_NC, CUT_TC } autocut;$/;"	e	enum:threshold_s::__anon2
+CUT_TC	structs.h	/^  enum { CUT_NONE, CUT_GA, CUT_NC, CUT_TC } autocut;$/;"	e	enum:threshold_s::__anon2
+Cluster	cluster.c	/^Cluster(float **dmx, int N, enum clust_strategy mode, struct phylo_s **ret_tree)$/;"	f
+CompareMultAlignments	aligneval.c	/^CompareMultAlignments(char **kseqs, char **tseqs, int N)$/;"	f
+ComparePairAlignments	aligneval.c	/^ComparePairAlignments(char *known1, char *known2, char *calc1, char *calc2)$/;"	f
+CompareRefMultAlignments	aligneval.c	/^CompareRefMultAlignments(int   *ref, char **kseqs, char **tseqs, int N)$/;"	f
+CompareRefPairAlignments	aligneval.c	/^CompareRefPairAlignments(int  *ref, char *known1, char *known2, char *calc1, char *calc2)$/;"	f
+CreateFancyAli	trace.c	/^CreateFancyAli(struct p7trace_s *tr, struct plan7_s *hmm,$/;"	f
+CreatePlan7Matrix	core_algorithms.c	/^CreatePlan7Matrix(int N, int M, int padN, int padM)$/;"	f
+CreatePlan7Matrix	fast_algorithms.c	/^CreatePlan7Matrix(int N, int M, int padN, int padM)$/;"	f
+DAdd	vectorops.c	/^DAdd(double *vec1, double *vec2, int n)$/;"	f
+DArgMax	vectorops.c	/^DArgMax(double *vec, int n)$/;"	f
+DArgMin	vectorops.c	/^DArgMin(double *vec, int n)$/;"	f
+DChoose	sre_random.c	/^DChoose(double *p, int N)$/;"	f
+DCopy	vectorops.c	/^DCopy(double *vec1, double *vec2, int n)$/;"	f
+DDot	vectorops.c	/^DDot(double *vec1, double *vec2, int n)$/;"	f
+DEBUGLEVEL	squid.h	404;"	d
+DELETE	structs.h	593;"	d
+DExp	vectorops.c	/^DExp(double *vec, int n)$/;"	f
+DIRSLASH	file.c	42;"	d	file:
+DLog	vectorops.c	/^DLog(double *vec, int n)$/;"	f
+DLogSum	vectorops.c	/^DLogSum(double *vec, int n)$/;"	f
+DMX2Alloc	sre_math.c	/^DMX2Alloc(int rows, int cols)$/;"	f
+DMX2Free	sre_math.c	/^DMX2Free(double **mx)$/;"	f
+DMax	vectorops.c	/^DMax(double *vec, int n)$/;"	f
+DMin	vectorops.c	/^DMin(double *vec, int n)$/;"	f
+DNA_ALPHABET	squid.h	136;"	d
+DNorm	vectorops.c	/^DNorm(double *vec, int n)$/;"	f
+DScale	vectorops.c	/^DScale(double *vec, int n, double scale)$/;"	f
+DSet	vectorops.c	/^DSet(double *vec, int n, double value)$/;"	f
+DSum	vectorops.c	/^DSum(double *vec, int n)$/;"	f
+DealignAseqs	selex.c	/^DealignAseqs(char **aseqs, int num, char ***ret_rseqs)$/;"	f
+DealignedLength	alignio.c	/^DealignedLength(char *aseq)$/;"	f
+DedigitizeSequence	alphabet.c	/^DedigitizeSequence(char *dsq, int L)$/;"	f
+DefaultCodonBias	alphabet.c	/^DefaultCodonBias(float *codebias)$/;"	f
+DefaultGeneticCode	alphabet.c	/^DefaultGeneticCode(int *aacode)$/;"	f
+DegenCount	globals.h	/^int   DegenCount[MAXCODE];$/;"	v
+Degenerate	globals.h	/^char  Degenerate[MAXCODE][MAXABET];$/;"	v
+DegenerateSymbolScore	plan7.c	/^DegenerateSymbolScore(float *p, float *null, int ambig)$/;"	f
+DetermineAlphabet	alphabet.c	/^DetermineAlphabet(char **rseqs, int  nseq)$/;"	f
+Die	sqerror.c	/^Die(char *format, ...)$/;"	f
+DigitizeAlignment	alphabet.c	/^DigitizeAlignment(MSA *msa, char ***ret_dsqs)$/;"	f
+DigitizeSequence	alphabet.c	/^DigitizeSequence(char *seq, int L)$/;"	f
+DisplayPlan7Matrix	display.c	/^DisplayPlan7Matrix(char *dsq, int L, struct plan7_s *hmm, struct dpmatrix_s *mx)$/;"	f
+DisplayPlan7PostAlign	display.c	/^void DisplayPlan7PostAlign(int L, struct plan7_s *hmm,$/;"	f
+DisplayPlan7Posteriors	display.c	/^void DisplayPlan7Posteriors(int L, struct plan7_s *hmm,$/;"	f
+EMITTING	hsregex.c	302;"	d	file:
+END	hsregex.c	225;"	d	file:
+END	structs.h	595;"	d
+EOL	hsregex.c	227;"	d	file:
+EPSWriteSmallMSA	eps.c	/^EPSWriteSmallMSA(FILE *fp, MSA *msa)$/;"	f
+EVDBasicFit	histogram.c	/^EVDBasicFit(struct histogram_s *h)$/;"	f
+EVDCensoredFit	histogram.c	/^EVDCensoredFit(float *x, int *y, int n, int z, float c, $/;"	f
+EVDDensity	histogram.c	/^EVDDensity(float x, float mu, float lambda)$/;"	f
+EVDDistribution	histogram.c	/^EVDDistribution(float x, float mu, float lambda)$/;"	f
+EVDMaxLikelyFit	histogram.c	/^EVDMaxLikelyFit(float *x, int *c, int n, float *ret_mu, float *ret_lambda)$/;"	f
+EVD_LAMBDA	structs.h	438;"	d
+EVD_MU	structs.h	437;"	d
+EVD_WONKA	structs.h	439;"	d
+EVDrandom	histogram.c	/^EVDrandom(float mu, float lambda)$/;"	f
+EXACTLY	hsregex.c	233;"	d	file:
+EXIT_FAILURE	squid.h	474;"	d
+EXIT_SUCCESS	squid.h	471;"	d
+EXTERNAL_INSERT_C	modelmakers.c	58;"	d	file:
+EXTERNAL_INSERT_N	modelmakers.c	57;"	d	file:
+EmitBestSequence	emit.c	/^EmitBestSequence(struct plan7_s *hmm, char **ret_dsq, int *ret_L, struct p7trace_s **ret_tr)$/;"	f
+EmitConsensusSequence	emit.c	/^EmitConsensusSequence(struct plan7_s *hmm, char **ret_seq, char **ret_dsq, int *ret_L, struct p7trace_s **ret_tr)$/;"	f
+EmitSequence	emit.c	/^EmitSequence(struct plan7_s *hmm, char **ret_dsq, int *ret_L, struct p7trace_s **ret_tr)$/;"	f
+EnvFileOpen	file.c	/^EnvFileOpen(char *fname, char *env, char **ret_dir)$/;"	f
+ExponentialRandom	sre_random.c	/^ExponentialRandom(void)$/;"	f
+ExtremeValueE	histogram.c	/^ExtremeValueE(float x, float mu, float lambda, int N)$/;"	f
+ExtremeValueFitHistogram	histogram.c	/^ExtremeValueFitHistogram(struct histogram_s *h, int censor, float high_hint) $/;"	f
+ExtremeValueP	histogram.c	/^ExtremeValueP(float x, float mu, float lambda)$/;"	f
+ExtremeValueP2	histogram.c	/^ExtremeValueP2(float x, float mu, float lambda, int N)$/;"	f
+ExtremeValueSetHistogram	histogram.c	/^ExtremeValueSetHistogram(struct histogram_s *h, float mu, float lambda, $/;"	f
+FAIL	hsregex.c	280;"	d	file:
+FALSE	squid.h	464;"	d
+FAdd	vectorops.c	/^FAdd(float *vec1, float *vec2, int n)$/;"	f
+FArgMax	vectorops.c	/^FArgMax(float *vec, int n)$/;"	f
+FArgMin	vectorops.c	/^FArgMin(float *vec, int n)$/;"	f
+FChoose	sre_random.c	/^FChoose(float *p, int N)$/;"	f
+FCopy	vectorops.c	/^FCopy(float *vec1, float *vec2, int n)$/;"	f
+FDot	vectorops.c	/^FDot(float *vec1, float *vec2, int n)$/;"	f
+FExp	vectorops.c	/^FExp(float *vec, int n)$/;"	f
+FIRST_MATCH	modelmakers.c	54;"	d	file:
+FLog	vectorops.c	/^FLog(float *vec, int n)$/;"	f
+FLogSum	vectorops.c	/^FLogSum(float *vec, int n)$/;"	f
+FMX2Alloc	sre_math.c	/^FMX2Alloc(int rows, int cols)$/;"	f
+FMX2Free	sre_math.c	/^FMX2Free(float **mx)$/;"	f
+FMX2Multiply	sre_math.c	/^FMX2Multiply(float **A, float **B, float **C, int m, int p, int n)$/;"	f
+FMax	vectorops.c	/^FMax(float *vec, int n)$/;"	f
+FMin	vectorops.c	/^FMin(float *vec, int n)$/;"	f
+FNorm	vectorops.c	/^FNorm(float *vec, int n)$/;"	f
+FScale	vectorops.c	/^FScale(float *vec, int n, float scale)$/;"	f
+FSet	vectorops.c	/^FSet(float *vec, int n, float value)$/;"	f
+FSum	vectorops.c	/^FSum(float *vec, int n)$/;"	f
+FUNCSH_INCLUDED	funcs.h	18;"	d
+FileAddSuffix	file.c	/^FileAddSuffix(char *filename, char *sfx)$/;"	f
+FileConcat	file.c	/^FileConcat(char *dir, char *file)$/;"	f
+FileDirname	file.c	/^FileDirname(char *file)$/;"	f
+FileExists	file.c	/^FileExists(char *filename)$/;"	f
+FileSameDirectory	file.c	/^FileSameDirectory(char *file1, char *file2)$/;"	f
+FileTail	file.c	/^FileTail(char *file, int noextension)$/;"	f
+FilterAlignment	weight.c	/^FilterAlignment(MSA *msa, float cutoff, MSA **ret_new)$/;"	f
+Free2DArray	sre_string.c	/^Free2DArray(void **p, int dim1)$/;"	f
+Free3DArray	sre_string.c	/^Free3DArray(void ***p, int dim1, int dim2)$/;"	f
+FreeAlignment	alignio.c	/^FreeAlignment(char **aseqs, AINFO *ainfo)$/;"	f
+FreeFancyAli	tophits.c	/^FreeFancyAli(struct fancyali_s *ali)$/;"	f
+FreeHistogram	histogram.c	/^FreeHistogram(struct histogram_s *h)$/;"	f
+FreeIntStack	stack.c	/^FreeIntStack( struct intstack_s *stack )$/;"	f
+FreePhylo	cluster.c	/^FreePhylo(struct phylo_s *tree, int N)$/;"	f
+FreePlan7	plan7.c	/^FreePlan7(struct plan7_s *hmm)$/;"	f
+FreePlan7Matrix	core_algorithms.c	/^FreePlan7Matrix(struct dpmatrix_s *mx)$/;"	f
+FreeSequence	sqio.c	/^FreeSequence(char *seq, SQINFO *sqinfo)$/;"	f
+FreeShadowMatrix	core_algorithms.c	/^FreeShadowMatrix(struct dpshadow_s *tb)$/;"	f
+FreeTophits	tophits.c	/^FreeTophits(struct tophit_s *h)$/;"	f
+FullSortTophits	tophits.c	/^FullSortTophits(struct tophit_s *h)$/;"	f
+GAUSS_MEAN	structs.h	440;"	d
+GAUSS_SD	structs.h	441;"	d
+GCGBinaryToSequence	sqio.c	/^GCGBinaryToSequence(char *seq, int len)$/;"	f
+GCGMultchecksum	sqio.c	/^GCGMultchecksum(char **seqs, int nseq)$/;"	f
+GCGchecksum	sqio.c	/^GCGchecksum(char *seq, int len)$/;"	f
+GKI	gki.h	/^} GKI;$/;"	t	typeref:struct:__anon1
+GKIFree	gki.c	/^GKIFree(GKI *hash)$/;"	f
+GKIInit	gki.c	/^GKIInit(void)$/;"	f
+GKIKeyIndex	gki.c	/^GKIKeyIndex(GKI *hash, char *key)$/;"	f
+GKIStatus	gki.c	/^GKIStatus(GKI *hash)$/;"	f
+GKIStoreKey	gki.c	/^GKIStoreKey(GKI *hash, char *key)$/;"	f
+GKI_ALPHABETSIZE	gki.c	98;"	d	file:
+GKI_NPRIMES	gki.c	97;"	d	file:
+GSCWeights	weight.c	/^GSCWeights(char **aseq, int nseq, int alen, float *wgt)$/;"	f
+GSIAddFileToIndex	gsi.c	/^GSIAddFileToIndex(struct gsiindex_s *g, char *filename, int fmt)$/;"	f
+GSIAddKeyToIndex	gsi.c	/^GSIAddKeyToIndex(struct gsiindex_s *g, char *key, int filenum, long offset)$/;"	f
+GSIAllocIndex	gsi.c	/^GSIAllocIndex(void)$/;"	f
+GSIClose	gsi.c	/^GSIClose(GSIFILE *gsi)$/;"	f
+GSIFILE	gsi.h	/^typedef struct gsi_s GSIFILE;$/;"	t	typeref:struct:gsi_s
+GSIFreeIndex	gsi.c	/^GSIFreeIndex(struct gsiindex_s *g)$/;"	f
+GSIGetOffset	gsi.c	/^GSIGetOffset(GSIFILE *gsi, char *key, char *ret_seqfile, $/;"	f
+GSIGetRecord	gsi.c	/^GSIGetRecord(GSIFILE *gsi, char *f1, sqd_uint16 *f2, sqd_uint32 *f3)$/;"	f
+GSIH_INCLUDED	gsi.h	12;"	d
+GSIOpen	gsi.c	/^GSIOpen(char *gsifile)$/;"	f
+GSISortIndex	gsi.c	/^GSISortIndex(struct gsiindex_s *g)$/;"	f
+GSIWriteFileRecord	gsi.c	/^GSIWriteFileRecord(FILE *fp, char *fname, int idx, int fmt)$/;"	f
+GSIWriteHeader	gsi.c	/^GSIWriteHeader(FILE *fp, int nfiles, long nkeys)$/;"	f
+GSIWriteIndex	gsi.c	/^GSIWriteIndex(FILE *fp, struct gsiindex_s *g)$/;"	f
+GSIWriteKeyRecord	gsi.c	/^GSIWriteKeyRecord(FILE *fp, char *key, int fileidx, long offset)$/;"	f
+GSI_KEYSIZE	gsi.h	41;"	d
+GSI_RECSIZE	gsi.h	42;"	d
+Gammln	sre_math.c	/^Gammln(double x)$/;"	f
+GaussianFitHistogram	histogram.c	/^GaussianFitHistogram(struct histogram_s *h, float high_hint)$/;"	f
+GaussianSetHistogram	histogram.c	/^GaussianSetHistogram(struct histogram_s *h, float mean, float sd)$/;"	f
+Gaussrandom	sre_random.c	/^Gaussrandom(double mean, double stddev)$/;"	f
+GetRankedHit	tophits.c	/^GetRankedHit(struct tophit_s *h, int rank, $/;"	f
+Getline	misc.c	/^Getline(char *s, int n, FILE *fp)$/;"	f
+Getopt	getopt.c	/^Getopt(int argc, char **argv, struct opt_s *opt, int nopts, char *usage,$/;"	f
+Getword	misc.c	/^Getword(FILE *fp, int type)$/;"	f
+GrowTophits	tophits.c	/^GrowTophits(struct tophit_s *h)$/;"	f
+GuessAlignmentSeqtype	sqio.c	/^GuessAlignmentSeqtype(char **aseq, int nseq)$/;"	f
+HASWIDTH	hsregex.c	287;"	d	file:
+HAS_64BIT_FILE_OFFSETS	squidconf.h	135;"	d
+HAS_64BIT_FILE_OFFSETS	squidconf.h	137;"	d
+HAS_64BIT_FILE_OFFSETS	squidconf.h	139;"	d
+HAS_64BIT_FILE_OFFSETS	squidconf.h	141;"	d
+HAS_64BIT_FILE_OFFSETS	squidconf.h	153;"	d
+HAVE_FSEEKO	squidconf.h	125;"	d
+HAVE_FSEEKO	squidconf.h	150;"	d
+HAVE_FSEEKO64	squidconf.h	152;"	d
+HAVE_FTELLO	squidconf.h	124;"	d
+HAVE_FTELLO	squidconf.h	149;"	d
+HAVE_FTELLO64	squidconf.h	151;"	d
+HAVE_STRTOUL	squidconf.h	93;"	d
+HAVE_STRTOULL	squidconf.h	105;"	d
+HAVE_STRTOULL	squidconf.h	94;"	d
+HISTFIT_EVD	structs.h	435;"	d
+HISTFIT_GAUSSIAN	structs.h	436;"	d
+HISTFIT_NONE	structs.h	434;"	d
+HMMER1_0B	hmmio.c	106;"	d	file:
+HMMER1_0F	hmmio.c	107;"	d	file:
+HMMER1_1B	hmmio.c	108;"	d	file:
+HMMER1_1F	hmmio.c	109;"	d	file:
+HMMER1_7B	hmmio.c	110;"	d	file:
+HMMER1_7F	hmmio.c	111;"	d	file:
+HMMER1_9B	hmmio.c	112;"	d	file:
+HMMER1_9F	hmmio.c	113;"	d	file:
+HMMERBanner	misc.c	/^HMMERBanner(FILE *fp, char *banner)$/;"	f
+HMMFILE	structs.h	/^typedef struct hmmfile_s HMMFILE; $/;"	t	typeref:struct:hmmfile_s
+HMMFileClose	hmmio.c	/^HMMFileClose(HMMFILE *hmmfp)$/;"	f
+HMMFileOpen	hmmio.c	/^HMMFileOpen(char *hmmfile, char *env)$/;"	f
+HMMFilePositionByIndex	hmmio.c	/^HMMFilePositionByIndex(HMMFILE *hmmfp, int idx)$/;"	f
+HMMFilePositionByName	hmmio.c	/^HMMFilePositionByName(HMMFILE *hmmfp, char *name)$/;"	f
+HMMFileRead	hmmio.c	/^HMMFileRead(HMMFILE *hmmfp, struct plan7_s **ret_hmm)$/;"	f
+HMMFileRewind	hmmio.c	/^HMMFileRewind(HMMFILE *hmmfp)$/;"	f
+HMMPVM_BAD_INIT	structs.h	546;"	d
+HMMPVM_HOST_TROUBLE	structs.h	539;"	d
+HMMPVM_INIT	structs.h	535;"	d
+HMMPVM_NO_HMMFILE	structs.h	544;"	d
+HMMPVM_NO_INDEX	structs.h	545;"	d
+HMMPVM_OK	structs.h	543;"	d
+HMMPVM_RESULTS	structs.h	537;"	d
+HMMPVM_TASK_TROUBLE	structs.h	538;"	d
+HMMPVM_WORK	structs.h	536;"	d
+HMM_CS	structs.h	588;"	d
+HMM_REF	structs.h	587;"	d
+HMM_XRAY	structs.h	589;"	d
+Hashseq	rk.h	/^typedef unsigned long Hashseq;$/;"	t
+ILogsum	mathsupport.c	/^ILogsum(int p1, int p2)$/;"	f
+INFTY	config.h	66;"	d
+INSERT	structs.h	592;"	d
+INTSCALE	config.h	61;"	d
+ISREPN	hsregex.c	281;"	d	file:
+IUPACSYMNUM	squid.h	124;"	d
+ImposeMasterTrace	trace.c	/^ImposeMasterTrace(char **aseq, int nseq, struct p7trace_s *mtr, struct p7trace_s ***ret_tr)$/;"	f
+IncompleteGamma	sre_math.c	/^IncompleteGamma(double a, double x)$/;"	f
+InitAinfo	alignio.c	/^InitAinfo(AINFO *ainfo)$/;"	f
+InitIntStack	stack.c	/^InitIntStack(void)$/;"	f
+IsAlignmentFormat	msa.h	218;"	d
+IsBlankline	sre_string.c	/^IsBlankline(char *s)$/;"	f
+IsInt	types.c	/^IsInt(char *s)$/;"	f
+IsReal	types.c	/^IsReal(char *s)$/;"	f
+IsSELEXFormat	selex.c	/^IsSELEXFormat(char *filename)$/;"	f
+IsUnalignedFormat	squid.h	193;"	d
+LAST_MATCH	modelmakers.c	55;"	d	file:
+LINEBUFLEN	squid.h	149;"	d
+LOGSUM_TBL	config.h	68;"	d
+LOOP	structs.h	285;"	d
+Lawless416	histogram.c	/^Lawless416(float *x, int *y, int n, float lambda, float *ret_f, float *ret_df)$/;"	f
+Lawless422	histogram.c	/^Lawless422(float *x, int *y, int n, int z, float c,$/;"	f
+Linefit	sre_math.c	/^Linefit(float *x, float *y, int N, float *ret_a, float *ret_b, float *ret_r) $/;"	f
+LogNorm	mathsupport.c	/^LogNorm(float *vec, int n)$/;"	f
+LogSum	mathsupport.c	/^LogSum(float p1, float p2)$/;"	f
+Logp_cvec	mathsupport.c	/^Logp_cvec(float *cvec, int n, float *alpha)$/;"	f
+M	structs.h	/^  int     M;                    \/* length of the model (# nodes)        +*\/$/;"	m	struct:plan7_s
+M	structs.h	/^  int    M;			\/* length of the model                *\/$/;"	m	struct:plan9_s
+MATCH	structs.h	591;"	d
+MAX	squid.h	455;"	d
+MAXABET	config.h	62;"	d
+MAXCODE	config.h	63;"	d
+MAXDCHLET	config.h	64;"	d
+META	hsregex.c	282;"	d	file:
+MIN	squid.h	452;"	d
+MOVE	structs.h	284;"	d
+MSA	msa.h	/^} MSA;$/;"	t	typeref:struct:msa_struct
+MSAAddComment	msa.c	/^MSAAddComment(MSA *msa, char *s)$/;"	f
+MSAAddGF	msa.c	/^MSAAddGF(MSA *msa, char *tag, char *value)$/;"	f
+MSAAddGS	msa.c	/^MSAAddGS(MSA *msa, char *tag, int sqidx, char *value)$/;"	f
+MSAAlloc	msa.c	/^MSAAlloc(int nseq, int alen)$/;"	f
+MSAAppendGC	msa.c	/^MSAAppendGC(MSA *msa, char *tag, char *value)$/;"	f
+MSAAppendGR	msa.c	/^MSAAppendGR(MSA *msa, char *tag, int sqidx, char *value)$/;"	f
+MSAAverageSequenceLength	msa.c	/^MSAAverageSequenceLength(MSA *msa)$/;"	f
+MSAExpand	msa.c	/^MSAExpand(MSA *msa)$/;"	f
+MSAFILE	msa.h	/^} MSAFILE;$/;"	t	typeref:struct:msafile_struct
+MSAFILE_A2M	msa.h	214;"	d
+MSAFILE_CLUSTAL	msa.h	213;"	d
+MSAFILE_EPS	msa.h	216;"	d
+MSAFILE_MSF	msa.h	212;"	d
+MSAFILE_PHYLIP	msa.h	215;"	d
+MSAFILE_SELEX	msa.h	211;"	d
+MSAFILE_STOCKHOLM	msa.h	210;"	d
+MSAFILE_UNKNOWN	msa.h	209;"	d
+MSAFileClose	msa.c	/^MSAFileClose(MSAFILE *afp)$/;"	f
+MSAFileFormat	msa.c	/^MSAFileFormat(MSAFILE *afp)$/;"	f
+MSAFileGetLine	msa.c	/^MSAFileGetLine(MSAFILE *afp)$/;"	f
+MSAFileOpen	msa.c	/^MSAFileOpen(char *filename, int format, char *env)$/;"	f
+MSAFilePositionByIndex	msa.c	/^MSAFilePositionByIndex(MSAFILE *afp, int idx)$/;"	f
+MSAFilePositionByKey	msa.c	/^MSAFilePositionByKey(MSAFILE *afp, char *key)$/;"	f
+MSAFileRead	msa.c	/^MSAFileRead(MSAFILE *afp)$/;"	f
+MSAFileRewind	msa.c	/^MSAFileRewind(MSAFILE *afp)$/;"	f
+MSAFileWrite	msa.c	/^MSAFileWrite(FILE *fp, MSA *msa, int outfmt, int do_oneline)$/;"	f
+MSAFree	msa.c	/^MSAFree(MSA *msa)$/;"	f
+MSAFromAINFO	msa.c	/^MSAFromAINFO(char **aseq, AINFO *ainfo)$/;"	f
+MSAGetGC	msa.c	/^MSAGetGC(MSA *msa, char *tag)$/;"	f
+MSAGetSeqAccession	msa.c	/^MSAGetSeqAccession(MSA *msa, int idx)$/;"	f
+MSAGetSeqDescription	msa.c	/^MSAGetSeqDescription(MSA *msa, int idx)$/;"	f
+MSAGetSeqSA	msa.c	/^MSAGetSeqSA(MSA *msa, int idx)$/;"	f
+MSAGetSeqSS	msa.c	/^MSAGetSeqSS(MSA *msa, int idx)$/;"	f
+MSAGetSeqidx	msa.c	/^MSAGetSeqidx(MSA *msa, char *name, int guess)$/;"	f
+MSAMingap	msa.c	/^MSAMingap(MSA *msa)$/;"	f
+MSANogap	msa.c	/^MSANogap(MSA *msa)$/;"	f
+MSASetSeqAccession	msa.c	/^MSASetSeqAccession(MSA *msa, int seqidx, char *acc)$/;"	f
+MSASetSeqDescription	msa.c	/^MSASetSeqDescription(MSA *msa, int seqidx, char *desc)$/;"	f
+MSAShorterAlignment	msa.c	/^MSAShorterAlignment(MSA *msa, int *useme)$/;"	f
+MSASmallerAlignment	msa.c	/^MSASmallerAlignment(MSA *msa, int *useme, MSA **ret_new)$/;"	f
+MSAToSqinfo	sqio.c	/^MSAToSqinfo(MSA *msa)$/;"	f
+MSAVerifyParse	msa.c	/^MSAVerifyParse(MSA *msa)$/;"	f
+MSA_CUTOFF_GA1	msa.h	101;"	d
+MSA_CUTOFF_GA2	msa.h	102;"	d
+MSA_CUTOFF_NC1	msa.h	103;"	d
+MSA_CUTOFF_NC2	msa.h	104;"	d
+MSA_CUTOFF_TC1	msa.h	99;"	d
+MSA_CUTOFF_TC2	msa.h	100;"	d
+MSA_MAXCUTOFFS	msa.h	105;"	d
+MSA_SET_WGT	msa.h	178;"	d
+MTHRESH	ucbqsort.c	13;"	d	file:
+MajorityRuleConsensus	aligneval.c	/^MajorityRuleConsensus(char **aseq, int nseq, int alen)$/;"	f
+MakeAlignedString	alignio.c	/^MakeAlignedString(char *aseq, int alen, char *ss, char **ret_s)$/;"	f
+MakeDealignedString	alignio.c	/^MakeDealignedString(char *aseq, int alen, char *ss, char **ret_s)$/;"	f
+MakeDiffMx	cluster.c	/^MakeDiffMx(char **aseqs, int num, float ***ret_dmx)$/;"	f
+MakeIdentityMx	cluster.c	/^MakeIdentityMx(char **aseqs, int num, float ***ret_imx)$/;"	f
+MallocOrDie	squid.h	437;"	d
+MasterTraceFromMap	trace.c	/^MasterTraceFromMap(int *map, int M, int alen)$/;"	f
+MergeTraceArrays	trace.c	/^MergeTraceArrays(struct p7trace_s **t1, int n1, struct p7trace_s **t2, int n2)$/;"	f
+MingapAlignment	alignio.c	/^MingapAlignment(char **aseqs, AINFO *ainfo)$/;"	f
+NEXT	hsregex.c	274;"	d	file:
+NINPUTS	config.h	65;"	d
+NOPTIONS	getopt.c	228;"	d	file:
+NOPTIONS	hmmcalibrate.c	78;"	d	file:
+NOPTIONS	hmmsearch.c	92;"	d	file:
+NOTHING	hsregex.c	234;"	d	file:
+NSUBEXP	squid.h	348;"	d
+NTA	squid.h	297;"	d
+NTB	squid.h	310;"	d
+NTC	squid.h	298;"	d
+NTD	squid.h	312;"	d
+NTEND	squid.h	314;"	d
+NTG	squid.h	299;"	d
+NTGAP	squid.h	313;"	d
+NTH	squid.h	309;"	d
+NTK	squid.h	306;"	d
+NTM	squid.h	305;"	d
+NTN	squid.h	302;"	d
+NTR	squid.h	303;"	d
+NTS	squid.h	307;"	d
+NTT	squid.h	300;"	d
+NTU	squid.h	301;"	d
+NTV	squid.h	311;"	d
+NTW	squid.h	308;"	d
+NTY	squid.h	304;"	d
+NUCLEOTIDES	squid.h	134;"	d
+NXRAY	config.h	67;"	d
+NewTraceScoreCorrection	masks.c	/^NewTraceScoreCorrection(struct plan7_s *hmm, struct p7trace_s *tr, char *dsq)$/;"	f
+OBJS	Makefile	/^OBJS=alphabet.bc core_algorithms.bc debug.bc display.bc emit.bc emulation.bc fast_algorithms.bc histogram.bc hmmio.bc hmmcalibrate.bc hmmsearch.bc mathsupport.bc masks.bc misc.bc modelmakers.bc plan7.bc plan9.bc postprob.bc prior.bc tophits.bc trace.bc ucbqsort.bc a2m.bc aligneval.bc alignio.bc clustal.bc cluster.bc dayhoff.bc eps.bc file.bc getopt.bc gki.bc gsi.bc hsregex.bc iupac.bc msa.bc msf.bc phylip.bc revcomp.bc rk.bc selex.bc seqencode.bc shuffle.bc sqerror.bc sqio.bc squidcore.bc sre_ctype.bc sre_math.bc sre_random.bc sre_string.bc ssi.bc stack.bc stockholm.bc translate.bc types.bc vectorops.bc weight.bc$/;"	m
+OP	hsregex.c	273;"	d	file:
+OPEN	hsregex.c	237;"	d	file:
+OPERAND	hsregex.c	275;"	d	file:
+OPTIONS	getopt.c	/^struct opt_s OPTIONS[] = {$/;"	v	typeref:struct:opt_s
+OPTIONS	hmmcalibrate.c	/^static struct opt_s OPTIONS[] = {$/;"	v	typeref:struct:opt_s	file:
+OPTIONS	hmmsearch.c	/^static struct opt_s OPTIONS[] = {$/;"	v	typeref:struct:opt_s	file:
+P7AllocPrior	prior.c	/^P7AllocPrior(void)$/;"	f
+P7AllocTrace	trace.c	/^P7AllocTrace(int tlen, struct p7trace_s **ret_tr)$/;"	f
+P7Backward	postprob.c	/^P7Backward(char *dsq, int L, struct plan7_s *hmm, struct dpmatrix_s **ret_mx)$/;"	f
+P7CountSymbol	alphabet.c	/^P7CountSymbol(float *counters, char symidx, float wt)$/;"	f
+P7DefaultNullModel	prior.c	/^P7DefaultNullModel(float *null, float *ret_p1)$/;"	f
+P7DefaultPrior	prior.c	/^P7DefaultPrior(void)$/;"	f
+P7EmitterPosterior	postprob.c	/^P7EmitterPosterior(int L,$/;"	f
+P7Fastmodelmaker	modelmakers.c	/^P7Fastmodelmaker(MSA *msa, char **dsq, float maxgap,$/;"	f
+P7FillOptimalAccuracy	postprob.c	/^float P7FillOptimalAccuracy(int L,$/;"	f
+P7Forward	core_algorithms.c	/^P7Forward(char *dsq, int L, struct plan7_s *hmm, struct dpmatrix_s **ret_mx)$/;"	f
+P7FreePrior	prior.c	/^P7FreePrior(struct p7prior_s *pri)$/;"	f
+P7FreeTrace	trace.c	/^P7FreeTrace(struct p7trace_s *tr)$/;"	f
+P7Handmodelmaker	modelmakers.c	/^P7Handmodelmaker(MSA *msa, char **dsq,$/;"	f
+P7LaplacePrior	prior.c	/^P7LaplacePrior(void)$/;"	f
+P7Logoddsify	plan7.c	/^P7Logoddsify(struct plan7_s *hmm, int viterbi_mode)$/;"	f
+P7Maxmodelmaker	modelmakers.c	/^P7Maxmodelmaker(MSA *msa, char **dsq, float maxgap,$/;"	f
+P7OptimalAccuracy	postprob.c	/^P7OptimalAccuracy(char *dsq, int L, struct plan7_s *hmm, struct p7trace_s **ret_tr)$/;"	f
+P7OptimalAccuracyTrace	postprob.c	/^P7OptimalAccuracyTrace(int L,$/;"	f
+P7ParsingViterbi	core_algorithms.c	/^P7ParsingViterbi(char *dsq, int L, struct plan7_s *hmm, struct p7trace_s **ret_tr)$/;"	f
+P7PrintPrior	debug.c	/^P7PrintPrior(FILE *fp, struct p7prior_s *pri)$/;"	f
+P7PrintTrace	debug.c	/^P7PrintTrace(FILE *fp, struct p7trace_s *tr, struct plan7_s *hmm, char *dsq)$/;"	f
+P7PriorifyEmissionVector	prior.c	/^P7PriorifyEmissionVector(float *vec, struct p7prior_s *pri, $/;"	f
+P7PriorifyHMM	prior.c	/^P7PriorifyHMM(struct plan7_s *hmm, struct p7prior_s *pri)$/;"	f
+P7PriorifyTransitionVector	prior.c	/^P7PriorifyTransitionVector(float *t, struct p7prior_s *prior, $/;"	f
+P7ReadNullModel	prior.c	/^P7ReadNullModel(char *rndfile, float *null, float *ret_p1)$/;"	f
+P7ReadPrior	prior.c	/^P7ReadPrior(char *prifile) $/;"	f
+P7ReallocTrace	trace.c	/^P7ReallocTrace(struct p7trace_s *tr, int tlen)$/;"	f
+P7ReverseTrace	trace.c	/^P7ReverseTrace(struct p7trace_s *tr)$/;"	f
+P7SmallViterbi	core_algorithms.c	/^P7SmallViterbi(char *dsq, int L, struct plan7_s *hmm, struct dpmatrix_s *mx, struct p7trace_s **ret_tr)$/;"	f
+P7SmallViterbiSize	core_algorithms.c	/^P7SmallViterbiSize(int L, int M)$/;"	f
+P7TraceCount	trace.c	/^P7TraceCount(struct plan7_s *hmm, char *dsq, float wt, struct p7trace_s *tr)$/;"	f
+P7TraceScore	trace.c	/^P7TraceScore(struct plan7_s *hmm, char *dsq, struct p7trace_s *tr)$/;"	f
+P7Traces2Alignment	trace.c	/^P7Traces2Alignment(char **dsq, SQINFO *sqinfo, float *wgt, int nseq, int mlen, $/;"	f
+P7Viterbi	core_algorithms.c	/^P7Viterbi(char *dsq, int L, struct plan7_s *hmm, struct dpmatrix_s *mx, struct p7trace_s **ret_tr)$/;"	f
+P7Viterbi	fast_algorithms.c	/^P7Viterbi(char *dsq, int L, struct plan7_s *hmm, struct dpmatrix_s *mx, struct p7trace_s **ret_tr) $/;"	f
+P7Viterbi	fast_algorithms.c	/^P7Viterbi(char *dsq, int L, struct plan7_s *hmm, struct dpmatrix_s *mx, struct p7trace_s **ret_tr)$/;"	f
+P7ViterbiAlignAlignment	core_algorithms.c	/^P7ViterbiAlignAlignment(MSA *msa, struct plan7_s *hmm)$/;"	f
+P7ViterbiSize	core_algorithms.c	/^P7ViterbiSize(int L, int M)$/;"	f
+P7ViterbiTrace	core_algorithms.c	/^P7ViterbiTrace(struct plan7_s *hmm, char *dsq, int N,$/;"	f
+P7WeeViterbi	core_algorithms.c	/^P7WeeViterbi(char *dsq, int L, struct plan7_s *hmm, struct p7trace_s **ret_tr)$/;"	f
+P7WeeViterbiSize	core_algorithms.c	/^P7WeeViterbiSize(int L, int M)$/;"	f
+P7_FAST_CONSTRUCTION	structs.h	/^  P7_FAST_CONSTRUCTION		\/* fast ad hoc architecture          *\/$/;"	e	enum:p7_construction
+P7_HAND_CONSTRUCTION	structs.h	/^  P7_HAND_CONSTRUCTION,		\/* hand specified architecture       *\/$/;"	e	enum:p7_construction
+P7_MAP_CONSTRUCTION	structs.h	/^  P7_MAP_CONSTRUCTION,		\/* maximum a posteriori architecture *\/$/;"	e	enum:p7_construction
+P7_MAP_PARAM	structs.h	/^  P7_MAP_PARAM,			\/* standard maximum a posteriori    *\/$/;"	e	enum:p7_param
+P7_MD_PARAM	structs.h	/^  P7_MD_PARAM,			\/* maximum discrimination           *\/$/;"	e	enum:p7_param
+P7_MRE_PARAM	structs.h	/^  P7_MRE_PARAM,			\/* maximum relative entropy         *\/$/;"	e	enum:p7_param
+P7_WMAP_PARAM	structs.h	/^  P7_WMAP_PARAM			\/* ad hoc weighted MAP              *\/$/;"	e	enum:p7_param
+P9AllocHMM	plan9.c	/^P9AllocHMM(int M)               		\/* length of model to make *\/$/;"	f
+P9DefaultNullModel	plan9.c	/^P9DefaultNullModel(float *null)$/;"	f
+P9FreeHMM	plan9.c	/^P9FreeHMM(struct plan9_s *hmm)$/;"	f
+P9Renormalize	plan9.c	/^P9Renormalize(struct plan9_s *hmm)$/;"	f
+P9ZeroHMM	plan9.c	/^P9ZeroHMM(struct plan9_s *hmm)$/;"	f
+PACKAGE_COPYRIGHT	config.h	82;"	d
+PACKAGE_DATE	config.h	81;"	d
+PACKAGE_LICENSE	config.h	83;"	d
+PACKAGE_NAME	config.h	79;"	d
+PACKAGE_VERSION	config.h	80;"	d
+PAMPrior	prior.c	/^PAMPrior(char *pamfile, struct p7prior_s *pri, float wt)$/;"	f
+PANIC	squid.h	433;"	d
+PLAN7_ACC	structs.h	246;"	d
+PLAN7_CA	structs.h	250;"	d
+PLAN7_CS	structs.h	240;"	d
+PLAN7_DESC	structs.h	238;"	d
+PLAN7_GA	structs.h	247;"	d
+PLAN7_HASBITS	structs.h	237;"	d
+PLAN7_HASDNA	structs.h	243;"	d
+PLAN7_HASPROB	structs.h	242;"	d
+PLAN7_MAP	structs.h	245;"	d
+PLAN7_NC	structs.h	249;"	d
+PLAN7_RF	structs.h	239;"	d
+PLAN7_STATS	structs.h	244;"	d
+PLAN7_TC	structs.h	248;"	d
+PLAN7_XRAY	structs.h	241;"	d
+PLUS	hsregex.c	236;"	d	file:
+PRI_DCHLET	structs.h	400;"	d
+PRI_PAM	structs.h	401;"	d
+PValue	mathsupport.c	/^PValue(struct plan7_s *hmm, float sc)$/;"	f
+P_PvecGivenDirichlet	mathsupport.c	/^P_PvecGivenDirichlet(float *p, int n, float *alpha)$/;"	f
+PairwiseIdentity	aligneval.c	/^PairwiseIdentity(char *s1, char *s2)$/;"	f
+Panic	sqerror.c	/^Panic(char *file, int line)$/;"	f
+ParsePAMFile	dayhoff.c	/^ParsePAMFile(FILE *fp, int ***ret_pam, float *ret_scale)$/;"	f
+Plan7ComlogAppend	plan7.c	/^Plan7ComlogAppend(struct plan7_s *hmm, int argc, char **argv)$/;"	f
+Plan7ESTConfig	plan7.c	/^Plan7ESTConfig(struct plan7_s *hmm, int *aacode, float **estmodel, $/;"	f
+Plan7ESTViterbi	core_algorithms.c	/^Plan7ESTViterbi(char *dsq, int L, struct plan7_s *hmm, struct dpmatrix_s **ret_mx)$/;"	f
+Plan7FSConfig	plan7.c	/^Plan7FSConfig(struct plan7_s *hmm, float pentry, float pexit)$/;"	f
+Plan7GlobalConfig	plan7.c	/^Plan7GlobalConfig(struct plan7_s *hmm)                           $/;"	f
+Plan7LSConfig	plan7.c	/^Plan7LSConfig(struct plan7_s *hmm)$/;"	f
+Plan7NakedConfig	plan7.c	/^Plan7NakedConfig(struct plan7_s *hmm)                           $/;"	f
+Plan7Renormalize	plan7.c	/^Plan7Renormalize(struct plan7_s *hmm)$/;"	f
+Plan7RenormalizeExits	plan7.c	/^Plan7RenormalizeExits(struct plan7_s *hmm)$/;"	f
+Plan7SWConfig	plan7.c	/^Plan7SWConfig(struct plan7_s *hmm, float pentry, float pexit)$/;"	f
+Plan7SetAccession	plan7.c	/^Plan7SetAccession(struct plan7_s *hmm, char *acc)$/;"	f
+Plan7SetCtime	plan7.c	/^Plan7SetCtime(struct plan7_s *hmm)$/;"	f
+Plan7SetDescription	plan7.c	/^Plan7SetDescription(struct plan7_s *hmm, char *desc)$/;"	f
+Plan7SetName	plan7.c	/^Plan7SetName(struct plan7_s *hmm, char *name)$/;"	f
+Plan7SetNullModel	plan7.c	/^Plan7SetNullModel(struct plan7_s *hmm, float null[MAXABET], float p1)$/;"	f
+Plan9toPlan7	plan7.c	/^Plan9toPlan7(struct plan9_s *hmm, struct plan7_s **ret_plan7)$/;"	f
+PopIntStack	stack.c	/^PopIntStack(struct intstack_s  *stack, int *ret_data)$/;"	f
+PositionBasedWeights	weight.c	/^PositionBasedWeights(char **aseq, int nseq, int alen, float *wgt)$/;"	f
+PostalCode	postprob.c	/^PostalCode(int L, struct dpmatrix_s *mx, struct p7trace_s *tr)$/;"	f
+PostprocessSignificantHit	core_algorithms.c	/^PostprocessSignificantHit(struct tophit_s    *ghit, $/;"	f
+PrintASCIIHistogram	histogram.c	/^PrintASCIIHistogram(FILE *fp, struct histogram_s *h)$/;"	f
+PrintFancyAli	trace.c	/^PrintFancyAli(FILE *fp, struct fancyali_s *ali)$/;"	f
+PrintIscore	display.c	/^void PrintIscore(int sc) {$/;"	f
+PrintNewHampshireTree	cluster.c	/^PrintNewHampshireTree(FILE *fp, AINFO *ainfo, struct phylo_s *tree, int N)$/;"	f
+PrintPhylo	cluster.c	/^PrintPhylo(FILE *fp, AINFO *ainfo, struct phylo_s *tree, int N)$/;"	f
+PrintPlan7Stats	plan7.c	/^PrintPlan7Stats(FILE *fp, struct plan7_s *hmm, char **dsq, int nseq,$/;"	f
+PrintTransition	display.c	/^void PrintTransition(char src,$/;"	f
+PrintXMGRDistribution	histogram.c	/^PrintXMGRDistribution(FILE *fp, struct histogram_s *h)$/;"	f
+PrintXMGRHistogram	histogram.c	/^PrintXMGRHistogram(FILE *fp, struct histogram_s *h)$/;"	f
+PrintXMGRRegressionLine	histogram.c	/^PrintXMGRRegressionLine(FILE *fp, struct histogram_s *h)$/;"	f
+Prob2Score	mathsupport.c	/^Prob2Score(float p, float null)$/;"	f
+PushIntStack	stack.c	/^PushIntStack(struct intstack_s *stack, int data)$/;"	f
+QRNAShuffle	shuffle.c	/^QRNAShuffle(char *xs, char *ys, char *x, char *y)$/;"	f
+RAMLIMIT	config.h	34;"	d
+RK_HASHSIZE	rk.h	29;"	d
+RK_REQUIRE	rk.h	33;"	d
+RNA_ALPHABET	squid.h	137;"	d
+RandomAlignment	alignio.c	/^RandomAlignment(char **rseqs, SQINFO *sqinfo, int nseq, float pop, float pex,$/;"	f
+RandomSequence	sre_string.c	/^RandomSequence(char *alphabet, float *p, int n, int len)$/;"	f
+ReadA2M	a2m.c	/^ReadA2M(MSAFILE *afp)$/;"	f
+ReadClustal	clustal.c	/^ReadClustal(MSAFILE *afp)$/;"	f
+ReadMSF	msf.c	/^ReadMSF(MSAFILE *afp)$/;"	f
+ReadMultipleRseqs	sqio.c	/^ReadMultipleRseqs(char              *seqfile,$/;"	f
+ReadPhylip	phylip.c	/^ReadPhylip(MSAFILE *afp)$/;"	f
+ReadSELEX	selex.c	/^ReadSELEX(MSAFILE *afp)$/;"	f
+ReadSeq	sqio.c	/^ReadSeq(SQFILE *V, int format, char **ret_seq, SQINFO *sqinfo)$/;"	f
+ReadSeqVars	squid.h	/^struct ReadSeqVars {$/;"	s
+ReadStockholm	stockholm.c	/^ReadStockholm(MSAFILE *afp)$/;"	f
+ReallocOrDie	squid.h	438;"	d
+RegisterHit	tophits.c	/^RegisterHit(struct tophit_s *h, double key, $/;"	f
+ResizePlan7Matrix	core_algorithms.c	/^ResizePlan7Matrix(struct dpmatrix_s *mx, int N, int M, $/;"	f
+ResizePlan7Matrix	fast_algorithms.c	/^ResizePlan7Matrix(struct dpmatrix_s *mx, int N, int M, $/;"	f
+ReverseIntStack	stack.c	/^ReverseIntStack(struct intstack_s *stack)$/;"	f
+SAMizeAlignment	alignio.c	/^SAMizeAlignment(char **aseq, int nseq, int alen)$/;"	f
+SAMizeAlignmentByGapFrac	alignio.c	/^SAMizeAlignmentByGapFrac(char **aseq, int nseq, int alen, float maxgap)$/;"	f
+SIMPLE	hsregex.c	288;"	d	file:
+SIZEOF_FPOS_T	squidconf.h	130;"	d
+SIZEOF_OFF64_T	squidconf.h	132;"	d
+SIZEOF_OFF_T	squidconf.h	131;"	d
+SIZEOF_UNSIGNED_INT	squidconf.h	86;"	d
+SIZEOF_UNSIGNED_LONG	squidconf.h	87;"	d
+SIZEOF_UNSIGNED_LONG_LONG	squidconf.h	88;"	d
+SIZEOF_UNSIGNED_SHORT	squidconf.h	85;"	d
+SPSTART	hsregex.c	289;"	d	file:
+SQDCONST_E	squid.h	444;"	d
+SQDCONST_PI	squid.h	445;"	d
+SQD_DASSERT1	squid.h	409;"	d
+SQD_DASSERT1	squid.h	412;"	d
+SQD_DASSERT2	squid.h	416;"	d
+SQD_DASSERT2	squid.h	419;"	d
+SQD_DASSERT3	squid.h	423;"	d
+SQD_DASSERT3	squid.h	426;"	d
+SQD_DPRINTF1	squid.h	408;"	d
+SQD_DPRINTF1	squid.h	411;"	d
+SQD_DPRINTF2	squid.h	415;"	d
+SQD_DPRINTF2	squid.h	418;"	d
+SQD_DPRINTF3	squid.h	422;"	d
+SQD_DPRINTF3	squid.h	425;"	d
+SQD_NPROC	squid.h	378;"	d
+SQD_NPROC	squid.h	381;"	d
+SQD_NPROC	squid.h	384;"	d
+SQD_NPROC	squid.h	387;"	d
+SQD_NPROC	squid.h	390;"	d
+SQD_REGMAGIC	hsregex.c	186;"	d	file:
+SQD_UINT16_MAX	gsi.h	43;"	d
+SQD_UINT32_MAX	gsi.h	44;"	d
+SQERR_DIVZERO	squid.h	74;"	d
+SQERR_EOD	squid.h	76;"	d
+SQERR_FORMAT	squid.h	72;"	d
+SQERR_INCOMPAT	squid.h	75;"	d
+SQERR_MEM	squid.h	70;"	d
+SQERR_NODATA	squid.h	69;"	d
+SQERR_NOFILE	squid.h	71;"	d
+SQERR_OK	squid.h	67;"	d
+SQERR_PARAMETER	squid.h	73;"	d
+SQERR_UNKNOWN	squid.h	68;"	d
+SQFILE	squid.h	/^typedef struct ReadSeqVars SQFILE;$/;"	t	typeref:struct:ReadSeqVars
+SQFILE_EMBL	squid.h	178;"	d
+SQFILE_FASTA	squid.h	181;"	d
+SQFILE_GCG	squid.h	179;"	d
+SQFILE_GCGDATA	squid.h	190;"	d
+SQFILE_GENBANK	squid.h	176;"	d
+SQFILE_IDRAW	squid.h	183;"	d
+SQFILE_IG	squid.h	175;"	d
+SQFILE_PIR	squid.h	186;"	d
+SQFILE_RAW	squid.h	187;"	d
+SQFILE_SQUID	squid.h	188;"	d
+SQFILE_STRIDER	squid.h	180;"	d
+SQFILE_UNKNOWN	squid.h	174;"	d
+SQFILE_ZUKER	squid.h	182;"	d
+SQFUNCSH_INCLUDED	sqfuncs.h	12;"	d
+SQINFO	squid.h	/^typedef struct seqinfo_s SQINFO;$/;"	t	typeref:struct:seqinfo_s
+SQINFO_ACC	squid.h	102;"	d
+SQINFO_DESC	squid.h	103;"	d
+SQINFO_DESCLEN	squid.h	82;"	d
+SQINFO_ID	squid.h	101;"	d
+SQINFO_LEN	squid.h	106;"	d
+SQINFO_NAME	squid.h	100;"	d
+SQINFO_NAMELEN	squid.h	81;"	d
+SQINFO_OLEN	squid.h	108;"	d
+SQINFO_SA	squid.h	110;"	d
+SQINFO_SS	squid.h	109;"	d
+SQINFO_START	squid.h	104;"	d
+SQINFO_STOP	squid.h	105;"	d
+SQINFO_TYPE	squid.h	107;"	d
+SQR	structs.h	33;"	d
+SQRKH_INCLUDED	rk.h	12;"	d
+SQUIDCONFH_INCLUDED	squidconf.h	14;"	d
+SQUIDH_INCLUDED	squid.h	13;"	d
+SQUID_COPYRIGHT	squidconf.h	53;"	d
+SQUID_DATE	squidconf.h	52;"	d
+SQUID_GKI_INCLUDED	gki.h	12;"	d
+SQUID_LICENSE	squidconf.h	54;"	d
+SQUID_MSA_INCLUDED	msa.h	12;"	d
+SQUID_VERSION	squidconf.h	51;"	d
+SRE_STRICT_ANSI	squidconf.h	23;"	d
+SSIAddFileToIndex	ssi.c	/^SSIAddFileToIndex(SSIINDEX *g, char *filename, int fmt, int *ret_fh)$/;"	f
+SSIAddPrimaryKeyToIndex	ssi.c	/^SSIAddPrimaryKeyToIndex(SSIINDEX *g, char *key, int fh,$/;"	f
+SSIAddSecondaryKeyToIndex	ssi.c	/^SSIAddSecondaryKeyToIndex(SSIINDEX *g, char *key, char *pkey)$/;"	f
+SSIClose	ssi.c	/^SSIClose(SSIFILE *sfp) $/;"	f
+SSICreateIndex	ssi.c	/^SSICreateIndex(int mode)$/;"	f
+SSIErrorString	ssi.c	/^SSIErrorString(int n)$/;"	f
+SSIFILE	ssi.h	/^typedef struct ssifile_s SSIFILE;$/;"	t	typeref:struct:ssifile_s
+SSIFileInfo	ssi.c	/^SSIFileInfo(SSIFILE *sfp, int fh, char **ret_filename, int *ret_format)$/;"	f
+SSIForceExternalSort	ssi.c	/^SSIForceExternalSort(SSIINDEX *g)$/;"	f
+SSIFreeIndex	ssi.c	/^SSIFreeIndex(SSIINDEX *g) $/;"	f
+SSIGetFilePosition	ssi.c	/^SSIGetFilePosition(FILE *fp, int mode, SSIOFFSET *ret_offset)$/;"	f
+SSIGetOffsetByName	ssi.c	/^SSIGetOffsetByName(SSIFILE *sfp, char *key, int *ret_fh,$/;"	f
+SSIGetOffsetByNumber	ssi.c	/^SSIGetOffsetByNumber(SSIFILE *sfp, int n, int *ret_fh, SSIOFFSET *ret_offset)$/;"	f
+SSIGetSubseqOffset	ssi.c	/^SSIGetSubseqOffset(SSIFILE *sfp, char *key, int requested_start,$/;"	f
+SSIH_INCLUDED	ssi.h	12;"	d
+SSIINDEX	ssi.h	/^typedef struct ssiindex_s SSIINDEX;$/;"	t	typeref:struct:ssiindex_s
+SSIOFFSET	ssi.h	/^typedef struct ssioffset_s SSIOFFSET;$/;"	t	typeref:struct:ssioffset_s
+SSIOpen	ssi.c	/^SSIOpen(char *filename, SSIFILE **ret_sfp)$/;"	f
+SSIRecommendMode	ssi.c	/^SSIRecommendMode(char *file)$/;"	f
+SSISetFileForSubseq	ssi.c	/^SSISetFileForSubseq(SSIINDEX *g, int fh, int bpl, int rpl)$/;"	f
+SSISetFilePosition	ssi.c	/^SSISetFilePosition(FILE *fp, SSIOFFSET *offset)$/;"	f
+SSIWriteIndex	ssi.c	/^SSIWriteIndex(char *file, SSIINDEX *g)$/;"	f
+SSI_ERR_BADARG	ssi.h	149;"	d
+SSI_ERR_BADFORMAT	ssi.h	143;"	d
+SSI_ERR_BADMAGIC	ssi.h	142;"	d
+SSI_ERR_EXTERNAL_SORT	ssi.h	153;"	d
+SSI_ERR_FWRITE	ssi.h	152;"	d
+SSI_ERR_MALLOC	ssi.h	140;"	d
+SSI_ERR_NO64BIT	ssi.h	144;"	d
+SSI_ERR_NODATA	ssi.h	138;"	d
+SSI_ERR_NOFILE	ssi.h	141;"	d
+SSI_ERR_NO_SUBSEQS	ssi.h	147;"	d
+SSI_ERR_NO_SUCH_KEY	ssi.h	139;"	d
+SSI_ERR_OK	ssi.h	137;"	d
+SSI_ERR_RANGE	ssi.h	148;"	d
+SSI_ERR_SEEK_FAILED	ssi.h	145;"	d
+SSI_ERR_TELL_FAILED	ssi.h	146;"	d
+SSI_ERR_TOOMANY_FILES	ssi.h	150;"	d
+SSI_ERR_TOOMANY_KEYS	ssi.h	151;"	d
+SSI_FAST_SUBSEQ	ssi.h	85;"	d
+SSI_FILE_BLOCK	ssi.h	132;"	d
+SSI_KEY_BLOCK	ssi.h	133;"	d
+SSI_MAXFILES	ssi.h	27;"	d
+SSI_MAXKEYS	ssi.h	28;"	d
+SSI_MAXRAM	ssi.h	29;"	d
+SSI_OFFSET_I32	ssi.h	43;"	d
+SSI_OFFSET_I64	ssi.h	44;"	d
+SSI_USE64	ssi.h	80;"	d
+SSI_USE64_INDEX	ssi.h	81;"	d
+STAR	hsregex.c	235;"	d	file:
+STB	structs.h	362;"	d
+STBOGUS	structs.h	356;"	d
+STC	structs.h	364;"	d
+STD	structs.h	358;"	d
+STE	structs.h	363;"	d
+STI	structs.h	359;"	d
+STJ	structs.h	366;"	d
+STM	structs.h	357;"	d
+STN	structs.h	361;"	d
+STOPWATCH_H_INCLUDED	stopwatch.h	32;"	d
+STRUCTSH_INCLUDED	structs.h	22;"	d
+STS	structs.h	360;"	d
+STT	structs.h	365;"	d
+SWAP	squid.h	448;"	d
+SYMIDX	structs.h	40;"	d
+SampleAlignment	weight.c	/^SampleAlignment(MSA *msa, int sample, MSA **ret_new)$/;"	f
+SampleCountvector	mathsupport.c	/^SampleCountvector(float *p, int n, int c, float *cvec)$/;"	f
+SampleDirichlet	mathsupport.c	/^SampleDirichlet(float *alpha, int n, float *p)$/;"	f
+SampleGamma	mathsupport.c	/^SampleGamma(float alpha)$/;"	f
+SantaCruzCorrection	masks.c	/^SantaCruzCorrection(struct plan7_s *hmm, struct p7trace_s *tr, char *dsq)$/;"	f
+ScalarsEqual	squid.h	449;"	d
+Score2Prob	mathsupport.c	/^Score2Prob(int sc, float null)$/;"	f
+Scorify	mathsupport.c	/^Scorify(int sc)$/;"	f
+SeqfileClose	sqio.c	/^SeqfileClose(SQFILE *sqfp)$/;"	f
+SeqfileFormat	sqio.c	/^SeqfileFormat(FILE *fp)$/;"	f
+SeqfileFormat2String	sqio.c	/^SeqfileFormat2String(int code)$/;"	f
+SeqfileGetLine	sqio.c	/^SeqfileGetLine(SQFILE *V)$/;"	f	file:
+SeqfileLineParameters	sqio.c	/^SeqfileLineParameters(SQFILE *V, int *ret_bpl, int *ret_rpl)$/;"	f
+SeqfileOpen	sqio.c	/^SeqfileOpen(char *filename, int format, char *env)$/;"	f
+SeqfileOpenForIndexing	sqio.c	/^SeqfileOpenForIndexing(char *filename, int format, char *env, int ssimode)$/;"	f
+SeqfilePosition	sqio.c	/^SeqfilePosition(SQFILE *sqfp, SSIOFFSET *offset)$/;"	f
+SeqfileRewind	sqio.c	/^SeqfileRewind(SQFILE *sqfp)$/;"	f
+SeqinfoCopy	sqio.c	/^SeqinfoCopy(SQINFO *sq1, SQINFO *sq2)$/;"	f
+Seqtype	sqio.c	/^Seqtype(char *seq)$/;"	f
+SetAlphabet	alphabet.c	/^SetAlphabet(int type)$/;"	f
+SetAutocuts	misc.c	/^SetAutocuts(struct threshold_s *thresh, struct plan7_s *hmm)$/;"	f
+SetSeqinfoString	sqio.c	/^SetSeqinfoString(SQINFO *sqinfo, char *sptr, int flag)$/;"	f
+ShadowTrace	core_algorithms.c	/^ShadowTrace(struct dpshadow_s *tb, struct plan7_s *hmm, int L)$/;"	f
+SingleLinkCluster	weight.c	/^SingleLinkCluster(char **aseq, int nseq, int alen, float maxid, $/;"	f
+SqdBanner	squidcore.c	/^SqdBanner(FILE *fp, char *banner)$/;"	f
+SqdClean	hsregex.c	/^SqdClean(void)$/;"	f
+StateOccupancy	emit.c	/^StateOccupancy(struct plan7_s *hmm, float **ret_mp, float **ret_ip, float **ret_dp)$/;"	f
+Statetype	debug.c	/^Statetype(char st)$/;"	f
+Stopwatch_t	stopwatch.h	/^typedef struct stopwatch_s Stopwatch_t;$/;"	t	typeref:struct:stopwatch_s
+StrDPShuffle	shuffle.c	/^StrDPShuffle(char *s1, char *s2)$/;"	f
+StrMarkov0	shuffle.c	/^StrMarkov0(char *s1, char *s2)$/;"	f
+StrMarkov1	shuffle.c	/^StrMarkov1(char *s1, char *s2)$/;"	f
+StrRegionalShuffle	shuffle.c	/^StrRegionalShuffle(char *s1, char *s2, int w)$/;"	f
+StrReverse	shuffle.c	/^StrReverse(char *s1, char *s2)$/;"	f
+StrShuffle	shuffle.c	/^StrShuffle(char *s1, char *s2)$/;"	f
+Strdelete	sre_string.c	/^Strdelete(char *s1,             \/* string to delete a char from       *\/$/;"	f
+Strdup	sre_string.c	/^Strdup(char *s)$/;"	f
+String2SeqfileFormat	sqio.c	/^String2SeqfileFormat(char *s)$/;"	f
+StringChop	sre_string.c	/^StringChop(char *s)$/;"	f
+Strinsert	sre_string.c	/^Strinsert(char  *s1,            \/* string to insert a char into  *\/$/;"	f
+Strparse	hsregex.c	/^Strparse(char *rexp, char *s, int ntok)$/;"	f
+SymbolIndex	alphabet.c	/^SymbolIndex(char sym)$/;"	f
+TDD	structs.h	279;"	d
+TDM	structs.h	278;"	d
+THRESH	ucbqsort.c	12;"	d	file:
+TII	structs.h	277;"	d
+TIM	structs.h	276;"	d
+TMD	structs.h	275;"	d
+TMI	structs.h	274;"	d
+TMM	structs.h	273;"	d
+TRUE	squid.h	461;"	d
+ToDNA	sqio.c	/^ToDNA(char *seq)$/;"	f
+ToIUPAC	sqio.c	/^ToIUPAC(char *seq, int is_aseq) $/;"	f
+ToRNA	sqio.c	/^ToRNA(char *seq)$/;"	f
+TophitsMaxName	tophits.c	/^TophitsMaxName(struct tophit_s *h)$/;"	f
+TophitsReport	tophits.c	/^TophitsReport(struct tophit_s *h, double E, int nseq)$/;"	f
+TraceCompare	debug.c	/^TraceCompare(struct p7trace_s *t1, struct p7trace_s *t2)$/;"	f
+TraceDecompose	trace.c	/^TraceDecompose(struct p7trace_s *otr, struct p7trace_s ***ret_tr, int *ret_ntr)$/;"	f
+TraceDomainNumber	trace.c	/^TraceDomainNumber(struct p7trace_s *tr)$/;"	f
+TraceScoreCorrection	masks.c	/^TraceScoreCorrection(struct plan7_s *hmm, struct p7trace_s *tr, char *dsq)$/;"	f
+TraceSet	trace.c	/^TraceSet(struct p7trace_s *tr, int tpos, char type, int idx, int pos)$/;"	f
+TraceSimpleBounds	trace.c	/^TraceSimpleBounds(struct p7trace_s *tr, int *ret_i1, int *ret_i2, $/;"	f
+TraceVerify	debug.c	/^TraceVerify(struct p7trace_s *tr, int M, int N)$/;"	f
+TransitionScoreLookup	trace.c	/^TransitionScoreLookup(struct plan7_s *hmm, char st1, int k1, $/;"	f
+Translate	translate.c	/^Translate(char *seq, char **code)$/;"	f
+USE_HOST_BYTESWAP_FUNCTIONS	squidconf.h	96;"	d
+UnfitHistogram	histogram.c	/^UnfitHistogram(struct histogram_s *h)$/;"	f
+VoronoiWeights	weight.c	/^VoronoiWeights(char **aseq, int nseq, int alen, float *wgt)$/;"	f
+WHITESPACE	squid.h	138;"	d
+WORDS_BIGENDIAN	squidconf.h	84;"	d
+WORST	hsregex.c	290;"	d	file:
+Warn	sqerror.c	/^Warn(char *format, ...)$/;"	f
+WeightedLinefit	sre_math.c	/^WeightedLinefit(float *x, float *y, float *var, int N, float *ret_m, float *ret_b) $/;"	f
+WriteA2M	a2m.c	/^WriteA2M(FILE *fp, MSA *msa)$/;"	f
+WriteAscHMM	hmmio.c	/^WriteAscHMM(FILE *fp, struct plan7_s *hmm)$/;"	f
+WriteBinHMM	hmmio.c	/^WriteBinHMM(FILE *fp, struct plan7_s *hmm)$/;"	f
+WriteClustal	clustal.c	/^WriteClustal(FILE *fp, MSA *msa)$/;"	f
+WriteMSF	msf.c	/^WriteMSF(FILE *fp, MSA *msa)$/;"	f
+WritePairwiseAlignment	alignio.c	/^WritePairwiseAlignment(FILE *ofp,$/;"	f
+WritePhylip	phylip.c	/^WritePhylip(FILE *fp, MSA *msa)$/;"	f
+WriteProfile	emulation.c	/^WriteProfile(FILE *fp, struct plan7_s *hmm, int do_xsw)$/;"	f
+WriteSELEX	selex.c	/^WriteSELEX(FILE *fp, MSA *msa)$/;"	f
+WriteSELEXOneBlock	selex.c	/^WriteSELEXOneBlock(FILE *fp, MSA *msa)$/;"	f
+WriteSeq	sqio.c	/^WriteSeq(FILE *outf, int outform, char *seq, SQINFO *sqinfo)$/;"	f
+WriteSimpleFASTA	sqio.c	/^WriteSimpleFASTA(FILE *fp, char *seq, char *name, char *desc)$/;"	f
+WriteStockholm	stockholm.c	/^WriteStockholm(FILE *fp, MSA *msa)$/;"	f
+WriteStockholmOneBlock	stockholm.c	/^WriteStockholmOneBlock(FILE *fp, MSA *msa)$/;"	f
+XMB	structs.h	255;"	d
+XMC	structs.h	257;"	d
+XME	structs.h	256;"	d
+XMJ	structs.h	258;"	d
+XMN	structs.h	259;"	d
+XNU	masks.c	/^XNU(char *dsq, int len)$/;"	f
+XTC	structs.h	266;"	d
+XTE	structs.h	265;"	d
+XTJ	structs.h	267;"	d
+XTN	structs.h	264;"	d
+Z	structs.h	/^  int   Z;			\/* nseq to base E value calculation on      *\/$/;"	m	struct:threshold_s
+ZeroPlan7	plan7.c	/^ZeroPlan7(struct plan7_s *hmm)$/;"	f
+aa_alphabet	iupac.c	/^char aa_alphabet[] = AMINO_ALPHABET;$/;"	v
+aa_index	iupac.c	/^int  aa_index[20]  = { 0,  2,  3,  4,  5,  6,  7,  8, 10, 11, $/;"	v
+aafq	iupac.c	/^float aafq[20] = {$/;"	v
+acc	msa.h	/^  char  *acc;			\/* accession of alignment   *\/$/;"	m	struct:aliinfo_s
+acc	msa.h	/^  char  *acc;	                \/* accession of alignment, or NULL *\/$/;"	m	struct:msa_struct
+acc	squid.h	/^  char     acc[SQINFO_NAMELEN]; \/* up to 63 char of database accession # *\/$/;"	m	struct:seqinfo_s
+acc	structs.h	/^  char   *acc;			\/* accession of the target          *\/$/;"	m	struct:hit_s
+acc	structs.h	/^  char  *acc;			\/* accession number of model (Pfam)     +*\/$/;"	m	struct:plan7_s
+activate_external_sort	ssi.c	/^activate_external_sort(SSIINDEX *g)$/;"	f	file:
+actually_write_selex	selex.c	/^actually_write_selex(FILE *fp, MSA *msa, int cpl)$/;"	f	file:
+actually_write_stockholm	stockholm.c	/^actually_write_stockholm(FILE *fp, MSA *msa, int cpl)$/;"	f	file:
+addseq	sqio.c	/^addseq(char *s, struct ReadSeqVars *V)$/;"	f	file:
+afp	squid.h	/^  MSAFILE  *afp;$/;"	m	struct:ReadSeqVars
+alen	msa.h	/^  int               alen;	\/* length of alignment (columns)            *\/$/;"	m	struct:aliinfo_s
+alen	msa.h	/^  int    alen;			\/* length of alignment (columns)                *\/$/;"	m	struct:msa_struct
+ali	structs.h	/^  struct fancyali_s  *ali;	\/* ptr to optional alignment info   *\/$/;"	m	struct:hit_s	typeref:struct:hit_s::fancyali_s
+aliinfo_s	msa.h	/^struct aliinfo_s {		$/;"	s
+alloc	structs.h	/^  int            alloc;		\/* current allocation size                  *\/$/;"	m	struct:tophit_s
+alloc_ncomment	msa.h	/^  int     alloc_ncomment;	\/* number of comment lines alloc'ed *\/$/;"	m	struct:msa_struct
+alloc_ngf	msa.h	/^  int     alloc_ngf;		\/* number of gf lines alloc'ed          *\/$/;"	m	struct:msa_struct
+aminos	sqio.c	/^static char *aminos      = "ABCDEFGHIKLMNPQRSTVWXYZ*";$/;"	v	file:
+annotate_model	modelmakers.c	/^annotate_model(struct plan7_s *hmm, int *matassign, MSA *msa)$/;"	f	file:
+argtype	squid.h	/^  int   argtype;		\/* for typechecking, e.g. sqdARG_INT        *\/$/;"	m	struct:opt_s
+ascii2prob	hmmio.c	/^ascii2prob(char *s, float null)$/;"	f	file:
+aseq	msa.h	/^  char **aseq;                  \/* the alignment itself, [0..nseq-1][0..alen-1] *\/$/;"	m	struct:msa_struct
+aseq	structs.h	/^  char *aseq;                   \/* aligned target sequence              *\/$/;"	m	struct:fancyali_s
+au	msa.h	/^  char  *au;			\/* "author" information     *\/$/;"	m	struct:aliinfo_s
+au	msa.h	/^  char  *au;		        \/* "author" information, or NULL *\/$/;"	m	struct:msa_struct
+autocut	structs.h	/^  enum { CUT_NONE, CUT_GA, CUT_NC, CUT_TC } autocut;$/;"	m	struct:threshold_s	typeref:enum:threshold_s::__anon2
+banner	hmmcalibrate.c	/^static char banner[] = "hmmcalibrate -- calibrate HMM search statistics";$/;"	v	file:
+banner	hmmsearch.c	/^static char banner[] = "hmmsearch - search a sequence database with a profile HMM";$/;"	v	file:
+basic_state	structs.h	/^struct basic_state {$/;"	s
+begin	structs.h	/^  float *begin;                 \/* 1..M B->M state transitions              +*\/$/;"	m	struct:plan7_s
+binary_search	ssi.c	/^binary_search(SSIFILE *sfp, char *key, int klen, SSIOFFSET *base, $/;"	f	file:
+bpl	squid.h	/^  int     bpl;			\/* bytes per data line; -1 if unset, 0 if invalid *\/$/;"	m	struct:ReadSeqVars
+bpl	ssi.h	/^  sqd_uint32   *bpl;$/;"	m	struct:ssiindex_s
+bpl	ssi.h	/^  sqd_uint32  *bpl;     	\/* bytes per line in file              *\/$/;"	m	struct:ssifile_s
+bsc	structs.h	/^  int   *bsc;                   \/* begin transitions     [1.M]              -*\/$/;"	m	struct:plan7_s
+bsc_mem	structs.h	/^  int  *tsc_mem, *msc_mem, *isc_mem, *bsc_mem, *esc_mem;$/;"	m	struct:plan7_s
+buf	msa.h	/^  char *buf;			\/* buffer for line input w\/ sre_fgets() *\/$/;"	m	struct:msafile_struct
+buf	squid.h	/^  char   *buf;                  \/* dynamically allocated sre_fgets() buffer *\/$/;"	m	struct:ReadSeqVars
+buflen	msa.h	/^  int   buflen;			\/* current allocated length for buf     *\/$/;"	m	struct:msafile_struct
+buflen	squid.h	/^  int     buflen;               \/* allocation length for buf                *\/$/;"	m	struct:ReadSeqVars
+build_cij	modelmakers.c	/^build_cij(char **aseqs, int nseq, int *insopt, int i, int j,$/;"	f	file:
+byteswap	hmmio.c	/^byteswap(char *swap, int nbytes)$/;"	f	file:
+byteswap	structs.h	/^  int   byteswap;               \/* TRUE if binary and byteswapped               *\/$/;"	m	struct:hmmfile_s
+ca	structs.h	/^  char  *ca;			\/* consensus accessibility line  0..M    *\/$/;"	m	struct:plan7_s
+checksum	structs.h	/^  int    checksum;              \/* checksum of training sequences       +*\/$/;"	m	struct:plan7_s
+chip	structs.h	/^  float  chip;			\/* P value for chisquared             *\/$/;"	m	struct:histogram_s
+chisq	structs.h	/^  float  chisq;			\/* chi-squared val for goodness of fit*\/$/;"	m	struct:histogram_s
+clear_ssifile	ssi.c	/^clear_ssifile(SSIFILE *sfp)$/;"	f	file:
+clust_strategy	squid.h	/^enum clust_strategy { CLUSTER_MEAN, CLUSTER_MAX, CLUSTER_MIN };$/;"	g
+code	squid.h	/^  char       code;		\/* my binary rep *\/$/;"	m	struct:iupactype
+coded_revcomp	seqencode.c	/^coded_revcomp(char *comp, char *seq)$/;"	f
+comlog	structs.h	/^  char  *comlog;		\/* command line(s) that built model     +*\/$/;"	m	struct:plan7_s
+comment	msa.h	/^  char  **comment;              \/* free text comments, or NULL      *\/$/;"	m	struct:msa_struct
+commentsyms	selex.c	/^static char commentsyms[] = "%#";$/;"	v	file:
+comp	hsregex.c	/^struct comp {$/;"	s	file:
+comp	squid.h	/^  char       comp;              \/* binary encoded complement *\/$/;"	m	struct:iupactype
+compare_lists	aligneval.c	/^compare_lists(int *k1, int *k2, int *t1, int *t2, int len1, int len2, float *ret_sc)$/;"	f	file:
+copy_alignment_line	selex.c	/^copy_alignment_line(char *aseq, int apos, int name_rcol, $/;"	f	file:
+cpu0	stopwatch.h	/^  clock_t cpu0;			\/* CPU time, ANSI clock()        *\/$/;"	m	struct:stopwatch_s
+cpu0	stopwatch.h	/^  struct tms cpu0;		\/* CPU\/system time, POSIX times()*\/$/;"	m	struct:stopwatch_s	typeref:struct:stopwatch_s::tms
+cs	msa.h	/^  char             *cs;         \/* consensus secondary structure string     *\/$/;"	m	struct:aliinfo_s
+cs	structs.h	/^  char  *cs;                    \/* consensus structure annotation         *\/         $/;"	m	struct:plan9_s
+cs	structs.h	/^  char  *cs;                    \/* consensus structure line      0..M   +*\/ $/;"	m	struct:plan7_s
+csline	structs.h	/^  char *csline;                 \/* consensus structure info             *\/$/;"	m	struct:fancyali_s
+ctime	structs.h	/^  char  *ctime;			\/* creation date                        +*\/$/;"	m	struct:plan7_s
+current_index_size	ssi.c	/^current_index_size(SSIINDEX *g) $/;"	f	file:
+cutoff	msa.h	/^  float  cutoff[MSA_MAXCUTOFFS];       \/* NC, TC, GA cutoffs propagated to Pfam\/Rfam *\/$/;"	m	struct:msa_struct
+cutoff_is_set	msa.h	/^  int    cutoff_is_set[MSA_MAXCUTOFFS];\/* TRUE if a cutoff is set; else FALSE *\/$/;"	m	struct:msa_struct
+d_off	squid.h	/^  SSIOFFSET d_off;		\/* offset to start of sequence data        *\/$/;"	m	struct:ReadSeqVars
+d_off	ssi.h	/^  SSIOFFSET    d_off;		\/* data offset       *\/$/;"	m	struct:ssipkey_s
+data	squid.h	/^  int                data;$/;"	m	struct:intstack_s
+default_amino_prior	prior.c	/^default_amino_prior(void)$/;"	f	file:
+default_nucleic_prior	prior.c	/^default_nucleic_prior(void)$/;"	f	file:
+del	structs.h	/^  struct basic_state *del;      \/* delete 0..M+1                      *\/$/;"	m	struct:plan9_s	typeref:struct:plan9_s::basic_state
+desc	msa.h	/^  char  *desc;			\/* description of alignment *\/$/;"	m	struct:aliinfo_s
+desc	msa.h	/^  char  *desc;	                \/* description of alignment, or NULL *\/$/;"	m	struct:msa_struct
+desc	squid.h	/^  char     desc[SQINFO_DESCLEN];\/* up to 127 char of description         *\/$/;"	m	struct:seqinfo_s
+desc	structs.h	/^  char   *desc;			\/* description of the target        *\/$/;"	m	struct:hit_s
+desc	structs.h	/^  char  *desc;                  \/* brief description of model           +*\/ $/;"	m	struct:plan7_s
+dhit	hmmsearch.c	/^  struct tophit_s *dhit;        \/* per-domain top hits *\/$/;"	m	struct:workpool_s	typeref:struct:workpool_s::tophit_s	file:
+diff	squid.h	/^  float  diff;			\/* difference score between seqs         *\/$/;"	m	struct:phylo_s
+dmx	structs.h	/^  int **dmx;			\/* delete scores [0.1..N][0.1..M-1.M] *\/$/;"	m	struct:dpmatrix_s
+dmx_mem	structs.h	/^  void *xmx_mem, *mmx_mem, *imx_mem, *dmx_mem;$/;"	m	struct:dpmatrix_s
+dna2	structs.h	/^  int    dna2;			\/* -1 frameshift, doublet emission, M or I -*\/$/;"	m	struct:plan7_s
+dna4	structs.h	/^  int    dna4;			\/* +1 frameshift, doublet emission, M or I -*\/$/;"	m	struct:plan7_s
+dnafq	iupac.c	/^float dnafq[4] = { 0.25, 0.25, 0.25, 0.25 };$/;"	v
+dnai	structs.h	/^  int  **dnai;                  \/* triplet insert scores [0.64][1.M]       -*\/$/;"	m	struct:plan7_s
+dnam	structs.h	/^  int  **dnam;                  \/* triplet match scores  [0.64][1.M]       -*\/$/;"	m	struct:plan7_s
+do_forward	hmmsearch.c	/^  int    do_forward;		\/* TRUE to score using Forward     *\/$/;"	m	struct:workpool_s	file:
+do_gzip	msa.h	/^  int   do_gzip;		\/* TRUE if f is a pipe from gzip -dc (need pclose(f))  *\/$/;"	m	struct:msafile_struct
+do_gzip	squid.h	/^  int     do_gzip;		\/* TRUE if f is a pipe from gzip -dc *\/$/;"	m	struct:ReadSeqVars
+do_null2	hmmsearch.c	/^  int    do_null2;		\/* TRUE to apply null2 ad hoc correction *\/$/;"	m	struct:workpool_s	file:
+do_stdin	msa.h	/^  int   do_stdin;		\/* TRUE if f is stdin (don't close f, not our problem) *\/$/;"	m	struct:msafile_struct
+do_stdin	squid.h	/^  int     do_stdin;		\/* TRUE if f is stdin *\/$/;"	m	struct:ReadSeqVars
+do_xnu	hmmsearch.c	/^  int    do_xnu;		\/* TRUE to apply XNU filter  *\/$/;"	m	struct:workpool_s	file:
+domE	structs.h	/^  double domE;			\/* E parameter for individual domains       *\/$/;"	m	struct:threshold_s
+domT	structs.h	/^  float  domT;			\/* T parameter for individual domains       *\/$/;"	m	struct:threshold_s
+domidx	structs.h	/^  int    domidx;		\/* index of this domain             *\/$/;"	m	struct:hit_s
+downweight	weight.c	/^downweight(struct phylo_s *tree, int nseq, float *lwt, float *rwt, float *fwt, int node)$/;"	f	file:
+dpmatrix_s	structs.h	/^struct dpmatrix_s {$/;"	s
+dpshadow_s	structs.h	/^struct dpshadow_s {$/;"	s
+dtb	structs.h	/^  char **dtb;			\/* delete state traces [0.1..N][0.1..M-1.M] *\/$/;"	m	struct:dpshadow_s
+elapsed	stopwatch.h	/^  double elapsed;		\/* elapsed time, seconds *\/$/;"	m	struct:stopwatch_s
+elems	gsi.h	/^  struct gsikey_s *elems;$/;"	m	struct:gsiindex_s	typeref:struct:gsiindex_s::gsikey_s
+end	structs.h	/^  float *end;                   \/* 1..M M->E state transitions (!= a dist!) +*\/$/;"	m	struct:plan7_s
+endEMBL	sqio.c	/^endEMBL(char *s, int *addend)$/;"	f	file:
+endGB	sqio.c	/^endGB(char *s, int *addend)$/;"	f	file:
+endGCGdata	sqio.c	/^endGCGdata(char *s, int *addend) $/;"	f	file:
+endIG	sqio.c	/^endIG(char *s, int  *addend)$/;"	f	file:
+endPIR	sqio.c	/^endPIR(char *s, int  *addend)$/;"	f	file:
+endPearson	sqio.c	/^endPearson(char *s, int *addend)$/;"	f	file:
+endStrider	sqio.c	/^endStrider(char *s, int *addend)$/;"	f	file:
+endZuker	sqio.c	/^endZuker(char *s, int *addend)$/;"	f	file:
+endp	squid.h	/^	char *endp[NSUBEXP];$/;"	m	struct:sqd_regexp
+esc	structs.h	/^  int   *esc;			\/* end transitions       [1.M]              -*\/$/;"	m	struct:plan7_s
+esc_mem	structs.h	/^  int  *tsc_mem, *msc_mem, *isc_mem, *bsc_mem, *esc_mem;$/;"	m	struct:plan7_s
+esrc	structs.h	/^  int   *esrc;                  \/* E trace is special; must store a M state number 1..M *\/$/;"	m	struct:dpshadow_s
+estimate_model_length	modelmakers.c	/^estimate_model_length(MSA *msa)$/;"	f	file:
+exec	hsregex.c	/^struct exec {$/;"	s	file:
+expect	structs.h	/^  float *expect;		\/* expected counts of hits            *\/$/;"	m	struct:histogram_s
+experts	hmmcalibrate.c	/^static char experts[] = "\\$/;"	v	file:
+experts	hmmsearch.c	/^static char experts[] = "\\$/;"	v	file:
+external	ssi.h	/^  int           external;	\/* TRUE if pkeys and skeys are on disk   *\/$/;"	m	struct:ssiindex_s
+f	msa.h	/^  FILE *f;                      \/* open file pointer                         *\/$/;"	m	struct:msafile_struct
+f	squid.h	/^  FILE   *f;                    \/* open file pointer                  *\/$/;"	m	struct:ReadSeqVars
+f	structs.h	/^  FILE    *f;			\/* pointer to file opened for reading           *\/$/;"	m	struct:hmmfile_s
+fake_tracebacks	modelmakers.c	/^fake_tracebacks(char **aseq, int nseq, int alen, int *matassign,$/;"	f	file:
+fancyali_s	structs.h	/^struct fancyali_s {$/;"	s
+fileflags	ssi.h	/^  sqd_uint32  *fileflags;       \/* optional per-file behavior flags    *\/$/;"	m	struct:ssifile_s
+fileformat	ssi.h	/^  sqd_uint32   *fileformat;$/;"	m	struct:ssiindex_s
+fileformat	ssi.h	/^  sqd_uint32  *fileformat;	\/* file formats                        *\/$/;"	m	struct:ssifile_s
+filename	ssi.h	/^  char       **filename;	\/* list of file names [0..nfiles-1]    *\/$/;"	m	struct:ssifile_s
+filenames	gsi.h	/^  char           **filenames;$/;"	m	struct:gsiindex_s
+filenames	ssi.h	/^  char        **filenames;$/;"	m	struct:ssiindex_s
+filenum	gsi.h	/^  sqd_uint16 filenum;$/;"	m	struct:gsikey_s
+fit_type	structs.h	/^  int    fit_type;		\/* flag indicating distribution type  *\/$/;"	m	struct:histogram_s
+fixedlen	hmmcalibrate.c	/^  int    fixedlen;		\/* if >0, fix random seq len to this   *\/$/;"	m	struct:workpool_s	file:
+flags	msa.h	/^  int               flags;      \/* flags for what info is valid             *\/$/;"	m	struct:aliinfo_s
+flags	msa.h	/^  int    flags;			\/* flags for what optional info is valid    *\/$/;"	m	struct:msa_struct
+flags	squid.h	/^  int      flags;               \/* what extra data are available         *\/$/;"	m	struct:seqinfo_s
+flags	ssi.h	/^  sqd_uint32   flags;		\/* optional behavior flags             *\/$/;"	m	struct:ssifile_s
+flags	structs.h	/^  int    flags;			\/* flags for what optional info is in HMM *\/$/;"	m	struct:plan9_s
+flags	structs.h	/^  int flags;                    \/* bit flags indicating state of HMM, valid data +*\/$/;"	m	struct:plan7_s
+flen	ssi.h	/^  sqd_uint32    flen;		\/* length of longest filename, inc '\\0' *\/$/;"	m	struct:ssiindex_s
+flen	ssi.h	/^  sqd_uint32   flen;		\/* length of filenames (inc '\\0')      *\/$/;"	m	struct:ssifile_s
+fmt	gsi.h	/^  int             *fmt;$/;"	m	struct:gsiindex_s
+fname	msa.h	/^  char *fname;			\/* name of file. used for diagnostic output  *\/$/;"	m	struct:msafile_struct
+fname	squid.h	/^  char   *fname;                \/* name of file; used for diagnostics *\/$/;"	m	struct:ReadSeqVars
+fnum	ssi.h	/^  sqd_uint16   fnum;		\/* file number       *\/$/;"	m	struct:ssipkey_s
+foffset	ssi.h	/^  SSIOFFSET    foffset;		\/* disk offset, start of file records  *\/$/;"	m	struct:ssifile_s
+format	msa.h	/^  int   format;			\/* format of alignment file we're reading *\/$/;"	m	struct:msafile_struct
+format	squid.h	/^  int     format;		\/* format of seqfile we're reading. *\/$/;"	m	struct:ReadSeqVars
+fp	ssi.h	/^  FILE        *fp;		\/* open SSI index file                 *\/$/;"	m	struct:ssifile_s
+frecsize	ssi.h	/^  sqd_uint32   frecsize;	\/* # bytes in a file record            *\/$/;"	m	struct:ssifile_s
+ga1	msa.h	/^  float  ga1, ga2;		\/* gathering cutoffs *\/$/;"	m	struct:aliinfo_s
+ga1	structs.h	/^  float  ga1, ga2;		\/* per-seq\/per-domain gathering thresholds (bits) +*\/$/;"	m	struct:plan7_s
+ga2	msa.h	/^  float  ga1, ga2;		\/* gathering cutoffs *\/$/;"	m	struct:aliinfo_s
+ga2	structs.h	/^  float  ga1, ga2;		\/* per-seq\/per-domain gathering thresholds (bits) +*\/$/;"	m	struct:plan7_s
+gc	msa.h	/^  char  **gc;                   \/* [0..ngc-1][0..alen-1] markup         *\/$/;"	m	struct:msa_struct
+gc_idx	msa.h	/^  GKI    *gc_idx;               \/* hash of #=GC tag types               *\/$/;"	m	struct:msa_struct
+gc_tag	msa.h	/^  char  **gc_tag;               \/* markup tags for unparsed #=GC lines  *\/$/;"	m	struct:msa_struct
+get_wee_midpt	core_algorithms.c	/^get_wee_midpt(struct plan7_s *hmm, char *dsq, int L, $/;"	f	file:
+gf	msa.h	/^  char  **gf;                   \/* annotations for unparsed #=GF lines  *\/$/;"	m	struct:msa_struct
+gf_tag	msa.h	/^  char  **gf_tag;               \/* markup tags for unparsed #=GF lines  *\/$/;"	m	struct:msa_struct
+ghit	hmmsearch.c	/^  struct tophit_s *ghit;        \/* per-sequence top hits *\/$/;"	m	struct:workpool_s	typeref:struct:workpool_s::tophit_s	file:
+gki_alloc	gki.c	/^gki_alloc(int primelevel)$/;"	f	file:
+gki_elem	gki.h	/^struct gki_elem {$/;"	s
+gki_hashvalue	gki.c	/^gki_hashvalue(GKI *hash, char *key)$/;"	f	file:
+gki_primes	gki.c	/^static int gki_primes[]  = { 101, 1009, 10007, 100003 };$/;"	v	file:
+gki_upsize	gki.c	/^gki_upsize(GKI *old)$/;"	f	file:
+globE	structs.h	/^  double globE;			\/* E parameter: keep hits < globE E-value   *\/$/;"	m	struct:threshold_s
+globT	structs.h	/^  float  globT;			\/* T parameter: keep only hits > globT bits *\/$/;"	m	struct:threshold_s
+gr	msa.h	/^  char ***gr;                   \/* [0..ngr][0..nseq-1][0..alen-1] markup *\/$/;"	m	struct:msa_struct
+gr_idx	msa.h	/^  GKI    *gr_idx;               \/* hash of #=GR tag types                *\/$/;"	m	struct:msa_struct
+gr_tag	msa.h	/^  char  **gr_tag;               \/* markup tags for unparsed #=GR lines   *\/$/;"	m	struct:msa_struct
+gs	msa.h	/^  char ***gs;                   \/* [0..ngs-1][0..nseq-1][free text] markup *\/$/;"	m	struct:msa_struct
+gs_idx	msa.h	/^  GKI    *gs_idx;               \/* hash of #=GS tag types                  *\/$/;"	m	struct:msa_struct
+gs_tag	msa.h	/^  char  **gs_tag;               \/* markup tags for unparsed #=GS lines     *\/$/;"	m	struct:msa_struct
+gsi_keysorter	gsi.c	/^gsi_keysorter(const void *k1, const void *k2)$/;"	f	file:
+gsi_s	gsi.h	/^struct gsi_s {$/;"	s
+gsifp	gsi.h	/^  FILE        *gsifp;		\/* open GSI index file            *\/$/;"	m	struct:gsi_s
+gsiindex_s	gsi.h	/^struct gsiindex_s {$/;"	s
+gsikey_s	gsi.h	/^struct gsikey_s {$/;"	s
+highscore	structs.h	/^  int  highscore;		\/* highest active elem has this score *\/$/;"	m	struct:histogram_s
+hist	hmmcalibrate.c	/^  struct histogram_s *hist;     \/* histogram          *\/$/;"	m	struct:workpool_s	typeref:struct:workpool_s::histogram_s	file:
+hist	hmmsearch.c	/^  struct histogram_s *hist;     \/* histogram of scores *\/$/;"	m	struct:workpool_s	typeref:struct:workpool_s::histogram_s	file:
+histogram	structs.h	/^  int *histogram;		\/* counts of hits                     *\/$/;"	m	struct:histogram_s
+histogram_s	structs.h	/^struct histogram_s {$/;"	s
+hit	structs.h	/^  struct hit_s **hit;           \/* array of ptrs to top scoring hits        *\/$/;"	m	struct:tophit_s	typeref:struct:tophit_s::hit_s
+hit_comparison	tophits.c	/^hit_comparison(const void *vh1, const void *vh2)$/;"	f
+hit_s	structs.h	/^struct hit_s {$/;"	s
+hmm	hmmcalibrate.c	/^  struct plan7_s  *hmm;		\/* ptr to single HMM to search with    *\/$/;"	m	struct:workpool_s	typeref:struct:workpool_s::plan7_s	file:
+hmm	hmmsearch.c	/^  struct plan7_s *hmm;		\/* HMM to search with              *\/$/;"	m	struct:workpool_s	typeref:struct:workpool_s::plan7_s	file:
+hmmAMINO	structs.h	65;"	d
+hmmNOTSETYET	structs.h	63;"	d
+hmmNUCLEIC	structs.h	64;"	d
+hmmcalibrate	hmmcalibrate.c	/^hmmcalibrate(int argc, char **argv)$/;"	f
+hmmfile_s	structs.h	/^struct hmmfile_s {$/;"	s
+hmmfrom	structs.h	/^  int    hmmfrom;		\/* start position in HMM (1..M)     *\/$/;"	m	struct:hit_s
+hmmlen	structs.h	/^  int    hmmlen;		\/* length of HMM (M)                *\/$/;"	m	struct:hit_s
+hmmto	structs.h	/^  int    hmmto;			\/* end position in HMM (1..M)       *\/$/;"	m	struct:hit_s
+i	fast_algorithms.c	/^int i[4];$/;"	m	union:__anon4	file:
+i	structs.h	/^  float i[MAXDCHLET][MAXABET];	\/* insert emission terms                     *\/$/;"	m	struct:p7prior_s
+i32	ssi.h	/^    sqd_uint32   i32;           \/* an offset that fseek() can use         *\/$/;"	m	union:ssioffset_s::__anon3
+i64	ssi.h	/^    sqd_uint64   i64;           \/* an offset that e.g. fseeko64() can use *\/$/;"	m	union:ssioffset_s::__anon3
+id	squid.h	/^  char     id[SQINFO_NAMELEN];	\/* up to 63 char of database identifier  *\/$/;"	m	struct:seqinfo_s
+idx	gki.h	/^  int              idx;$/;"	m	struct:gki_elem
+ilogsum_lookup	mathsupport.c	/^static int ilogsum_lookup[LOGSUM_TBL];$/;"	v	file:
+imode	ssi.h	/^  char imode;			\/* mode for index file offsets, 32 v. 64 bit    *\/$/;"	m	struct:ssifile_s
+imode	ssi.h	/^  int           imode;		\/* index mode:    SSI_OFFSET_I32 or _I64 *\/$/;"	m	struct:ssiindex_s
+imx	structs.h	/^  int **imx;			\/* insert scores [0.1..N][0.1..M-1.M] *\/$/;"	m	struct:dpmatrix_s
+imx_mem	structs.h	/^  void *xmx_mem, *mmx_mem, *imx_mem, *dmx_mem;$/;"	m	struct:dpmatrix_s
+incnum	squid.h	/^  int    incnum;                \/* number of seqs included at this node  *\/$/;"	m	struct:phylo_s
+index	msa.h	/^  GKI   *index;		        \/* name ->seqidx hash table *\/$/;"	m	struct:msa_struct
+indexfile_position	ssi.c	/^indexfile_position(SSIFILE *sfp, SSIOFFSET *base, sqd_uint32 len, sqd_uint32 n)$/;"	f	file:
+init_ilogsum	mathsupport.c	/^init_ilogsum(void)$/;"	f	file:
+input_lock	hmmcalibrate.c	/^  pthread_mutex_t input_lock;	\/* a mutex protecting input fields *\/$/;"	m	struct:workpool_s	file:
+input_lock	hmmsearch.c	/^  pthread_mutex_t input_lock;   \/* mutex for locking input        *\/$/;"	m	struct:workpool_s	file:
+ins	structs.h	/^  float **ins;                  \/* insert emissions. ins[1..M-1][0..19] +*\/$/;"	m	struct:plan7_s
+ins	structs.h	/^  struct basic_state *ins;      \/* insert states 0..M+1               *\/$/;"	m	struct:plan9_s	typeref:struct:plan9_s::basic_state
+intstack_s	squid.h	/^struct intstack_s {$/;"	s
+inum	structs.h	/^  int   inum;			\/* number of insert emission Dirichlet mixes *\/$/;"	m	struct:p7prior_s
+ipri	structs.h	/^  int   *ipri;                  \/* which insert mixture prior to use *\/$/;"	m	struct:plan7_s
+iq	structs.h	/^  float iq[MAXDCHLET];		\/* probabilities of inum components          *\/$/;"	m	struct:p7prior_s
+is_binary	structs.h	/^  int   is_binary;		\/* TRUE if format is a binary one               *\/$/;"	m	struct:hmmfile_s
+is_in	squid.h	/^  char  *is_in;                 \/* 0..N-1 flag array, 1 if seq included  *\/$/;"	m	struct:phylo_s
+is_seekable	structs.h	/^  int       is_seekable;	\/* TRUE if we use offsets in this HMM file      *\/$/;"	m	struct:hmmfile_s
+isc	structs.h	/^  int  **isc;                   \/* ins emission scores [0.MAXCODE-1][1.M-1] -*\/$/;"	m	struct:plan7_s
+isc_mem	structs.h	/^  int  *tsc_mem, *msc_mem, *isc_mem, *bsc_mem, *esc_mem;$/;"	m	struct:plan7_s
+isgap	squid.h	140;"	d
+itb	structs.h	/^  char **itb;			\/* insert state traces [0.1..N][0.1..M-1.M] *\/$/;"	m	struct:dpshadow_s
+iupac	iupac.c	/^struct iupactype iupac[] = {$/;"	v	typeref:struct:iupactype
+iupactype	squid.h	/^struct iupactype {$/;"	s
+ivector	fast_algorithms.c	/^} ivector;$/;"	t	typeref:union:__anon4	file:
+kAmino	squid.h	156;"	d
+kDNA	squid.h	154;"	d
+kOtherSeq	squid.h	153;"	d
+kRNA	squid.h	155;"	d
+kStartLength	sqio.c	66;"	d	file:
+key	gki.h	/^  char            *key;$/;"	m	struct:gki_elem
+key	gsi.h	/^  char       key[GSI_KEYSIZE];$/;"	m	struct:gsikey_s
+key	ssi.h	/^  char        *key;             \/* key name          *\/$/;"	m	struct:ssipkey_s
+key	ssi.h	/^  char        *key;             \/* secondary key name  *\/$/;"	m	struct:ssiskey_s
+lambda	structs.h	/^  float  lambda;		\/* EVD lambda   +*\/$/;"	m	struct:plan7_s
+lastbpl	squid.h	/^  int     lastbpl;		\/* bpl on last line seen *\/$/;"	m	struct:ReadSeqVars
+lastidx	msa.h	/^  int    lastidx;		\/* last index we saw; use for guessing next   *\/$/;"	m	struct:msa_struct
+lastrpl	squid.h	/^  int     lastrpl;		\/* rpl on last line seen *\/$/;"	m	struct:ReadSeqVars
+lblen	squid.h	/^  float  lblen;      		\/* left branch length                    *\/$/;"	m	struct:phylo_s
+left	squid.h	/^  int    left;			\/* index of one of the branches, 0..2N-2 *\/$/;"	m	struct:phylo_s
+len	squid.h	/^  int      len;                 \/* length of this seq                    *\/$/;"	m	struct:seqinfo_s
+len	ssi.h	/^  sqd_uint32   len;		\/* sequence length   *\/$/;"	m	struct:ssipkey_s
+len	structs.h	/^  int   len;			\/* length of strings                    *\/$/;"	m	struct:fancyali_s
+lenmean	hmmcalibrate.c	/^  float  lenmean;		\/* mean of Gaussian for random seq len *\/$/;"	m	struct:workpool_s	file:
+lensd	hmmcalibrate.c	/^  float  lensd;			\/* s.d. of Gaussian for random seq len *\/$/;"	m	struct:workpool_s	file:
+linenumber	msa.h	/^  int   linenumber;		\/* what line are we on in the file           *\/$/;"	m	struct:msafile_struct
+linenumber	squid.h	/^  int     linenumber;           \/* what line are we on in the file    *\/$/;"	m	struct:ReadSeqVars
+load_indexfile	ssi.c	/^load_indexfile(SSIFILE *sfp)$/;"	f	file:
+lowscore	structs.h	/^  int  lowscore;		\/* lowest active elem has this score  *\/$/;"	m	struct:histogram_s
+lump	structs.h	/^  int            lump;       	\/* allocation lumpsize                      *\/$/;"	m	struct:tophit_s
+lumpsize	structs.h	/^  int  lumpsize;		\/* when resizing, overalloc by this   *\/$/;"	m	struct:histogram_s
+m	structs.h	/^  float m[MAXDCHLET][MAXABET];  \/* match emission terms per mix component    *\/$/;"	m	struct:p7prior_s
+main	clustal.c	/^main(int argc, char **argv)$/;"	f
+main	getopt.c	/^main(int argc, char **argv)$/;"	f
+main	hmmsearch.c	/^main(int argc, char **argv) $/;"	f
+main	hsregex.c	/^main(int argc, char **argv)$/;"	f
+main	msf.c	/^main(int argc, char **argv)$/;"	f
+main	phylip.c	/^main(int argc, char **argv)$/;"	f
+main	revcomp.c	/^main(void)$/;"	f
+main	shuffle.c	/^main(int argc, char **argv)$/;"	f
+main	sqio.c	/^main(int argc, char **argv)$/;"	f
+main	sre_string.c	/^int main(void)$/;"	f
+main	ssi.c	/^main(int argc, char **argv)$/;"	f
+main	stockholm.c	/^main(int argc, char **argv)$/;"	f
+main_loop_pvm	hmmcalibrate.c	/^main_loop_pvm(struct plan7_s *hmm, int seed, int nsample, int lumpsize,$/;"	f	file:
+main_loop_pvm	hmmsearch.c	/^main_loop_pvm(struct plan7_s *hmm, SQFILE *sqfp, struct threshold_s *thresh, int do_forward,$/;"	f	file:
+main_loop_serial	hmmcalibrate.c	/^main_loop_serial(struct plan7_s *hmm, int seed, int nsample, $/;"	f	file:
+main_loop_serial	hmmsearch.c	/^main_loop_serial(struct plan7_s *hmm, SQFILE *sqfp, struct threshold_s *thresh, int do_forward,$/;"	f	file:
+main_loop_threaded	hmmcalibrate.c	/^main_loop_threaded(struct plan7_s *hmm, int seed, int nsample, $/;"	f	file:
+main_loop_threaded	hmmsearch.c	/^main_loop_threaded(struct plan7_s *hmm, SQFILE *sqfp, struct threshold_s *thresh, int do_forward,$/;"	f	file:
+make_alilist	aligneval.c	/^make_alilist(char *s1, char *s2, int **ret_s1_list, int *ret_listlen)$/;"	f	file:
+make_ref_alilist	aligneval.c	/^make_ref_alilist(int *ref, char *k1, char *k2,$/;"	f	file:
+map	structs.h	/^  int   *map;			\/* map of alignment cols onto model 1..M+*\/$/;"	m	struct:plan7_s
+mat	structs.h	/^  float **mat;                  \/* match emissions.  mat[1..M][0..19]   +*\/ $/;"	m	struct:plan7_s
+mat	structs.h	/^  struct basic_state *mat;      \/* match 0..M+1; 0 = BEGIN, M+1 = END *\/$/;"	m	struct:plan9_s	typeref:struct:plan9_s::basic_state
+matassign2hmm	modelmakers.c	/^matassign2hmm(MSA *msa, char **dsq, int *matassign, $/;"	f	file:
+max	structs.h	/^  int  max;                     \/* last elem of histogram == max      *\/$/;"	m	struct:histogram_s
+max	ucbqsort.c	29;"	d	file:
+maxM	structs.h	/^  int maxM;			\/* alloc'ed for HMM of length M; M+1 cols *\/$/;"	m	struct:dpmatrix_s
+maxN	structs.h	/^  int maxN;			\/* alloc'ed for seq of length N; N+1 rows *\/$/;"	m	struct:dpmatrix_s
+max_ram	ssi.h	/^  int           max_ram;	\/* maximum RAM in MB before switching to external *\/$/;"	m	struct:ssiindex_s
+max_score	hmmcalibrate.c	/^  float          max_score;     \/* maximum score seen *\/$/;"	m	struct:workpool_s	file:
+maxbpl	squid.h	/^  int     maxbpl;		\/* max bpl on any line of the file *\/$/;"	m	struct:ReadSeqVars
+maxrpl	squid.h	/^  int     maxrpl;		\/* max rpl on any line of the file *\/$/;"	m	struct:ReadSeqVars
+maxseq	squid.h	/^  int     maxseq;		\/* current allocation length for seq *\/$/;"	m	struct:ReadSeqVars
+min	structs.h	/^  int  min;			\/* elem 0 of histogram == min         *\/$/;"	m	struct:histogram_s
+min	ucbqsort.c	28;"	d	file:
+mline	structs.h	/^  char *mline;                  \/* "identities", conservation +'s, etc. *\/$/;"	m	struct:fancyali_s
+mmx	structs.h	/^  int **mmx;			\/* match scores [0.1..N][0.1..M]      *\/$/;"	m	struct:dpmatrix_s
+mmx_mem	structs.h	/^  void *xmx_mem, *mmx_mem, *imx_mem, *dmx_mem;$/;"	m	struct:dpmatrix_s
+mnum	structs.h	/^  int   mnum;                   \/* number of mat emission Dirichlet mixtures *\/$/;"	m	struct:p7prior_s
+mode	ssi.h	/^  char mode;			\/* GSI_OFFSET_I32, for example *\/$/;"	m	struct:ssioffset_s
+mode	structs.h	/^  int       mode;		\/* type of offset                               *\/$/;"	m	struct:hmmfile_s
+model	structs.h	/^  char *model;                  \/* aligned query consensus sequence     *\/$/;"	m	struct:fancyali_s
+motherp	structs.h	/^  double motherp;		\/* P-value of whole sequence        *\/$/;"	m	struct:hit_s
+mothersc	structs.h	/^  float  mothersc;		\/* score of whole sequence          *\/$/;"	m	struct:hit_s
+mpri	structs.h	/^  int   *mpri;                  \/* which match mixture prior to use *\/$/;"	m	struct:plan7_s
+mq	structs.h	/^  float mq[MAXDCHLET];          \/* probabilities of mnum components          *\/$/;"	m	struct:p7prior_s
+msa	squid.h	/^  MSA      *msa;$/;"	m	struct:ReadSeqVars
+msa_struct	msa.h	/^typedef struct msa_struct {$/;"	s
+msafile_struct	msa.h	/^typedef struct msafile_struct {$/;"	s
+msc	structs.h	/^  int  **msc;                   \/* match emission scores [0.MAXCODE-1][1.M] -*\/$/;"	m	struct:plan7_s
+msc_mem	structs.h	/^  int  *tsc_mem, *msc_mem, *isc_mem, *bsc_mem, *esc_mem;$/;"	m	struct:plan7_s
+mtb	structs.h	/^  char **mtb;			\/* match state traces [0.1..N][0.1..M]      *\/$/;"	m	struct:dpshadow_s
+mthresh	ucbqsort.c	/^static  int		mthresh;		\/* MTHRESHold in chars *\/$/;"	v	file:
+mu	structs.h	/^  float  mu;			\/* EVD mu       +*\/$/;"	m	struct:plan7_s
+multiline	hmmio.c	/^multiline(FILE *fp, char *pfx, char *s)$/;"	f	file:
+name	msa.h	/^  char  *name;			\/* name of alignment        *\/$/;"	m	struct:aliinfo_s
+name	msa.h	/^  char  *name;             	\/* name of alignment, or NULL *\/$/;"	m	struct:msa_struct
+name	squid.h	/^  char     name[SQINFO_NAMELEN];\/* up to 63 characters of name           *\/$/;"	m	struct:seqinfo_s
+name	squid.h	/^  char *name;			\/* name of option, e.g. "--option1" or "-o" *\/$/;"	m	struct:opt_s
+name	structs.h	/^  char   *name;			\/* name of the target               *\/$/;"	m	struct:hit_s
+name	structs.h	/^  char  *name;                  \/* a name for the HMM                     *\/$/;"	m	struct:plan9_s
+name	structs.h	/^  char  *name;                  \/* name of the model                    +*\/$/;"	m	struct:plan7_s
+nc1	msa.h	/^  float  nc1, nc2;		\/* noise score cutoffs (per-seq, per-domain)   *\/$/;"	m	struct:aliinfo_s
+nc1	structs.h	/^  float  nc1, nc2;		\/* per-seq\/per-domain noise cutoff (bits)         +*\/$/;"	m	struct:plan7_s
+nc2	msa.h	/^  float  nc1, nc2;		\/* noise score cutoffs (per-seq, per-domain)   *\/$/;"	m	struct:aliinfo_s
+nc2	structs.h	/^  float  nc1, nc2;		\/* per-seq\/per-domain noise cutoff (bits)         +*\/$/;"	m	struct:plan7_s
+ncomment	msa.h	/^  int     ncomment;		\/* number of comment lines          *\/$/;"	m	struct:msa_struct
+ndom	structs.h	/^  int    ndom;			\/* total # of domains in this seq   *\/$/;"	m	struct:hit_s
+nfiles	gsi.h	/^  sqd_uint16       nfiles;$/;"	m	struct:gsiindex_s
+nfiles	gsi.h	/^  sqd_uint16   nfiles;		\/* number of files = 16 bit int   *\/$/;"	m	struct:gsi_s
+nfiles	ssi.h	/^  sqd_uint16    nfiles;$/;"	m	struct:ssiindex_s
+nfiles	ssi.h	/^  sqd_uint16   nfiles;		\/* number of files = 16 bit int        *\/$/;"	m	struct:ssifile_s
+ngc	msa.h	/^  int     ngc;                  \/* number of #=GC tag types             *\/$/;"	m	struct:msa_struct
+ngf	msa.h	/^  int     ngf;			\/* number of unparsed #=GF lines        *\/$/;"	m	struct:msa_struct
+ngr	msa.h	/^  int     ngr;			\/* number of #=GR tag types              *\/$/;"	m	struct:msa_struct
+ngs	msa.h	/^  int     ngs;                  \/* number of #=GS tag types                *\/$/;"	m	struct:msa_struct
+nhash	gki.h	/^  int nhash;$/;"	m	struct:__anon1
+nkeys	gki.h	/^  int nkeys;$/;"	m	struct:__anon1
+nkeys	gsi.h	/^  int              nkeys;$/;"	m	struct:gsiindex_s
+nodeidx	structs.h	/^  int  *nodeidx;                \/* index of aligned node, 1..M (if M,D,I), or 0 *\/$/;"	m	struct:p7trace_s
+nprimary	ssi.h	/^  sqd_uint32         nprimary;$/;"	m	struct:ssiindex_s
+nprimary	ssi.h	/^  sqd_uint32   nprimary;	\/* number of primary keys              *\/$/;"	m	struct:ssifile_s
+nsample	hmmcalibrate.c	/^  int    nsample;		\/* number of random seqs to do         *\/$/;"	m	struct:workpool_s	file:
+nsecondary	ssi.h	/^  sqd_uint32         nsecondary;$/;"	m	struct:ssiindex_s
+nsecondary	ssi.h	/^  sqd_uint32   nsecondary;	\/* number of secondary keys            *\/$/;"	m	struct:ssifile_s
+nseq	hmmcalibrate.c	/^  int    nseq;			\/* current number of seqs searched     *\/$/;"	m	struct:workpool_s	file:
+nseq	hmmsearch.c	/^  int nseq;			\/* number of seqs searched so far *\/$/;"	m	struct:workpool_s	file:
+nseq	msa.h	/^  int               nseq;       \/* number of seqs in alignment              *\/$/;"	m	struct:aliinfo_s
+nseq	msa.h	/^  int    nseq;			\/* number of seqs in alignment                  *\/$/;"	m	struct:msa_struct
+nseq	structs.h	/^  int    nseq;			\/* number of training sequences         +*\/$/;"	m	struct:plan7_s
+nseqalloc	msa.h	/^  int    nseqalloc;		\/* number of seqs currently allocated for   *\/$/;"	m	struct:msa_struct
+nseqlump	msa.h	/^  int    nseqlump;		\/* lump size for dynamic expansions of nseq *\/$/;"	m	struct:msa_struct
+ntmatch	squid.h	320;"	d
+null	structs.h	/^  float  null[MAXABET];         \/* "random sequence" emission prob's     +*\/$/;"	m	struct:plan7_s
+null	structs.h	/^  float  null[MAXABET];         \/* the *suggested* null model         *\/$/;"	m	struct:plan9_s
+num	structs.h	/^  int            num;		\/* number of hits in list now               *\/$/;"	m	struct:tophit_s
+num_threads	hmmcalibrate.c	/^  int             num_threads;  \/* number of threads   *\/$/;"	m	struct:workpool_s	file:
+num_threads	hmmsearch.c	/^  int        num_threads;       \/* number of threads   *\/$/;"	m	struct:workpool_s	file:
+nxt	gki.h	/^  struct gki_elem *nxt;$/;"	m	struct:gki_elem	typeref:struct:gki_elem::gki_elem
+nxt	squid.h	/^  struct intstack_s *nxt;$/;"	m	struct:intstack_s	typeref:struct:intstack_s::intstack_s
+off	ssi.h	/^  } off;$/;"	m	struct:ssioffset_s	typeref:union:ssioffset_s::__anon3
+offset	gsi.h	/^  sqd_uint32 offset;$/;"	m	struct:gsikey_s
+offset	structs.h	/^  SSIOFFSET offset;		\/* Disk offset for beginning of the current HMM *\/$/;"	m	struct:hmmfile_s
+olen	squid.h	/^  int      olen;                \/* original length of source seq         *\/$/;"	m	struct:seqinfo_s
+opt_s	squid.h	/^struct opt_s {$/;"	s
+output_lock	hmmcalibrate.c	/^  pthread_mutex_t output_lock;  \/* a mutex protecting output fields *\/$/;"	m	struct:workpool_s	file:
+output_lock	hmmsearch.c	/^  pthread_mutex_t output_lock;  \/* mutex for locking output *\/$/;"	m	struct:workpool_s	file:
+p	structs.h	/^  float p[MAXABET];            	\/* symbol emission probabilities         *\/$/;"	m	struct:basic_state
+p1	structs.h	/^  float  p1;                    \/* null model loop probability           +*\/$/;"	m	struct:plan7_s
+p7_construction	structs.h	/^enum p7_construction {$/;"	g
+p7_param	structs.h	/^enum p7_param {$/;"	g
+p7prior_s	structs.h	/^struct p7prior_s {$/;"	s
+p7trace_s	structs.h	/^struct p7trace_s {$/;"	s
+padM	structs.h	/^  int padM;			\/* extra pad in HMM length\/columns   *\/$/;"	m	struct:dpmatrix_s
+padN	structs.h	/^  int padN;			\/* extra pad in sequence length\/rows *\/$/;"	m	struct:dpmatrix_s
+param	structs.h	/^  float  param[3];		\/* parameters used for fits           *\/$/;"	m	struct:histogram_s
+parent	squid.h	/^  int    parent;                \/* index of parent, N..2N-2, or -1 for root *\/$/;"	m	struct:phylo_s
+parse_comment	stockholm.c	/^parse_comment(MSA *msa, char *buf)$/;"	f	file:
+parse_gc	stockholm.c	/^parse_gc(MSA *msa, char *buf)$/;"	f	file:
+parse_gf	stockholm.c	/^parse_gf(MSA *msa, char *buf)$/;"	f	file:
+parse_gr	stockholm.c	/^parse_gr(MSA *msa, char *buf)$/;"	f	file:
+parse_gs	stockholm.c	/^parse_gs(MSA *msa, char *buf)$/;"	f	file:
+parse_pkey_info	ssi.c	/^parse_pkey_info(char *buf, char mode, struct ssipkey_s *pkey)$/;"	f	file:
+parse_sequence	stockholm.c	/^parse_sequence(MSA *msa, char *buf)$/;"	f	file:
+parse_skey_info	ssi.c	/^parse_skey_info(char *buf, struct ssiskey_s *skey)$/;"	f	file:
+parser	structs.h	/^  int (*parser)(struct hmmfile_s *, struct plan7_s **);  \/* parsing function    *\/$/;"	m	struct:hmmfile_s
+phylo_s	squid.h	/^struct phylo_s {$/;"	s
+pkey	ssi.h	/^  char        *pkey;            \/* primary key name    *\/ $/;"	m	struct:ssiskey_s
+pkeys	ssi.h	/^  struct ssipkey_s *pkeys;$/;"	m	struct:ssiindex_s	typeref:struct:ssiindex_s::ssipkey_s
+pkeysort	ssi.c	/^pkeysort(const void *k1, const void *k2)$/;"	f	file:
+plan7_s	structs.h	/^struct plan7_s {$/;"	s
+plan9_s	structs.h	/^struct plan9_s {$/;"	s
+plen	ssi.h	/^  sqd_uint32         plen;	\/* length of longest pkey, including '\\0' *\/$/;"	m	struct:ssiindex_s
+plen	ssi.h	/^  sqd_uint32   plen;		\/* length of primary keys (inc '\\0')   *\/$/;"	m	struct:ssifile_s
+poffset	ssi.h	/^  SSIOFFSET    poffset;		\/* disk offset, start of pri key recs  *\/$/;"	m	struct:ssifile_s
+pos	structs.h	/^  int  *pos;                    \/* position in dsq, 1..L, or 0 if none          *\/ $/;"	m	struct:p7trace_s
+precsize	ssi.h	/^  sqd_uint32   precsize;	\/* # bytes in a primary key record     *\/$/;"	m	struct:ssifile_s
+primelevel	gki.h	/^  int primelevel;$/;"	m	struct:__anon1
+primenuc	sqio.c	/^static char *primenuc    = "ACGTUN";$/;"	v	file:
+print_matassign	modelmakers.c	/^print_matassign(int *matassign, int alen)$/;"	f	file:
+printivec	fast_algorithms.c	/^void printivec(vector signed int z)$/;"	f
+prob2ascii	hmmio.c	/^prob2ascii(float p, float null)$/;"	f	file:
+program	squid.h	/^	char program[1];	\/* Unwarranted chumminess with compiler. *\/$/;"	m	struct:sqd_regexp
+protonly	sqio.c	/^static char *protonly    = "EFIPQZ";$/;"	v	file:
+ptmp	ssi.h	/^  FILE              *ptmp;	\/* handle on open ptmpfile *\/$/;"	m	struct:ssiindex_s
+ptmpfile	ssi.h	/^  char              *ptmpfile;	\/* name of tmp file, for external sort mode *\/$/;"	m	struct:ssiindex_s
+pvalue	structs.h	/^  double pvalue;		\/* P-value of the hit               *\/$/;"	m	struct:hit_s
+qcmp	ucbqsort.c	/^static  int		(*qcmp)();		\/* the comparison routine *\/$/;"	v	file:
+qst	ucbqsort.c	/^qst(char *base, char* max)                 \/* changed Kaivalya\/RRH 8\/19\/03 *\/$/;"	f	file:
+qsz	ucbqsort.c	/^static  long		qsz;			\/* size of each record *\/$/;"	v	file:
+query	structs.h	/^  char *query;			\/* name of query HMM                    *\/$/;"	m	struct:fancyali_s
+r_off	squid.h	/^  SSIOFFSET r_off;		\/* offset to start of record               *\/$/;"	m	struct:ReadSeqVars
+r_off	ssi.h	/^  SSIOFFSET    r_off;		\/* record offset     *\/$/;"	m	struct:ssipkey_s
+randomseq	hmmcalibrate.c	/^  float *randomseq;             \/* 0..Alphabet_size-1 i.i.d. probs     *\/$/;"	m	struct:workpool_s	file:
+rblen	squid.h	/^  float  rblen;                 \/* right branch length                   *\/$/;"	m	struct:phylo_s
+readEMBL	sqio.c	/^readEMBL(struct ReadSeqVars *V)$/;"	f	file:
+readGCGdata	sqio.c	/^readGCGdata(struct ReadSeqVars *V)$/;"	f	file:
+readGenBank	sqio.c	/^readGenBank(struct ReadSeqVars *V)$/;"	f	file:
+readIG	sqio.c	/^readIG(struct ReadSeqVars *V)$/;"	f	file:
+readLoop	sqio.c	/^readLoop(int addfirst, int (*endTest)(char *,int *), struct ReadSeqVars *V)$/;"	f	file:
+readPIR	sqio.c	/^readPIR(struct ReadSeqVars *V)$/;"	f	file:
+readPearson	sqio.c	/^readPearson(struct ReadSeqVars *V)$/;"	f	file:
+readStrider	sqio.c	/^readStrider(struct ReadSeqVars *V)$/;"	f	file:
+readUWGCG	sqio.c	/^readUWGCG(struct ReadSeqVars *V)$/;"	f	file:
+readZuker	sqio.c	/^readZuker(struct ReadSeqVars *V)$/;"	f	file:
+read_asc10hmm	hmmio.c	/^read_asc10hmm(HMMFILE *hmmfp, struct plan7_s **ret_hmm)$/;"	f	file:
+read_asc11hmm	hmmio.c	/^read_asc11hmm(HMMFILE *hmmfp, struct plan7_s **ret_hmm)$/;"	f	file:
+read_asc17hmm	hmmio.c	/^read_asc17hmm(HMMFILE *hmmfp, struct plan7_s **ret_hmm)$/;"	f	file:
+read_asc19hmm	hmmio.c	/^read_asc19hmm(HMMFILE *hmmfp, struct plan7_s **ret_hmm)$/;"	f	file:
+read_asc20hmm	hmmio.c	/^read_asc20hmm(HMMFILE *hmmfp, struct plan7_s **ret_hmm) $/;"	f	file:
+read_bin10hmm	hmmio.c	/^read_bin10hmm(HMMFILE *hmmfp, struct plan7_s **ret_hmm)$/;"	f	file:
+read_bin11hmm	hmmio.c	/^read_bin11hmm(HMMFILE *hmmfp, struct plan7_s **ret_hmm)$/;"	f	file:
+read_bin17hmm	hmmio.c	/^read_bin17hmm(HMMFILE *hmmfp, struct plan7_s **ret_hmm)$/;"	f	file:
+read_bin19hmm	hmmio.c	/^read_bin19hmm(HMMFILE *hmmfp, struct plan7_s **ret_hmm)$/;"	f	file:
+read_bin20hmm	hmmio.c	/^read_bin20hmm(HMMFILE *hmmfp, struct plan7_s **ret_hmm)$/;"	f	file:
+read_bin_string	hmmio.c	/^read_bin_string(FILE *fp, int doswap, char **ret_s)$/;"	f	file:
+read_i16	ssi.c	/^read_i16(FILE *fp, sqd_uint16 *ret_result)$/;"	f	file:
+read_i32	ssi.c	/^read_i32(FILE *fp, sqd_uint32 *ret_result)$/;"	f	file:
+read_i64	ssi.c	/^read_i64(FILE *fp, sqd_uint64 *ret_result)$/;"	f	file:
+read_offset	ssi.c	/^read_offset(FILE *fp, char mode, SSIOFFSET *ret_offset)$/;"	f	file:
+read_plan9_aschmm	hmmio.c	/^read_plan9_aschmm(FILE *fp, int version)$/;"	f	file:
+read_plan9_binhmm	hmmio.c	/^read_plan9_binhmm(FILE *fp, int version, int swapped)$/;"	f	file:
+recnum	gsi.h	/^  sqd_uint32   recnum;		\/* number of records = 32 bit int *\/$/;"	m	struct:gsi_s
+ref	structs.h	/^  char  *ref;			\/* reference coords and annotation        *\/$/;"	m	struct:plan9_s
+reg	hsregex.c	/^reg(cp, paren, flagp)$/;"	f	file:
+reganch	squid.h	/^	char reganch;		\/* Internal use only. *\/$/;"	m	struct:sqd_regexp
+regatom	hsregex.c	/^regatom(cp, flagp)$/;"	f	file:
+regbol	hsregex.c	/^	char *regbol;		\/* Beginning of input, for ^ check. *\/$/;"	m	struct:exec	file:
+regbranch	hsregex.c	/^regbranch(cp, flagp)$/;"	f	file:
+regc	hsregex.c	/^regc(cp, b)$/;"	f	file:
+regcode	hsregex.c	/^	char *regcode;		\/* Code-emit pointer; &regdummy = don't. *\/$/;"	m	struct:comp	file:
+regdummy	hsregex.c	/^	char regdummy[3];	\/* NOTHING, 0 next ptr *\/$/;"	m	struct:comp	file:
+regdump	hsregex.c	/^regdump(r)$/;"	f
+regendp	hsregex.c	/^	char **regendp;		\/* Ditto for endp. *\/$/;"	m	struct:exec	file:
+reginput	hsregex.c	/^	char *reginput;		\/* String-input pointer. *\/$/;"	m	struct:exec	file:
+reginsert	hsregex.c	/^reginsert(cp, op, opnd)$/;"	f	file:
+regmatch	hsregex.c	/^regmatch(ep, prog)$/;"	f	file:
+regmlen	squid.h	/^	int regmlen;		\/* Internal use only. *\/$/;"	m	struct:sqd_regexp
+regmust	squid.h	/^	char *regmust;		\/* Internal use only. *\/$/;"	m	struct:sqd_regexp
+regnarrate	hsregex.c	/^int regnarrate = 0;$/;"	v
+regnext	hsregex.c	/^regnext(p)$/;"	f	file:
+regnode	hsregex.c	/^regnode(cp, op)$/;"	f	file:
+regnpar	hsregex.c	/^	int regnpar;		\/* () count. *\/$/;"	m	struct:comp	file:
+regoptail	hsregex.c	/^regoptail(cp, p, val)$/;"	f	file:
+regparse	hsregex.c	/^	char *regparse;		\/* Input-scan pointer. *\/$/;"	m	struct:comp	file:
+regpiece	hsregex.c	/^regpiece(cp, flagp)$/;"	f	file:
+regprop	hsregex.c	/^regprop(op)$/;"	f	file:
+regrepeat	hsregex.c	/^regrepeat(ep, node)$/;"	f	file:
+regsize	hsregex.c	/^	long regsize;		\/* Code size. *\/$/;"	m	struct:comp	file:
+regstart	squid.h	/^	char regstart;		\/* Internal use only. *\/$/;"	m	struct:sqd_regexp
+regstartp	hsregex.c	/^	char **regstartp;	\/* Pointer to startp array. *\/$/;"	m	struct:exec	file:
+regtail	hsregex.c	/^regtail(cp, p, val)$/;"	f	file:
+regtry	hsregex.c	/^regtry(ep, prog, string)$/;"	f	file:
+revcomp	revcomp.c	/^revcomp(char *comp, char *seq)$/;"	f
+rf	msa.h	/^  char             *rf;         \/* reference coordinate system              *\/$/;"	m	struct:aliinfo_s
+rf	msa.h	/^  char  *rf;                    \/* reference coordinate system, or NULL *\/$/;"	m	struct:msa_struct
+rf	structs.h	/^  char  *rf;                    \/* reference line from alignment 0..M   +*\/$/;"	m	struct:plan7_s
+rfline	structs.h	/^  char *rfline;                 \/* reference coord info                 *\/$/;"	m	struct:fancyali_s
+right	squid.h	/^  int    right;			\/* index of other branch, 0..2N-2        *\/$/;"	m	struct:phylo_s
+rightjustify	trace.c	/^rightjustify(char *s, int n)$/;"	f	file:
+rkcomp	rk.c	/^rkcomp(char *probe)               \/* A,C,G,T\/U, N probe string, 0-8 nt long *\/$/;"	f
+rkseq	rk.c	/^rkseq(Hashseq   hashprobe,	\/* up to 8 nt packed into the probe *\/$/;"	f
+rpl	squid.h	/^  int     rpl;			\/* residues per data line for this file; -1 if unset, 0 if invalid *\/$/;"	m	struct:ReadSeqVars
+rpl	ssi.h	/^  sqd_uint32   *rpl;$/;"	m	struct:ssiindex_s
+rpl	ssi.h	/^  sqd_uint32  *rpl;     	\/* residues per line in file           *\/$/;"	m	struct:ssifile_s
+s2lower	sre_string.c	/^s2lower(char *s)$/;"	f
+s2upper	sre_string.c	/^s2upper(char *s)$/;"	f
+sa	msa.h	/^  char **sa;                    \/* per-seq surface accessibility annotation, or NULL *\/$/;"	m	struct:msa_struct
+sa	squid.h	/^  char    *sa;			\/* 0..len-1 % side chain surface access. *\/$/;"	m	struct:seqinfo_s
+sa_cons	msa.h	/^  char  *sa_cons;               \/* consensus surface accessibility string, or NULL *\/$/;"	m	struct:msa_struct
+salen	msa.h	/^  int   *salen;                 \/* individual sa lengths during parsing       *\/$/;"	m	struct:msa_struct
+score	structs.h	/^  float  score;			\/* score of the hit                 *\/$/;"	m	struct:hit_s
+score2postcode	postprob.c	/^score2postcode(int sc)$/;"	f	file:
+seq	squid.h	/^  char   *seq;                  \/* growing sequence during parse *\/$/;"	m	struct:ReadSeqVars
+seqcmp	seqencode.c	/^seqcmp(char *s1, char *s2, int allow)$/;"	f
+seqdecode	seqencode.c	/^seqdecode(char *str, char *codeseq)$/;"	f
+seqencode	seqencode.c	/^seqencode(char *codeseq, \/* pre-allocated space for answer *\/$/;"	f
+seqfile_open	sqio.c	/^seqfile_open(char *filename, int format, char *env, int ssimode)$/;"	f	file:
+seqinfo_s	squid.h	/^struct seqinfo_s {$/;"	s
+seqlen	squid.h	/^  int     seqlen;		\/* current sequence length *\/$/;"	m	struct:ReadSeqVars
+seqncmp	seqencode.c	/^seqncmp(char *s1, char *s2, int n, int allow)$/;"	f
+seqndecode	seqencode.c	/^seqndecode($/;"	f
+set_degenerate	alphabet.c	/^set_degenerate(char iupac, char *syms)$/;"	f	file:
+simple_diffmx	weight.c	/^simple_diffmx(char    **aseqs,$/;"	f	file:
+simple_distance	weight.c	/^simple_distance(char *s1, char *s2)$/;"	f	file:
+single	squid.h	/^  int   single;			\/* TRUE if a single letter option           *\/$/;"	m	struct:opt_s
+skeys	ssi.h	/^  struct ssiskey_s *skeys;$/;"	m	struct:ssiindex_s	typeref:struct:ssiindex_s::ssiskey_s
+skeysort	ssi.c	/^skeysort(const void *k1, const void *k2)$/;"	f	file:
+slen	ssi.h	/^  sqd_uint32         slen;	\/* length of longest skey, including '\\0' *\/$/;"	m	struct:ssiindex_s
+slen	ssi.h	/^  sqd_uint32   slen;		\/* length of secondary keys (inc '\\0') *\/$/;"	m	struct:ssifile_s
+smode	ssi.h	/^  char smode;			\/* mode for sequence file offsets, 32 v. 64 bit *\/$/;"	m	struct:ssifile_s
+smode	ssi.h	/^  int           smode;		\/* sequence mode: SSI_OFFSET_I32 or _I64 *\/$/;"	m	struct:ssiindex_s
+soffset	ssi.h	/^  SSIOFFSET    soffset;		\/* disk offset, start of sec key recs  *\/$/;"	m	struct:ssifile_s
+sortkey	structs.h	/^  double sortkey;		\/* number to sort by; big is better *\/$/;"	m	struct:hit_s
+sp	squid.h	/^  char   *sp;$/;"	m	struct:ReadSeqVars
+specqsort	ucbqsort.c	/^void specqsort(base, n, size, compar)$/;"	f
+sqacc	msa.h	/^  char **sqacc;			\/* accession numbers for individual sequences *\/$/;"	m	struct:msa_struct
+sqdARG_CHAR	squid.h	339;"	d
+sqdARG_FLOAT	squid.h	338;"	d
+sqdARG_INT	squid.h	337;"	d
+sqdARG_NONE	squid.h	336;"	d
+sqdARG_STRING	squid.h	340;"	d
+sqd_parse	hsregex.c	/^char *sqd_parse[10];$/;"	v
+sqd_regcomp	hsregex.c	/^sqd_regcomp(exp)$/;"	f
+sqd_regerror	hsregex.c	/^sqd_regerror(s)$/;"	f
+sqd_regexec	hsregex.c	/^sqd_regexec(prog, str)$/;"	f
+sqd_regexp	squid.h	/^typedef struct sqd_regexp {$/;"	s
+sqd_regexp	squid.h	/^} sqd_regexp;$/;"	t	typeref:struct:sqd_regexp
+sqd_regsub	hsregex.c	/^sqd_regsub(rp, source, dest)$/;"	f
+sqd_uint16	squid.h	/^typedef unsigned short     sqd_uint16;$/;"	t
+sqd_uint32	squid.h	/^typedef unsigned int       sqd_uint32;$/;"	t
+sqd_uint64	squid.h	/^typedef unsigned long long sqd_uint64;$/;"	t
+sqdesc	msa.h	/^  char **sqdesc;		\/* description lines for individual sequences *\/$/;"	m	struct:msa_struct
+sqfp	hmmsearch.c	/^  SQFILE *sqfp;                 \/* ptr to open sequence file      *\/$/;"	m	struct:workpool_s	file:
+sqfrom	structs.h	/^  int    sqfrom;		\/* start position in seq (1..N)     *\/$/;"	m	struct:hit_s
+sqfrom	structs.h	/^  int   sqfrom;			\/* start position on sequence (1..L)    *\/$/;"	m	struct:fancyali_s
+sqinfo	msa.h	/^  struct seqinfo_s *sqinfo;     \/* name, id, coord info for each sequence   *\/$/;"	m	struct:aliinfo_s	typeref:struct:aliinfo_s::seqinfo_s
+sqinfo	squid.h	/^  SQINFO *sqinfo;	        \/* name, id, etc, gathered during parse *\/$/;"	m	struct:ReadSeqVars
+sqlen	msa.h	/^  int   *sqlen;                 \/* individual sequence lengths during parsing *\/$/;"	m	struct:msa_struct
+sqlen	structs.h	/^  int    sqlen;			\/* length of sequence (N)           *\/$/;"	m	struct:hit_s
+sqname	msa.h	/^  char **sqname;                \/* names of sequences, [0..nseq-1][0..alen-1]   *\/$/;"	m	struct:msa_struct
+sqto	structs.h	/^  int    sqto;			\/* end position in seq (1..N)       *\/$/;"	m	struct:hit_s
+sqto	structs.h	/^  int   sqto;		        \/* end position on sequence   (1..L)    *\/$/;"	m	struct:fancyali_s
+squid_errno	sqerror.c	/^int squid_errno;		\/* a global errno equivalent *\/$/;"	v
+sreEXP2	structs.h	32;"	d
+sreLOG2	structs.h	31;"	d
+sre_fgets	sre_string.c	/^sre_fgets(char **buf, int *n, FILE *fp)$/;"	f
+sre_hton16	squid.h	49;"	d
+sre_hton16	types.c	/^sre_hton16(sqd_uint16 hostshort)$/;"	f
+sre_hton32	squid.h	50;"	d
+sre_hton32	types.c	/^sre_hton32(sqd_uint32 hostlong)$/;"	f
+sre_hton64	types.c	/^sre_hton64(sqd_uint64 host_int64)$/;"	f
+sre_malloc	sre_string.c	/^sre_malloc(char *file, int line, size_t size)$/;"	f
+sre_ntoh16	squid.h	47;"	d
+sre_ntoh16	types.c	/^sre_ntoh16(sqd_uint16 netshort)$/;"	f
+sre_ntoh32	squid.h	48;"	d
+sre_ntoh32	types.c	/^sre_ntoh32(sqd_uint32 netlong)$/;"	f
+sre_ntoh64	types.c	/^sre_ntoh64(sqd_uint64 net_int64)$/;"	f
+sre_random	sre_random.c	/^sre_random(void)$/;"	f
+sre_random_positive	sre_random.c	/^sre_random_positive(void)$/;"	f
+sre_randseed	sre_random.c	/^static int sre_randseed = 42;	\/* default seed for sre_random()   *\/$/;"	v	file:
+sre_realloc	sre_string.c	/^sre_realloc(char *file, int line, void *p, size_t size)$/;"	f
+sre_srandom	sre_random.c	/^sre_srandom(int seed)$/;"	f
+sre_strcat	sre_string.c	/^sre_strcat(char **dest, int ldest, char *src, int lsrc)$/;"	f
+sre_strdup	sre_string.c	/^sre_strdup(char *s, int n)$/;"	f
+sre_strncpy	sre_string.c	/^sre_strncpy(char *s1, char *s2, int n)$/;"	f
+sre_strtok	sre_string.c	/^sre_strtok(char **s, char *delim, int *len)$/;"	f
+sre_tolower	sre_ctype.c	/^sre_tolower(int c)$/;"	f
+sre_toupper	sre_ctype.c	/^sre_toupper(int c)$/;"	f
+srecsize	ssi.h	/^  sqd_uint32   srecsize;	\/* # bytes in a secondary key record   *\/$/;"	m	struct:ssifile_s
+ss	msa.h	/^  char **ss;                    \/* per-seq secondary structure annotation, or NULL *\/$/;"	m	struct:msa_struct
+ss	squid.h	/^  char    *ss;                  \/* 0..len-1 secondary structure string   *\/$/;"	m	struct:seqinfo_s
+ss_cons	msa.h	/^  char  *ss_cons;		\/* consensus secondary structure string, or NULL *\/$/;"	m	struct:msa_struct
+ssi	msa.h	/^  SSIFILE *ssi;		        \/* open SSI index file; or NULL, if none. *\/$/;"	m	struct:msafile_struct
+ssi	structs.h	/^  SSIFILE *ssi;			\/* pointer to open SSI index, or NULL           *\/$/;"	m	struct:hmmfile_s
+ssifile_s	ssi.h	/^struct ssifile_s {$/;"	s
+ssiindex_s	ssi.h	/^struct ssiindex_s {$/;"	s
+ssimode	squid.h	/^  int       ssimode;		\/* SSI_OFFSET_I32 or SSI_OFFSET_I64        *\/$/;"	m	struct:ReadSeqVars
+ssioffset	squid.h	/^  SSIOFFSET ssioffset;		\/* disk offset to last line read into buf  *\/$/;"	m	struct:ReadSeqVars
+ssioffset_s	ssi.h	/^struct ssioffset_s {$/;"	s
+ssipkey_s	ssi.h	/^struct ssipkey_s {		\/* Primary key data: *\/$/;"	s
+ssiskey_s	ssi.h	/^struct ssiskey_s {		\/* Secondary key data: *\/$/;"	s
+sslen	msa.h	/^  int   *sslen;                 \/* individual ss lengths during parsing       *\/$/;"	m	struct:msa_struct
+start	squid.h	/^  int      start;		\/* (1..len) start position on source seq *\/$/;"	m	struct:seqinfo_s
+startp	squid.h	/^	char *startp[NSUBEXP];$/;"	m	struct:sqd_regexp
+statetype	structs.h	/^  char *statetype;              \/* state type used for alignment                *\/$/;"	m	struct:p7trace_s
+stdcode1	iupac.c	/^char *stdcode1[65] = {$/;"	v
+stdcode3	iupac.c	/^char *stdcode3[65] = {$/;"	v
+stmp	ssi.h	/^  FILE              *stmp;	\/* handle on open ptmpfile *\/$/;"	m	struct:ssiindex_s
+stmpfile	ssi.h	/^  char              *stmpfile;	\/* name of tmp file, for external sort mode *\/$/;"	m	struct:ssiindex_s
+stop	squid.h	/^  int      stop;                \/* (1..len) end position on source seq   *\/$/;"	m	struct:seqinfo_s
+stopwatch_s	stopwatch.h	/^struct stopwatch_s {$/;"	s
+strategy	structs.h	/^  int   strategy;               \/* PRI_DCHLET, etc.                          *\/$/;"	m	struct:p7prior_s
+strtoull	squidconf.h	104;"	d
+sym	squid.h	/^  char       sym;		\/* character representation *\/$/;"	m	struct:iupactype
+symcomp	squid.h	/^  char       symcomp;           \/* complement (regular char *\/$/;"	m	struct:iupactype
+sys	stopwatch.h	/^  double sys;			\/* system time, seconds *\/$/;"	m	struct:stopwatch_s
+t	structs.h	/^  float **t;                    \/* transition prob's. t[1..M-1][0..6]   +*\/$/;"	m	struct:plan7_s
+t	structs.h	/^  float t[3];			\/* state transitions to +1 M, +0 I, +1 D *\/$/;"	m	struct:basic_state
+t	structs.h	/^  float t[MAXDCHLET][7];        \/* transition terms per mix component        *\/$/;"	m	struct:p7prior_s
+t0	stopwatch.h	/^  time_t t0;			\/* Wall clock time, ANSI time()  *\/$/;"	m	struct:stopwatch_s
+table	gki.h	/^  struct gki_elem **table;$/;"	m	struct:__anon1	typeref:struct:__anon1::gki_elem
+target	structs.h	/^  char *target;			\/* name of target sequence              *\/$/;"	m	struct:fancyali_s
+tbd1	structs.h	/^  float   tbd1;			\/* B->D1 prob (data dependent)          +*\/$/;"	m	struct:plan7_s
+tc1	msa.h	/^  float  tc1, tc2;		\/* trusted score cutoffs (per-seq, per-domain) *\/$/;"	m	struct:aliinfo_s
+tc1	structs.h	/^  float  tc1, tc2;		\/* per-seq\/per-domain trusted cutoff (bits)       +*\/$/;"	m	struct:plan7_s
+tc2	msa.h	/^  float  tc1, tc2;		\/* trusted score cutoffs (per-seq, per-domain) *\/$/;"	m	struct:aliinfo_s
+tc2	structs.h	/^  float  tc1, tc2;		\/* per-seq\/per-domain trusted cutoff (bits)       +*\/$/;"	m	struct:plan7_s
+thread	hmmcalibrate.c	/^  pthread_t      *thread;       \/* our pool of threads *\/$/;"	m	struct:workpool_s	file:
+thread	hmmsearch.c	/^  pthread_t *thread;            \/* our pool of threads *\/$/;"	m	struct:workpool_s	file:
+thresh	hmmsearch.c	/^  struct threshold_s *thresh;   \/* score\/evalue threshold info     *\/$/;"	m	struct:workpool_s	typeref:struct:workpool_s::threshold_s	file:
+thresh	ucbqsort.c	/^static  int		thresh;			\/* THRESHold in chars *\/$/;"	v	file:
+threshold_s	structs.h	/^struct threshold_s {$/;"	s
+tlen	structs.h	/^  int   tlen;                   \/* length of traceback                          *\/$/;"	m	struct:p7trace_s
+tnum	structs.h	/^  int   tnum;                   \/* number of transition Dirichlet mixtures   *\/$/;"	m	struct:p7prior_s
+tophit_s	structs.h	/^struct tophit_s {$/;"	s
+total	structs.h	/^  int  total;			\/* total # of hits counted            *\/$/;"	m	struct:histogram_s
+tpri	structs.h	/^  int   *tpri;                  \/* which transition mixture prior to use *\/ $/;"	m	struct:plan7_s
+tq	structs.h	/^  float tq[MAXDCHLET];          \/* probabilities of tnum components          *\/$/;"	m	struct:p7prior_s
+trace_doctor	modelmakers.c	/^trace_doctor(struct p7trace_s *tr, int mlen, int *ret_ndi, int *ret_nid)$/;"	f	file:
+tsc	structs.h	/^  int  **tsc;                   \/* transition scores     [0.6][1.M-1]       -*\/$/;"	m	struct:plan7_s
+tsc_mem	structs.h	/^  int  *tsc_mem, *msc_mem, *isc_mem, *bsc_mem, *esc_mem;$/;"	m	struct:plan7_s
+type	msa.h	/^  int    type;			\/* kOtherSeq, kRNA\/hmmNUCLEIC, or kAmino\/hmmAMINO *\/$/;"	m	struct:msa_struct
+type	squid.h	/^  int      type;                \/* kRNA, kDNA, kAmino, or kOther         *\/$/;"	m	struct:seqinfo_s
+unsrt	structs.h	/^  struct hit_s  *unsrt;         \/* unsorted array                           *\/$/;"	m	struct:tophit_s	typeref:struct:tophit_s::hit_s
+upweight	weight.c	/^upweight(struct phylo_s *tree, int nseq, float *lwt, float *rwt, int node)$/;"	f	file:
+usage	hmmcalibrate.c	/^static char usage[] = "\\$/;"	v	file:
+usage	hmmsearch.c	/^static char usage[]  = "\\$/;"	v	file:
+user	stopwatch.h	/^  double user;			\/* CPU time, seconds *\/$/;"	m	struct:stopwatch_s
+v	fast_algorithms.c	/^vector signed int v;$/;"	m	union:__anon4	file:
+v10magic	hmmio.c	/^static unsigned int  v10magic = 0xe8ededb1; \/* v1.0 binary: "hmm1" + 0x80808080 *\/$/;"	v	file:
+v10swap	hmmio.c	/^static unsigned int  v10swap  = 0xb1edede8; \/* byteswapped v1.0                 *\/$/;"	v	file:
+v11magic	hmmio.c	/^static unsigned int  v11magic = 0xe8ededb2; \/* v1.1 binary: "hmm2" + 0x80808080 *\/$/;"	v	file:
+v11swap	hmmio.c	/^static unsigned int  v11swap  = 0xb2edede8; \/* byteswapped v1.1                 *\/$/;"	v	file:
+v17magic	hmmio.c	/^static unsigned int  v17magic = 0xe8ededb3; \/* v1.7 binary: "hmm3" + 0x80808080 *\/$/;"	v	file:
+v17swap	hmmio.c	/^static unsigned int  v17swap  = 0xb3edede8; \/* byteswapped v1.7                 *\/$/;"	v	file:
+v19magic	hmmio.c	/^static unsigned int  v19magic = 0xe8ededb4; \/* V1.9 binary: "hmm4" + 0x80808080 *\/$/;"	v	file:
+v19swap	hmmio.c	/^static unsigned int  v19swap  = 0xb4edede8; \/* V1.9 binary, byteswapped         *\/ $/;"	v	file:
+v20magic	hmmio.c	/^static unsigned int  v20magic = 0xe8ededb5; \/* V2.0 binary: "hmm5" + 0x80808080 *\/$/;"	v	file:
+v20magic	ssi.c	/^static sqd_uint32 v20magic = 0xf3f3e9b1; \/* SSI 1.0: "ssi1" + 0x80808080 *\/$/;"	v	file:
+v20swap	hmmio.c	/^static unsigned int  v20swap  = 0xb5edede8; \/* V2.0 binary, byteswapped         *\/$/;"	v	file:
+v20swap	ssi.c	/^static sqd_uint32 v20swap  = 0xb1e9f3f3; \/* byteswapped *\/$/;"	v	file:
+watch	hmmcalibrate.c	/^  Stopwatch_t    watch;		\/* Timings accumulated for threads *\/$/;"	m	struct:workpool_s	file:
+wgt	msa.h	/^  float            *wgt;	\/* sequence weights [0..nseq-1]             *\/$/;"	m	struct:aliinfo_s
+wgt	msa.h	/^  float *wgt;	                \/* sequence weights [0..nseq-1]                 *\/$/;"	m	struct:msa_struct
+worker_thread	hmmcalibrate.c	/^worker_thread(void *ptr)$/;"	f
+worker_thread	hmmsearch.c	/^worker_thread(void *ptr)$/;"	f
+workpool_free	hmmcalibrate.c	/^workpool_free(struct workpool_s *wpool)$/;"	f	file:
+workpool_free	hmmsearch.c	/^workpool_free(struct workpool_s *wpool)$/;"	f	file:
+workpool_s	hmmcalibrate.c	/^struct workpool_s {$/;"	s	file:
+workpool_s	hmmsearch.c	/^struct workpool_s {$/;"	s	file:
+workpool_start	hmmcalibrate.c	/^workpool_start(struct plan7_s *hmm, float lenmean, float lensd, int fixedlen,$/;"	f	file:
+workpool_start	hmmsearch.c	/^workpool_start(struct plan7_s *hmm, SQFILE *sqfp, int do_xnu,$/;"	f	file:
+workpool_stop	hmmcalibrate.c	/^workpool_stop(struct workpool_s *wpool)$/;"	f	file:
+workpool_stop	hmmsearch.c	/^workpool_stop(struct workpool_s *wpool)$/;"	f	file:
+write_bin_string	hmmio.c	/^write_bin_string(FILE *fp, char *s)$/;"	f	file:
+write_i16	ssi.c	/^write_i16(FILE *fp, sqd_uint16 n)$/;"	f	file:
+write_i32	ssi.c	/^write_i32(FILE *fp, sqd_uint32 n)$/;"	f	file:
+write_i64	ssi.c	/^write_i64(FILE *fp, sqd_uint64 n)$/;"	f	file:
+write_offset	ssi.c	/^write_offset(FILE *fp, SSIOFFSET *offset)$/;"	f	file:
+writehash	rk.c	/^writehash(Hashseq   hashseq)$/;"	f	file:
+xmx	structs.h	/^  int **xmx;			\/* special scores [0.1..N][BECJN]     *\/$/;"	m	struct:dpmatrix_s
+xmx_mem	structs.h	/^  void *xmx_mem, *mmx_mem, *imx_mem, *dmx_mem;$/;"	m	struct:dpmatrix_s
+xpam120	masks.c	/^static int xpam120[23][23] = {$/;"	v	file:
+xray	structs.h	/^  float *xray;	\/* Structural annotation: xray[0..M+1][NINPUTS], indexed manually *\/$/;"	m	struct:plan9_s
+xsc	structs.h	/^  int    xsc[4][2];             \/* N,E,C,J transitions                      -*\/$/;"	m	struct:plan7_s
+xt	structs.h	/^  float  xt[4][2];              \/* N,E,C,J extra states: 2 transitions      +*\/$/;"	m	struct:plan7_s
+xtb	structs.h	/^  char **xtb;			\/* special state traces [0.1..N][BECJN]     *\/$/;"	m	struct:dpshadow_s

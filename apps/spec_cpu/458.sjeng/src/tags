@@ -1,0 +1,610 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A1	squares.h	10;"	d
+A2	squares.h	19;"	d
+A3	squares.h	28;"	d
+A4	squares.h	37;"	d
+A5	squares.h	46;"	d
+A6	squares.h	54;"	d
+A7	squares.h	63;"	d
+A8	squares.h	72;"	d
+AS_TTable	ttable.c	/^TType *AS_TTable;$/;"	v
+AddMaterial	sjeng.h	117;"	d
+B1	squares.h	11;"	d
+B2	squares.h	20;"	d
+B3	squares.h	29;"	d
+B4	squares.h	38;"	d
+B5	squares.h	47;"	d
+B6	squares.h	55;"	d
+B7	squares.h	64;"	d
+B8	squares.h	73;"	d
+BLACK	sjeng.h	29;"	d
+BegForPartner	partner.c	/^void BegForPartner(void)$/;"	f
+Bestmove	ttable.c	/^  unsigned short Bestmove;  $/;"	m	struct:__anon3	file:
+Bestmove	ttable.c	/^  unsigned short Bestmove;  $/;"	m	struct:__anon4	file:
+Bishop	neval.c	/^int  Bishop(int sq,int c) {$/;"	f
+Bound	ttable.c	/^  int Bound;$/;"	m	struct:__anon3	file:
+Bound	ttable.c	/^  int Bound;$/;"	m	struct:__anon4	file:
+Bughouse	sjeng.h	37;"	d
+C1	squares.h	12;"	d
+C2	squares.h	21;"	d
+C3	squares.h	30;"	d
+C4	squares.h	39;"	d
+C5	squares.h	48;"	d
+C6	squares.h	56;"	d
+C7	squares.h	65;"	d
+C8	squares.h	74;"	d
+CANCEL_THRESH	partner.c	477;"	d	file:
+CAPTURE	search.c	50;"	d	file:
+CC	Makefile	/^CC=clang$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-DSPEC_CPU -DNDEBUG -O2 -DSPEC_CPU_LP64 -g$/;"	m
+CheckBadFlow	partner.c	/^void CheckBadFlow(xbool reset)$/;"	f
+Crazyhouse	sjeng.h	36;"	d
+D1	squares.h	13;"	d
+D2	squares.h	22;"	d
+D3	squares.h	31;"	d
+D4	squares.h	40;"	d
+D5	squares.h	49;"	d
+D6	squares.h	57;"	d
+D7	squares.h	66;"	d
+D8	squares.h	75;"	d
+DIE	sjeng.h	26;"	d
+DP_TTable	ttable.c	/^TType *DP_TTable;$/;"	v
+DRAW	sjeng.h	128;"	d
+DUMMY	sjeng.h	124;"	d
+Depth	ttable.c	/^  char Depth;  $/;"	m	struct:__anon3	file:
+DropaddHolding	crazy.c	/^void DropaddHolding(int what, int who)$/;"	f
+DropremoveHolding	crazy.c	/^void DropremoveHolding(int what, int who)$/;"	f
+E1	squares.h	14;"	d
+E2	squares.h	23;"	d
+E3	squares.h	32;"	d
+E4	squares.h	41;"	d
+E5	squares.h	50;"	d
+E6	squares.h	58;"	d
+E7	squares.h	67;"	d
+E8	squares.h	76;"	d
+ECache	ecache.c	/^ECacheType *ECache;$/;"	v
+ECacheHits	ecache.c	/^unsigned int ECacheHits;$/;"	v
+ECacheProbes	ecache.c	/^unsigned int ECacheProbes;$/;"	v
+ECacheSize	rcfile.c	/^int ECacheSize;$/;"	v
+ECacheType	ecache.c	/^} ECacheType;$/;"	t	typeref:struct:__anon2	file:
+ENDGAME_MAT	neval.c	35;"	d	file:
+EVALFUNC	neval.c	/^typedef int (*EVALFUNC)(int sq,int c);$/;"	t	file:
+EXACT	sjeng.h	122;"	d
+Endgame	sjeng.h	44;"	d
+ErrorIt	neval.c	/^int  ErrorIt(int sq,int c) {$/;"	f
+F1	squares.h	15;"	d
+F2	squares.h	24;"	d
+F3	squares.h	33;"	d
+F4	squares.h	42;"	d
+F5	squares.h	51;"	d
+F6	squares.h	59;"	d
+F7	squares.h	68;"	d
+F8	squares.h	77;"	d
+FALSE	proof.c	15;"	d	file:
+FALSE	sjeng.h	/^typedef enum {FALSE, TRUE} xbool;$/;"	e	enum:__anon5
+FH	search.c	/^unsigned int FH, FHF;$/;"	v
+FHF	search.c	/^unsigned int FH, FHF;$/;"	v
+FULL	sjeng.c	/^unsigned int PVS, FULL, PVSF;$/;"	v
+Fis_attacked	eval.c	608;"	d	file:
+G1	squares.h	16;"	d
+G2	squares.h	25;"	d
+G3	squares.h	34;"	d
+G4	squares.h	43;"	d
+G5	squares.h	52;"	d
+G6	squares.h	60;"	d
+G7	squares.h	69;"	d
+G8	squares.h	78;"	d
+Gis_attacked	eval.c	609;"	d	file:
+Giveaway	sjeng.c	/^int Giveaway;$/;"	v
+GreetPartner	partner.c	/^void GreetPartner()$/;"	f
+H1	squares.h	17;"	d
+H2	squares.h	26;"	d
+H3	squares.h	35;"	d
+H4	squares.h	44;"	d
+H5	squares.h	53;"	d
+H6	squares.h	61;"	d
+H7	squares.h	70;"	d
+H8	squares.h	79;"	d
+HHash	crazy.c	28;"	d	file:
+HMISS	sjeng.h	123;"	d
+HandlePartner	partner.c	/^void HandlePartner(char *input)$/;"	f
+HandlePtell	partner.c	/^void HandlePtell(char *input)$/;"	f
+Hash	sjeng.h	34;"	d
+HashKey	ttable.c	/^  unsigned int HashKey;$/;"	m	struct:__anon3	file:
+HashKey	ttable.c	/^  unsigned int HashKey;$/;"	m	struct:__anon4	file:
+Hold_hash	ttable.c	/^  unsigned int Hold_hash;$/;"	m	struct:__anon3	file:
+Hold_hash	ttable.c	/^  unsigned int Hold_hash;$/;"	m	struct:__anon4	file:
+INF	sjeng.h	114;"	d
+K	utils.c	20;"	d	file:
+KILLER1	search.c	51;"	d	file:
+KILLER2	search.c	52;"	d	file:
+KILLER3	search.c	53;"	d	file:
+KINGCAP	search.c	45;"	d	file:
+King	neval.c	/^int  King(int sq,int c) {$/;"	f
+Knight	neval.c	/^int  Knight(int sq,int c) {$/;"	f
+LOSS	sjeng.h	126;"	d
+LOWER	sjeng.h	121;"	d
+LearnStoreTT	ttable.c	/^void LearnStoreTT(int score, unsigned nhash, unsigned hhash, int tomove, int best, int depth)$/;"	f
+Losers	sjeng.h	40;"	d
+M	utils.c	19;"	d	file:
+MAINVAR	search.c	49;"	d	file:
+MOVE_BUFF	sjeng.h	113;"	d
+Material	eval.c	/^int Material;$/;"	v
+Middlegame	sjeng.h	43;"	d
+N	utils.c	18;"	d	file:
+NCuts	sjeng.c	/^unsigned int NTries, NCuts, TExt;$/;"	v
+NONE	search.c	46;"	d	file:
+NOTIMING	sjeng.h	149;"	d
+NTries	sjeng.c	/^unsigned int NTries, NCuts, TExt;$/;"	v
+Normal	sjeng.h	38;"	d
+NotToMove	sjeng.h	32;"	d
+OBJS	Makefile	/^OBJS=attacks.bc book.bc crazy.bc draw.bc ecache.bc epd.bc eval.bc leval.bc moves.bc neval.bc partner.bc proof.bc rcfile.bc search.bc see.bc seval.bc sjeng.bc ttable.bc utils.bc$/;"	m
+OPENING_MAT	neval.c	36;"	d	file:
+OnMove	ttable.c	/^  char OnMove;  $/;"	m	struct:__anon4	file:
+OnMove	ttable.c	/^  char OnMove;$/;"	m	struct:__anon3	file:
+Opening	sjeng.h	42;"	d
+PACKAGE	sjeng.h	138;"	d
+PBSize	rcfile.c	/^int PBSize;$/;"	v
+PN2	proof.c	26;"	d	file:
+PN_INF	proof.c	20;"	d	file:
+PROTOS_H	protos.h	11;"	d
+PVS	sjeng.c	/^unsigned int PVS, FULL, PVSF;$/;"	v
+PVSF	sjeng.c	/^unsigned int PVS, FULL, PVSF;$/;"	v
+PV_BUFF	sjeng.h	115;"	d
+Pawn	neval.c	/^int  Pawn(int sq,int c) {$/;"	f
+ProbeTT	ttable.c	/^int ProbeTT(int *score, int beta, int *best, int *threat, int *donull, int depth)$/;"	f
+ProcessHoldings	crazy.c	/^void ProcessHoldings(char str[])$/;"	f
+PutPiece	utils.c	/^void PutPiece(int color, char piece, char pfile, int prank)$/;"	f
+QProbeTT	ttable.c	/^int QProbeTT(int *score, int *best)$/;"	f
+QS_TTable	ttable.c	/^QTType *QS_TTable;$/;"	v
+QStoreTT	ttable.c	/^void QStoreTT(int score, int alpha, int beta, int best)$/;"	f
+QTType	ttable.c	/^QTType;$/;"	t	typeref:struct:__anon4	file:
+Queen	neval.c	/^int  Queen(int sq,int c) {$/;"	f
+RemoveMaterial	sjeng.h	118;"	d
+ResetHandValue	partner.c	/^void ResetHandValue(void)$/;"	f
+Rook	neval.c	/^int Rook(int sq,int c) {$/;"	f
+SAFETY	proof.c	23;"	d	file:
+SINGLE	search.c	47;"	d	file:
+SJENG_H	sjeng.h	11;"	d
+STALEMATE	proof.c	18;"	d	file:
+STR_BUFF	sjeng.h	112;"	d
+StoreTT	ttable.c	/^void StoreTT(int score, int alpha, int beta, int best, int threat, int depth)$/;"	f
+Suicide	sjeng.h	39;"	d
+SwitchColor	crazy.c	/^int SwitchColor(int piece)$/;"	f
+SwitchPromoted	crazy.c	/^int SwitchPromoted(int piece)$/;"	f
+TExt	sjeng.c	/^unsigned int NTries, NCuts, TExt;$/;"	v
+TRUE	proof.c	16;"	d	file:
+TRUE	sjeng.h	/^typedef enum {FALSE, TRUE} xbool;$/;"	e	enum:__anon5
+TTHits	ttable.c	/^unsigned int TTHits;$/;"	v
+TTProbes	ttable.c	/^unsigned int TTProbes;$/;"	v
+TTSize	rcfile.c	/^int TTSize;$/;"	v
+TTStores	ttable.c	/^unsigned int TTStores;$/;"	v
+TType	ttable.c	/^TType;$/;"	t	typeref:struct:__anon3	file:
+Threat	ttable.c	/^  char Threat;$/;"	m	struct:__anon3	file:
+ToMove	sjeng.h	31;"	d
+Type	ttable.c	/^  char Type;  $/;"	m	struct:__anon4	file:
+Type	ttable.c	/^  char Type;$/;"	m	struct:__anon3	file:
+UNKNOWN	proof.c	17;"	d	file:
+UPPER	sjeng.h	120;"	d
+VERSION	sjeng.h	139;"	d
+Variant	sjeng.c	/^int Variant;$/;"	v
+WHITE	sjeng.h	28;"	d
+WIN	sjeng.h	127;"	d
+Xdiagl	eval.c	/^const int Xdiagl[144] =$/;"	v
+Xdiagr	eval.c	/^const int Xdiagr[144] =$/;"	v
+Xfile	eval.c	/^const int Xfile[144] =$/;"	v
+Xfree	proof.c	/^void Xfree(void)$/;"	f
+Xmalloc	proof.c	/^void* Xmalloc(int size)$/;"	f
+Xrank	eval.c	/^const int Xrank[144] =$/;"	v
+addHolding	crazy.c	/^void addHolding(int what, int who)$/;"	f
+add_capture	moves.c	/^void add_capture(int Ptarget,$/;"	f
+add_move	moves.c	/^void add_move(int Ptarget,$/;"	f
+alllosers	proof.c	/^int alllosers;$/;"	v
+alloc_ecache	ecache.c	/^void alloc_ecache(void)$/;"	f
+alloc_hash	ttable.c	/^void alloc_hash(void)$/;"	f
+allocate_time	utils.c	/^int allocate_time (void) {$/;"	f
+allow_pondering	sjeng.c	/^xbool is_pondering, allow_pondering, is_analyzing;$/;"	v
+b_tropism	eval.c	/^unsigned char b_tropism[144][144];$/;"	v
+bbishop	sjeng.h	61;"	d
+bck	sjeng.h	92;"	d
+bcq	sjeng.h	93;"	d
+bestmovenum	search.c	/^int bestmovenum;$/;"	v
+bishop	sjeng.h	72;"	d
+bishop_mobility	neval.c	/^static int bishop_mobility(int square)$/;"	f	file:
+bishop_o	seval.c	/^static const int bishop_o[4] = {11, -11, 13, -13};$/;"	v	file:
+bking	sjeng.h	55;"	d
+bking_loc	sjeng.c	/^  bking_loc, white_castled, black_castled, result, ply, pv_length[PV_BUFF],$/;"	v
+bknight	sjeng.h	53;"	d
+black_castled	sjeng.c	/^  bking_loc, white_castled, black_castled, result, ply, pv_length[PV_BUFF],$/;"	v
+black_hand_eval	crazy.c	/^int black_hand_eval;$/;"	v
+black_is_mated	sjeng.h	78;"	d
+black_king	eval.c	/^const int black_king[144] = {$/;"	v
+black_knight	eval.c	/^const int black_knight[144] = {$/;"	v
+black_pawn	eval.c	/^const int black_pawn[144] =$/;"	v
+black_queen	eval.c	/^const int black_queen[144] = {$/;"	v
+black_rook	eval.c	/^const int black_rook[144] =$/;"	v
+black_saccers	seval.c	/^static int black_saccers(int square)$/;"	f	file:
+bmat	neval.c	/^int wmat, bmat;$/;"	v
+board	sjeng.c	/^int board[144], moved[144], ep_square, white_to_move, comp_color, wking_loc,$/;"	v
+book_ply	sjeng.c	/^int book_ply;$/;"	v
+bookidx	sjeng.c	/^unsigned int bookidx;$/;"	v
+bpawn	sjeng.h	51;"	d
+bqueen	sjeng.h	59;"	d
+brook	sjeng.h	57;"	d
+bufftop	proof.c	/^int bufftop = 0;$/;"	v
+calc_attackers	attacks.c	/^int calc_attackers (int square, int color) {$/;"	f
+cap_num	sjeng.h	/^  int cap_num;$/;"	m	struct:__anon7
+captured	sjeng.h	/^  int captured;$/;"	m	struct:__anon6
+captures	sjeng.c	/^xbool captures, searching_pv, post, time_exit, time_failure;$/;"	v
+castled	sjeng.h	/^  int castled;$/;"	m	struct:__anon6
+cfg_attackeval	rcfile.c	/^int cfg_attackeval;$/;"	v
+cfg_booklearn	rcfile.c	/^int cfg_booklearn;$/;"	v
+cfg_cutdrop	rcfile.c	/^int cfg_cutdrop;$/;"	v
+cfg_devscale	rcfile.c	/^int cfg_devscale;$/;"	v
+cfg_futprune	rcfile.c	/^int cfg_futprune;$/;"	v
+cfg_ksafety	rcfile.c	/^int cfg_ksafety[15][9];$/;"	v
+cfg_onerep	rcfile.c	/^int cfg_onerep;$/;"	v
+cfg_razordrop	rcfile.c	/^int cfg_razordrop;$/;"	v
+cfg_recap	rcfile.c	/^int cfg_recap;$/;"	v
+cfg_scalefac	rcfile.c	/^float cfg_scalefac;$/;"	v
+cfg_smarteval	rcfile.c	/^int cfg_smarteval;$/;"	v
+cfg_tropism	rcfile.c	/^int cfg_tropism[5][7];$/;"	v
+checkECache	ecache.c	/^void checkECache(int *score, int *in_cache)$/;"	f
+check_legal	moves.c	/^xbool check_legal (move_s moves[], int m, int incheck) {$/;"	f
+check_phase	neval.c	/^void check_phase(void)$/;"	f
+check_piece_square	utils.c	/^void check_piece_square (void)$/;"	f
+check_solution	epd.c	/^int check_solution(char *inbuff, move_s cmove)$/;"	f
+checks	search.c	/^xbool checks[PV_BUFF];$/;"	v
+children	proof.c	/^    struct node **children;$/;"	m	struct:node	typeref:struct:node::node	file:
+choose_book_move	book.c	/^move_s choose_book_move (void) {$/;"	f
+clear_dp_tt	ttable.c	/^void clear_dp_tt(void)$/;"	f
+clear_tt	ttable.c	/^void clear_tt(void)$/;"	f
+comp_color	sjeng.c	/^int board[144], moved[144], ep_square, white_to_move, comp_color, wking_loc,$/;"	v
+comp_to_coord	utils.c	/^void comp_to_coord (move_s move, char str[]) {$/;"	f
+comp_to_san	utils.c	/^void comp_to_san (move_s move, char str[])$/;"	f
+cur_score	sjeng.c	/^  sec_per_game, inc, time_left, opp_time, time_cushion, time_for_move, cur_score;$/;"	v
+develop_node	proof.c	/^void develop_node (node_t * node)$/;"	f
+diagl	sjeng.h	84;"	d
+diagr	sjeng.h	85;"	d
+display_board	utils.c	/^void display_board (FILE *stream, int color) {$/;"	f
+disproof	proof.c	/^    int disproof;$/;"	m	struct:node	file:
+distance	neval.c	/^int distance[144][144];$/;"	v
+divider	sjeng.c	/^char divider[50] = "-------------------------------------------------";$/;"	v
+draw_by_fifty	sjeng.h	79;"	d
+draw_by_rep	sjeng.h	80;"	d
+drop_cuts	search.c	/^unsigned int razor_drop, razor_material, drop_cuts, ext_recap, ext_onerep;$/;"	v
+drop_piece	crazy.c	/^int drop_piece;$/;"	v
+dummy	sjeng.c	/^move_s dummy = {0,0,0,0,0,0};$/;"	v
+ep	sjeng.h	/^  int ep;$/;"	m	struct:__anon6
+ep_square	sjeng.c	/^int board[144], moved[144], ep_square, white_to_move, comp_color, wking_loc,$/;"	v
+epsq	sjeng.h	/^  int epsq;$/;"	m	struct:__anon7
+eval	eval.c	/^int eval (int alpha, int beta) {$/;"	f
+evalRoutines	neval.c	/^static EVALFUNC evalRoutines[7] = {$/;"	v	file:
+evaluated	proof.c	/^    unsigned char evaluated;$/;"	m	struct:node	file:
+expanded	proof.c	/^    unsigned char expanded;$/;"	m	struct:node	file:
+ext_check	sjeng.c	/^unsigned int ext_check;$/;"	v
+ext_onerep	search.c	/^unsigned int razor_drop, razor_material, drop_cuts, ext_recap, ext_onerep;$/;"	v
+ext_recap	search.c	/^unsigned int razor_drop, razor_material, drop_cuts, ext_recap, ext_onerep;$/;"	v
+extended_in_check	moves.c	/^int extended_in_check(void)$/;"	f
+extendedtime	search.c	/^int extendedtime;$/;"	v
+f_in_check	moves.c	/^xbool f_in_check(move_s moves[], int m)$/;"	f
+failed	search.c	/^int failed;$/;"	v
+fcaptures	moves.c	/^xbool fcaptures;$/;"	v
+fifty	sjeng.c	/^  pieces[62], squares[144], num_pieces, i_depth, fifty, piece_count;$/;"	v
+fifty	sjeng.h	/^  int fifty;$/;"	m	struct:__anon7
+file	sjeng.h	83;"	d
+findlowest	see.c	/^void findlowest(int color, int next)$/;"	f
+fixed_time	sjeng.c	/^int fixed_time;$/;"	v
+forcedwin	proof.c	/^int forcedwin;$/;"	v
+forwards	proof.c	/^int forwards;$/;"	v
+frame	sjeng.h	49;"	d
+free_ecache	ecache.c	/^void free_ecache(void)$/;"	f
+free_hash	ttable.c	/^void free_hash(void)$/;"	f
+freenodes	proof.c	/^void freenodes (node_t * node)$/;"	f
+frees	proof.c	/^int frees;$/;"	v
+from	sjeng.h	/^  int from;$/;"	m	struct:__anon6
+gen	moves.c	/^void gen (move_s moves[]) {$/;"	f
+genfor	moves.c	/^static move_s *genfor;$/;"	v	file:
+gfrom	moves.c	/^int gfrom;$/;"	v
+go_fast	sjeng.c	/^xbool go_fast;$/;"	v
+hand_value	partner.c	/^int hand_value[] = { 0, 100, -100, 210, -210, 0, 0, 250, -250, 450, -450, 230, -230 }; $/;"	v
+hash	ttable.c	/^unsigned int hash;$/;"	v
+hash_extract_pv	utils.c	/^void hash_extract_pv(int level, char str[])$/;"	f
+hash_extract_pv_ct	sjeng.c	/^int hash_extract_pv_ct = 0;$/;"	v
+hash_history	sjeng.c	/^unsigned int hash_history[600];$/;"	v
+have_partner	sjeng.c	/^xbool have_partner;$/;"	v
+havercfile	rcfile.c	/^int havercfile;$/;"	v
+hiBit	utils.c	21;"	d	file:
+history_h	sjeng.c	/^unsigned int history_h[144][144];$/;"	v
+hold_hash	crazy.c	/^unsigned int hold_hash;$/;"	v
+hold_hash	ecache.c	/^    unsigned int hold_hash;$/;"	m	struct:__anon2	file:
+holding	crazy.c	/^int holding[2][16];$/;"	v
+i_depth	sjeng.c	/^  pieces[62], squares[144], num_pieces, i_depth, fifty, piece_count;$/;"	v
+in_check	moves.c	/^xbool in_check (void) {$/;"	f
+inc	sjeng.c	/^  sec_per_game, inc, time_left, opp_time, time_cushion, time_for_move, cur_score;$/;"	v
+init_book	book.c	/^int init_book (void) {$/;"	f
+init_game	utils.c	/^void init_game (void) {$/;"	f
+initialize_eval	eval.c	/^void initialize_eval(void)$/;"	f
+initialize_hash	ttable.c	/^void initialize_hash(void)$/;"	f
+initialize_zobrist	ttable.c	/^void initialize_zobrist(void)$/;"	f
+interrupt	utils.c	/^int interrupt(void)$/;"	f
+is_analyzing	sjeng.c	/^xbool is_pondering, allow_pondering, is_analyzing;$/;"	v
+is_attacked	attacks.c	/^xbool is_attacked (int square, int color) {$/;"	f
+is_draw	draw.c	/^xbool is_draw (void)$/;"	f
+is_move	utils.c	/^xbool is_move (char str[]) {$/;"	f
+is_pondering	sjeng.c	/^xbool is_pondering, allow_pondering, is_analyzing;$/;"	v
+is_promoted	sjeng.c	/^int is_promoted[62];$/;"	v
+iters	proof.c	/^int iters;$/;"	v
+kibitzed	proof.c	/^xbool kibitzed;$/;"	v
+killer1	sjeng.c	/^move_s pv[PV_BUFF][PV_BUFF], killer1[PV_BUFF], killer2[PV_BUFF],$/;"	v
+killer2	sjeng.c	/^move_s pv[PV_BUFF][PV_BUFF], killer1[PV_BUFF], killer2[PV_BUFF],$/;"	v
+killer3	sjeng.c	/^ killer3[PV_BUFF];$/;"	v
+killer_scores	sjeng.c	/^int nodes, raw_nodes, qnodes,  killer_scores[PV_BUFF],$/;"	v
+killer_scores2	sjeng.c	/^  killer_scores2[PV_BUFF], killer_scores3[PV_BUFF], moves_to_tc, min_per_game,$/;"	v
+killer_scores3	sjeng.c	/^  killer_scores2[PV_BUFF], killer_scores3[PV_BUFF], moves_to_tc, min_per_game,$/;"	v
+king	sjeng.h	69;"	d
+king_locs	neval.c	/^int king_locs[2];$/;"	v
+king_o	seval.c	/^  static const int king_o[8] = {13, 12, 11, 1, -1, -11, -12, -13};$/;"	v	file:
+kingcap	moves.c	/^int kingcap; \/* break if we capture the king *\/$/;"	v
+knight	sjeng.h	68;"	d
+knight_o	seval.c	/^static const int knight_o[8] = {10, -10, 14, -14, 23, -23, 25, -25};$/;"	v	file:
+ksafety_scaled	eval.c	/^int ksafety_scaled[15][9] =$/;"	v
+l_bishop_mobility	leval.c	/^static int l_bishop_mobility(int square)$/;"	f	file:
+l_king_mobility	leval.c	/^static int l_king_mobility(int square)$/;"	f	file:
+l_knight_mobility	leval.c	/^static int l_knight_mobility(int square)$/;"	f	file:
+l_pawn_mobility	leval.c	/^static int l_pawn_mobility(int square)$/;"	f	file:
+l_rook_mobility	leval.c	/^static int l_rook_mobility(int square)$/;"	f	file:
+lcentral	leval.c	/^static int lcentral[144] = {$/;"	v	file:
+left	utils.c	/^int                    left = -1;$/;"	v
+legals	search.c	/^int legals;$/;"	v
+line	rcfile.c	/^char line[STR_BUFF];$/;"	v
+loBit	utils.c	22;"	d	file:
+loBits	utils.c	23;"	d	file:
+losers_eval	leval.c	/^int losers_eval (void) {$/;"	f
+losers_material	eval.c	/^int losers_material[] = { 0, 80, -80, 320, -320, 1000, -1000, 350, -350, 400, -400, 270, -270, 0 };$/;"	v
+losers_pn_eval	proof.c	/^void losers_pn_eval(node_t *this)$/;"	f
+main	sjeng.c	/^int main (int argc, char *argv[]) {$/;"	f
+make	moves.c	/^void make (move_s moves[], int i) {$/;"	f
+material	eval.c	/^int material[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };$/;"	v
+max	sjeng.h	131;"	d
+maxdepth	sjeng.c	/^int xb_mode, maxdepth;$/;"	v
+maxply	proof.c	/^int maxply;$/;"	v
+maxposdiff	neval.c	/^int maxposdiff;$/;"	v
+membuff	proof.c	/^unsigned char *membuff;$/;"	v
+min	sjeng.h	135;"	d
+min_per_game	sjeng.c	/^  killer_scores2[PV_BUFF], killer_scores3[PV_BUFF], moves_to_tc, min_per_game,$/;"	v
+mindepth	sjeng.h	46;"	d
+mixBits	utils.c	24;"	d	file:
+move	proof.c	/^    move_s move;$/;"	m	struct:node	file:
+move_number	sjeng.c	/^int move_number;$/;"	v
+move_s	sjeng.h	/^} move_s;$/;"	t	typeref:struct:__anon6
+move_x	sjeng.h	/^} move_x;$/;"	t	typeref:struct:__anon7
+moved	sjeng.c	/^int board[144], moved[144], ep_square, white_to_move, comp_color, wking_loc,$/;"	v
+moveleft	search.c	/^int moveleft;$/;"	v
+moves_to_tc	sjeng.c	/^  killer_scores2[PV_BUFF], killer_scores3[PV_BUFF], moves_to_tc, min_per_game,$/;"	v
+movetotal	search.c	/^int movetotal;$/;"	v
+must_go	partner.c	/^int must_go;$/;"	v
+must_sit	sjeng.c	/^xbool must_sit;$/;"	v
+my_partner	sjeng.c	/^char my_partner[STR_BUFF];$/;"	v
+my_rating	sjeng.c	/^int my_rating, opp_rating;$/;"	v
+n_tropism	eval.c	/^unsigned char n_tropism[144][144];$/;"	v
+next	utils.c	/^static unsigned int   *next;$/;"	v	file:
+nk_attacked	attacks.c	/^xbool nk_attacked (int square, int color) {$/;"	f
+no_castle	sjeng.h	89;"	d
+no_result	sjeng.h	75;"	d
+node	proof.c	/^typedef struct node$/;"	s	file:
+node_t	proof.c	/^node_t;$/;"	t	typeref:struct:node	file:
+nodecount	proof.c	/^int nodecount;$/;"	v
+nodecount2	proof.c	/^int nodecount2;$/;"	v
+nodes	sjeng.c	/^int nodes, raw_nodes, qnodes,  killer_scores[PV_BUFF],$/;"	v
+npiece	sjeng.h	62;"	d
+num_children	proof.c	/^    unsigned char num_children;$/;"	m	struct:node	file:
+num_holding	crazy.c	/^int num_holding[2];$/;"	v
+num_pieces	sjeng.c	/^  pieces[62], squares[144], num_pieces, i_depth, fifty, piece_count;$/;"	v
+numb_moves	moves.c	/^int numb_moves;$/;"	v
+opening_history	sjeng.c	/^char opening_history[STR_BUFF];$/;"	v
+opp_rating	sjeng.c	/^int my_rating, opp_rating;$/;"	v
+opp_time	sjeng.c	/^  sec_per_game, inc, time_left, opp_time, time_cushion, time_for_move, cur_score;$/;"	v
+order_moves	search.c	/^void order_moves (move_s moves[], int move_ordering[], int see_values[], int num_moves, int best) {$/;"	f
+p_tropism	eval.c	/^unsigned char p_tropism[144][144];$/;"	v
+parent	proof.c	/^    struct node *parent;$/;"	m	struct:node	typeref:struct:node::node	file:
+partnerdead	partner.c	/^xbool partnerdead;$/;"	v
+path	sjeng.c	/^move_s path[PV_BUFF];$/;"	v
+path_x	sjeng.c	/^move_x path_x[PV_BUFF];$/;"	v
+pawn	sjeng.h	67;"	d
+pcsqbishop	eval.c	/^const int pcsqbishop[144] = {$/;"	v
+perft	search.c	/^void perft (int depth) {$/;"	f
+perft_ct	sjeng.c	/^int perft_ct = 0;$/;"	v
+perft_debug	utils.c	/^void perft_debug (void) {$/;"	f
+phase	sjeng.c	/^int phase;$/;"	v
+piece	see.c	/^  int piece;$/;"	m	struct:__anon1	file:
+piece_count	sjeng.c	/^  pieces[62], squares[144], num_pieces, i_depth, fifty, piece_count;$/;"	v
+piecedead	partner.c	/^xbool piecedead;$/;"	v
+pieces	sjeng.c	/^  pieces[62], squares[144], num_pieces, i_depth, fifty, piece_count;$/;"	v
+pieceside	sjeng.h	65;"	d
+piecet	sjeng.h	64;"	d
+ply	sjeng.c	/^  bking_loc, white_castled, black_castled, result, ply, pv_length[PV_BUFF],$/;"	v
+pn2	proof.c	/^int pn2;$/;"	v
+pn2_eval	proof.c	/^pn2_eval (node_t * root)$/;"	f
+pn_eval	proof.c	/^void pn_eval(node_t * this)$/;"	f
+pn_move	proof.c	/^move_s pn_move;$/;"	v
+pn_saver	proof.c	/^move_s pn_saver;$/;"	v
+pn_time	proof.c	/^int pn_time;$/;"	v
+post	sjeng.c	/^xbool captures, searching_pv, post, time_exit, time_failure;$/;"	v
+post_fail_thinking	utils.c	/^void post_fail_thinking(int score, move_s *failmove)$/;"	f
+post_fh_thinking	utils.c	/^void post_fh_thinking(int score, move_s *failmove)$/;"	f
+post_fl_thinking	utils.c	/^void post_fl_thinking(int score, move_s *failmove)$/;"	f
+post_stat_thinking	utils.c	/^void post_stat_thinking(void)$/;"	f
+post_thinking	utils.c	/^void post_thinking (int score) {$/;"	f
+postpv	search.c	/^char postpv[STR_BUFF];$/;"	v
+pre_b_tropism	eval.c	/^int pre_b_tropism[9] =$/;"	v
+pre_n_tropism	eval.c	/^int pre_n_tropism[9] =$/;"	v
+pre_p_tropism	eval.c	/^int pre_p_tropism[9] =$/;"	v
+pre_q_tropism	eval.c	/^int pre_q_tropism[9] =$/;"	v
+pre_r_tropism	eval.c	/^int pre_r_tropism[9] =$/;"	v
+printHolding	crazy.c	/^void printHolding(void)$/;"	f
+print_move	utils.c	/^void print_move (move_s moves[], int m, FILE *stream) {$/;"	f
+promoted	sjeng.h	/^  int promoted;$/;"	m	struct:__anon6
+proof	proof.c	/^    int proof;$/;"	m	struct:node	file:
+proofnumbercheck	proof.c	/^move_s proofnumbercheck(move_s compmove)$/;"	f
+proofnumberscan	proof.c	/^void proofnumberscan (void)$/;"	f
+proofnumbersearch	proof.c	/^proofnumbersearch (void)$/;"	f
+push_king	moves.c	/^void push_king (int target) {$/;"	f
+push_king_castle	moves.c	/^void push_king_castle (int Ptarget, int Pcastle_type)$/;"	f
+push_knighT	moves.c	/^void push_knighT (int target) {$/;"	f
+push_knight	moves.c	437;"	d	file:
+push_pawn	moves.c	/^void push_pawn (int target, xbool is_ep) {$/;"	f
+push_pawn_simple	moves.c	/^void push_pawn_simple (int target) {$/;"	f
+push_slidE	moves.c	/^void push_slidE (int target) {$/;"	f
+push_slide	moves.c	436;"	d	file:
+pv	sjeng.c	/^move_s pv[PV_BUFF][PV_BUFF], killer1[PV_BUFF], killer2[PV_BUFF],$/;"	v
+pv_length	sjeng.c	/^  bking_loc, white_castled, black_castled, result, ply, pv_length[PV_BUFF],$/;"	v
+q_tropism	eval.c	/^unsigned char q_tropism[144][144];$/;"	v
+qnodes	sjeng.c	/^int nodes, raw_nodes, qnodes,  killer_scores[PV_BUFF],$/;"	v
+qsearch	search.c	/^int qsearch (int alpha, int beta, int depth) {$/;"	f
+qsearch_ct	sjeng.c	/^int qsearch_ct = 0;$/;"	v
+queen	sjeng.h	71;"	d
+r_tropism	eval.c	/^unsigned char r_tropism[144][144];$/;"	v
+randomMT	utils.c	/^unsigned int randomMT(void)$/;"	f
+rank	sjeng.h	82;"	d
+raw_nodes	sjeng.c	/^int nodes, raw_nodes, qnodes,  killer_scores[PV_BUFF],$/;"	v
+razor_drop	search.c	/^unsigned int razor_drop, razor_material, drop_cuts, ext_recap, ext_onerep;$/;"	v
+razor_material	search.c	/^unsigned int razor_drop, razor_material, drop_cuts, ext_recap, ext_onerep;$/;"	v
+rcfile	rcfile.c	/^FILE *rcfile;$/;"	v
+rdelay	utils.c	/^void rdelay (int time_in_s) {$/;"	f
+rdifftime	utils.c	/^int rdifftime (rtime_t end, rtime_t start) {$/;"	f
+read_rcfile	rcfile.c	/^void read_rcfile (void) $/;"	f
+realholdings	crazy.c	/^char realholdings[255];$/;"	v
+recaps	search.c	/^xbool recaps[PV_BUFF];$/;"	v
+reloadMT	utils.c	/^unsigned int reloadMT(void)$/;"	f
+removeHolding	crazy.c	/^void removeHolding(int what, int who)$/;"	f
+remove_one	search.c	/^xbool remove_one (int *marker, int move_ordering[], int num_moves) {$/;"	f
+reset_board	utils.c	/^void reset_board (void) {$/;"	f
+reset_ecache	ecache.c	/^void reset_ecache(void)$/;"	f
+reset_piece_square	utils.c	/^void reset_piece_square (void) {$/;"	f
+result	sjeng.c	/^  bking_loc, white_castled, black_castled, result, ply, pv_length[PV_BUFF],$/;"	v
+rinput	utils.c	/^void rinput (char str[], int n, FILE *stream) {$/;"	f
+rook	sjeng.h	70;"	d
+rook_mobility	neval.c	/^static int rook_mobility(int square)$/;"	f	file:
+rook_o	seval.c	/^static const int rook_o[4] = {12, -12, 1, -1};$/;"	v	file:
+rookdistance	neval.c	/^int rookdistance[144][144];$/;"	v
+root_to_move	sjeng.c	/^int root_to_move;$/;"	v
+rootlosers	proof.c	/^int rootlosers[PV_BUFF];$/;"	v
+rootnodecount	search.c	/^unsigned int rootnodecount[MOVE_BUFF];$/;"	v
+rtime	utils.c	/^rtime_t rtime (void) {$/;"	f
+rtime_t	sjeng.h	/^  	typedef time_t rtime_t;$/;"	t
+rtime_t	sjeng.h	/^  typedef int rtime_t;$/;"	t
+rtime_t	sjeng.h	/^  typedef struct timeb rtime_t;$/;"	t	typeref:struct:timeb
+run_autotest	epd.c	/^void run_autotest(char *testset)$/;"	f
+run_epd_testsuite	epd.c	/^void run_epd_testsuite(void)$/;"	f
+s_bishop_mobility	seval.c	/^static int s_bishop_mobility(int square)$/;"	f	file:
+s_king_mobility	seval.c	/^static int s_king_mobility(int square)$/;"	f	file:
+s_knight_mobility	seval.c	/^static int s_knight_mobility(int square)$/;"	f	file:
+s_pawn_mobility	seval.c	/^static int s_pawn_mobility(int square)$/;"	f	file:
+s_rook_mobility	seval.c	/^static int s_rook_mobility(int square)$/;"	f	file:
+s_threat	search.c	/^int s_threat;$/;"	v
+sbishop	neval.c	/^static int sbishop[144] = {$/;"	v	file:
+sblack_king	neval.c	/^static int sblack_king[144] = {$/;"	v	file:
+sblack_pawn	neval.c	/^static int sblack_pawn[144] = {$/;"	v	file:
+scentral	seval.c	/^static int scentral[144] = {$/;"	v	file:
+score	ecache.c	/^    int score;$/;"	m	struct:__anon2	file:
+search	search.c	/^int search (int alpha, int beta, int depth, int is_null) {$/;"	f
+search_ct	sjeng.c	/^int search_ct = 0;$/;"	v
+search_root	search.c	/^move_s search_root (int originalalpha, int originalbeta, int depth) {$/;"	f
+searching_move	search.c	/^char searching_move[20];$/;"	v
+searching_pv	sjeng.c	/^xbool captures, searching_pv, post, time_exit, time_failure;$/;"	v
+sec_per_game	sjeng.c	/^  sec_per_game, inc, time_left, opp_time, time_cushion, time_for_move, cur_score;$/;"	v
+see	see.c	/^int see(int color, int square, int from)$/;"	f
+see_attackers	see.c	/^see_data see_attackers[2][16];$/;"	v
+see_data	see.c	/^} see_data;$/;"	t	typeref:struct:__anon1	file:
+see_num_attackers	see.c	/^int see_num_attackers[2];$/;"	v
+seedMT	utils.c	/^void seedMT(unsigned int seed)$/;"	f
+select_most_proving	proof.c	/^node_t *select_most_proving (node_t * node)$/;"	f
+send_king	neval.c	/^static int send_king[144] = {$/;"	v	file:
+set_proof_and_disproof_numbers	proof.c	/^void set_proof_and_disproof_numbers (node_t * node)$/;"	f
+setcode	sjeng.c	/^char setcode[30];$/;"	v
+setup_attackers	see.c	/^void setup_attackers (int square) {$/;"	f
+setup_epd_line	epd.c	/^void setup_epd_line(char* inbuff)$/;"	f
+singular	search.c	/^xbool singular[PV_BUFF];$/;"	v
+sknight	neval.c	/^static int sknight[144] = {$/;"	v	file:
+sqcolor	eval.c	/^const int sqcolor[144] =$/;"	v
+square	see.c	/^  int square;$/;"	m	struct:__anon1	file:
+squares	sjeng.c	/^  pieces[62], squares[144], num_pieces, i_depth, fifty, piece_count;$/;"	v
+srev_rank	neval.c	/^static const int srev_rank[9] = {$/;"	v	file:
+stalemate	sjeng.h	76;"	d
+start_time	sjeng.c	/^rtime_t start_time;$/;"	v
+start_up	utils.c	/^void start_up (void) {$/;"	f
+state	utils.c	/^static unsigned int   state[N+1];$/;"	v	file:
+std_b_tropism	neval.c	/^const int std_b_tropism[8] =$/;"	v
+std_eval	neval.c	/^int std_eval (int alpha, int beta) {$/;"	f
+std_hand_value	partner.c	/^int std_hand_value[] = { 0, 100, -100, 210, -210, 0, 0, 250, -250, 450, -450, 230, -230 };$/;"	v
+std_material	eval.c	/^int std_material[] = { 0, 100, -100, 310, -310, 4000, -4000, 500, -500, 900, -900, 325, -325, 0 };$/;"	v
+std_n_tropism	neval.c	/^const int std_n_tropism[8] =$/;"	v
+std_own_p_tropism	neval.c	/^const int std_own_p_tropism[8] =$/;"	v
+std_p_tropism	neval.c	/^const int std_p_tropism[8] =$/;"	v
+std_pn_eval	proof.c	/^void std_pn_eval (node_t * this)$/;"	f
+std_q_tropism	neval.c	/^const int std_q_tropism[8] =$/;"	v
+std_r_tropism	neval.c	/^const int std_r_tropism[16] =$/;"	v
+storeECache	ecache.c	/^void storeECache(int score)$/;"	f
+stored_hash	ecache.c	/^    unsigned int stored_hash;$/;"	m	struct:__anon2	file:
+stringize_pv	utils.c	/^void stringize_pv (char str[])$/;"	f
+suicide_eval	seval.c	/^int suicide_eval (void) {$/;"	f
+suicide_material	eval.c	/^int suicide_material[] = { 0, 15, -15, 150, -150, 500, -500, 150, -150, 50, -50, 0, 0, 0 };$/;"	v
+suicide_mid_eval	seval.c	/^int suicide_mid_eval (void) {$/;"	f
+suicide_pn_eval	proof.c	/^void suicide_pn_eval(node_t *this)$/;"	f
+swhite_king	neval.c	/^static int swhite_king[144] = {$/;"	v	file:
+swhite_pawn	neval.c	/^static int swhite_pawn[144] = {$/;"	v	file:
+target	sjeng.h	/^  int target;$/;"	m	struct:__anon6
+text_to_piece	crazy.c	/^int text_to_piece(char txt, int who)$/;"	f
+think	search.c	/^move_s think (void) {$/;"	f
+time_cushion	sjeng.c	/^  sec_per_game, inc, time_left, opp_time, time_cushion, time_for_move, cur_score;$/;"	v
+time_exit	sjeng.c	/^xbool captures, searching_pv, post, time_exit, time_failure;$/;"	v
+time_failure	sjeng.c	/^xbool captures, searching_pv, post, time_exit, time_failure;$/;"	v
+time_for_move	sjeng.c	/^  sec_per_game, inc, time_left, opp_time, time_cushion, time_for_move, cur_score;$/;"	v
+time_left	sjeng.c	/^  sec_per_game, inc, time_left, opp_time, time_cushion, time_for_move, cur_score;$/;"	v
+toggle_bool	utils.c	/^void toggle_bool (xbool *var) {$/;"	f
+total_movegens	moves.c	/^unsigned int total_movegens;$/;"	v
+total_moves	moves.c	/^unsigned int total_moves;$/;"	v
+tradefreely	search.c	/^int tradefreely;$/;"	v
+tree	search.c	/^void tree (int depth, int indent, FILE *output, char *disp_b) {$/;"	f
+tree_debug	utils.c	/^void tree_debug (void) {$/;"	f
+true_i_depth	search.c	/^char true_i_depth;$/;"	v
+try_drop	moves.c	/^void try_drop (int ptype)$/;"	f
+ugly_ep_hack	search.c	/^int ugly_ep_hack;$/;"	v
+unmake	moves.c	/^void unmake (move_s moves[], int i) {$/;"	f
+update_ancestors	proof.c	/^void update_ancestors (node_t * node)$/;"	f
+upscale	eval.c	/^const int upscale[64] = {$/;"	v
+use_book	sjeng.c	/^int use_book;$/;"	v
+userealholdings	crazy.c	/^int userealholdings;$/;"	v
+value	proof.c	/^    unsigned char value;$/;"	m	struct:node	file:
+verify_coord	utils.c	/^xbool verify_coord (char input[], move_s *move) {$/;"	f
+was_promoted	sjeng.h	/^  int was_promoted;$/;"	m	struct:__anon7
+wbishop	sjeng.h	60;"	d
+wck	sjeng.h	90;"	d
+wcq	sjeng.h	91;"	d
+white_castled	sjeng.c	/^  bking_loc, white_castled, black_castled, result, ply, pv_length[PV_BUFF],$/;"	v
+white_hand_eval	crazy.c	/^int white_hand_eval;$/;"	v
+white_is_mated	sjeng.h	77;"	d
+white_king	eval.c	/^const int white_king[144] = {$/;"	v
+white_knight	eval.c	/^const int white_knight[144] = {$/;"	v
+white_pawn	eval.c	/^const int white_pawn[144] =$/;"	v
+white_queen	eval.c	/^const int white_queen[144] = {$/;"	v
+white_rook	eval.c	/^const int white_rook[144] =$/;"	v
+white_saccers	seval.c	/^static int white_saccers(int square)$/;"	f	file:
+white_to_move	sjeng.c	/^int board[144], moved[144], ep_square, white_to_move, comp_color, wking_loc,$/;"	v
+wking	sjeng.h	54;"	d
+wking_loc	sjeng.c	/^int board[144], moved[144], ep_square, white_to_move, comp_color, wking_loc,$/;"	v
+wknight	sjeng.h	52;"	d
+wmat	neval.c	/^int wmat, bmat;$/;"	v
+wpawn	sjeng.h	50;"	d
+wqueen	sjeng.h	58;"	d
+wrook	sjeng.h	56;"	d
+xb_mode	sjeng.c	/^int xb_mode, maxdepth;$/;"	v
+xbool	sjeng.h	/^typedef enum {FALSE, TRUE} xbool;$/;"	t	typeref:enum:__anon5
+zh_material	eval.c	/^int zh_material[] = { 0, 100, -100, 210, -210, 4000, -4000, 250, -250, 450, -450, 230, -230, 0 };$/;"	v
+zobrist	ttable.c	/^unsigned int zobrist[14][144];$/;"	v

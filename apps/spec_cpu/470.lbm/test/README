@@ -1,0 +1,7 @@
+##流体力学 
+
+3000 steps
+~/workspace/sgx-driver/user lbm_enclave 3000 ref.dat 0 0 100_100_130_ldc.of
+
+1000 steps
+~/workspace/sgx-driver/user lbm_enclave 1000 ref.dat 0 0 100_100_130_ldc.of

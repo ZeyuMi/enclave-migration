@@ -1,0 +1,40 @@
+memcached-cache.o: cache.c \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/stdlib.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/features.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/alltypes.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/alloca.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/string.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/strings.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/inttypes.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/stdint.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/stdint.h \
+ cache.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/pthread.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/sched.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/time.h
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/stdlib.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/features.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/alltypes.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/alloca.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/string.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/strings.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/inttypes.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/stdint.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/stdint.h:
+
+cache.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/pthread.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/sched.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/time.h:

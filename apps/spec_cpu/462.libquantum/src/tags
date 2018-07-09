@@ -1,0 +1,245 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BMEASURE	objcode.h	51;"	d
+BMEASURE_P	objcode.h	52;"	d
+CC	Makefile	/^CC=clang$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-DSPEC_CPU -DNDEBUG -O2 -DSPEC_CPU_LP64 -DSPEC_CPU_LINUX -g$/;"	m
+CNOT	objcode.h	35;"	d
+COMPLEX_FLOAT	config.h	10;"	d
+COMPLEX_FLOAT	config.h	58;"	d
+COND_PHASE	objcode.h	46;"	d
+CPHASE_KICK	objcode.h	47;"	d
+EPSILON	gates.c	42;"	d	file:
+HADAMARD	objcode.h	40;"	d
+HAVE_DLFCN_H	config.h	26;"	d
+HAVE_DLFCN_H	config.h	61;"	d
+HAVE_FCNTL_H	config.h	27;"	d
+HAVE_FCNTL_H	config.h	64;"	d
+HAVE_INTTYPES_H	config.h	28;"	d
+HAVE_INTTYPES_H	config.h	67;"	d
+HAVE_LIBM	config.h	29;"	d
+HAVE_LIBM	config.h	70;"	d
+HAVE_MEMORY_H	config.h	30;"	d
+HAVE_MEMORY_H	config.h	73;"	d
+HAVE_STDINT_H	config.h	31;"	d
+HAVE_STDINT_H	config.h	76;"	d
+HAVE_STDLIB_H	config.h	32;"	d
+HAVE_STDLIB_H	config.h	79;"	d
+HAVE_STRINGS_H	config.h	33;"	d
+HAVE_STRINGS_H	config.h	82;"	d
+HAVE_STRING_H	config.h	34;"	d
+HAVE_STRING_H	config.h	85;"	d
+HAVE_SYS_STAT_H	config.h	35;"	d
+HAVE_SYS_STAT_H	config.h	88;"	d
+HAVE_SYS_TYPES_H	config.h	36;"	d
+HAVE_SYS_TYPES_H	config.h	91;"	d
+HAVE_UNISTD_H	config.h	37;"	d
+HAVE_UNISTD_H	config.h	94;"	d
+IMAGINARY	config.h	39;"	d
+IMAGINARY	config.h	41;"	d
+IMAGINARY	config.h	48;"	d
+IMAGINARY	config.h	50;"	d
+IMAGINARY	config.h	97;"	d
+INIT	objcode.h	34;"	d
+M	matrix.h	40;"	d
+MAX_UNSIGNED	config.h	100;"	d
+MAX_UNSIGNED	config.h	43;"	d
+MAX_UNSIGNED	config.h	52;"	d
+MEASURE	objcode.h	50;"	d
+NOP	objcode.h	54;"	d
+OBJBUF_SIZE	objcode.h	32;"	d
+OBJCODE_PAGE	objcode.h	31;"	d
+OBJS	Makefile	/^OBJS=classic.bc complex.bc decoherence.bc expn.bc gates.bc matrix.bc measure.bc oaddn.bc objcode.bc omuln.bc qec.bc qft.bc qureg.bc shor.bc version.bc specrand.bc$/;"	m
+PACKAGE_BUGREPORT	config.h	103;"	d
+PACKAGE_BUGREPORT	config.h	4;"	d
+PACKAGE_NAME	config.h	106;"	d
+PACKAGE_NAME	config.h	5;"	d
+PACKAGE_STRING	config.h	109;"	d
+PACKAGE_STRING	config.h	6;"	d
+PACKAGE_TARNAME	config.h	112;"	d
+PACKAGE_TARNAME	config.h	7;"	d
+PACKAGE_VERSION	config.h	115;"	d
+PACKAGE_VERSION	config.h	8;"	d
+PHASE_KICK	objcode.h	44;"	d
+PHASE_SCALE	objcode.h	45;"	d
+ROT_X	objcode.h	41;"	d
+ROT_Y	objcode.h	42;"	d
+ROT_Z	objcode.h	43;"	d
+SIGMA_X	objcode.h	37;"	d
+SIGMA_Y	objcode.h	38;"	d
+SIGMA_Z	objcode.h	39;"	d
+STDC_HEADERS	config.h	118;"	d
+STDC_HEADERS	config.h	9;"	d
+SWAPLEADS	objcode.h	48;"	d
+TOFFOLI	objcode.h	36;"	d
+_A_MULTIPLIER	specrand.c	26;"	d	file:
+_Complex_I	config.h	17;"	d
+_M_MODULUS	specrand.c	27;"	d	file:
+_Q_QUOTIENT	specrand.c	28;"	d	file:
+_R_REMAINDER	specrand.c	29;"	d	file:
+__CLASSIC_H	classic.h	26;"	d
+__COMPLEX_H	lq_complex.h	26;"	d
+__DECOHERENCE_H	decoherence.h	26;"	d
+__DEFS_H	defs.h	26;"	d
+__GATES_H	gates.h	26;"	d
+__MATRIX_H	matrix.h	26;"	d
+__MEASURE_H	measure.h	26;"	d
+__OADDN_H	oaddn.h	26;"	d
+__OBJCODE_H	objcode.h	26;"	d
+__OMULN_H	omuln.h	26;"	d
+__QEC_H	qec.h	26;"	d
+__QUANTUM_H	quantum.h	26;"	d
+__QUREG_H	qureg.h	26;"	d
+add_mod_n	oaddn.c	/^void add_mod_n(int N,int a,int width, quantum_reg *reg){\/\/add a to register reg (mod N) and clear the scratch bits$/;"	f
+addn	oaddn.c	/^void addn(int N,int a,int width, quantum_reg *reg){\/\/add a to register reg (mod N)$/;"	f
+addn_inv	oaddn.c	/^void addn_inv(int N,int a,int width, quantum_reg *reg){\/\/inverse of add a to register reg (mod N)$/;"	f
+allocated	objcode.c	/^unsigned long allocated = 0;$/;"	v
+amplitude	quantum.h	/^  COMPLEX_FLOAT amplitude; \/* alpha_j *\/$/;"	m	struct:quantum_reg_node_struct
+amplitude	qureg.h	/^  COMPLEX_FLOAT amplitude; \/* alpha_j *\/$/;"	m	struct:quantum_reg_node_struct
+byte	defs.h	30;"	d
+cols	matrix.h	/^  int cols;$/;"	m	struct:quantum_matrix_struct
+cols	quantum.h	/^  int cols;$/;"	m	struct:quantum_matrix_struct
+emul	omuln.c	/^void emul(int a, int L, int width, quantum_reg *reg){$/;"	f
+fabsf	classic.c	31;"	d	file:
+globalfile	objcode.c	/^char *globalfile;$/;"	v
+hash	quantum.h	/^  int *hash;$/;"	m	struct:quantum_reg_struct
+hash	qureg.h	/^  int *hash;$/;"	m	struct:quantum_reg_struct
+hashw	quantum.h	/^  int hashw;    \/* width of the hash array *\/$/;"	m	struct:quantum_reg_struct
+hashw	qureg.h	/^  int hashw;    \/* width of the hash array *\/$/;"	m	struct:quantum_reg_struct
+inline	config.h	122;"	d
+inline	config.h	13;"	d
+lambda	decoherence.c	/^float lambda = 0;$/;"	v
+madd	oaddn.c	/^void madd(int a,int a_inv,int  width,quantum_reg *reg){$/;"	f
+madd_inv	oaddn.c	/^void madd_inv(int a,int a_inv,int  width,quantum_reg *reg){$/;"	f
+main	shor.c	/^int main(int argc, char **argv) {$/;"	f
+mul_mod_n	omuln.c	/^void mul_mod_n(int N, int a, int ctl, int width, quantum_reg *reg)$/;"	f
+muln	omuln.c	/^void muln(int N, int a, int ctl, int width, quantum_reg *reg){\/\/ctl tells, which bit is the external enable bit$/;"	f
+muln_inv	omuln.c	/^void muln_inv(int N, int a, int ctl, int width, quantum_reg *reg){\/\/ctl tells, which bit is the external enable bit$/;"	f
+muxfa	oaddn.c	/^void muxfa(int a, int  b_in, int c_in, int c_out, int xlt_l,int L, int total,quantum_reg *reg){\/\/a,$/;"	f
+muxfa_inv	oaddn.c	/^void muxfa_inv(int a,int  b_in,int c_in,int c_out, int xlt_l,int L,int total,quantum_reg *reg){\/\/a,$/;"	f
+muxha	oaddn.c	/^void muxha(int a,int  b_in,int c_in, int xlt_l, int L,int total,quantum_reg *reg){\/\/a,$/;"	f
+muxha_inv	oaddn.c	/^void muxha_inv(int a,int  b_in,int c_in, int xlt_l, int L, int total,quantum_reg *reg){\/\/a,$/;"	f
+node	quantum.h	/^  quantum_reg_node *node;$/;"	m	struct:quantum_reg_struct
+node	qureg.h	/^  quantum_reg_node *node;$/;"	m	struct:quantum_reg_struct
+num_regs	defs.h	32;"	d
+objcode	objcode.c	/^unsigned char *objcode = 0;$/;"	v
+opstatus	objcode.c	/^int opstatus = 0;$/;"	v
+pi	defs.h	28;"	d
+position	objcode.c	/^unsigned long position = 0;$/;"	v
+quantum_add_hash	qureg.h	/^quantum_add_hash(MAX_UNSIGNED a, int pos, quantum_reg *reg)$/;"	f
+quantum_addscratch	qureg.c	/^quantum_addscratch(int bits, quantum_reg *reg)$/;"	f
+quantum_bmeasure	measure.c	/^quantum_bmeasure(int pos, quantum_reg *reg)$/;"	f
+quantum_bmeasure_bitpreserve	measure.c	/^quantum_bmeasure_bitpreserve(int pos, quantum_reg *reg)$/;"	f
+quantum_cexp	complex.c	/^COMPLEX_FLOAT quantum_cexp(float phi)$/;"	f
+quantum_char2double	objcode.c	/^double quantum_char2double(unsigned char *buf)$/;"	f
+quantum_char2int	objcode.c	/^int quantum_char2int(unsigned char *buf)$/;"	f
+quantum_char2mu	objcode.c	/^MAX_UNSIGNED quantum_char2mu(unsigned char *buf)$/;"	f
+quantum_cnot	gates.c	/^quantum_cnot(int control, int target, quantum_reg *reg)$/;"	f
+quantum_cnot_ft	qec.c	/^quantum_cnot_ft(int control, int target, quantum_reg *reg)$/;"	f
+quantum_cond_phase	gates.c	/^quantum_cond_phase(int control, int target, quantum_reg *reg)$/;"	f
+quantum_cond_phase_inv	gates.c	/^quantum_cond_phase_inv(int control, int target, quantum_reg *reg)$/;"	f
+quantum_cond_phase_kick	gates.c	/^quantum_cond_phase_kick(int control, int target, float gamma, quantum_reg *reg)$/;"	f
+quantum_conj	complex.c	/^quantum_conj(COMPLEX_FLOAT a)$/;"	f
+quantum_decohere	decoherence.c	/^quantum_decohere(quantum_reg *reg)$/;"	f
+quantum_delete_matrix	matrix.c	/^quantum_delete_matrix(quantum_matrix *m)$/;"	f
+quantum_delete_qureg	qureg.c	/^quantum_delete_qureg(quantum_reg *reg)$/;"	f
+quantum_delete_qureg_hashpreserve	qureg.c	/^quantum_delete_qureg_hashpreserve(quantum_reg *reg)$/;"	f
+quantum_destroy_hash	qureg.c	/^quantum_destroy_hash(quantum_reg *reg)$/;"	f
+quantum_dot_product	qureg.c	/^quantum_dot_product(quantum_reg *reg1, quantum_reg *reg2)$/;"	f
+quantum_double2char	objcode.c	/^quantum_double2char(double d, unsigned char *buf)$/;"	f
+quantum_exp_mod_n	expn.c	/^quantum_exp_mod_n(int N, int x, int width_input, int width, quantum_reg *reg)$/;"	f
+quantum_frac_approx	classic.c	/^quantum_frac_approx(int *a, int *b, int width)$/;"	f
+quantum_frand	measure.c	/^quantum_frand()$/;"	f
+quantum_gate1	gates.c	/^quantum_gate1(int target, quantum_matrix m, quantum_reg *reg)$/;"	f
+quantum_gate2	gates.c	/^quantum_gate2(int control, int target, quantum_matrix m, quantum_reg *reg)$/;"	f
+quantum_gate_counter	gates.c	/^quantum_gate_counter(int inc)$/;"	f
+quantum_gcd	classic.c	/^quantum_gcd(int u, int v)$/;"	f
+quantum_get_decoherence	decoherence.c	/^quantum_get_decoherence()$/;"	f
+quantum_get_state	qureg.h	/^quantum_get_state(MAX_UNSIGNED a, quantum_reg reg)$/;"	f
+quantum_get_version	version.c	/^quantum_get_version()$/;"	f
+quantum_getwidth	classic.c	/^quantum_getwidth(int n)$/;"	f
+quantum_hadamard	gates.c	/^quantum_hadamard(int target, quantum_reg *reg)$/;"	f
+quantum_hash64	qureg.h	/^quantum_hash64(MAX_UNSIGNED key, int width)$/;"	f
+quantum_imag	lq_complex.h	/^quantum_imag(COMPLEX_FLOAT a)$/;"	f
+quantum_int2char	objcode.c	/^quantum_int2char(int j, unsigned char *buf)$/;"	f
+quantum_inverse_mod	classic.c	/^quantum_inverse_mod(int n, int c)$/;"	f
+quantum_ipow	classic.c	/^quantum_ipow(int a, int b)$/;"	f
+quantum_kronecker	qureg.c	/^quantum_kronecker(quantum_reg *reg1, quantum_reg *reg2)$/;"	f
+quantum_matrix	matrix.h	/^typedef struct quantum_matrix_struct quantum_matrix;$/;"	t	typeref:struct:quantum_matrix_struct
+quantum_matrix	quantum.h	/^typedef struct quantum_matrix_struct quantum_matrix;$/;"	t	typeref:struct:quantum_matrix_struct
+quantum_matrix2qureg	qureg.c	/^quantum_matrix2qureg(quantum_matrix *m, int width)$/;"	f
+quantum_matrix_struct	matrix.h	/^struct quantum_matrix_struct {$/;"	s
+quantum_matrix_struct	quantum.h	/^struct quantum_matrix_struct {$/;"	s
+quantum_measure	measure.c	/^quantum_measure(quantum_reg reg)$/;"	f
+quantum_memman	matrix.c	/^unsigned long quantum_memman(long change)$/;"	f
+quantum_mu2char	objcode.c	/^quantum_mu2char(MAX_UNSIGNED mu, unsigned char *buf)$/;"	f
+quantum_new_matrix	matrix.c	/^quantum_new_matrix(int cols, int rows) $/;"	f
+quantum_new_qureg	qureg.c	/^quantum_new_qureg(MAX_UNSIGNED initval, int width)$/;"	f
+quantum_objcode_exit	objcode.c	/^quantum_objcode_exit(char *file)$/;"	f
+quantum_objcode_file	objcode.c	/^quantum_objcode_file(char *file)$/;"	f
+quantum_objcode_put	objcode.c	/^quantum_objcode_put(unsigned char operation, ...)$/;"	f
+quantum_objcode_run	objcode.c	/^quantum_objcode_run(char *file, quantum_reg *reg)$/;"	f
+quantum_objcode_start	objcode.c	/^quantum_objcode_start()$/;"	f
+quantum_objcode_stop	objcode.c	/^quantum_objcode_stop()$/;"	f
+quantum_objcode_write	objcode.c	/^quantum_objcode_write(char *file)$/;"	f
+quantum_phase_kick	gates.c	/^quantum_phase_kick(int target, float gamma, quantum_reg *reg)$/;"	f
+quantum_phase_scale	gates.c	/^quantum_phase_scale(int target, float gamma, quantum_reg *reg)$/;"	f
+quantum_print_expn	qureg.c	/^quantum_print_expn(quantum_reg reg)$/;"	f
+quantum_print_hash	qureg.c	/^quantum_print_hash(quantum_reg reg)$/;"	f
+quantum_print_matrix	matrix.c	/^quantum_print_matrix(quantum_matrix m) $/;"	f
+quantum_print_qureg	qureg.c	/^quantum_print_qureg(quantum_reg reg)$/;"	f
+quantum_prob	complex.c	/^quantum_prob(COMPLEX_FLOAT a)$/;"	f
+quantum_prob_inline	lq_complex.h	/^quantum_prob_inline(COMPLEX_FLOAT a)$/;"	f
+quantum_qec_counter	qec.c	/^quantum_qec_counter(int inc, int frequency, quantum_reg *reg)$/;"	f
+quantum_qec_decode	qec.c	/^quantum_qec_decode(int type, int width, quantum_reg *reg)$/;"	f
+quantum_qec_encode	qec.c	/^quantum_qec_encode(int type, int width, quantum_reg *reg)$/;"	f
+quantum_qec_get_status	qec.c	/^quantum_qec_get_status(int *ptype, int *pwidth)$/;"	f
+quantum_qec_set_status	qec.c	/^quantum_qec_set_status(int stype, int swidth)$/;"	f
+quantum_qft	qft.c	/^void quantum_qft(int width, quantum_reg *reg)$/;"	f
+quantum_qft_inv	qft.c	/^void quantum_qft_inv(int width, quantum_reg *reg)$/;"	f
+quantum_qureg2matrix	qureg.c	/^quantum_qureg2matrix(quantum_reg reg)$/;"	f
+quantum_r_x	gates.c	/^quantum_r_x(int target, float gamma, quantum_reg *reg)$/;"	f
+quantum_r_y	gates.c	/^quantum_r_y(int target, float gamma, quantum_reg *reg)$/;"	f
+quantum_r_z	gates.c	/^quantum_r_z(int target, float gamma, quantum_reg *reg)$/;"	f
+quantum_real	lq_complex.h	/^quantum_real(COMPLEX_FLOAT a)$/;"	f
+quantum_reg	quantum.h	/^typedef struct quantum_reg_struct quantum_reg;$/;"	t	typeref:struct:quantum_reg_struct
+quantum_reg	qureg.h	/^typedef struct quantum_reg_struct quantum_reg;$/;"	t	typeref:struct:quantum_reg_struct
+quantum_reg_node	quantum.h	/^typedef struct quantum_reg_node_struct quantum_reg_node;$/;"	t	typeref:struct:quantum_reg_node_struct
+quantum_reg_node	qureg.h	/^typedef struct quantum_reg_node_struct quantum_reg_node;$/;"	t	typeref:struct:quantum_reg_node_struct
+quantum_reg_node_struct	quantum.h	/^struct quantum_reg_node_struct$/;"	s
+quantum_reg_node_struct	qureg.h	/^struct quantum_reg_node_struct$/;"	s
+quantum_reg_struct	quantum.h	/^struct quantum_reg_struct$/;"	s
+quantum_reg_struct	qureg.h	/^struct quantum_reg_struct$/;"	s
+quantum_set_decoherence	decoherence.c	/^quantum_set_decoherence(float l)$/;"	f
+quantum_sigma_x	gates.c	/^quantum_sigma_x(int target, quantum_reg *reg)$/;"	f
+quantum_sigma_x_ft	qec.c	/^quantum_sigma_x_ft(int target, quantum_reg *reg)$/;"	f
+quantum_sigma_y	gates.c	/^quantum_sigma_y(int target, quantum_reg *reg)$/;"	f
+quantum_sigma_z	gates.c	/^quantum_sigma_z(int target, quantum_reg *reg)$/;"	f
+quantum_state_collapse	qureg.c	/^quantum_state_collapse(int pos, int value, quantum_reg reg)$/;"	f
+quantum_swaptheleads	gates.c	/^quantum_swaptheleads(int width, quantum_reg *reg)$/;"	f
+quantum_swaptheleads_omuln_controlled	gates.c	/^quantum_swaptheleads_omuln_controlled(int control, int width, quantum_reg *reg)$/;"	f
+quantum_toffoli	gates.c	/^quantum_toffoli(int control1, int control2, int target, quantum_reg *reg)$/;"	f
+quantum_toffoli_ft	qec.c	/^quantum_toffoli_ft(int control1, int control2, int target, quantum_reg *reg)$/;"	f
+quantum_unbounded_toffoli	gates.c	/^quantum_unbounded_toffoli(int controlling, quantum_reg *reg, ...)$/;"	f
+quantum_walsh	gates.c	/^quantum_walsh(int width, quantum_reg *reg)$/;"	f
+rows	matrix.h	/^  int rows;$/;"	m	struct:quantum_matrix_struct
+rows	quantum.h	/^  int rows;$/;"	m	struct:quantum_matrix_struct
+seedi	specrand.c	/^static int seedi;$/;"	v	file:
+size	quantum.h	/^  int size;     \/* number of non-zero vectors *\/$/;"	m	struct:quantum_reg_struct
+size	qureg.h	/^  int size;     \/* number of non-zero vectors *\/$/;"	m	struct:quantum_reg_struct
+spec_rand	specrand.c	/^double spec_rand(void)$/;"	f
+spec_srand	specrand.c	/^void spec_srand(int seed) {$/;"	f
+state	quantum.h	/^  MAX_UNSIGNED state;      \/* j *\/$/;"	m	struct:quantum_reg_node_struct
+state	qureg.h	/^  MAX_UNSIGNED state;      \/* j *\/$/;"	m	struct:quantum_reg_node_struct
+status	decoherence.c	/^int status = 0;$/;"	v
+t	matrix.h	/^  COMPLEX_FLOAT *t;$/;"	m	struct:quantum_matrix_struct
+t	quantum.h	/^  COMPLEX_FLOAT *t;$/;"	m	struct:quantum_matrix_struct
+test_sum	oaddn.c	/^test_sum(int compare, int width, quantum_reg *reg)$/;"	f
+type	qec.c	/^int type = 0;$/;"	v
+width	qec.c	/^int width = 0;$/;"	v
+width	quantum.h	/^  int width;    \/* number of qubits in the qureg *\/$/;"	m	struct:quantum_reg_struct
+width	qureg.h	/^  int width;    \/* number of qubits in the qureg *\/$/;"	m	struct:quantum_reg_struct

@@ -1,0 +1,2 @@
+./gcc 166.i 
+compile 166.i to 166.s

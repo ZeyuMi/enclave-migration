@@ -1,0 +1,2 @@
+#!/bin/sh
+exec "${REALGCC:-gcc}" "$@" -specs "/home/tmac/workspace/sgx-driver/musl-libc/build/lib/musl-gcc.specs"

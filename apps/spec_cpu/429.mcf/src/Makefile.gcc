@@ -1,0 +1,16 @@
+CC=gcc
+LD=ld
+OBJS=mcf.o mcfutil.o readmin.o implicit.o pstart.o output.o treeup.o pbla.o pflowup.o psimplex.o pbeampp.o
+
+#CFLAGS=-DSPEC_CPU -DNDEBUG -DWANT_STDC_PROTO -O2 -DSPEC_CPU_LP64
+CFLAGS=-DSPEC_CPU -DNDEBUG -DWANT_STDC_PROTO -O2 -DSPEC_CPU_LP64
+
+
+mcf: $(OBJS)
+	$(CC) $(CFLAGS) -o $@ $(OBJS)
+
+%.o: %.c
+	$(CC) $(CFLAGS) -I. -c $<
+
+clean:
+	rm -rf *.o *.s *.out

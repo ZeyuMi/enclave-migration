@@ -1,0 +1,4 @@
+##  量子计算　分解质因数
+##  trick: link with a libm from rumprun libOS and add useless.o for it
+
+~/workspace/sgx-driver/user libquantum_enclave 1397 8

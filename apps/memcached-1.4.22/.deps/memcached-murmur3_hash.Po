@@ -1,0 +1,15 @@
+memcached-murmur3_hash.o: murmur3_hash.c murmur3_hash.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/stdint.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/alltypes.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/stdint.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/stddef.h
+
+murmur3_hash.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/stdint.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/alltypes.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/stdint.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/stddef.h:

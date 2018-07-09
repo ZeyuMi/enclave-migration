@@ -1,0 +1,24 @@
+CC=clang
+OBJS=mcf.bc mcfutil.bc readmin.bc implicit.bc pstart.bc output.bc treeup.bc pbla.bc pflowup.bc psimplex.bc pbeampp.bc
+
+CFLAGS=-DSPEC_CPU -DNDEBUG -DWANT_STDC_PROTO -O2 -DSPEC_CPU_LP64
+
+all: mcf.s
+
+%.bc: %.c
+	$(CC) -c -emit-llvm $< -o $@ $(CFLAGS) -I.
+
+mcf.l.bc: $(OBJS)
+	llvm-link $(OBJS) -o $@
+
+mcf.d.bc: mcf.l.bc
+	opt -load ~/llvm/pass/cfi/build/lib/libCfi.so -fpanalysis $^ -o $@
+
+mcf.s: mcf.d.bc
+	llc -O0 $< -o $@
+#	sed -e 's/___isoc99_sscanf/__isoc99_sscanf/g' $@.tmp > $@
+#	scp $@ linaro@linaro-alip:~/spec/mcf
+#	ssh linaro@linaro-alip 'cd spec/mcf; gcc $@ -lm -o mcf'
+
+clean:
+	rm -rf *.bc *.ll *.s *.tmp

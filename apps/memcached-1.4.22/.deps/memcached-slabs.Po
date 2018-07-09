@@ -1,0 +1,149 @@
+memcached-slabs.o: slabs.c memcached.h config.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/stdbool.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/inttypes.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/features.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/stdint.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/alltypes.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/stdint.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/sys/types.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/endian.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/sys/select.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/sys/sysmacros.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/sys/socket.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/socket.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/sys/time.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/netinet/in.h \
+ libevent-build/include/event.h libevent-build/include/event-config.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/stdarg.h \
+ libevent-build/include/evutil.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/netdb.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/pthread.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/sched.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/time.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/unistd.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/posix.h \
+ protocol_binary.h cache.h sasl_defs.h stats.h slabs.h assoc.h items.h \
+ trace.h hash.h util.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/sys/stat.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/stat.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/sys/signal.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/signal.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/signal.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/sys/resource.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/resource.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/fcntl.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/fcntl.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/errno.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/errno.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/stdlib.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/alloca.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/stdio.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/string.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/strings.h \
+ /home/tmac/workspace/sgx-driver/musl-libc/build/include/assert.h
+
+memcached.h:
+
+config.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/stdbool.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/inttypes.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/features.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/stdint.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/alltypes.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/stdint.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/sys/types.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/endian.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/sys/select.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/sys/sysmacros.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/sys/socket.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/socket.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/sys/time.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/netinet/in.h:
+
+libevent-build/include/event.h:
+
+libevent-build/include/event-config.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/stdarg.h:
+
+libevent-build/include/evutil.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/netdb.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/pthread.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/sched.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/time.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/unistd.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/posix.h:
+
+protocol_binary.h:
+
+cache.h:
+
+sasl_defs.h:
+
+stats.h:
+
+slabs.h:
+
+assoc.h:
+
+items.h:
+
+trace.h:
+
+hash.h:
+
+util.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/sys/stat.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/stat.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/sys/signal.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/signal.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/signal.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/sys/resource.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/resource.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/fcntl.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/fcntl.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/errno.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/bits/errno.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/stdlib.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/alloca.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/stdio.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/string.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/strings.h:
+
+/home/tmac/workspace/sgx-driver/musl-libc/build/include/assert.h:

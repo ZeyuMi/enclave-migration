@@ -1,0 +1,8 @@
+## MCF是一个用于大型公共交通中的单站车辆调度的程序
+
+INPUT a file: inp.in
+
+./mcf inp.in
+./user ...mcf_enclave ...inp.in
+
+

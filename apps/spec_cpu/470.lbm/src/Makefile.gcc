@@ -1,0 +1,13 @@
+CC=gcc
+OBJS=lbm.o main.o 
+
+CFLAGS=-DSPEC_CPU -DNDEBUG -O2 -DSPEC_CPU_LP64 -g
+
+lbm: $(OBJS)
+	$(CC) -o $@ $^ -lm
+
+%.o: %.c
+	$(CC) -c $< -o $@ $(CFLAGS)
+
+clean:
+	rm -rf *.o 

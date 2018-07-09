@@ -1,0 +1,6 @@
+## 语音识别
+
+in the "run" directory:
+./sphinx ctlfile . args.an4
+
+~/workspace/sgx-driver/user sphinx_enclave ctlfile . args.an4

@@ -1,0 +1,808 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLOW_EVEN_ODD	comdefs.h	46;"	d
+ASCII_GAUGE_INFO_EXT	io_lat.h	164;"	d
+ASQ_OPTIMIZED_FATTENING	quark_action.h	20;"	d
+ASQ_OPTIMIZED_FORCE	quark_action.h	21;"	d
+BACKWARDS	comdefs.h	42;"	d
+CADD	complex.h	133;"	d
+CC	Makefile	/^CC=clang$/;"	m
+CDIF	gaugefix2.c	75;"	d	file:
+CDIV	complex.h	144;"	d
+CDIVREAL	complex.h	165;"	d
+CFLAGS	Makefile	/^CFLAGS=-DSPEC_CPU -DNDEBUG -I. -DFN -DFAST -DCONGRAD_TMP_VECTORS -DDSLASH_TMP_LINKS -O2 -DSPEC_CPU_LP64 -g$/;"	m
+CMUL	complex.h	141;"	d
+CMULJJ	complex.h	154;"	d
+CMULJ_	complex.h	151;"	d
+CMULREAL	complex.h	163;"	d
+CMUL_I	complex.h	159;"	d
+CMUL_J	complex.h	148;"	d
+CMUL_MINUS_I	complex.h	161;"	d
+CNEGATE	complex.h	157;"	d
+CONJG	complex.h	131;"	d
+CONTINUE	io_lat.h	14;"	d
+CONTROL	control.c	15;"	d	file:
+COULOMB_GAUGE_FIX	macros.h	29;"	d
+CSUB	complex.h	138;"	d
+CSUM	complex.h	136;"	d
+CSUM_TMI	complex.h	171;"	d
+CSUM_TPI	complex.h	168;"	d
+Clov_c	generic_quark_types.h	/^  double Clov_c;       \/* Perturbative clover coeff *\/$/;"	m	struct:__anon6
+DIR3	defines.h	20;"	d
+END_LOOP	gauge_stuff.c	17;"	d	file:
+END_LOOP	gauge_stuff.c	19;"	d	file:
+END_LOOP	loopend.h	17;"	d
+END_LOOP	loopend.h	19;"	d
+END_LOOP	path_product.c	13;"	d	file:
+EPS	io_lat4.c	41;"	d	file:
+EVEN	macros.h	16;"	d
+EVENANDODD	macros.h	18;"	d
+EXTERN	io_lat.h	31;"	d
+EXTERN	io_lat.h	33;"	d
+EXTERN	lattice.h	106;"	d
+EXTERN	lattice.h	108;"	d
+FAILURE	io_lat4.c	79;"	d	file:
+FETCH_UP	d_congrad5_fn.c	36;"	d	file:
+FETCH_UP	dslash_fn2.c	21;"	d	file:
+FETCH_UP	path_product.c	6;"	d	file:
+FORALL3UPDIR	defines.h	21;"	d
+FORALLSITES	gauge_stuff.c	13;"	d	file:
+FORALLSITES	gauge_stuff.c	14;"	d	file:
+FORALLSITES	macros.h	117;"	d
+FORALLSITES	macros.h	99;"	d
+FORALLSITES	path_product.c	10;"	d	file:
+FORALLSITES	path_product.c	9;"	d	file:
+FORALLSITESDOMAIN	macros.h	133;"	d
+FORALLSITESDOMAIN	macros.h	140;"	d
+FORALLUPDIR	macros.h	50;"	d
+FORALLUPDIR	macros.h	55;"	d
+FORALLUPDIRBUT	macros.h	52;"	d
+FOREVENSITES	macros.h	90;"	d
+FOREVENSITESDOMAIN	macros.h	129;"	d
+FOREVENSITESDOMAIN	macros.h	138;"	d
+FORGET	io_lat.h	20;"	d
+FORODDSITES	macros.h	92;"	d
+FORODDSITESDOMAIN	macros.h	131;"	d
+FORODDSITESDOMAIN	macros.h	139;"	d
+FORSOMEPARITY	loopend.h	11;"	d
+FORSOMEPARITY	loopend.h	12;"	d
+FORSOMEPARITY	macros.h	94;"	d
+FORSOMEPARITYDOMAIN	macros.h	135;"	d
+FORSOMEPARITYDOMAIN	macros.h	141;"	d
+FORSOMESUBLATTICE	macros.h	119;"	d
+FORWARDS	comdefs.h	41;"	d
+FRESH	io_lat.h	15;"	d
+F_OFFSET	macros.h	43;"	d
+F_PT	macros.h	45;"	d
+GAMMAFIVE	su3.h	53;"	d
+GAUGE_ACTION_PART1	gauge_stuff.c	26;"	d	file:
+GAUGE_ACTION_PART1	gauge_stuff.c	29;"	d	file:
+GAUGE_ACTION_PART2	gauge_stuff.c	62;"	d	file:
+GAUGE_ACTION_PART2	gauge_stuff.c	65;"	d	file:
+GAUGE_FIX_TOL	defines.h	7;"	d
+GAUGE_VERSION_NUMBER	io_lat.h	60;"	d
+GAUGE_VERSION_NUMBER_1996	io_lat.h	177;"	d
+GAUGE_VERSION_NUMBER_ARCHIVE	io_lat.h	179;"	d
+GAUGE_VERSION_NUMBER_V1	io_lat.h	243;"	d
+GOES_BACKWARDS	gauge_stuff.c	23;"	d	file:
+GOES_BACKWARDS	path_product.c	16;"	d	file:
+GOES_BACKWARDS	quark_stuff.c	39;"	d	file:
+GOES_FORWARDS	gauge_stuff.c	22;"	d	file:
+GOES_FORWARDS	path_product.c	15;"	d	file:
+GOES_FORWARDS	quark_stuff.c	38;"	d	file:
+HAVE_FSEEKO	config.h	50;"	d
+HAVE_IEEEFP_H	config.h	33;"	d
+HAVE_SYS_TIME_H	config.h	44;"	d
+HAVE_UNISTD_H	config.h	41;"	d
+IF_OK	setup.c	19;"	d	file:
+INDEX_3RD	dslash_fn2.c	23;"	d	file:
+INPUT_TYPE	io_lat4.c	/^typedef double INPUT_TYPE;$/;"	t	file:
+INT_IS_32BIT	config.h	15;"	d
+Kappa	generic_quark_types.h	/^  double Kappa;        \/* hopping *\/$/;"	m	struct:__anon6
+Kappa	generic_quark_types.h	/^  double Kappa;        \/* hopping *\/$/;"	m	struct:__anon7
+LANDAU_GAUGE_FIX	macros.h	30;"	d
+LOOPEND	d_congrad5_fn.c	44;"	d	file:
+LOOPEND	dslash_fn2.c	19;"	d	file:
+LOOPEND	loopend.h	8;"	d
+MAXERRCOUNT	reunitarize2.c	16;"	d	file:
+MAXFILENAME	macros.h	23;"	d
+MAX_BASIC_PATHS	quark_action.h	16;"	d
+MAX_BUF_LENGTH	io_lat4.c	49;"	d	file:
+MAX_BUF_LENGTH	io_lat4.c	50;"	d	file:
+MAX_DIRAC_DESCRIPT	io_lat.h	172;"	d
+MAX_DIRAC_PARAM	io_lat.h	173;"	d
+MAX_GATHERS	com_vanilla.c	85;"	d	file:
+MAX_GAUGE_FIELD_DESCRIPT	io_lat.h	170;"	d
+MAX_GAUGE_FIELD_PARAM	io_lat.h	171;"	d
+MAX_LENGTH	gauge_action.h	6;"	d
+MAX_LENGTH	quark_action.h	17;"	d
+MAX_LINE_LENGTH	io_lat4.c	160;"	d	file:
+MAX_LINE_LENGTH	io_lat4.c	80;"	d	file:
+MAX_NUM	gauge_action.h	7;"	d
+MAX_NUM	quark_action.h	18;"	d
+MAX_SOURCE_DESCRIPT	io_lat.h	174;"	d
+MAX_SOURCE_PARAM	io_lat.h	175;"	d
+MAX_SOURCE_SPINS	io_lat.h	176;"	d
+MAX_TIME_STAMP	io_lat.h	61;"	d
+MAX_TOKENS	io_lat4.c	161;"	d	file:
+MAX_TOKENS	io_lat4.c	81;"	d	file:
+MINUS	su3.h	55;"	d
+NATURAL_ORDER	io_lat4.c	47;"	d	file:
+NDIRS	dirs.h	20;"	d
+NLOOP	gauge_action.h	5;"	d
+NODE_DUMP_ORDER	io_lat4.c	46;"	d	file:
+NODIR	dirs.h	17;"	d
+NOWHERE	com_vanilla.c	7;"	d	file:
+NO_EVEN_ODD	comdefs.h	47;"	d
+NO_GAUGE_FIX	macros.h	28;"	d
+NO_INVERSE	comdefs.h	45;"	d
+NREPS	gauge_action.h	4;"	d
+NULL_FP	quark_stuff.c	28;"	d	file:
+N_POINTERS	lattice.h	158;"	d
+OBJS	Makefile	/^OBJS=control.bc f_meas.bc gauge_info.bc setup.bc update.bc update_h.bc update_u.bc layout_hyper.bc check_unitarity.bc d_plaq4.bc gaugefix2.bc io_helpers.bc io_lat4.bc make_lattice.bc path_product.bc ploop3.bc ranmom.bc ranstuff.bc reunitarize2.bc gauge_stuff.bc grsource_imp.bc mat_invert.bc quark_stuff.bc rephase.bc cmplx.bc addmat.bc addvec.bc clear_mat.bc clearvec.bc m_amatvec.bc m_mat_an.bc m_mat_na.bc m_mat_nn.bc m_matvec.bc make_ahmat.bc rand_ahmat.bc realtr.bc s_m_a_mat.bc s_m_a_vec.bc s_m_s_mat.bc s_m_vec.bc s_m_mat.bc su3_adjoint.bc su3_dot.bc su3_rdot.bc su3_proj.bc su3mat_copy.bc submat.bc subvec.bc trace_su3.bc uncmp_ahmat.bc msq_su3vec.bc sub4vecs.bc m_amv_4dir.bc m_amv_4vec.bc m_mv_s_4dir.bc m_su2_mat_vec_n.bc l_su2_hit_n.bc r_su2_hit_a.bc m_su2_mat_vec_a.bc gaussrand.bc byterevn.bc m_mat_hwvec.bc m_amat_hwvec.bc dslash_fn2.bc d_congrad5_fn.bc com_vanilla.bc io_nonansi.bc$/;"	m
+ODD	macros.h	17;"	d
+OFF	macros.h	65;"	d
+OLDHEADERSIZE	io_lat4.c	87;"	d	file:
+ON	macros.h	64;"	d
+OPP_3_DIR	defines.h	19;"	d
+OPP_DIR	dirs.h	19;"	d
+OPP_PAR	macros.h	57;"	d
+OUTPUT_TYPE	io_lat4.c	/^typedef double OUTPUT_TYPE;$/;"	t	file:
+OWN_INVERSE	comdefs.h	43;"	d
+P3	quark_stuff.c	1087;"	d	file:
+P3	quark_stuff.c	1100;"	d	file:
+P3	quark_stuff.c	1328;"	d	file:
+P3	quark_stuff.c	899;"	d	file:
+P3mu	quark_stuff.c	1089;"	d	file:
+P3mu	quark_stuff.c	1102;"	d	file:
+P3mu	quark_stuff.c	1330;"	d	file:
+P3mu	quark_stuff.c	901;"	d	file:
+P5	quark_stuff.c	1086;"	d	file:
+P5	quark_stuff.c	1099;"	d	file:
+P5	quark_stuff.c	1327;"	d	file:
+P5	quark_stuff.c	898;"	d	file:
+P5nu	quark_stuff.c	1088;"	d	file:
+P5nu	quark_stuff.c	1101;"	d	file:
+P5nu	quark_stuff.c	1329;"	d	file:
+P5nu	quark_stuff.c	900;"	d	file:
+P7	quark_stuff.c	1083;"	d	file:
+P7	quark_stuff.c	1096;"	d	file:
+P7	quark_stuff.c	1324;"	d	file:
+P7	quark_stuff.c	895;"	d	file:
+P7rho	quark_stuff.c	1084;"	d	file:
+P7rho	quark_stuff.c	1097;"	d	file:
+P7rho	quark_stuff.c	1325;"	d	file:
+P7rho	quark_stuff.c	896;"	d	file:
+P7rhonu	quark_stuff.c	1085;"	d	file:
+P7rhonu	quark_stuff.c	1098;"	d	file:
+P7rhonu	quark_stuff.c	1326;"	d	file:
+P7rhonu	quark_stuff.c	897;"	d	file:
+PAD	d_congrad5_fn.c	106;"	d	file:
+PARALLEL	io_lat4.c	43;"	d	file:
+PI	macros.h	11;"	d
+PLUS	su3.h	54;"	d
+Pmu	quark_stuff.c	1080;"	d	file:
+Pmu	quark_stuff.c	1093;"	d	file:
+Pmu	quark_stuff.c	1321;"	d	file:
+Pmu	quark_stuff.c	892;"	d	file:
+Pmumumu	quark_stuff.c	1091;"	d	file:
+Pmumumu	quark_stuff.c	1104;"	d	file:
+Pmumumu	quark_stuff.c	1332;"	d	file:
+Pmumumu	quark_stuff.c	903;"	d	file:
+Pnumu	quark_stuff.c	1081;"	d	file:
+Pnumu	quark_stuff.c	1094;"	d	file:
+Pnumu	quark_stuff.c	1322;"	d	file:
+Pnumu	quark_stuff.c	893;"	d	file:
+Popmu	quark_stuff.c	1090;"	d	file:
+Popmu	quark_stuff.c	1103;"	d	file:
+Popmu	quark_stuff.c	1331;"	d	file:
+Popmu	quark_stuff.c	902;"	d	file:
+Prhonumu	quark_stuff.c	1082;"	d	file:
+Prhonumu	quark_stuff.c	1095;"	d	file:
+Prhonumu	quark_stuff.c	1323;"	d	file:
+Prhonumu	quark_stuff.c	894;"	d	file:
+QCDheader	io_lat.h	/^} QCDheader ;$/;"	t	typeref:struct:__anon17
+RECEIVE	com_vanilla.c	172;"	d	file:
+RELOAD_ASCII	io_lat.h	16;"	d
+RELOAD_MULTIDUMP	io_lat.h	18;"	d
+RELOAD_PARALLEL	io_lat.h	19;"	d
+RELOAD_SERIAL	io_lat.h	17;"	d
+REUNIT_INTERVAL	gaugefix2.c	71;"	d	file:
+SAME_PARITY	comdefs.h	48;"	d
+SAVE_ASCII	io_lat.h	21;"	d
+SAVE_CHECKPOINT	io_lat.h	23;"	d
+SAVE_MULTIDUMP	io_lat.h	24;"	d
+SAVE_PARALLEL	io_lat.h	25;"	d
+SAVE_PARALLEL_ARCHIVE	io_lat.h	27;"	d
+SAVE_SERIAL	io_lat.h	22;"	d
+SAVE_SERIAL_ARCHIVE	io_lat.h	26;"	d
+SCRAMBLE_PARITY	comdefs.h	50;"	d
+SEND	com_vanilla.c	173;"	d	file:
+SERIAL	io_lat4.c	44;"	d	file:
+SHORT_IS_32BIT	config.h	16;"	d
+SITERAND	defines.h	6;"	d
+STRONG	check_unitarity.c	9;"	d	file:
+SUCCESS	io_lat4.c	78;"	d	file:
+SWITCH_PARITY	comdefs.h	49;"	d
+T3DOWN	defines.h	14;"	d
+T3UP	defines.h	13;"	d
+TADPOLE_IMPROVE	quark_action.h	19;"	d
+TDOWN	dirs.h	12;"	d
+TIMESMINUSI	su3.h	60;"	d
+TIMESMINUSONE	su3.h	58;"	d
+TIMESPLUSI	su3.h	59;"	d
+TIMESPLUSONE	su3.h	57;"	d
+TOL	io_lat4.c	88;"	d	file:
+TOLERANCE	check_unitarity.c	15;"	d	file:
+TOLERANCE	reunitarize2.c	15;"	d	file:
+TUP	dirs.h	11;"	d
+U0	generic_quark_types.h	/^  double U0;           \/* Tadpole correction to Clov_c *\/$/;"	m	struct:__anon6
+WANT_INVERSE	comdefs.h	44;"	d
+X3DOWN	defines.h	17;"	d
+X3UP	defines.h	10;"	d
+XDOWN	dirs.h	15;"	d
+XUP	dirs.h	8;"	d
+Y3DOWN	defines.h	16;"	d
+Y3UP	defines.h	11;"	d
+YDOWN	dirs.h	14;"	d
+YUP	dirs.h	9;"	d
+Z3DOWN	defines.h	15;"	d
+Z3UP	defines.h	12;"	d
+ZDOWN	dirs.h	13;"	d
+ZUP	dirs.h	10;"	d
+_ASQTAD_ACTION_H	quark_action.h	2;"	d
+_COMDEFS_H	comdefs.h	2;"	d
+_CONFIG_H	config.h	2;"	d
+_DEFINES_H	defines.h	2;"	d
+_DIRS_H	dirs.h	2;"	d
+_GENERIC_H	generic.h	2;"	d
+_GENERIC_KS_H	generic_ks.h	2;"	d
+_GENERIC_QUARK_TYPES_H	generic_quark_types.h	2;"	d
+_IO_LAT_H	io_lat.h	2;"	d
+_LATTICE_H	lattice.h	2;"	d
+_LOOPEND_H	loopend.h	2;"	d
+_MACROS_H	macros.h	2;"	d
+_MILC_COMPLEX_H	complex.h	2;"	d
+_PARAMS_H	params.h	2;"	d
+_RANDOM_H	random.h	2;"	d
+_SU3_H	su3.h	2;"	d
+_TYPE32_H	int32type.h	12;"	d
+accum_gauge_hit	gaugefix2.c	/^void accum_gauge_hit(int gauge_dir,int parity)$/;"	f
+act_path_coeff	quark_stuff.c	/^static double act_path_coeff[MAX_BASIC_PATHS]; \/* actual path coefficient     *$/;"	v	file:
+add_3f_force_to_mom	quark_stuff.c	/^void add_3f_force_to_mom(half_wilson_vector *back,$/;"	f
+add_basic_path	quark_stuff.c	/^int add_basic_path( int *basic_vec, int length, double coeff ) {$/;"	f
+add_force_to_mom	quark_stuff.c	/^void add_force_to_mom(su3_vector *back,su3_vector *forw,int dir,double coeff) {$/;"	f
+add_su3_matrix	addmat.c	/^void add_su3_matrix( su3_matrix *a, su3_matrix *b, su3_matrix *c ) {$/;"	f
+add_su3_vector	addvec.c	/^void add_su3_vector( su3_vector *a, su3_vector *b, su3_vector *c ){$/;"	f
+addend	random.h	/^  unsigned long multiplier,addend,ic_state;$/;"	m	struct:__anon3
+anti_hermitmat	su3.h	/^  { complex m01,m02,m12; double m00im,m11im,m22im; double space; } anti_hermitmat;$/;"	t	typeref:struct:__anon21
+anti_prop	lattice.h	89;"	d
+ask_ending_lattice	io_helpers.c	/^int ask_ending_lattice( int prompt, int *flag, char *filename ){$/;"	f
+ask_starting_lattice	io_helpers.c	/^int ask_starting_lattice( int prompt, int *flag, char *filename ){$/;"	f
+av_deviation	reunitarize2.c	/^double av_deviation;$/;"	v
+beta	lattice.h	/^EXTERN  double beta,mass,u0;$/;"	v
+beta	params.h	/^	double beta,mass; \/* gauge coupling, quark mass *\/$/;"	m	struct:__anon1
+big_endian	io_lat4.c	/^int big_endian() {$/;"	f
+broadcast_bytes	com_vanilla.c	/^void broadcast_bytes(char *buf,int size)  {$/;"	f
+broadcast_complex	com_vanilla.c	/^void broadcast_complex(complex *cpt) {$/;"	f
+broadcast_dcomplex	com_vanilla.c	/^void broadcast_dcomplex(double_complex *cpt) {$/;"	f
+broadcast_double	com_vanilla.c	/^void broadcast_double(double *dpt) {$/;"	f
+broadcast_float	com_vanilla.c	/^void broadcast_float(float *fpt) {$/;"	f
+byterevflag	io_lat.h	/^  int            byterevflag;   \/* Byte reverse flag - used only for reading *\/$/;"	m	struct:__anon18
+byterevn	byterevn.c	/^void byterevn(int32type w[], int n)$/;"	f
+c	su3.h	/^typedef struct { complex c[3]; } su3_vector;$/;"	m	struct:__anon20
+c	su3.h	/^typedef struct { spin_wilson_vector c[3]; } wilson_propagator;$/;"	m	struct:__anon28
+c	su3.h	/^typedef struct { wilson_vector c[3]; } color_wilson_vector;$/;"	m	struct:__anon25
+cabs	complex.h	123;"	d
+cabs_sq	complex.h	126;"	d
+carg	complex.h	128;"	d
+cexp	complex.h	68;"	d
+cg_p	d_congrad5_fn.c	/^su3_vector *ttt,*cg_p;$/;"	v
+cg_p	lattice.h	/^ 	su3_vector cg_p;	\/* conjugate gradient change vector *\/$/;"	m	struct:__anon12
+char_num	gauge_stuff.c	/^void char_num( int *dig, int *chr, int length){$/;"	f
+check	io_lat.h	/^  gauge_check    check;         \/* Checksum *\/$/;"	m	struct:__anon18
+check_deviation	reunitarize2.c	/^int check_deviation(double deviation)$/;"	f
+check_invert	mat_invert.c	/^void check_invert( field_offset src, field_offset dest, double mass,$/;"	f
+check_su3	check_unitarity.c	/^double check_su3(su3_matrix *c) {$/;"	f
+check_unitarity	check_unitarity.c	/^double check_unitarity() {$/;"	f
+checkmul_imp	grsource_imp.c	/^void checkmul_imp( field_offset src, double mass ) {$/;"	f
+cleanup_dslash_temps	dslash_fn2.c	/^void cleanup_dslash_temps(){$/;"	f
+cleanup_field_pointer	com_vanilla.c	/^void cleanup_field_pointer(char * buf) {$/;"	f
+cleanup_gather	com_vanilla.c	/^void cleanup_gather(msg_tag *mbuf) {$/;"	f
+cleanup_gathers	dslash_fn2.c	/^void cleanup_gathers(msg_tag *tags1[], msg_tag *tags2[])$/;"	f
+cleanup_general_gather	com_vanilla.c	/^void cleanup_general_gather(msg_tag *mbuf) {$/;"	f
+clear_latvec	d_congrad5_fn.c	/^void clear_latvec(field_offset v,int parity){$/;"	f
+clear_su3mat	clear_mat.c	/^void clear_su3mat( su3_matrix *dest ){$/;"	f
+clearvec	clearvec.c	/^void clearvec( su3_vector *v ){$/;"	f
+clog	complex.h	69;"	d
+cmplx	cmplx.c	/^complex cmplx( double x, double y )  {$/;"	f
+coeff	quark_stuff.c	/^    double coeff;	\/* coefficient, including minus sign if backwards *\/$/;"	m	struct:__anon4	file:
+coldlat	io_helpers.c	/^void coldlat(){$/;"	f
+color	generic_quark_types.h	/^  int color;          \/* source color required *\/$/;"	m	struct:__anon9
+color_wilson_vector	su3.h	/^typedef struct { wilson_vector c[3]; } color_wilson_vector;$/;"	t	typeref:struct:__anon25
+complete_U	io_lat4.c	/^void complete_U(double *u) {$/;"	f
+complex	complex.h	/^} complex;$/;"	t	typeref:struct:__anon10
+complex	complex.h	62;"	d
+compute_gen_staple	quark_stuff.c	/^void compute_gen_staple(field_offset staple, int mu, int nu, $/;"	f
+converged	generic_quark_types.h	/^  int converged;      \/* returned 0 if not converged; 1 if converged *\/$/;"	m	struct:__anon5
+copy_latvec	d_congrad5_fn.c	/^void copy_latvec(field_offset src,field_offset dest,int parity){$/;"	f
+count	com_vanilla.c	/^struct msg_tmp { int node,count; }; \/* temporary structure for keeping$/;"	m	struct:msg_tmp	file:
+csqrt	complex.h	70;"	d
+d	su3.h	/^typedef struct { color_wilson_vector d[4]; } wilson_matrix;$/;"	m	struct:__anon27
+d	su3.h	/^typedef struct { su3_vector d[4]; } wilson_vector;$/;"	m	struct:__anon23
+d	su3.h	/^typedef struct { wilson_vector d[4]; } spin_wilson_vector;$/;"	m	struct:__anon26
+d_plaquette	d_plaq4.c	/^void d_plaquette(double *ss_plaq,double *st_plaq) {$/;"	f
+dcabs	complex.h	125;"	d
+dcarg	complex.h	130;"	d
+dclock	com_vanilla.c	/^double dclock(void){$/;"	f
+dclock	comdefs.h	37;"	d
+descript	io_lat.h	/^    char   descript[MAX_GAUGE_FIELD_DESCRIPT];  \/* Describes gauge field *\/$/;"	m	struct:__anon15::__anon16
+descrp	generic_quark_types.h	/^  char descrp[30];    \/* alpha description for most *\/$/;"	m	struct:__anon9
+diffmat_offset	gaugefix2.c	/^field_offset diffmat_offset,sumvec_offset;  \/* field offsets *\/$/;"	v
+diffmatp	gaugefix2.c	/^su3_matrix *diffmatp;                       \/* malloced diffmat pointer *\/$/;"	v
+dims	io_lat.h	/^  int32type dims[4];                    \/* Full lattice dimensions *\/$/;"	m	struct:__anon13
+dims	io_lat.h	/^  int32type dims[4];               \/* Full lattice dimensions *\/$/;"	m	struct:__anon15
+dir	quark_stuff.c	/^    int dir[MAX_LENGTH];	\/* directions in path *\/$/;"	m	struct:__anon4	file:
+dirac_clover_param	generic_quark_types.h	/^} dirac_clover_param;$/;"	t	typeref:struct:__anon6
+dirac_ks_param	generic_quark_types.h	/^} dirac_ks_param;$/;"	t	typeref:struct:__anon8
+dirac_wilson_param	generic_quark_types.h	/^} dirac_wilson_param;$/;"	t	typeref:struct:__anon7
+do_hit	gaugefix2.c	/^void do_hit(int gauge_dir, int parity, int p, int q, double relax_boost,$/;"	f
+double_complex	complex.h	/^} double_complex;$/;"	t	typeref:struct:__anon11
+double_prn	random.h	/^} double_prn;$/;"	t	typeref:struct:__anon3
+dsdu_qhb_subl	gauge_stuff.c	/^void dsdu_qhb_subl(int dir, int subl)$/;"	f
+dslash	grsource_imp.c	10;"	d	file:
+dslash	grsource_imp.c	13;"	d	file:
+dslash	ks_imp_includes.h	21;"	d
+dslash	ks_imp_includes.h	24;"	d
+dslash	mat_invert.c	13;"	d	file:
+dslash	mat_invert.c	16;"	d	file:
+dslash_eo	quark_stuff.c	/^void dslash_eo( field_offset src, field_offset dest, int parity ) {$/;"	f
+dslash_fn	dslash_fn2.c	/^void dslash_fn( field_offset src, field_offset dest, int parity ) {$/;"	f
+dslash_fn_on_temp	dslash_fn2.c	/^void dslash_fn_on_temp( su3_vector *src, su3_vector *dest, int parity ) {$/;"	f
+dslash_fn_on_temp_special	dslash_fn2.c	/^void dslash_fn_on_temp_special(su3_vector *src, su3_vector *dest,$/;"	f
+dslash_fn_special	dslash_fn2.c	/^void dslash_fn_special( field_offset src, field_offset dest,$/;"	f
+e	su3.h	/^typedef struct { complex e[2][2]; } su2_matrix;$/;"	m	struct:__anon22
+e	su3.h	/^typedef struct { complex e[3][3]; } su3_matrix;$/;"	m	struct:__anon19
+ensemble_id	io_lat.h	/^EXTERN  char ensemble_id[MAXFILENAME];$/;"	v
+eo_fermion_force	quark_stuff.c	/^void eo_fermion_force( double eps, int nflavors, field_offset x_off ){$/;"	f
+eo_fermion_force_3f	quark_stuff.c	/^void eo_fermion_force_3f( double eps, int nflav1, field_offset x1_off, $/;"	f
+eo_fermion_force_3f	quark_stuff.c	/^void eo_fermion_force_3f( double eps, int nflav1, field_offset x1_off,$/;"	f
+epsilon	lattice.h	/^EXTERN	double epsilon;$/;"	v
+epsilon	params.h	/^	double epsilon;	\/* time step *\/$/;"	m	struct:__anon1
+error_exit	io_lat4.c	/^void error_exit(char *s) { printf("%s\\n",s); terminate(1);}$/;"	f
+even_sites_on_node	lattice.h	/^EXTERN	int even_sites_on_node;	\/* number of even sites on this node *\/$/;"	v
+f_meas_imp	f_meas.c	/^void f_meas_imp( field_offset phi_off, field_offset xxx_off, double mass ){$/;"	f
+fatlink	lattice.h	/^	su3_matrix fatlink[4];	\/* link plus 3-link staples *\/$/;"	m	struct:__anon12
+field_offset	macros.h	/^typedef int field_offset;$/;"	t
+field_pointer_at_coordinates	com_vanilla.c	/^char * field_pointer_at_coordinates($/;"	f
+field_pointer_at_direction	com_vanilla.c	/^char * field_pointer_at_direction($/;"	f
+filename	io_lat.h	/^  char *         filename;       \/* Pointer to file name string *\/$/;"	m	struct:__anon18
+first_congrad	d_congrad5_fn.c	/^int first_congrad = 1;$/;"	v
+fixsu3	reunitarize2.c	23;"	d	file:
+forwback	quark_stuff.c	/^    double forwback;	\/* +1 if in forward Dslash, -1 if in backward *\/$/;"	m	struct:__anon4	file:
+fp	io_lat.h	/^  FILE *         fp;            \/* File pointer *\/$/;"	m	struct:__anon18
+fseeko	io_lat4.c	31;"	d	file:
+fseeko	io_lat4.c	37;"	d	file:
+funnylat	io_helpers.c	/^void funnylat()  {$/;"	f
+g_close	io_nonansi.c	/^int g_close(FILE *stream)$/;"	f
+g_complexsum	com_vanilla.c	/^void g_complexsum( complex *cpt) {$/;"	f
+g_dcomplexsum	com_vanilla.c	/^void g_dcomplexsum( double_complex *cpt) {$/;"	f
+g_doublemax	com_vanilla.c	/^void g_doublemax( double *dpt) {$/;"	f
+g_doublesum	com_vanilla.c	/^void g_doublesum( double *dpt) {$/;"	f
+g_floatmax	com_vanilla.c	/^void g_floatmax( float *fpt) {$/;"	f
+g_floatsum	com_vanilla.c	/^void g_floatsum( float *fpt) {$/;"	f
+g_gather_flag	com_vanilla.c	/^int g_gather_flag=0;	\/* flag to tell if general gather in progress *\/$/;"	v
+g_measure	gauge_stuff.c	/^void g_measure( ){$/;"	f
+g_open	io_nonansi.c	/^FILE *g_open(const char *filename, const char *mode)$/;"	f
+g_rand	lattice.h	/^ 	su3_vector g_rand;	\/* Gaussian random vector*\/$/;"	m	struct:__anon12
+g_read	io_nonansi.c	/^size_t g_read(void *ptr, size_t size, size_t nmemb, FILE *stream)$/;"	f
+g_seek	io_nonansi.c	/^int g_seek(FILE *stream, off_t offset, int whence)$/;"	f
+g_sync	com_vanilla.c	/^void g_sync(void){$/;"	f
+g_veccomplexsum	com_vanilla.c	/^void g_veccomplexsum( complex *cpt, int ncomplex){$/;"	f
+g_vecdoublesum	com_vanilla.c	/^void g_vecdoublesum( double *dpt, int ndoubles) {$/;"	f
+g_write	io_nonansi.c	/^size_t g_write(const void *ptr, size_t size, size_t nmemb,FILE *stream)$/;"	f
+g_wvectorsum	com_vanilla.c	/^void g_wvectorsum( wilson_vector *wvpt) {$/;"	f
+g_xor32	com_vanilla.c	/^void g_xor32( u_int32type *pt ) {$/;"	f
+gauge_action_description	gauge_stuff.c	/^char gauge_action_description[128];$/;"	v
+gauge_action_nloops	gauge_stuff.c	/^int  gauge_action_nloops=NLOOP;$/;"	v
+gauge_action_nreps	gauge_stuff.c	/^int  gauge_action_nreps=NREPS;$/;"	v
+gauge_check	io_lat.h	/^} gauge_check;$/;"	t	typeref:struct:__anon14
+gauge_field	io_lat.h	/^  } gauge_field;$/;"	m	struct:__anon15	typeref:struct:__anon15::__anon16
+gauge_file	io_lat.h	/^} gauge_file;$/;"	t	typeref:struct:__anon18
+gauge_header	io_lat.h	/^} gauge_header;$/;"	t	typeref:struct:__anon13
+gauge_header_1996	io_lat.h	/^} gauge_header_1996  ;$/;"	t	typeref:struct:__anon15
+gauge_info_keyword	io_lat.h	/^char *gauge_info_keyword[] = {$/;"	v
+gaugefix	gaugefix2.c	/^void gaugefix(int gauge_dir,double relax_boost,int max_gauge_iter,$/;"	f
+gaugefixscratch	gaugefix2.c	/^void gaugefixscratch(field_offset diffmat, field_offset sumvec)$/;"	f
+gaugefixstep	gaugefix2.c	/^void gaugefixstep(int gauge_dir,double *av_gauge_fix_action,double relax_boost,$/;"	f
+gaussian_rand_no	gaussrand.c	/^double gaussian_rand_no( double_prn *prn_pt ){$/;"	f
+gen_pt	lattice.h	/^EXTERN char ** gen_pt[N_POINTERS];$/;"	v
+get_f	io_helpers.c	/^int get_f( int prompt, char *variable_name_string, double *value ){$/;"	f
+get_field	com_vanilla.c	/^void get_field(char *buf, int size){$/;"	f
+get_gauge_fix_action	gaugefix2.c	/^double get_gauge_fix_action(int gauge_dir,int parity)$/;"	f
+get_i	io_helpers.c	/^int get_i( int prompt, char *variable_name_string, int *value ){$/;"	f
+get_prompt	io_helpers.c	/^int get_prompt( int *prompt ){$/;"	f
+get_s	io_helpers.c	/^int get_s( int prompt, char *variable_name_string, char *value ){$/;"	f
+gf	setup.c	/^gauge_file *gf;$/;"	v
+grsource_imp	grsource_imp.c	/^void grsource_imp( field_offset dest, double mass, int parity) {$/;"	f
+h	su3.h	/^typedef struct { su3_vector h[2]; } half_wilson_vector;$/;"	m	struct:__anon24
+half_wilson_vector	su3.h	/^typedef struct { su3_vector h[2]; } half_wilson_vector;$/;"	t	typeref:struct:__anon24
+header	io_lat.h	/^  gauge_header*  header;        \/* Pointer to header for file *\/$/;"	m	struct:__anon18
+header_bytes	io_lat.h	/^  int32type header_bytes;               \/* NOT WRITTEN TO THE FILE but$/;"	m	struct:__anon13
+header_bytes	io_lat.h	/^  int32type header_bytes;          \/* Number of bytes for data belonging to$/;"	m	struct:__anon15
+ic_state	random.h	/^  unsigned long multiplier,addend,ic_state;$/;"	m	struct:__anon3
+imag	complex.h	/^   double imag;$/;"	m	struct:__anon10
+imag	complex.h	/^   double imag;$/;"	m	struct:__anon11
+imp_gauge_action	gauge_stuff.c	/^double imp_gauge_action() {$/;"	f
+imp_gauge_force	gauge_stuff.c	/^void imp_gauge_force( double eps, field_offset mom_off ){$/;"	f
+index	lattice.h	/^	int index;$/;"	m	struct:__anon12
+initial_set	setup.c	/^int initial_set(){$/;"	f
+initialize_machine	com_vanilla.c	/^void initialize_machine(int argc, char **argv){}$/;"	f
+initialize_prn	ranstuff.c	/^void initialize_prn(double_prn *prn_pt, int seed, int index) {$/;"	f
+int32type	int32type.h	/^typedef short int32type;$/;"	t
+is_path_equal	quark_stuff.c	/^int is_path_equal( int *path1, int* path2, int length ){$/;"	f
+iseed	lattice.h	/^EXTERN	int iseed;		\/* random number seed *\/$/;"	v
+iseed	params.h	/^	int iseed;	\/* for random numbers *\/$/;"	m	struct:__anon1
+ks_congrad	d_congrad5_fn.c	/^int ks_congrad( field_offset src, field_offset dest, double mass,$/;"	f
+lattice	lattice.h	/^EXTERN site *lattice;$/;"	v
+left_su2_hit_n	l_su2_hit_n.c	/^void left_su2_hit_n(su2_matrix *u,int p,int q,su3_matrix *link)$/;"	f
+length	quark_stuff.c	/^    int length;		\/* length of path *\/$/;"	m	struct:__anon4	file:
+link	lattice.h	/^	su3_matrix link[4];	\/* the fundamental field *\/$/;"	m	struct:__anon12
+load_fatlinks	quark_stuff.c	/^void load_fatlinks() {$/;"	f
+load_longlinks	quark_stuff.c	/^void load_longlinks() {$/;"	f
+longlink	lattice.h	/^	su3_matrix longlink[4];	\/* three link straight paths *\/$/;"	m	struct:__anon12
+loop_char	gauge_stuff.c	/^int loop_char[MAX_NUM];$/;"	v
+loop_coeff	gauge_stuff.c	/^double loop_coeff[NLOOP][NREPS];$/;"	v
+loop_expect	gauge_stuff.c	/^double loop_expect[NLOOP][NREPS][MAX_NUM];$/;"	v
+loop_ind	gauge_action.h	/^    static int loop_ind[NLOOP][MAX_LENGTH] = {$/;"	v
+loop_ind	gauge_stuff.c	/^int loop_ind[NLOOP][MAX_LENGTH];$/;"	v
+loop_length	gauge_stuff.c	/^int loop_length[NLOOP];	\/* lengths of various kinds of loops *\/$/;"	v
+loop_length_in	gauge_action.h	/^    static int loop_length_in[NLOOP] = {4,6,6};$/;"	v
+loop_num	gauge_stuff.c	/^int loop_num[NLOOP];	\/* number of rotations\/reflections  for each kind *\/$/;"	v
+loop_table	gauge_stuff.c	/^int loop_table[NLOOP][MAX_NUM][MAX_LENGTH];$/;"	v
+m00im	su3.h	/^  { complex m01,m02,m12; double m00im,m11im,m22im; double space; } anti_hermitmat;$/;"	m	struct:__anon21
+m01	su3.h	/^  { complex m01,m02,m12; double m00im,m11im,m22im; double space; } anti_hermitmat;$/;"	m	struct:__anon21
+m02	su3.h	/^  { complex m01,m02,m12; double m00im,m11im,m22im; double space; } anti_hermitmat;$/;"	m	struct:__anon21
+m11im	su3.h	/^  { complex m01,m02,m12; double m00im,m11im,m22im; double space; } anti_hermitmat;$/;"	m	struct:__anon21
+m12	su3.h	/^  { complex m01,m02,m12; double m00im,m11im,m22im; double space; } anti_hermitmat;$/;"	m	struct:__anon21
+m22im	su3.h	/^  { complex m01,m02,m12; double m00im,m11im,m22im; double space; } anti_hermitmat;$/;"	m	struct:__anon21
+machine_type	com_vanilla.c	/^char * machine_type(void){$/;"	f
+magic_number	io_lat.h	/^  int32type magic_number;               \/* Identifies file format *\/$/;"	m	struct:__anon13
+magic_number	io_lat.h	/^  int32type magic_number;          \/* Identifies file format *\/$/;"	m	struct:__anon15
+magsq_su3vec	msq_su3vec.c	/^double magsq_su3vec( su3_vector *a ){$/;"	f
+magsq_su3vec	msq_su3vec.c	/^double magsq_su3vec(su3_vector *a){$/;"	f
+main	control.c	/^int main( int argc, char **argv ){$/;"	f
+make_3n_gathers	setup.c	/^void make_3n_gathers(){$/;"	f
+make_anti_hermitian	make_ahmat.c	/^void make_anti_hermitian( su3_matrix *m3, anti_hermitmat *ah3 ) {$/;"	f
+make_gather	com_vanilla.c	/^int make_gather($/;"	f
+make_lattice	make_lattice.c	/^void make_lattice(){$/;"	f
+make_loop_table	gauge_stuff.c	/^void make_loop_table() {$/;"	f
+make_nn_gathers	com_vanilla.c	/^void make_nn_gathers(){$/;"	f
+make_path_table	quark_stuff.c	/^void make_path_table() {$/;"	f
+mass	generic_quark_types.h	/^  double mass;$/;"	m	struct:__anon8
+mass	lattice.h	/^EXTERN  double beta,mass,u0;$/;"	v
+mass	params.h	/^	double beta,mass; \/* gauge coupling, quark mass *\/$/;"	m	struct:__anon1
+mat_invert_cg	mat_invert.c	/^int mat_invert_cg( field_offset src, field_offset dest, field_offset temp,$/;"	f
+mat_invert_uml	mat_invert.c	/^int mat_invert_uml(field_offset src, field_offset dest, field_offset temp,$/;"	f
+max	generic_quark_types.h	/^  int max;            \/* maximum number of iterations per restart *\/$/;"	m	struct:__anon5
+max_deviation	reunitarize2.c	/^double max_deviation;$/;"	v
+min	generic_quark_types.h	/^  int min;            \/* minimum number of iterations *\/$/;"	m	struct:__anon5
+mom	lattice.h	/^ 	anti_hermitmat mom[4];$/;"	m	struct:__anon12
+msg_buf	comdefs.h	/^    char *msg_buf;$/;"	m	struct:__anon2
+msg_id	comdefs.h	/^    MPI_Request msg_id;$/;"	m	struct:__anon2
+msg_id	comdefs.h	/^    int msg_id;$/;"	m	struct:__anon2
+msg_node	comdefs.h	/^    int msg_node;$/;"	m	struct:__anon2
+msg_size	comdefs.h	/^    int msg_size;$/;"	m	struct:__anon2
+msg_tag	comdefs.h	/^} msg_tag;$/;"	t	typeref:struct:__anon2
+msg_tmp	com_vanilla.c	/^struct msg_tmp { int node,count; }; \/* temporary structure for keeping$/;"	s	file:
+mult_adj_su3_mat_4vec	m_amv_4vec.c	/^void mult_adj_su3_mat_4vec( su3_matrix *mat, su3_vector *src,$/;"	f
+mult_adj_su3_mat_hwvec	m_amat_hwvec.c	/^void mult_adj_su3_mat_hwvec( su3_matrix *mat,$/;"	f
+mult_adj_su3_mat_vec	m_amatvec.c	/^void mult_adj_su3_mat_vec( su3_matrix *a, su3_vector *b, su3_vector *c ){$/;"	f
+mult_adj_su3_mat_vec_4dir	m_amv_4dir.c	/^void mult_adj_su3_mat_vec_4dir( su3_matrix *mat, su3_vector *src,$/;"	f
+mult_su2_mat_vec_elem_a	m_su2_mat_vec_a.c	/^void mult_su2_mat_vec_elem_a(su2_matrix *u,complex *x0,complex *x1)$/;"	f
+mult_su2_mat_vec_elem_n	m_su2_mat_vec_n.c	/^void mult_su2_mat_vec_elem_n(su2_matrix *u,complex *x0,complex *x1)$/;"	f
+mult_su3_an	m_mat_an.c	/^void mult_su3_an( su3_matrix *a, su3_matrix *b, su3_matrix *c ){$/;"	f
+mult_su3_mat_hwvec	m_mat_hwvec.c	/^void mult_su3_mat_hwvec( su3_matrix *mat, half_wilson_vector *src,$/;"	f
+mult_su3_mat_vec	m_matvec.c	/^void mult_su3_mat_vec( su3_matrix *a, su3_vector *b, su3_vector *c  ){$/;"	f
+mult_su3_mat_vec	m_matvec.c	/^void mult_su3_mat_vec( su3_matrix *a, su3_vector *b, su3_vector *c ){$/;"	f
+mult_su3_mat_vec_sum_4dir	m_mv_s_4dir.c	/^void mult_su3_mat_vec_sum_4dir(  su3_matrix *a, su3_vector *b0,$/;"	f
+mult_su3_na	m_mat_na.c	/^void mult_su3_na(  su3_matrix *a, su3_matrix *b, su3_matrix *c ){$/;"	f
+mult_su3_na	m_mat_na.c	/^void mult_su3_na( su3_matrix *a, su3_matrix *b, su3_matrix *c ){$/;"	f
+mult_su3_nn	m_mat_nn.c	/^void mult_su3_nn( su3_matrix *a, su3_matrix *b, su3_matrix *c ){$/;"	f
+multiplier	random.h	/^  unsigned long multiplier,addend,ic_state;$/;"	m	struct:__anon3
+mynode	com_vanilla.c	/^int mynode(void){ return(0); }$/;"	f
+mynode	comdefs.h	35;"	d
+myrand	ranstuff.c	/^double myrand(double_prn *prn_pt) {$/;"	f
+n_descript	io_lat.h	/^    int32type n_descript;          \/* Number of bytes in character string *\/$/;"	m	struct:__anon15::__anon16
+n_gathers	com_vanilla.c	/^    int n_gathers;$/;"	v
+n_param	io_lat.h	/^    int32type n_param;             \/* Number of gauge field parameters *\/$/;"	m	struct:__anon15::__anon16
+n_sources	lattice.h	/^EXTERN  int source_start, source_inc, n_sources;$/;"	v
+n_sources	params.h	/^        int source_start, source_inc, n_sources; \/* source time and increment *\/$/;"	m	struct:__anon1
+name	com_vanilla.c	/^static char name[]="Scalar processor";$/;"	v	file:
+neighbor	com_vanilla.c	/^    int ** neighbor;$/;"	v
+neighbor_coords	com_vanilla.c	/^void neighbor_coords($/;"	f
+neighbor_coords_special	com_vanilla.c	/^void neighbor_coords_special($/;"	f
+nflavors	lattice.h	/^EXTERN	int warms,trajecs,steps,niter,propinterval,nflavors;$/;"	v
+nflavors	params.h	/^	int nflavors;	\/* the number of flavors *\/$/;"	m	struct:__anon1
+niter	lattice.h	/^EXTERN	int warms,trajecs,steps,niter,propinterval,nflavors;$/;"	v
+niter	params.h	/^	int niter; 	\/* maximum number of c.g. iterations *\/$/;"	m	struct:__anon1
+node	com_vanilla.c	/^struct msg_tmp { int node,count; }; \/* temporary structure for keeping$/;"	m	struct:msg_tmp	file:
+node0_printf	macros.h	61;"	d
+node_index	layout_hyper.c	/^int node_index(int x,int y,int z,int t) {$/;"	f
+node_number	layout_hyper.c	/^int node_number(int x,int y,int z,int t) {$/;"	f
+node_prn	lattice.h	/^EXTERN double_prn node_prn ;$/;"	v
+normal_exit	com_vanilla.c	/^void normal_exit(int status) {$/;"	f
+nrestart	generic_quark_types.h	/^  int nrestart;       \/* maximum restarts *\/$/;"	m	struct:__anon5
+nsquares	layout_hyper.c	/^int nsquares[4];	\/* number of hypercubes in each direction *\/$/;"	v
+nsrc	generic_quark_types.h	/^  int nsrc;           \/* Number of source vectors *\/$/;"	m	struct:__anon5
+nt	lattice.h	/^EXTERN	int nx,ny,nz,nt;	\/* lattice dimensions *\/$/;"	v
+nt	params.h	/^	int nx,ny,nz,nt;  \/* lattice dimensions *\/$/;"	m	struct:__anon1
+ntoken	io_lat.h	/^  int ntoken;$/;"	m	struct:__anon17
+num_basic_paths	quark_stuff.c	/^int num_basic_paths;	\/* number of paths before rotation\/reflection *\/$/;"	v
+num_q_paths	quark_stuff.c	/^int num_q_paths;	\/* number of paths in dslash *\/$/;"	v
+num_sites	layout_hyper.c	/^int num_sites(int node) {$/;"	f
+number_of_nodes	lattice.h	/^EXTERN	int number_of_nodes;	\/* number of nodes in use *\/$/;"	v
+numnodes	com_vanilla.c	/^int numnodes(void){ return(1); }$/;"	f
+numnodes	comdefs.h	36;"	d
+nx	lattice.h	/^EXTERN	int nx,ny,nz,nt;	\/* lattice dimensions *\/$/;"	v
+nx	params.h	/^	int nx,ny,nz,nt;  \/* lattice dimensions *\/$/;"	m	struct:__anon1
+ny	lattice.h	/^EXTERN	int nx,ny,nz,nt;	\/* lattice dimensions *\/$/;"	v
+ny	params.h	/^	int nx,ny,nz,nt;  \/* lattice dimensions *\/$/;"	m	struct:__anon1
+nz	lattice.h	/^EXTERN	int nx,ny,nz,nt;	\/* lattice dimensions *\/$/;"	v
+nz	params.h	/^	int nx,ny,nz,nt;  \/* lattice dimensions *\/$/;"	m	struct:__anon1
+odd_sites_on_node	lattice.h	/^EXTERN	int odd_sites_on_node;	\/* number of odd sites on this node *\/$/;"	v
+old_link	lattice.h	/^ 	su3_matrix old_link[4];$/;"	m	struct:__anon12
+old_xxx	lattice.h	/^ 	su3_vector old_xxx;	\/* For predicting next xxx *\/$/;"	m	struct:__anon12
+order	io_lat.h	/^  int32type order;                      \/* 0 means no coordinate list is$/;"	m	struct:__anon13
+order	io_lat.h	/^  int32type order;                 \/* 0 means no coordinate list is attached$/;"	m	struct:__anon15
+par_buf	setup.c	/^params par_buf;$/;"	v
+parallel	io_lat.h	/^  int            parallel;      \/* 1 if file was opened in parallel$/;"	m	struct:__anon18
+parallel_open	io_lat4.c	/^gauge_file *parallel_open(int order, char *filename)$/;"	f
+param	io_lat.h	/^    double  param[MAX_GAUGE_FIELD_PARAM];        \/* GF parameters *\/$/;"	m	struct:__anon15::__anon16
+params	params.h	/^}  params;$/;"	t	typeref:struct:__anon1
+parity	generic_quark_types.h	/^  int parity;         \/* EVEN, ODD, or EVENANDODD (for some inverters) *\/$/;"	m	struct:__anon5
+parity	generic_quark_types.h	/^  int parity;         \/* even or odd sites for w_source_h *\/$/;"	m	struct:__anon9
+parity	lattice.h	/^	char parity;$/;"	m	struct:__anon12
+path_coeff	quark_action.h	/^    static double path_coeff[MAX_BASIC_PATHS] = {$/;"	v
+path_ind	quark_action.h	/^    static int path_ind[MAX_BASIC_PATHS][MAX_LENGTH] = {$/;"	v
+path_length_in	quark_action.h	/^    static int path_length_in[MAX_BASIC_PATHS] = {1,3,3,5,7,5};$/;"	v
+path_num	quark_stuff.c	/^int path_num[MAX_BASIC_PATHS];	\/* number of rotations\/reflections for each $/;"	v
+path_prod_subl	path_product.c	/^void path_prod_subl(int *dir, int length, int subl)$/;"	f
+path_product	path_product.c	/^void path_product( int *dir, int length) {$/;"	f
+path_transport	quark_stuff.c	/^void path_transport( field_offset src, field_offset dest, int parity,$/;"	f
+path_transport_hwv	quark_stuff.c	/^void path_transport_hwv( field_offset src, field_offset dest, int parity,$/;"	f
+phase	lattice.h	/^ 	double phase[4];$/;"	m	struct:__anon12
+phases_in	lattice.h	/^EXTERN  int phases_in; \/* 1 if KS and BC phases absorbed into matrices *\/$/;"	v
+phaseset	rephase.c	/^void phaseset() {$/;"	f
+phi	lattice.h	/^ 	su3_vector phi;		\/* Gaussian random source vector *\/$/;"	m	struct:__anon12
+ploop	ploop3.c	/^complex ploop() {$/;"	f
+pread_byteorder	io_lat4.c	/^int pread_byteorder(int byterevflag, FILE* fp, void *src, size_t size, char *myname, char *descrip)$/;"	f
+pread_data	io_lat4.c	/^int pread_data(FILE* fp, void *src, size_t size, char *myname, char *descrip)$/;"	f
+predict_next_xxx	update.c	/^void predict_next_xxx(double *oldtime,double *newtime,double *nexttime)$/;"	f
+printpath	gauge_stuff.c	/^void printpath( int *path, int length ){$/;"	f
+propinterval	lattice.h	/^EXTERN	int warms,trajecs,steps,niter,propinterval,nflavors;$/;"	v
+propinterval	params.h	/^	int propinterval;     \/* number of trajectories between measurements *\/$/;"	m	struct:__anon1
+propmat	lattice.h	/^	su3_vector propmat[3];	\/* For three source colors *\/$/;"	m	struct:__anon12
+propmat2	lattice.h	/^	su3_vector propmat2[3];	\/* nl_spectrum() *\/$/;"	m	struct:__anon12
+psread_byteorder	io_lat4.c	/^int psread_byteorder(int byterevflag, int parallel, FILE* fp, $/;"	f
+psread_data	io_lat4.c	/^int psread_data(int parallel, FILE* fp, void *src, size_t size, $/;"	f
+pswrite_data	io_lat4.c	/^void pswrite_data(int parallel, FILE* fp, void *src, size_t size, $/;"	f
+pwrite_data	io_lat4.c	/^void pwrite_data(FILE* fp, void *src, size_t size, char *myname, char *descrip)$/;"	f
+pwrite_gauge_hdr	io_lat4.c	/^void pwrite_gauge_hdr(FILE *fp, gauge_header *gh)$/;"	f
+q_paths	quark_stuff.c	/^}   q_paths[MAX_NUM];$/;"	v	typeref:struct:__anon4
+qcdhdr_destroy_hdr	io_lat4.c	/^void qcdhdr_destroy_hdr(QCDheader *hdr){$/;"	f
+qcdhdr_get_double	io_lat4.c	/^int qcdhdr_get_double(char *s, QCDheader *hdr, double *q) {$/;"	f
+qcdhdr_get_hdr	io_lat4.c	/^QCDheader * qcdhdr_get_hdr(FILE *in)$/;"	f
+qcdhdr_get_int	io_lat4.c	/^int qcdhdr_get_int(char *s,QCDheader *hdr,int *q) {$/;"	f
+qcdhdr_get_int32x	io_lat4.c	/^int qcdhdr_get_int32x(char *s,QCDheader *hdr,u_int32type *q) {$/;"	f
+qcdhdr_get_str	io_lat4.c	/^int qcdhdr_get_str(char *s, QCDheader *hdr, char **q) {     $/;"	f
+quark_action_description	quark_action.h	/^    static char quark_action_description[] =$/;"	v
+quark_action_npaths	quark_action.h	/^    static int quark_action_npaths = MAX_BASIC_PATHS ;$/;"	v
+quark_invert_control	generic_quark_types.h	/^} quark_invert_control;$/;"	t	typeref:struct:__anon5
+quark_prop	lattice.h	88;"	d
+quark_source	lattice.h	87;"	d
+r0	generic_quark_types.h	/^  double r0;           \/* source size for w_source *\/$/;"	m	struct:__anon9
+r0	random.h	/^  unsigned long r0,r1,r2,r3,r4,r5,r6;$/;"	m	struct:__anon3
+r1	random.h	/^  unsigned long r0,r1,r2,r3,r4,r5,r6;$/;"	m	struct:__anon3
+r2	random.h	/^  unsigned long r0,r1,r2,r3,r4,r5,r6;$/;"	m	struct:__anon3
+r3	random.h	/^  unsigned long r0,r1,r2,r3,r4,r5,r6;$/;"	m	struct:__anon3
+r4	random.h	/^  unsigned long r0,r1,r2,r3,r4,r5,r6;$/;"	m	struct:__anon3
+r5	random.h	/^  unsigned long r0,r1,r2,r3,r4,r5,r6;$/;"	m	struct:__anon3
+r6	random.h	/^  unsigned long r0,r1,r2,r3,r4,r5,r6;$/;"	m	struct:__anon3
+r_parallel	io_lat4.c	/^void r_parallel(gauge_file *gf)$/;"	f
+r_parallel_f	io_lat4.c	/^void r_parallel_f(gauge_file *gf)$/;"	f
+r_parallel_i	io_lat4.c	/^gauge_file *r_parallel_i(char *filename)$/;"	f
+r_serial	io_lat4.c	/^void r_serial(gauge_file *gf)$/;"	f
+r_serial_arch	io_lat4.c	/^void r_serial_arch(gauge_file *gf)$/;"	f
+r_serial_f	io_lat4.c	/^void r_serial_f(gauge_file *gf)$/;"	f
+r_serial_i	io_lat4.c	/^gauge_file *r_serial_i(char *filename)$/;"	f
+random_anti_hermitian	rand_ahmat.c	/^void random_anti_hermitian( anti_hermitmat *mat_antihermit, double_prn *prn_pt) {$/;"	f
+rank2rcv	io_lat.h	/^  int32type *       rank2rcv;      \/* File site list - used only for $/;"	m	struct:__anon18
+ranmom	ranmom.c	/^void ranmom(){$/;"	f
+read_1996_gauge_hdr	io_lat4.c	/^int read_1996_gauge_hdr(gauge_file *gf, int parallel, int *byterevflag)$/;"	f
+read_checksum	io_lat4.c	/^void read_checksum(int parallel, gauge_file *gf, gauge_check *test_gc)$/;"	f
+read_gauge_hdr	io_lat4.c	/^int read_gauge_hdr(gauge_file *gf, int parallel)$/;"	f
+read_site_list	io_lat4.c	/^void read_site_list(int parallel,gauge_file *gf)$/;"	f
+read_v3_gauge_hdr	io_lat4.c	/^int read_v3_gauge_hdr(gauge_file *gf, int parallel, int *byterevflag)$/;"	f
+readin	setup.c	/^int readin(int prompt) {$/;"	f
+real	complex.h	/^   double real;		   \/* precision complex numbers			      *\/$/;"	m	struct:__anon10
+real	complex.h	/^   double real;		   \/* precision complex numbers			      *\/$/;"	m	struct:__anon11
+realtrace_su3	realtr.c	/^double realtrace_su3(  su3_matrix *a, su3_matrix *b ){$/;"	f
+receive_integer	com_vanilla.c	/^void receive_integer(int *address) {$/;"	f
+reload_lattice	io_helpers.c	/^gauge_file *reload_lattice( int flag, char *filename){$/;"	f
+rephase	rephase.c	/^void rephase( int flag ){$/;"	f
+resid	d_congrad5_fn.c	/^su3_vector *resid;$/;"	v
+resid	generic_quark_types.h	/^  double resid;        \/* desired residual - $/;"	m	struct:__anon5
+resid	lattice.h	/^ 	su3_vector resid;	\/* conjugate gradient residual vector *\/$/;"	m	struct:__anon12
+restart_gather	com_vanilla.c	/^void restart_gather($/;"	f
+restart_gather_from_temp	com_vanilla.c	/^void restart_gather_from_temp($/;"	f
+restore_ascii	io_lat4.c	/^gauge_file *restore_ascii(char *filename) {$/;"	f
+restore_parallel	io_lat4.c	/^gauge_file *restore_parallel(char *filename)$/;"	f
+restore_serial	io_lat4.c	/^gauge_file *restore_serial(char *filename)$/;"	f
+reunit_report_problem_matrix	reunitarize2.c	/^void reunit_report_problem_matrix(su3_matrix *mat, int i,int dir)$/;"	f
+reunit_su3	reunitarize2.c	/^int reunit_su3(su3_matrix *c)$/;"	f
+reunitarize	reunitarize2.c	/^void reunitarize() {$/;"	f
+right_su2_hit_a	r_su2_hit_a.c	/^void right_su2_hit_a(su2_matrix *u,int p,int q,su3_matrix *link)$/;"	f
+rsqmin	lattice.h	/^EXTERN	double rsqmin,rsqprop;$/;"	v
+rsqmin	params.h	/^	double rsqmin,rsqprop;  \/* for deciding on convergence *\/$/;"	m	struct:__anon1
+rsqprop	lattice.h	/^EXTERN	double rsqmin,rsqprop;$/;"	v
+rsqprop	params.h	/^	double rsqmin,rsqprop;  \/* for deciding on convergence *\/$/;"	m	struct:__anon1
+save_ascii	io_lat4.c	/^gauge_file *save_ascii(char *filename) {$/;"	f
+save_checkpoint	io_lat4.c	/^gauge_file *save_checkpoint(char *filename)$/;"	f
+save_lattice	io_helpers.c	/^gauge_file *save_lattice( int flag, char *filename){$/;"	f
+save_parallel	io_lat4.c	/^gauge_file *save_parallel(char *filename)$/;"	f
+save_parallel_archive	io_lat4.c	/^gauge_file *save_parallel_archive(char *filename) {$/;"	f
+save_serial	io_lat4.c	/^gauge_file *save_serial(char *filename)$/;"	f
+save_serial_archive	io_lat4.c	/^gauge_file *save_serial_archive(char *filename) {$/;"	f
+savefile	lattice.h	/^EXTERN	char startfile[MAXFILENAME],savefile[MAXFILENAME];$/;"	v
+savefile	params.h	/^	char startfile[MAXFILENAME],savefile[MAXFILENAME];$/;"	m	struct:__anon1
+saveflag	lattice.h	/^EXTERN	int saveflag;	\/* do with lattice: FORGET, SAVE, SAVE_BINARY,$/;"	v
+saveflag	params.h	/^	int saveflag;   \/* what to do with lattice at end *\/$/;"	m	struct:__anon1
+scalar2_mult_add_latvec	d_congrad5_fn.c	/^void scalar2_mult_add_latvec(field_offset src1,double scalar1,$/;"	f
+scalar2_mult_add_su3_vector	d_congrad5_fn.c	/^void scalar2_mult_add_su3_vector(su3_vector *a, double s1, su3_vector *b, $/;"	f
+scalar_mult_add_latvec	d_congrad5_fn.c	/^void scalar_mult_add_latvec(field_offset src1,field_offset src2,$/;"	f
+scalar_mult_add_su3_matrix	s_m_a_mat.c	/^void scalar_mult_add_su3_matrix(su3_matrix *a,su3_matrix *b,double s,$/;"	f
+scalar_mult_add_su3_vector	s_m_a_vec.c	/^void scalar_mult_add_su3_vector(su3_vector *a, su3_vector *b, double s,$/;"	f
+scalar_mult_latvec	d_congrad5_fn.c	/^void scalar_mult_latvec(field_offset src,double scalar,$/;"	f
+scalar_mult_su3_matrix	s_m_mat.c	/^void scalar_mult_su3_matrix( su3_matrix *a, double s, su3_matrix *b ){$/;"	f
+scalar_mult_su3_vector	s_m_vec.c	/^void scalar_mult_su3_vector( su3_vector *a, double s, su3_vector *c){$/;"	f
+scalar_mult_sub_su3_matrix	s_m_s_mat.c	/^void scalar_mult_sub_su3_matrix(su3_matrix *a,su3_matrix *b,double s,$/;"	f
+scale	random.h	/^  double scale;$/;"	m	struct:__anon3
+send_field	com_vanilla.c	/^void send_field(char *buf, int size, int tonode) {$/;"	f
+send_integer	com_vanilla.c	/^void send_integer(int tonode, int *address) {$/;"	f
+sequence_number	io_lat.h	/^EXTERN  int sequence_number;$/;"	v
+set_complex_equal	complex.h	121;"	d
+setup	setup.c	/^int  setup(void)   {$/;"	f
+setup_input_gauge_file	io_lat4.c	/^gauge_file *setup_input_gauge_file(char *filename)$/;"	f
+setup_layout	layout_hyper.c	/^void setup_layout(){$/;"	f
+setup_output_gauge_file	io_lat4.c	/^gauge_file *setup_output_gauge_file()$/;"	f
+side_link_3f_force	quark_stuff.c	/^void side_link_3f_force(int mu, int nu, double coeff[2], $/;"	f
+side_link_force	quark_stuff.c	/^void side_link_force(int mu, int nu, double coeff, $/;"	f
+site	lattice.h	/^} site;$/;"	t	typeref:struct:__anon12
+site_prn	lattice.h	/^	double_prn site_prn;$/;"	m	struct:__anon12
+sites_on_node	lattice.h	/^EXTERN	int sites_on_node;		\/* number of sites on this node *\/$/;"	v
+size_r	generic_quark_types.h	/^  double size_r;       \/* resulting residual *\/$/;"	m	struct:__anon5
+sort_eight_neighborlists	com_vanilla.c	/^void sort_eight_neighborlists(int index){$/;"	f
+sort_eight_special	com_vanilla.c	/^void sort_eight_special(void **pt){$/;"	f
+source_inc	lattice.h	/^EXTERN  int source_start, source_inc, n_sources;$/;"	v
+source_inc	params.h	/^        int source_start, source_inc, n_sources; \/* source time and increment *\/$/;"	m	struct:__anon1
+source_start	lattice.h	/^EXTERN  int source_start, source_inc, n_sources;$/;"	v
+source_start	params.h	/^        int source_start, source_inc, n_sources; \/* source time and increment *\/$/;"	m	struct:__anon1
+space	su3.h	/^  { complex m01,m02,m12; double m00im,m11im,m22im; double space; } anti_hermitmat;$/;"	m	struct:__anon21
+space1	lattice.h	/^	int space1;$/;"	m	struct:__anon12
+spin	generic_quark_types.h	/^  int spin;           \/* source spin required *\/$/;"	m	struct:__anon9
+spin_wilson_vector	su3.h	/^typedef struct { wilson_vector d[4]; } spin_wilson_vector;$/;"	t	typeref:struct:__anon26
+squaresize	layout_hyper.c	/^int squaresize[4];	\/* dimensions of hypercubes *\/$/;"	v
+src_pointer	generic_quark_types.h	/^  int src_pointer ;   \/* smearing function (for the moment, only$/;"	m	struct:__anon9
+sread_byteorder	io_lat4.c	/^int sread_byteorder(int byterevflag, FILE* fp, void *src, size_t size, char *myname, char *descrip)$/;"	f
+sread_data	io_lat4.c	/^int sread_data(FILE* fp, void *src, size_t size, char *myname, char *descrip)$/;"	f
+staple	lattice.h	/^	su3_matrix tempmat1,staple;$/;"	m	struct:__anon12
+start_flag	generic_quark_types.h	/^  int start_flag;     \/* 0: use a zero initial guess; 1: use dest *\/$/;"	m	struct:__anon5
+start_gather	com_vanilla.c	/^msg_tag * start_gather($/;"	f
+start_gather_from_temp	com_vanilla.c	/^msg_tag * start_gather_from_temp($/;"	f
+start_general_gather	com_vanilla.c	/^msg_tag * start_general_gather($/;"	f
+start_handlers	com_vanilla.c	/^void start_handlers(){$/;"	f
+start_lat_hdr	control.c	/^EXTERN  gauge_header start_lat_hdr;     \/* Input gauge field header *\/$/;"	v
+start_lat_hdr	setup.c	/^EXTERN gauge_header start_lat_hdr;$/;"	v
+startfile	lattice.h	/^EXTERN	char startfile[MAXFILENAME],savefile[MAXFILENAME];$/;"	v
+startfile	params.h	/^	char startfile[MAXFILENAME],savefile[MAXFILENAME];$/;"	m	struct:__anon1
+startflag	lattice.h	/^EXTERN	int startflag;	\/* beginning lattice: CONTINUE, RELOAD, RELOAD_BINARY,$/;"	v
+startflag	params.h	/^	int startflag;  \/* what to do for beginning lattice *\/$/;"	m	struct:__anon1
+startlat_p	lattice.h	/^EXTERN gauge_file *startlat_p;$/;"	v
+steps	lattice.h	/^EXTERN	int warms,trajecs,steps,niter,propinterval,nflavors;$/;"	v
+steps	params.h	/^	int steps;	\/* number of steps for updating *\/$/;"	m	struct:__anon1
+stopflag	params.h	/^	int stopflag;   \/* 1 if it is time to stop *\/$/;"	m	struct:__anon1
+su2_matrix	su3.h	/^typedef struct { complex e[2][2]; } su2_matrix;$/;"	t	typeref:struct:__anon22
+su3_adjoint	su3_adjoint.c	/^void su3_adjoint( su3_matrix *a, su3_matrix *b ){$/;"	f
+su3_dot	su3_dot.c	/^complex su3_dot( su3_vector *a, su3_vector *b ){$/;"	f
+su3_matrix	su3.h	/^typedef struct { complex e[3][3]; } su3_matrix;$/;"	t	typeref:struct:__anon19
+su3_projector	su3_proj.c	/^void su3_projector( su3_vector *a, su3_vector *b, su3_matrix *c ){$/;"	f
+su3_rdot	su3_rdot.c	/^double su3_rdot( su3_vector *a, su3_vector *b ){$/;"	f
+su3_vector	su3.h	/^typedef struct { complex c[3]; } su3_vector;$/;"	t	typeref:struct:__anon20
+su3mat_copy	su3mat_copy.c	/^void su3mat_copy( su3_matrix *a, su3_matrix *b ){$/;"	f
+sub_four_su3_vecs	sub4vecs.c	/^void sub_four_su3_vecs( su3_vector *a, su3_vector *b1, su3_vector *b2,$/;"	f
+sub_su3_matrix	submat.c	/^void sub_su3_matrix( su3_matrix *a, su3_matrix *b, su3_matrix *c ) {$/;"	f
+sub_su3_vector	subvec.c	/^void sub_su3_vector( su3_vector *a, su3_vector *b, su3_vector *c ){$/;"	f
+sum29	io_lat.h	/^  u_int32type sum29;$/;"	m	struct:__anon14
+sum31	io_lat.h	/^  u_int32type sum31;$/;"	m	struct:__anon14
+sumvec_offset	gaugefix2.c	/^field_offset diffmat_offset,sumvec_offset;  \/* field offsets *\/$/;"	v
+sumvecp	gaugefix2.c	/^su3_vector *sumvecp;                        \/* malloced sumvec pointer *\/$/;"	v
+swrite_data	io_lat4.c	/^void swrite_data(FILE* fp, void *src, size_t size, char *myname, char *descrip)$/;"	f
+swrite_gauge_hdr	io_lat4.c	/^void swrite_gauge_hdr(FILE *fp, gauge_header *gh)$/;"	f
+t	lattice.h	/^	short x,y,z,t;$/;"	m	struct:__anon12
+t0	generic_quark_types.h	/^  int x0,y0,z0,t0;    \/* source coordinates for most *\/ $/;"	m	struct:__anon9
+t_dest	d_congrad5_fn.c	/^su3_vector *t_dest;$/;"	v
+t_fatlink	lattice.h	/^EXTERN su3_matrix *t_fatlink;$/;"	v
+t_longlink	lattice.h	/^EXTERN su3_matrix *t_longlink;$/;"	v
+temp	dslash_fn2.c	/^static su3_vector *temp[9] ;$/;"	v	file:
+temp_not_allocated	dslash_fn2.c	/^static int temp_not_allocated=1 ;$/;"	v	file:
+templongv1	lattice.h	/^        su3_vector templongv1;$/;"	m	struct:__anon12
+templongvec	lattice.h	/^	su3_vector templongvec[4];	\/* One for each direction *\/$/;"	m	struct:__anon12
+tempmat1	lattice.h	/^	su3_matrix tempmat1,staple;$/;"	m	struct:__anon12
+tempmat2	lattice.h	/^	su3_matrix tempmat2;$/;"	m	struct:__anon12
+tempvec	lattice.h	/^	su3_vector tempvec[4];	\/* One for each direction *\/$/;"	m	struct:__anon12
+terminate	com_vanilla.c	/^void terminate(int status) {$/;"	f
+third_neighbor	setup.c	/^void third_neighbor(int x,int y,int z,int t,int *dirpt,int FB,int *xp,int *yp,int *zp,int *tp)$/;"	f
+this_node	lattice.h	/^EXTERN  int this_node;		\/* node number of this node *\/$/;"	v
+time_stamp	com_vanilla.c	/^void time_stamp(char *msg){$/;"	f
+time_stamp	io_lat.h	/^  char   time_stamp[MAX_TIME_STAMP]; \/* Date and time stamp - used to$/;"	m	struct:__anon13
+token	io_lat.h	/^  char **token;$/;"	m	struct:__anon17
+total_iters	lattice.h	/^EXTERN	int total_iters;$/;"	v
+trace_su3	trace_su3.c	/^complex trace_su3( su3_matrix *a ) {$/;"	f
+trajecs	lattice.h	/^EXTERN	int warms,trajecs,steps,niter,propinterval,nflavors;$/;"	v
+trajecs	params.h	/^	int trajecs;	\/* the number of real trajectories *\/$/;"	m	struct:__anon1
+ttt	d_congrad5_fn.c	/^su3_vector *ttt,*cg_p;$/;"	v
+ttt	lattice.h	/^ 	su3_vector ttt;		\/* temporary vector, for K*ppp *\/$/;"	m	struct:__anon12
+type	generic_quark_types.h	/^  int type;           \/* source type for most source builders *\/$/;"	m	struct:__anon9
+u0	lattice.h	/^EXTERN  double beta,mass,u0;$/;"	v
+u0	params.h	/^	double u0; \/* tadpole parameter *\/$/;"	m	struct:__anon1
+u_int32type	int32type.h	/^typedef unsigned short u_int32type;$/;"	t
+u_shift_fermion	quark_stuff.c	/^void u_shift_fermion(su3_vector *src, su3_vector *dest, int dir ) {$/;"	f
+u_shift_hw_fermion	quark_stuff.c	/^void u_shift_hw_fermion(half_wilson_vector *src, $/;"	f
+uncompress_anti_hermitian	uncmp_ahmat.c	/^void uncompress_anti_hermitian( anti_hermitmat *mat_antihermit,$/;"	f
+update	update.c	/^int update()  {$/;"	f
+update_h	update_h.c	/^void update_h( double eps ){$/;"	f
+update_u	update_u.c	/^void update_u( double eps ){$/;"	f
+valid_fatlinks	lattice.h	/^EXTERN int valid_fatlinks;$/;"	v
+valid_longlinks	lattice.h	/^EXTERN int valid_longlinks;$/;"	v
+value	io_lat.h	/^  char **value;$/;"	m	struct:__anon17
+volume	lattice.h	/^EXTERN  int volume;		\/* volume of lattice = nx*ny*nz*nt *\/$/;"	v
+w_checkpoint	io_lat4.c	/^void w_checkpoint(gauge_file *gf)$/;"	f
+w_checkpoint_i	io_lat4.c	/^gauge_file *w_checkpoint_i(char *filename)$/;"	f
+w_parallel	io_lat4.c	/^void w_parallel(gauge_file *gf)$/;"	f
+w_parallel_f	io_lat4.c	/^void w_parallel_f(gauge_file *gf)$/;"	f
+w_parallel_i	io_lat4.c	/^gauge_file *w_parallel_i(char *filename)$/;"	f
+w_parallel_setup	io_lat4.c	/^su3_matrix *w_parallel_setup(gauge_file *gf, off_t *checksum_offset)$/;"	f
+w_serial	io_lat4.c	/^void w_serial(gauge_file *gf)$/;"	f
+w_serial_f	io_lat4.c	/^void w_serial_f(gauge_file *gf)$/;"	f
+w_serial_i	io_lat4.c	/^gauge_file *w_serial_i(char *filename)$/;"	f
+wait_gather	com_vanilla.c	/^void wait_gather(msg_tag *mbuf) {$/;"	f
+wait_general_gather	com_vanilla.c	/^void wait_general_gather(msg_tag *mbuf) {$/;"	f
+wall_cutoff	generic_quark_types.h	/^  int wall_cutoff;    \/* half size of box for w_source_h *\/$/;"	m	struct:__anon9
+warms	lattice.h	/^EXTERN	int warms,trajecs,steps,niter,propinterval,nflavors;$/;"	v
+warms	params.h	/^	int warms;	\/* the number of warmup trajectories *\/$/;"	m	struct:__anon1
+wilson_matrix	su3.h	/^typedef struct { color_wilson_vector d[4]; } wilson_matrix;$/;"	t	typeref:struct:__anon27
+wilson_propagator	su3.h	/^typedef struct { spin_wilson_vector c[3]; } wilson_propagator;$/;"	t	typeref:struct:__anon28
+wilson_quark_source	generic_quark_types.h	/^} wilson_quark_source;$/;"	t	typeref:struct:__anon9
+wilson_vector	su3.h	/^typedef struct { su3_vector d[4]; } wilson_vector;$/;"	t	typeref:struct:__anon23
+work_f_mn	generic_quark_types.h	/^  field_offset work_f_mn;       \/* ugly su3_matrix temporary *\/$/;"	m	struct:__anon6
+write_appl_gauge_info	gauge_info.c	/^void write_appl_gauge_info(FILE *fp)$/;"	f
+write_checksum	io_lat4.c	/^void write_checksum(int parallel, gauge_file *gf)$/;"	f
+write_gauge_info_file	io_lat4.c	/^void write_gauge_info_file(gauge_file *gf)$/;"	f
+write_gauge_info_item	io_lat4.c	/^int write_gauge_info_item( FILE *fpout,    \/* ascii file pointer *\/$/;"	f
+write_site_list	io_lat4.c	/^void write_site_list(FILE *fp, gauge_header *gh)$/;"	f
+wv1	generic_quark_types.h	/^  field_offset wv1;   \/* ugly wilson_vector temporary *\/$/;"	m	struct:__anon5
+wv2	generic_quark_types.h	/^  field_offset wv2;   \/* ugly wilson_vector temporary *\/$/;"	m	struct:__anon5
+wv3	generic_quark_types.h	/^  field_offset wv3;   \/* ugly wilson_vector temporary *\/$/;"	m	struct:__anon5
+wv4	generic_quark_types.h	/^  field_offset wv4;   \/* ugly wilson_vector temporary *\/$/;"	m	struct:__anon5
+x	lattice.h	/^	short x,y,z,t;$/;"	m	struct:__anon12
+x0	generic_quark_types.h	/^  int x0,y0,z0,t0;    \/* source coordinates for most *\/ $/;"	m	struct:__anon9
+xxx	lattice.h	/^ 	su3_vector xxx;		\/* solution vector = Kinverse * phi *\/$/;"	m	struct:__anon12
+y	lattice.h	/^	short x,y,z,t;$/;"	m	struct:__anon12
+y0	generic_quark_types.h	/^  int x0,y0,z0,t0;    \/* source coordinates for most *\/ $/;"	m	struct:__anon9
+z	lattice.h	/^	short x,y,z,t;$/;"	m	struct:__anon12
+z0	generic_quark_types.h	/^  int x0,y0,z0,t0;    \/* source coordinates for most *\/ $/;"	m	struct:__anon9

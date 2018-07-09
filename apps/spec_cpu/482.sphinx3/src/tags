@@ -1,0 +1,1666 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARG_FLOAT32	libutil/cmd_ln.h	67;"	d
+ARG_FLOAT64	libutil/cmd_ln.h	68;"	d
+ARG_INT32	libutil/cmd_ln.h	66;"	d
+ARG_REQUIRED	libutil/cmd_ln.h	63;"	d
+ARG_STRING	libutil/cmd_ln.h	69;"	d
+B	logs3.c	/^static float64 B, logB, invlogB, invlog10B;$/;"	v	file:
+BAD_S3CIPID	s3types.h	76;"	d
+BAD_S3FRMID	s3types.h	118;"	d
+BAD_S3LATID	s3types.h	112;"	d
+BAD_S3LMWID	s3types.h	106;"	d
+BAD_S3MGAUID	s3types.h	130;"	d
+BAD_S3PID	s3types.h	82;"	d
+BAD_S3SENID	s3types.h	124;"	d
+BAD_S3SSID	s3types.h	88;"	d
+BAD_S3TMATID	s3types.h	94;"	d
+BAD_S3WID	s3types.h	100;"	d
+BB_SAMPLING_RATE	new_fe.h	129;"	d
+BG_SEG_SZ	lm.h	157;"	d
+BINARY_SEARCH_THRESH	lm.c	941;"	d	file:
+BIO_HDRARG_MAX	bio.c	59;"	d	file:
+BYTE_ORDER_MAGIC	bio.h	60;"	d
+CC	Makefile	/^CC=clang$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-DSPEC_CPU -DNDEBUG -I. -DSPEC_CPU -DHAVE_CONFIG_H -I. -Ilibutil -O2 -DSPEC_CPU_LP64 -g$/;"	m
+CMN_WIN	cmn.h	78;"	d
+CMN_WIN	cmn_prior.h	66;"	d
+CMN_WIN_HWM	cmn.h	77;"	d
+CMN_WIN_HWM	cmn_prior.h	65;"	d
+CONTHMM	cont_mgau.h	111;"	d
+DEBUG_GSCORE	approx_cont_mgau.c	62;"	d	file:
+DEFAULT_BB_FFT_SIZE	new_fe.h	130;"	d
+DEFAULT_BB_FRAME_SHIFT	new_fe.h	131;"	d
+DEFAULT_BB_LOWER_FILT_FREQ	new_fe.h	133;"	d
+DEFAULT_BB_NUM_FILTERS	new_fe.h	132;"	d
+DEFAULT_BB_UPPER_FILT_FREQ	new_fe.h	134;"	d
+DEFAULT_BLOCKSIZE	new_fe.h	144;"	d
+DEFAULT_FB_TYPE	new_fe.h	121;"	d
+DEFAULT_FFT_SIZE	new_fe.h	120;"	d
+DEFAULT_FRAME_RATE	new_fe.h	117;"	d
+DEFAULT_FRAME_SHIFT	new_fe.h	118;"	d
+DEFAULT_LOWER_FILT_FREQ	new_fe.h	124;"	d
+DEFAULT_NB_FFT_SIZE	new_fe.h	137;"	d
+DEFAULT_NB_FRAME_SHIFT	new_fe.h	138;"	d
+DEFAULT_NB_LOWER_FILT_FREQ	new_fe.h	140;"	d
+DEFAULT_NB_NUM_FILTERS	new_fe.h	139;"	d
+DEFAULT_NB_UPPER_FILT_FREQ	new_fe.h	141;"	d
+DEFAULT_NUM_CEPSTRA	new_fe.h	122;"	d
+DEFAULT_NUM_FILTERS	new_fe.h	123;"	d
+DEFAULT_NUM_PHONE	dict.c	67;"	d	file:
+DEFAULT_PRE_EMPHASIS_ALPHA	new_fe.h	126;"	d
+DEFAULT_SAMPLING_RATE	new_fe.h	116;"	d
+DEFAULT_START_FLAG	new_fe.h	127;"	d
+DEFAULT_UPPER_FILT_FREQ	new_fe.h	125;"	d
+DEFAULT_WINDOW_LENGTH	new_fe.h	119;"	d
+DELIM	dict.c	66;"	d	file:
+END_COMMENT	bio.c	60;"	d	file:
+E_ERROR	libutil/err.h	100;"	d
+E_ERROR_SYSTEM	libutil/err.h	92;"	d
+E_FATAL	libutil/err.h	83;"	d
+E_FATAL_SYSTEM	libutil/err.h	86;"	d
+E_INFO	libutil/err.h	96;"	d
+E_WARN	libutil/err.h	98;"	d
+E_WARN_SYSTEM	libutil/err.h	89;"	d
+F	logs3.c	/^static float64 F = 0;		\/* Set this global variable so we don't have to keep computing it in logs3_add() *\/$/;"	v	file:
+FALSE	libutil/libutil.h	94;"	d
+FB_TYPE	new_fe.h	/^    int32 FB_TYPE;$/;"	m	struct:__anon5
+FB_TYPE	new_fe.h	/^    int32 FB_TYPE;$/;"	m	struct:__anon7
+FEAT_DCEP_WIN	feat.c	117;"	d	file:
+FEAT_VERSION	feat.c	113;"	d	file:
+FFT_SIZE	new_fe.h	/^    int32 FFT_SIZE;$/;"	m	struct:__anon5
+FFT_SIZE	new_fe.h	/^    int32 FFT_SIZE;$/;"	m	struct:__anon7
+FILENAMESZ	spec_main_live_pretend.c	82;"	d	file:
+FORWARD_FFT	new_fe_sp.h	42;"	d
+FRAME_RATE	new_fe.h	/^    int32 FRAME_RATE;$/;"	m	struct:__anon5
+FRAME_RATE	new_fe.h	/^    int32 FRAME_RATE;$/;"	m	struct:__anon7
+FRAME_SHIFT	new_fe.h	/^    int32 FRAME_SHIFT;$/;"	m	struct:__anon7
+FRAME_SIZE	new_fe.h	/^    int32 FRAME_SIZE;$/;"	m	struct:__anon7
+FREAD_RETRY_COUNT	io.c	215;"	d	file:
+HAMMING_WINDOW	new_fe.h	/^    double *HAMMING_WINDOW;$/;"	m	struct:__anon7
+HASH_CASE_NO	libutil/hash.h	123;"	d
+HASH_CASE_YES	libutil/hash.h	122;"	d
+HMMBEAM	spec_main_live_pretend.c	75;"	d	file:
+INVERSE_FFT	new_fe_sp.h	43;"	d
+IS_S3CIPID	s3types.h	78;"	d
+IS_S3FRMID	s3types.h	120;"	d
+IS_S3LATID	s3types.h	114;"	d
+IS_S3LMWID	s3types.h	108;"	d
+IS_S3MGAUID	s3types.h	132;"	d
+IS_S3PID	s3types.h	84;"	d
+IS_S3SENID	s3types.h	126;"	d
+IS_S3SSID	s3types.h	90;"	d
+IS_S3TMATID	s3types.h	96;"	d
+IS_S3WID	s3types.h	102;"	d
+LIVEBUFBLOCKSIZE	feat.h	63;"	d
+LMCLASS_UNDEFINED_PROB	lmclass.c	56;"	d	file:
+LM_BGPROB	lm.h	393;"	d
+LM_CLASSID_BASE	lm.h	66;"	d
+LM_CLASSID_TO_CLASS	lm.h	67;"	d
+LM_DICTWID_BADMAP	lm.h	65;"	d
+LM_IN_MEMORY	lm.c	/^static int LM_IN_MEMORY = 0;	\/* RAH, 5.8.01 Allow this as an option to sphinx *\/$/;"	v	file:
+LM_RAWSCORE	lm.h	395;"	d
+LM_TGCACHE_SIZE	lm.h	159;"	d
+LM_TGPROB	lm.h	392;"	d
+LM_UGPROB	lm.h	394;"	d
+LOG2_BG_SEG_SZ	lm.h	156;"	d
+LOG_LINEAR	new_fe.h	109;"	d
+LOGprob	lmclass.h	/^    int32 LOGprob;	\/* Conditional (LOG)probability of this word, given the class *\/$/;"	m	struct:lmclass_word_s
+LOWER_CASE	libutil/case.h	67;"	d
+LOWER_FILT_FREQ	new_fe.h	/^    float LOWER_FILT_FREQ;$/;"	m	struct:__anon5
+MAXBEAMSETS	spec_main_live_pretend.c	74;"	d	file:
+MAXHYPLEN	utt.h	43;"	d
+MAXUTTS	spec_main_live_pretend.c	81;"	d	file:
+MAX_INT16	libutil/prim_type.h	83;"	d
+MAX_INT32	libutil/prim_type.h	82;"	d
+MAX_INT8	libutil/prim_type.h	84;"	d
+MAX_NEG_FLOAT32	libutil/prim_type.h	101;"	d
+MAX_NEG_FLOAT64	libutil/prim_type.h	103;"	d
+MAX_NEG_INT16	libutil/prim_type.h	87;"	d
+MAX_NEG_INT32	libutil/prim_type.h	86;"	d
+MAX_NEG_INT8	libutil/prim_type.h	88;"	d
+MAX_POS_FLOAT32	libutil/prim_type.h	95;"	d
+MAX_POS_FLOAT64	libutil/prim_type.h	97;"	d
+MAX_S3CIPID	s3types.h	79;"	d
+MAX_S3FRMID	s3types.h	121;"	d
+MAX_S3LATID	s3types.h	115;"	d
+MAX_S3LMWID	s3types.h	109;"	d
+MAX_S3MGAUID	s3types.h	133;"	d
+MAX_S3PID	s3types.h	85;"	d
+MAX_S3SENID	s3types.h	127;"	d
+MAX_S3SSID	s3types.h	91;"	d
+MAX_S3TMATID	s3types.h	97;"	d
+MAX_S3WID	s3types.h	103;"	d
+MAX_UINT16	libutil/prim_type.h	91;"	d
+MAX_UINT32	libutil/prim_type.h	90;"	d
+MAX_UINT8	libutil/prim_type.h	92;"	d
+MEL_FB	new_fe.h	/^    melfb_t *MEL_FB;$/;"	m	struct:__anon7
+MEL_SCALE	new_fe.h	108;"	d
+MGAU_MEAN	cont_mgau.c	69;"	d	file:
+MGAU_MIXW_VERSION	cont_mgau.c	68;"	d	file:
+MGAU_PARAM_VERSION	cont_mgau.c	67;"	d	file:
+MGAU_VAR	cont_mgau.c	70;"	d	file:
+MIN_MYALLOC	ckd_alloc.c	217;"	d	file:
+MIN_NEG_FLOAT32	libutil/prim_type.h	102;"	d
+MIN_NEG_FLOAT64	libutil/prim_type.h	104;"	d
+MIN_POS_FLOAT32	libutil/prim_type.h	96;"	d
+MIN_POS_FLOAT64	libutil/prim_type.h	98;"	d
+MIN_PROB_F	lm.h	68;"	d
+MODEL_DEF_VERSION	mdef.c	84;"	d	file:
+M_PI	libutil/libutil.h	98;"	d
+M_PI	new_fe_sp.h	39;"	d
+NB_SAMPLING_RATE	new_fe.h	136;"	d
+NOT_S3CIPID	s3types.h	77;"	d
+NOT_S3FRMID	s3types.h	119;"	d
+NOT_S3LATID	s3types.h	113;"	d
+NOT_S3LMWID	s3types.h	107;"	d
+NOT_S3MGAUID	s3types.h	131;"	d
+NOT_S3PID	s3types.h	83;"	d
+NOT_S3SENID	s3types.h	125;"	d
+NOT_S3SSID	s3types.h	89;"	d
+NOT_S3TMATID	s3types.h	95;"	d
+NOT_S3WID	s3types.h	101;"	d
+NO_UFLOW_ADD	hmm.c	/^static int32 NO_UFLOW_ADD(int32 a, int32 b)$/;"	f	file:
+NO_UFLOW_ADD	utt.c	/^static int32 NO_UFLOW_ADD(int32 a, int32 b)$/;"	f	file:
+NUM_CEPSTRA	new_fe.h	/^    int32 NUM_CEPSTRA;$/;"	m	struct:__anon5
+NUM_CEPSTRA	new_fe.h	/^    int32 NUM_CEPSTRA;$/;"	m	struct:__anon7
+NUM_FILTERS	new_fe.h	/^    int32 NUM_FILTERS;$/;"	m	struct:__anon5
+NUM_OVERFLOW_SAMPS	new_fe.h	/^    int32 NUM_OVERFLOW_SAMPS;    $/;"	m	struct:__anon7
+N_FEAT	feat.c	115;"	d	file:
+N_WORD_POSN	mdef.h	79;"	d
+OBJS	Makefile	/^OBJS=spec_main_live_pretend.bc parse_args_file.bc live.bc agc.bc approx_cont_mgau.bc ascr.bc beam.bc bio.bc case.bc ckd_alloc.bc cmd_ln.bc cmn.bc cmn_prior.bc cont_mgau.bc dict.bc dict2pid.bc err.bc feat.bc fillpen.bc glist.bc gs.bc hash.bc heap.bc hmm.bc io.bc kb.bc kbcore.bc lextree.bc lm.bc lmclass.bc logs3.bc mdef.bc new_fe.bc new_fe_sp.bc profile.bc specrand.bc str2words.bc subvq.bc tmat.bc unlimit.bc utt.bc vector.bc vithist.bc wid.bc$/;"	m
+OFF	new_fe.h	112;"	d
+ON	new_fe.h	111;"	d
+OVERFLOW_SAMPS	new_fe.h	/^    int16 *OVERFLOW_SAMPS;$/;"	m	struct:__anon7
+PBEAM	spec_main_live_pretend.c	76;"	d	file:
+PI	libutil/libutil.h	100;"	d
+PRE_EMPHASIS_ALPHA	new_fe.h	/^    float PRE_EMPHASIS_ALPHA;$/;"	m	struct:__anon5
+PRE_EMPHASIS_ALPHA	new_fe.h	/^    float PRE_EMPHASIS_ALPHA;$/;"	m	struct:__anon7
+PRIOR	new_fe.h	/^    int16 PRIOR;$/;"	m	struct:__anon7
+REQARG_FLOAT32	libutil/cmd_ln.h	73;"	d
+REQARG_FLOAT64	libutil/cmd_ln.h	74;"	d
+REQARG_INT32	libutil/cmd_ln.h	72;"	d
+REQARG_STRING	libutil/cmd_ln.h	75;"	d
+S3_FINISH_WORD	s3types.h	137;"	d
+S3_LOGPROB_ZERO	s3types.h	142;"	d
+S3_MAX_FRAMES	s3types.h	144;"	d
+S3_SILENCE_CIPHONE	s3types.h	140;"	d
+S3_SILENCE_WORD	s3types.h	138;"	d
+S3_START_WORD	s3types.h	136;"	d
+S3_UNKNOWN_WORD	s3types.h	139;"	d
+SAMPLING_RATE	new_fe.h	/^    float SAMPLING_RATE;$/;"	m	struct:__anon5
+SAMPLING_RATE	new_fe.h	/^    float SAMPLING_RATE;$/;"	m	struct:__anon7
+SEMIHMM	cont_mgau.h	112;"	d
+SLEEP_SEC	libutil/libutil.h	87;"	d
+SLEEP_SEC	libutil/libutil.h	89;"	d
+START_FLAG	new_fe.h	/^    int32 START_FLAG;$/;"	m	struct:__anon7
+STAT_RETRY_COUNT	io.c	259;"	d	file:
+SUBVQBEAM	spec_main_live_pretend.c	78;"	d	file:
+SWAP_FLOAT32	bio.h	72;"	d
+SWAP_INT16	bio.h	63;"	d
+SWAP_INT32	bio.h	66;"	d
+TMAT_PARAM_VERSION	tmat.c	68;"	d	file:
+TM_HIGHSCALE	profile.c	154;"	d	file:
+TM_LOWSCALE	profile.c	153;"	d	file:
+TRUE	libutil/libutil.h	93;"	d
+UPPER_CASE	libutil/case.h	64;"	d
+UPPER_FILT_FREQ	new_fe.h	/^    float UPPER_FILT_FREQ;$/;"	m	struct:__anon5
+USE_LOG3_ADD_TABLE	logs3.c	/^static int USE_LOG3_ADD_TABLE = 1;	$/;"	v	file:
+USE_LOG3_ADD_TABLE	sphinx3.s	/^USE_LOG3_ADD_TABLE:$/;"	l
+VITHIST_BLKSIZE	vithist.h	156;"	d
+VITHIST_ID2BLK	vithist.h	158;"	d
+VITHIST_ID2BLKOFFSET	vithist.h	159;"	d
+VITHIST_MAXBLKS	vithist.h	157;"	d
+VQ_EVAL	sphinx3.s	/^VQ_EVAL:$/;"	l
+VQ_EVAL	subvq.c	/^static int VQ_EVAL = 3;		$/;"	v	file:
+WBEAM	spec_main_live_pretend.c	77;"	d	file:
+WINDOW_LENGTH	new_fe.h	/^    float WINDOW_LENGTH;$/;"	m	struct:__anon5
+WINDOW_LENGTH	new_fe.h	/^    float WINDOW_LENGTH;$/;"	m	struct:__anon7
+WORD_POSN_BEGIN	mdef.h	/^    WORD_POSN_BEGIN = 0,	\/* Beginning phone of word *\/$/;"	e	enum:__anon8
+WORD_POSN_END	mdef.h	/^    WORD_POSN_END = 1,		\/* Ending phone of word *\/$/;"	e	enum:__anon8
+WORD_POSN_INTERNAL	mdef.h	/^    WORD_POSN_INTERNAL = 3,	\/* Internal phone of word *\/$/;"	e	enum:__anon8
+WORD_POSN_SINGLE	mdef.h	/^    WORD_POSN_SINGLE = 2,	\/* Single phone word (i.e. begin & end) *\/$/;"	e	enum:__anon8
+WORD_POSN_UNDEFINED	mdef.h	/^    WORD_POSN_UNDEFINED = 4	\/* Undefined value, used for initial conditions, etc *\/$/;"	e	enum:__anon8
+WPOS_NAME	mdef.h	80;"	d
+_A_MULTIPLIER	specrand.c	26;"	d	file:
+_CHECKUNDERFLOW_	hmm.c	129;"	d	file:
+_CHECKUNDERFLOW_	utt.c	76;"	d	file:
+_DICT_MEM_LEAK_TEST_	dict.c	551;"	d	file:
+_E__abort_error	err.c	/^void _E__abort_error( char const *fmt, ... ) $/;"	f
+_E__abort_error	sphinx3.s	/^_E__abort_error:                        # @_E__abort_error$/;"	l
+_E__die_error	err.c	/^void _E__die_error( char const *fmt, ... ) $/;"	f
+_E__die_error	sphinx3.s	/^_E__die_error:                          # @_E__die_error$/;"	l
+_E__fatal_sys_error	err.c	/^void _E__fatal_sys_error( char const *fmt, ... ) $/;"	f
+_E__fatal_sys_error	sphinx3.s	/^_E__fatal_sys_error:                    # @_E__fatal_sys_error$/;"	l
+_E__pr_header	err.c	/^_E__pr_header(char const *f, long ln, char const *msg)$/;"	f
+_E__pr_header	sphinx3.s	/^_E__pr_header:                          # @_E__pr_header$/;"	l
+_E__pr_info	err.c	/^_E__pr_info( char const *fmt, ... ) $/;"	f
+_E__pr_info	sphinx3.s	/^_E__pr_info:                            # @_E__pr_info$/;"	l
+_E__pr_info_header	err.c	/^_E__pr_info_header(char const *f, long ln, char const *msg)$/;"	f
+_E__pr_info_header	sphinx3.s	/^_E__pr_info_header:                     # @_E__pr_info_header$/;"	l
+_E__pr_warn	err.c	/^_E__pr_warn( char const *fmt, ... ) $/;"	f
+_E__pr_warn	sphinx3.s	/^_E__pr_warn:                            # @_E__pr_warn$/;"	l
+_E__sys_error	err.c	/^void _E__sys_error( char const *fmt, ... ) $/;"	f
+_E__sys_error	sphinx3.s	/^_E__sys_error:                          # @_E__sys_error$/;"	l
+_LIBUTIL_BITVEC_H_	libutil/bitvec.h	60;"	d
+_LIBUTIL_CASE_H_	libutil/case.h	57;"	d
+_LIBUTIL_CKD_ALLOC_H_	libutil/ckd_alloc.h	79;"	d
+_LIBUTIL_CMD_LN_H_	libutil/cmd_ln.h	58;"	d
+_LIBUTIL_ERR_H_	libutil/err.h	52;"	d
+_LIBUTIL_FILENAME_H_	libutil/filename.h	54;"	d
+_LIBUTIL_GLIST_H_	libutil/glist.h	68;"	d
+_LIBUTIL_HASH_H_	libutil/hash.h	72;"	d
+_LIBUTIL_HEAP_H_	libutil/heap.h	55;"	d
+_LIBUTIL_IO_H_	libutil/io.h	60;"	d
+_LIBUTIL_LIBUTIL_H_	libutil/libutil.h	57;"	d
+_LIBUTIL_PRIM_TYPE_H_	libutil/prim_type.h	60;"	d
+_LIBUTIL_PROFILE_H_	libutil/profile.h	57;"	d
+_LIBUTIL_STR2WORDS_H_	libutil/str2words.h	54;"	d
+_LIBUTIL_UNLIMIT_H_	libutil/unlimit.h	54;"	d
+_LIB_GS_H_	gs.h	53;"	d
+_M_MODULUS	specrand.c	27;"	d	file:
+_NEW_FE_H_	new_fe.h	37;"	d
+_Q_QUOTIENT	specrand.c	28;"	d	file:
+_R_REMAINDER	specrand.c	29;"	d	file:
+_S3_AGC_H_	agc.h	54;"	d
+_S3_APPROXCONGAU_H_	approx_cont_mgau.h	54;"	d
+_S3_ASCR_H_	ascr.h	54;"	d
+_S3_BEAM_H_	beam.h	54;"	d
+_S3_BIO_H_	bio.h	54;"	d
+_S3_CMN_H_	cmn.h	57;"	d
+_S3_CMN_PRIOR_H_	cmn_prior.h	54;"	d
+_S3_CONT_MGAU_H_	cont_mgau.h	61;"	d
+_S3_CORPUS_H_	corpus.h	69;"	d
+_S3_DICT2PID_H_	dict2pid.h	57;"	d
+_S3_DICT_H_	dict.h	63;"	d
+_S3_FEAT_H_	feat.h	57;"	d
+_S3_FILLPEN_H_	fillpen.h	55;"	d
+_S3_HMM_H_	hmm.h	63;"	d
+_S3_HYP_H_	hyp.h	54;"	d
+_S3_KBCORE_H_	kbcore.h	60;"	d
+_S3_KB_H_	kb.h	60;"	d
+_S3_LEXTREE_H_	lextree.h	61;"	d
+_S3_LMCLASS_H_	lmclass.h	46;"	d
+_S3_LM_H_	lm.h	63;"	d
+_S3_LOGS3_H_	logs3.h	57;"	d
+_S3_MDEF_H_	mdef.h	65;"	d
+_S3_S3TYPES_H_	s3types.h	62;"	d
+_S3_SUBVQ_H_	subvq.h	73;"	d
+_S3_TMAT_H_	tmat.h	63;"	d
+_S3_VECTOR_H_	vector.h	61;"	d
+_S3_VITHIST_H_	vithist.h	63;"	d
+_S3_WID_H_	wid.h	53;"	d
+_UTT_H_	utt.h	37;"	d
+__ckd_calloc_2d__	ckd_alloc.c	/^void **__ckd_calloc_2d__ (int32 d1, int32 d2, int32 elemsize,$/;"	f
+__ckd_calloc_2d__	sphinx3.s	/^__ckd_calloc_2d__:                      # @__ckd_calloc_2d__$/;"	l
+__ckd_calloc_3d__	ckd_alloc.c	/^void ***__ckd_calloc_3d__ (int32 d1, int32 d2, int32 d3, int32 elemsize,$/;"	f
+__ckd_calloc_3d__	sphinx3.s	/^__ckd_calloc_3d__:                      # @__ckd_calloc_3d__$/;"	l
+__ckd_calloc__	ckd_alloc.c	/^void *__ckd_calloc__(size_t n_elem, size_t elem_size,$/;"	f
+__ckd_calloc__	sphinx3.s	/^__ckd_calloc__:                         # @__ckd_calloc__$/;"	l
+__ckd_malloc__	ckd_alloc.c	/^void *__ckd_malloc__(size_t size,$/;"	f
+__ckd_malloc__	sphinx3.s	/^__ckd_malloc__:                         # @__ckd_malloc__$/;"	l
+__ckd_realloc__	ckd_alloc.c	/^void *__ckd_realloc__(void *ptr, size_t new_size,$/;"	f
+__ckd_realloc__	sphinx3.s	/^__ckd_realloc__:                        # @__ckd_realloc__$/;"	l
+__ckd_salloc__	ckd_alloc.c	/^char *__ckd_salloc__ (const char *orig, const char *caller_file, int32 caller_line)$/;"	f
+__ckd_salloc__	sphinx3.s	/^__ckd_salloc__:                         # @__ckd_salloc__$/;"	l
+__myfree__	ckd_alloc.c	/^void __myfree__ (char *elem, int32 elemsize, char *caller_file, int32 caller_line)$/;"	f
+__myfree__	sphinx3.s	/^__myfree__:                             # @__myfree__$/;"	l
+__mymalloc__	ckd_alloc.c	/^char *__mymalloc__ (int32 elemsize, char *caller_file, int32 caller_line)$/;"	f
+__mymalloc__	sphinx3.s	/^__mymalloc__:                           # @__mymalloc__$/;"	l
+_dict_basewid	dict.c	/^s3wid_t _dict_basewid (dict_t *d, s3wid_t w)$/;"	f
+_dict_basewid	sphinx3.s	/^_dict_basewid:                          # @_dict_basewid$/;"	l
+_dict_nextalt	dict.c	/^s3wid_t _dict_nextalt (dict_t *d, s3wid_t wid)$/;"	f
+_dict_nextalt	sphinx3.s	/^_dict_nextalt:                          # @_dict_nextalt$/;"	l
+_dict_wordstr	dict.c	/^char *_dict_wordstr (dict_t *d, s3wid_t wid)$/;"	f
+_dict_wordstr	sphinx3.s	/^_dict_wordstr:                          # @_dict_wordstr$/;"	l
+_myfopen	io.c	/^FILE *_myfopen (char *file, char *mode, char *pgm, int32 line)$/;"	f
+_myfopen	sphinx3.s	/^_myfopen:                               # @_myfopen$/;"	l
+access_type	lm.h	/^    int32 access_type;	\/* Updated on every lm_{tg,bg,ug}_score call to reflect the kind of$/;"	m	struct:lm_s
+active	lextree.h	/^    lextree_node_t **active;		\/* Nodes active in any frame *\/$/;"	m	struct:__anon4
+add_tbl	logs3.c	/^static uint16 *add_tbl = NULL;	\/* See discussion above *\/$/;"	v	file:
+add_tbl_size	logs3.c	/^static int32 add_tbl_size;$/;"	v	file:
+agc	feat.h	/^    int32 agc;		\/* Whether AGC-Max is to be performed on each utterance *\/$/;"	m	struct:feat_s
+agc_max	agc.c	/^void agc_max (float **mfc, int32 n_frame)$/;"	f
+agc_max	sphinx3.s	/^agc_max:                                # @agc_max$/;"	l
+alt	dict.h	/^    s3wid_t alt;	\/* Next alternative pronunciation id, NOT_S3WID if none *\/$/;"	m	struct:__anon43
+anytype_s	libutil/prim_type.h	/^typedef union anytype_s {$/;"	u
+anytype_t	libutil/prim_type.h	/^} anytype_t;$/;"	t	typeref:union:anytype_s
+approx_cont_mgau_ci_eval	approx_cont_mgau.c	/^void approx_cont_mgau_ci_eval (mgau_model_t *g,float32 *feat,int32 *ci_senscr, kb_t *kb)$/;"	f
+approx_cont_mgau_ci_eval	sphinx3.s	/^approx_cont_mgau_ci_eval:               # @approx_cont_mgau_ci_eval$/;"	l
+approx_cont_mgau_frame_eval	approx_cont_mgau.c	/^int32 approx_cont_mgau_frame_eval (mgau_model_t *g,$/;"	f
+approx_cont_mgau_frame_eval	sphinx3.s	/^approx_cont_mgau_frame_eval:            # @approx_cont_mgau_frame_eval$/;"	l
+approx_isskip	approx_cont_mgau.c	/^int32 approx_isskip(int32 frame,int32 ds_ratio,int32 cond_ds,int32 isSameBestIdx,int32 *skip_count)$/;"	f
+approx_isskip	sphinx3.s	/^approx_isskip:                          # @approx_isskip$/;"	l
+approx_mgau_eval	approx_cont_mgau.c	/^int32 approx_mgau_eval (gs_t* gs,$/;"	f
+approx_mgau_eval	sphinx3.s	/^approx_mgau_eval:                       # @approx_mgau_eval$/;"	l
+arg	parse_args_file.c	/^static arg_t arg[] = {$/;"	v	file:
+arg	sphinx3.s	/^arg:$/;"	l
+arg_dump	cmd_ln.c	/^static void arg_dump (FILE *fp, arg_t *defn, int32 doc)$/;"	f	file:
+arg_sort	cmd_ln.c	/^static int32 *arg_sort (arg_t *defn, int32 n)$/;"	f	file:
+arg_str2val	cmd_ln.c	/^static int32 arg_str2val (argval_t *v, argtype_t t, char *str)$/;"	f	file:
+arg_str2val	sphinx3.s	/^arg_str2val:                            # @arg_str2val$/;"	l
+arg_strlen	cmd_ln.c	/^static int32 arg_strlen (arg_t *defn, int32 *namelen, int32 *deflen)$/;"	f	file:
+arg_t	libutil/cmd_ln.h	/^} arg_t;$/;"	t	typeref:struct:__anon31
+argtype_t	libutil/cmd_ln.h	/^typedef int32 argtype_t;$/;"	t
+argval	cmd_ln.c	/^static argval_t *argval = NULL;$/;"	v	file:
+argval_s	cmd_ln.c	/^typedef struct argval_s {$/;"	s	file:
+argval_t	cmd_ln.c	/^} argval_t;$/;"	t	typeref:struct:argval_s	file:
+arraysize_t	vector.h	/^} arraysize_t;$/;"	t	typeref:struct:__anon23
+ascr	hyp.h	/^    int32 ascr;		\/* Segment acoustic score *\/$/;"	m	struct:__anon27
+ascr	kb.h	/^    ascr_t *ascr;		\/* Senone and composite senone scores for one frame *\/$/;"	m	struct:__anon49
+ascr	live.h	/^    int32 ascr;$/;"	m	struct:__anon48
+ascr	vithist.h	/^    int32 ascr;			\/* Acoustic score for this node *\/$/;"	m	struct:__anon38
+ascr_init	ascr.c	/^ascr_t *ascr_init (int32 n_sen, int32 n_comsen)$/;"	f
+ascr_init	sphinx3.s	/^ascr_init:                              # @ascr_init$/;"	l
+ascr_t	ascr.h	/^} ascr_t;$/;"	t	typeref:struct:__anon41
+basewid	dict.h	/^    s3wid_t basewid;	\/* Base pronunciation id *\/$/;"	m	struct:__anon43
+bcomment_read	bio.c	/^static void bcomment_read (FILE *fp)$/;"	f	file:
+beam	kb.h	/^    beam_t *beam;		\/* Beamwidth parameters *\/$/;"	m	struct:__anon49
+beam_init	beam.c	/^beam_t *beam_init (float64 svq, float64 hmm, float64 ptr, float64 wd)$/;"	f
+beam_init	sphinx3.s	/^beam_init:                              # @beam_init$/;"	l
+beam_t	beam.h	/^} beam_t;$/;"	t	typeref:struct:__anon45
+beams	spec_main_live_pretend.c	/^double beams[MAXBEAMSETS][4];$/;"	v
+best	lextree.h	/^    int32 best;		\/* Best HMM state score in current frame (for pruning) *\/$/;"	m	struct:__anon4
+bestscore	hmm.h	/^    int32 bestscore;	\/* Best [emitting] state score in current frame (for pruning) *\/$/;"	m	struct:__anon35
+bestscore	kb.h	/^    int32 bestscore;		\/* Best HMM state score in current frame *\/$/;"	m	struct:__anon49
+bestscore	vithist.h	/^    int32 *bestscore;		\/* Best word exit score in each frame *\/$/;"	m	struct:__anon40
+bestvh	vithist.h	/^    int32 *bestvh;		\/* Vithist entry ID with the best exit score in each frame *\/$/;"	m	struct:__anon40
+bestwordscore	kb.h	/^    int32 bestwordscore;	\/* Best wordexit HMM state score in current frame *\/$/;"	m	struct:__anon49
+bg	lm.h	/^    bg_t *bg;		\/* Bigrams for a specific unigram; see lm_t.membg *\/$/;"	m	struct:__anon16
+bg	lm.h	/^    bg_t *bg;		\/* NULL iff disk-based *\/$/;"	m	struct:lm_s
+bg_seg_sz	lm.h	/^    int32 bg_seg_sz;$/;"	m	struct:lm_s
+bg_t	lm.h	/^} bg_t;$/;"	t	typeref:struct:__anon14
+bghist	vithist.h	/^    int32 bghist;		\/* If TRUE (bigram-mode) only one entry\/word\/frame; otherwise$/;"	m	struct:__anon40
+bgoff	lm.h	/^    int32 bgoff;        \/* BG and TG offsets into DMP file (used iff disk-based) *\/$/;"	m	struct:lm_s
+bgprob	lm.h	/^    lmlog_t *bgprob;    \/* Table of actual bigram probs *\/$/;"	m	struct:lm_s
+bio_fread	bio.c	/^int32 bio_fread (void *buf, int32 el_sz, int32 n_el, FILE *fp, int32 swap, uint32 *chksum)$/;"	f
+bio_fread	sphinx3.s	/^bio_fread:                              # @bio_fread$/;"	l
+bio_fread_1d	bio.c	/^int32 bio_fread_1d (void **buf, int32 el_sz, int32 *n_el, FILE *fp, int32 sw, uint32 *ck)$/;"	f
+bio_fread_1d	sphinx3.s	/^bio_fread_1d:                           # @bio_fread_1d$/;"	l
+bio_hdrarg_free	bio.c	/^void bio_hdrarg_free (char **argname, char **argval)$/;"	f
+bio_hdrarg_free	sphinx3.s	/^bio_hdrarg_free:                        # @bio_hdrarg_free$/;"	l
+bio_readhdr	bio.c	/^int32 bio_readhdr (FILE *fp, char ***argname, char ***argval, int32 *swap)$/;"	f
+bio_readhdr	sphinx3.s	/^bio_readhdr:                            # @bio_readhdr$/;"	l
+bio_verify_chksum	bio.c	/^void bio_verify_chksum (FILE *fp, int32 byteswap, uint32 chksum)$/;"	f
+bio_verify_chksum	sphinx3.s	/^bio_verify_chksum:                      # @bio_verify_chksum$/;"	l
+bio_writehdr_version	bio.c	/^int32 bio_writehdr_version (FILE *fp, char *version)$/;"	f
+bio_writehdr_version	sphinx3.s	/^bio_writehdr_version:                   # @bio_writehdr_version$/;"	l
+bitvec_alloc	libutil/bitvec.h	76;"	d
+bitvec_clear	libutil/bitvec.h	82;"	d
+bitvec_clear_all	libutil/bitvec.h	84;"	d
+bitvec_free	libutil/bitvec.h	78;"	d
+bitvec_is_clear	libutil/bitvec.h	88;"	d
+bitvec_is_set	libutil/bitvec.h	86;"	d
+bitvec_set	libutil/bitvec.h	80;"	d
+bitvec_t	libutil/bitvec.h	/^typedef uint32 *bitvec_t;$/;"	t
+bitvec_uint32size	libutil/bitvec.h	74;"	d
+blk_alloc	ckd_alloc.c	/^    int32 blk_alloc;		\/* #Alloc operations before increasing blocksize *\/$/;"	m	struct:mylist_s	file:
+blocksize	ckd_alloc.c	/^    int32 blocksize;		\/* #elements to alloc if run out of free elments *\/$/;"	m	struct:mylist_s	file:
+blocksize	new_fe.h	/^    int32 blocksize;$/;"	m	struct:__anon5
+bowt	lm.h	/^    int32 bowt;			\/* tg bowt for w1,w2 *\/$/;"	m	struct:tginfo_s
+bowt	lm.h	/^    lmlog_t bowt;$/;"	m	struct:__anon13
+bowtid	lm.h	/^    uint16 bowtid;$/;"	m	struct:__anon14
+byteswap	lm.h	/^    int32 byteswap;     \/* Whether this file is in the WRONG byte order *\/$/;"	m	struct:lm_s
+c	vector.h	/^    int32 c;		\/* #cols in an array *\/$/;"	m	struct:__anon23
+cache_best_list	kb.h	/^  int32 *cache_best_list;        \/* Cache of best the ci sensr the next pl_windows, include this frame*\/$/;"	m	struct:__anon49
+cache_ci_senscr	kb.h	/^  int32 **cache_ci_senscr;     \/* Cache of ci senscr in the next pl_windows frames, include this frame.*\/$/;"	m	struct:__anon49
+cd2cisen	mdef.h	/^    s3senid_t *cd2cisen;	\/* Parent CI-senone id for each senone; the first$/;"	m	struct:__anon11
+cepdir	new_fe.h	/^    char *cepdir;$/;"	m	struct:__anon5
+cepext	new_fe.h	/^    char *cepext;$/;"	m	struct:__anon5
+cepfile	new_fe.h	/^    char *cepfile;$/;"	m	struct:__anon5
+cepsize	feat.h	/^    int32 cepsize;	\/* Size of input speech vector (typically, a cepstrum vector) *\/$/;"	m	struct:feat_s
+cepsize_used	feat.h	/^    int32 cepsize_used;	\/* No. of cepstrum vector dimensions actually used (0 onwards) *\/$/;"	m	struct:feat_s
+children	lextree.h	/^    glist_t children;	\/* Its data.ptr are children (lextree_node_t *) *\/$/;"	m	struct:__anon2
+children	vithist.h	/^    glist_t children;		\/* Children of this node in the LM state tree; data.ptr of$/;"	m	struct:__anon39
+chksum_accum	bio.c	/^static uint32 chksum_accum (void *buf, int32 el_sz, int32 n_el, uint32 sum)$/;"	f	file:
+ci	lextree.h	/^    s3cipid_t ci;	\/* CIphone id for this node *\/$/;"	m	struct:__anon2
+ci	mdef.h	/^    s3cipid_t ci, lc, rc;	\/* Base, left, right context ciphones *\/$/;"	m	struct:__anon10
+ci_pbeam	kb.h	/^  int32 ci_pbeam;             \/* The beam which prune out unnesseary parent CI phones in $/;"	m	struct:__anon49
+ciphone	dict.h	/^    s3cipid_t *ciphone;	\/* Pronunciation *\/$/;"	m	struct:__anon43
+ciphone	mdef.h	/^    ciphone_t *ciphone;		\/* CI-phone information for all ciphones *\/$/;"	m	struct:__anon11
+ciphone2n_cd_sen	mdef.h	/^    int32 *ciphone2n_cd_sen;	\/* #CD-senones for each parent CI-phone *\/$/;"	m	struct:__anon11
+ciphone_add	mdef.c	/^static void ciphone_add (mdef_t *m, char *ci, s3pid_t p)$/;"	f	file:
+ciphone_ht	mdef.h	/^    hash_table_t *ciphone_ht;	\/* Hash table for mapping ciphone strings to ids *\/$/;"	m	struct:__anon11
+ciphone_str	dict.h	/^    char **ciphone_str;	\/* Used only if CI phones handled internally (mdef == NULL) *\/$/;"	m	struct:__anon44
+ciphone_t	mdef.h	/^} ciphone_t;$/;"	t	typeref:struct:__anon9
+ckd_calloc	libutil/ckd_alloc.h	139;"	d
+ckd_calloc_2d	libutil/ckd_alloc.h	143;"	d
+ckd_calloc_3d	libutil/ckd_alloc.h	144;"	d
+ckd_free	ckd_alloc.c	/^void ckd_free (void *ptr)$/;"	f
+ckd_free	sphinx3.s	/^ckd_free:                               # @ckd_free$/;"	l
+ckd_free_2d	ckd_alloc.c	/^void ckd_free_2d (void **ptr)$/;"	f
+ckd_free_2d	sphinx3.s	/^ckd_free_2d:                            # @ckd_free_2d$/;"	l
+ckd_free_3d	ckd_alloc.c	/^void ckd_free_3d (void ***ptr)$/;"	f
+ckd_free_3d	sphinx3.s	/^ckd_free_3d:                            # @ckd_free_3d$/;"	l
+ckd_malloc	libutil/ckd_alloc.h	140;"	d
+ckd_realloc	libutil/ckd_alloc.h	141;"	d
+ckd_salloc	libutil/ckd_alloc.h	142;"	d
+cmd_ln_access	cmd_ln.c	/^const void *cmd_ln_access (char *name)$/;"	f
+cmd_ln_access	sphinx3.s	/^cmd_ln_access:                          # @cmd_ln_access$/;"	l
+cmd_ln_float32	libutil/cmd_ln.h	108;"	d
+cmd_ln_float64	libutil/cmd_ln.h	109;"	d
+cmd_ln_free	cmd_ln.c	/^void cmd_ln_free ()$/;"	f
+cmd_ln_free	sphinx3.s	/^cmd_ln_free:                            # @cmd_ln_free$/;"	l
+cmd_ln_int32	libutil/cmd_ln.h	107;"	d
+cmd_ln_parse	cmd_ln.c	/^int32 cmd_ln_parse (arg_t *defn, int32 argc, char *argv[])$/;"	f
+cmd_ln_parse	sphinx3.s	/^cmd_ln_parse:                           # @cmd_ln_parse$/;"	l
+cmd_ln_print_help	cmd_ln.c	/^void cmd_ln_print_help (FILE *fp, arg_t *defn)$/;"	f
+cmd_ln_print_help	sphinx3.s	/^cmd_ln_print_help:                      # @cmd_ln_print_help$/;"	l
+cmd_ln_str	libutil/cmd_ln.h	106;"	d
+cmn	cmn.c	/^void cmn (float32 **mfc, int32 varnorm, int32 n_frame, int32 veclen)$/;"	f
+cmn	feat.h	/^    int32 cmn;		\/* Whether CMN is to be performed on each utterance *\/$/;"	m	struct:feat_s
+cmn	sphinx3.s	/^cmn:                                    # @cmn$/;"	l
+cmn_free	cmn.c	/^void cmn_free ()$/;"	f
+cmn_free	sphinx3.s	/^cmn_free:                               # @cmn_free$/;"	l
+cmn_mean	cmn.c	/^static float32 *cmn_mean = NULL;$/;"	v	file:
+cmn_prior	cmn_prior.c	/^void cmn_prior(float32 **incep, int32 varnorm, int32 nfr, int32 ceplen, $/;"	f
+cmn_prior	sphinx3.s	/^cmn_prior:                              # @cmn_prior$/;"	l
+cmn_var	cmn.c	/^static float32 *cmn_var = NULL;$/;"	v	file:
+cmp_name	cmd_ln.c	/^static int32 cmp_name (const void *a, const void *b)$/;"	f	file:
+cmp_name	sphinx3.s	/^cmp_name:                               # @cmp_name$/;"	l
+codemap	gs.h	/^  uint32 ***codemap; \/* n_feat * n_mgau * n_code*\/$/;"	m	struct:gs_s
+codeword	gs.h	/^  float32 **codeword; \/* n_code * n_featlen *\/$/;"	m	struct:gs_s
+comp	dict.h	/^    s3wid_t *comp;	\/* If n_comp > 0, its components *\/$/;"	m	struct:__anon43
+comp_head	dict.h	/^    s3wid_t *comp_head;	\/* comp_head[w] = wid of a compound word with 1st component = w;$/;"	m	struct:__anon44
+complex	new_fe_sp.h	/^typedef struct { double r, i; } complex;$/;"	t	typeref:struct:__anon33
+composite	lextree.h	/^    int8 composite;	\/* Whether it is a composite model (merging many left\/right contexts) *\/$/;"	m	struct:__anon2
+computePhnHeur	sphinx3.s	/^computePhnHeur:                         # @computePhnHeur$/;"	l
+computePhnHeur	utt.c	/^void computePhnHeur(mdef_t* md,kb_t* kb,int32 heutype)$/;"	f
+compute_feat	feat.h	/^    void (*compute_feat)(struct feat_s *fcb, float32 **input, float32 **feat);$/;"	m	struct:feat_s
+comsen	ascr.h	/^    int32 *comsen;	\/* Composite senone scores in current frame *\/$/;"	m	struct:__anon41
+comsseq	dict2pid.h	/^    s3senid_t **comsseq;	\/* comsseq[i] = sequence of composite state IDs in i-th$/;"	m	struct:__anon21
+comssid_active	kb.h	/^    int32 *comssid_active;$/;"	m	struct:__anon49
+comstate	dict2pid.h	/^    s3senid_t **comstate;	\/* comstate[i] = BAD_S3SENID terminated set of senone IDs in$/;"	m	struct:__anon21
+comwt	dict2pid.h	/^    int32 *comwt;		\/* Weight associated with each composite state (logs3 value).$/;"	m	struct:__anon21
+cond_ds	kb.h	/^    int32 cond_ds;            \/* Whether we want to use conditional DS, $/;"	m	struct:__anon49
+confp	utt.c	/^FILE *confp;$/;"	v
+confp_open	sphinx3.s	/^confp_open:$/;"	l
+confp_open	utt.c	/^int confp_open=0;$/;"	v
+considered	cont_mgau.c	/^long considered = 0;$/;"	v
+considered	sphinx3.s	/^considered:$/;"	l
+corpus_t	corpus.h	/^} corpus_t;$/;"	t	typeref:struct:__anon42
+count	libutil/profile.h	/^    int32 count;		\/* Counter value *\/$/;"	m	struct:__anon28
+ctlfile	new_fe.h	/^    char *ctlfile;$/;"	m	struct:__anon5
+dagnode_t	vithist.c	/^} dagnode_t;$/;"	t	typeref:struct:__anon47	file:
+darpa_hdr	lm.c	/^static char *darpa_hdr = "Darpa Trigram LM";$/;"	v	file:
+data	heap.c	/^    void *data;		\/* Application data at this node *\/$/;"	m	struct:heap_s	file:
+data	libutil/glist.h	/^    anytype_t data;		\/* See prim_type.h *\/$/;"	m	struct:gnode_s
+deflt	libutil/cmd_ln.h	/^    char *deflt;	\/* Default value (as a printed string) or NULL if none *\/$/;"	m	struct:__anon31
+dict	fillpen.h	/^    dict_t *dict;	\/* Reference dictionary for which the filler word probabilities$/;"	m	struct:__anon1
+dict	kbcore.h	/^    dict_t *dict;$/;"	m	struct:__anon22
+dict2lmwid	kbcore.h	/^    s3lmwid_t *dict2lmwid;$/;"	m	struct:__anon22
+dict2lmwid	lm.h	/^  s3lmwid_t *dict2lmwid; $/;"	m	struct:lm_s
+dict2pid	kbcore.h	/^    dict2pid_t *dict2pid;$/;"	m	struct:__anon22
+dict2pid_build	dict2pid.c	/^dict2pid_t *dict2pid_build (mdef_t *mdef, dict_t *dict)$/;"	f
+dict2pid_build	sphinx3.s	/^dict2pid_build:                         # @dict2pid_build$/;"	l
+dict2pid_comsenscr	dict2pid.c	/^void dict2pid_comsenscr (dict2pid_t *d2p, int32 *senscr, int32 *comsenscr)$/;"	f
+dict2pid_comsenscr	sphinx3.s	/^dict2pid_comsenscr:                     # @dict2pid_comsenscr$/;"	l
+dict2pid_comsseq2sen_active	dict2pid.c	/^void dict2pid_comsseq2sen_active (dict2pid_t *d2p, mdef_t *mdef, int32 *comssid, int32 *sen)$/;"	f
+dict2pid_comsseq2sen_active	sphinx3.s	/^dict2pid_comsseq2sen_active:            # @dict2pid_comsseq2sen_active$/;"	l
+dict2pid_dump	dict2pid.c	/^void dict2pid_dump (FILE *fp, dict2pid_t *d2p, mdef_t *mdef, dict_t *dict)$/;"	f
+dict2pid_dump	sphinx3.s	/^dict2pid_dump:                          # @dict2pid_dump$/;"	l
+dict2pid_internal	dict2pid.h	119;"	d
+dict2pid_n_comsseq	dict2pid.h	121;"	d
+dict2pid_n_comstate	dict2pid.h	120;"	d
+dict2pid_t	dict2pid.h	/^} dict2pid_t;$/;"	t	typeref:struct:__anon21
+dict_add_word	dict.c	/^s3wid_t dict_add_word (dict_t *d, char *word, s3cipid_t *p, int32 np)$/;"	f
+dict_add_word	sphinx3.s	/^dict_add_word:                          # @dict_add_word$/;"	l
+dict_basewid	dict.h	148;"	d
+dict_build_comp	dict.c	/^static int32 dict_build_comp (dict_t *d,$/;"	f	file:
+dict_ciphone_id	dict.c	/^static s3cipid_t dict_ciphone_id (dict_t *d, char *str)$/;"	f	file:
+dict_ciphone_str	dict.c	/^const char *dict_ciphone_str (dict_t *d, s3wid_t wid, int32 pos)$/;"	f
+dict_ciphone_str	sphinx3.s	/^dict_ciphone_str:                       # @dict_ciphone_str$/;"	l
+dict_comp_head	dict.c	/^static s3wid_t *dict_comp_head (dict_t *d)$/;"	f	file:
+dict_filler_end	dict.h	154;"	d
+dict_filler_start	dict.h	153;"	d
+dict_filler_word	dict.c	/^int32 dict_filler_word (dict_t *d, s3wid_t w)$/;"	f
+dict_filler_word	sphinx3.s	/^dict_filler_word:                       # @dict_filler_word$/;"	l
+dict_finishwid	dict.h	156;"	d
+dict_first_phone	dict.h	158;"	d
+dict_free	dict.c	/^void dict_free (dict_t *d)$/;"	f
+dict_free	sphinx3.s	/^dict_free:                              # @dict_free$/;"	l
+dict_init	dict.c	/^dict_t *dict_init (mdef_t *mdef, char *dictfile, char *fillerfile, char comp_sep)$/;"	f
+dict_init	sphinx3.s	/^dict_init:                              # @dict_init$/;"	l
+dict_last_phone	dict.h	159;"	d
+dict_nextalt	dict.h	150;"	d
+dict_pron	dict.h	152;"	d
+dict_pronlen	dict.h	151;"	d
+dict_read	dict.c	/^static int32 dict_read (FILE *fp, dict_t *d)$/;"	f	file:
+dict_read	sphinx3.s	/^dict_read:                              # @dict_read$/;"	l
+dict_silwid	dict.h	157;"	d
+dict_size	dict.h	147;"	d
+dict_size	lm.h	/^  int32 dict_size;	\/* #words in lexicon *\/$/;"	m	struct:lm_s
+dict_startwid	dict.h	155;"	d
+dict_t	dict.h	/^} dict_t;$/;"	t	typeref:struct:__anon44
+dict_wids2compwid	dict.c	/^s3wid_t dict_wids2compwid (dict_t *d, s3wid_t *wid, int32 len)$/;"	f
+dict_wids2compwid	sphinx3.s	/^dict_wids2compwid:                      # @dict_wids2compwid$/;"	l
+dict_word2basestr	dict.c	/^int32 dict_word2basestr (char *word)$/;"	f
+dict_word2basestr	sphinx3.s	/^dict_word2basestr:                      # @dict_word2basestr$/;"	l
+dict_wordid	dict.c	/^s3wid_t dict_wordid (dict_t *d, char *word)$/;"	f
+dict_wordid	sphinx3.s	/^dict_wordid:                            # @dict_wordid$/;"	l
+dict_wordstr	dict.h	149;"	d
+dictwid	lm.h	/^    s3wid_t dictwid;	\/* Dictionary word id, or BAD_S3WID if unknown.  However, the LM$/;"	m	struct:__anon13
+dictwid	lmclass.h	/^    int32 dictwid;	\/* Dictionary word id; NOT filled in by this module, but by$/;"	m	struct:lmclass_word_s
+dictword_t	dict.h	/^} dictword_t;$/;"	t	typeref:struct:__anon43
+distfloor	cont_mgau.h	/^    float64 distfloor;	\/* Mahalanobis distances can underflow when finally converted to$/;"	m	struct:__anon20
+distfloor	vector.h	/^    float64 distfloor;	\/* When Mahalanobis distance values are converted to logs3 domain, the$/;"	m	struct:__anon26
+doc	libutil/cmd_ln.h	/^    char *doc;		\/* Documentation\/description string *\/$/;"	m	struct:__anon31
+doublebw	new_fe.h	/^    int32 doublebw;$/;"	m	struct:__anon5
+doublewide	new_fe.h	/^    int32 doublewide;    $/;"	m	struct:__anon6
+ds_ratio	kb.h	/^    int32 ds_ratio;              \/* Ratio of down-sampling the frame computation *\/$/;"	m	struct:__anon49
+dummyframe	live.c	/^static float32 *dummyframe;$/;"	v	file:
+ef	hyp.h	/^    int32 sf, ef;	\/* Start\/end frames, inclusive, for this segment *\/$/;"	m	struct:__anon27
+ef	live.h	/^    int32 ef;$/;"	m	struct:__anon48
+ef	vithist.h	/^    s3frmid_t sf, ef;		\/* Start and end frames for this entry *\/$/;"	m	struct:__anon38
+elemsize	ckd_alloc.c	/^    int32 elemsize;		\/* #(char *) in element *\/$/;"	m	struct:mylist_s	file:
+enter	hash.c	/^static int32 enter (hash_table_t *h, uint32 hash, const char *key, int32 len, int32 val)$/;"	f	file:
+entry	vithist.h	/^    vithist_entry_t **entry;	\/* entry[i][j]= j-th entry in the i-th block allocated *\/$/;"	m	struct:__anon40
+f	lm.h	/^    float32 f;$/;"	m	union:__anon12
+fcb	kbcore.h	/^    feat_t *fcb;$/;"	m	struct:__anon22
+fclose_comp	io.c	/^void fclose_comp (FILE *fp, int32 ispipe)$/;"	f
+fclose_comp	sphinx3.s	/^fclose_comp:                            # @fclose_comp$/;"	l
+fe	live.c	/^static fe_t  *fe;$/;"	v	file:
+fe_build_melfilters	new_fe_sp.c	/^int32 fe_build_melfilters(melfb_t *MEL_FB)$/;"	f
+fe_build_melfilters	sphinx3.s	/^fe_build_melfilters:                    # @fe_build_melfilters$/;"	l
+fe_close	new_fe.c	/^int32 fe_close(fe_t *FE)$/;"	f
+fe_close	sphinx3.s	/^fe_close:                               # @fe_close$/;"	l
+fe_compute_melcosine	new_fe_sp.c	/^int32 fe_compute_melcosine(melfb_t *MEL_FB)$/;"	f
+fe_compute_melcosine	sphinx3.s	/^fe_compute_melcosine:                   # @fe_compute_melcosine$/;"	l
+fe_create_2d	new_fe_sp.c	/^char **fe_create_2d(int32 d1, int32 d2, int32 elem_size)$/;"	f
+fe_create_2d	sphinx3.s	/^fe_create_2d:                           # @fe_create_2d$/;"	l
+fe_create_hamming	new_fe_sp.c	/^void fe_create_hamming(double *in, int32 in_len)$/;"	f
+fe_create_hamming	sphinx3.s	/^fe_create_hamming:                      # @fe_create_hamming$/;"	l
+fe_end_utt	new_fe.c	/^int32 fe_end_utt(fe_t *FE, float32 *cepvector)$/;"	f
+fe_end_utt	sphinx3.s	/^fe_end_utt:                             # @fe_end_utt$/;"	l
+fe_fft	new_fe_sp.c	/^int32 fe_fft(complex *in, complex *out, int32 N, int32 invert)$/;"	f
+fe_fft	sphinx3.s	/^fe_fft:                                 # @fe_fft$/;"	l
+fe_frame_to_fea	new_fe_sp.c	/^void fe_frame_to_fea(fe_t *FE, double *in, double *fea)$/;"	f
+fe_frame_to_fea	sphinx3.s	/^fe_frame_to_fea:                        # @fe_frame_to_fea$/;"	l
+fe_free_2d	new_fe_sp.c	/^void fe_free_2d(void **arr)$/;"	f
+fe_free_2d	sphinx3.s	/^fe_free_2d:                             # @fe_free_2d$/;"	l
+fe_hamming_window	new_fe_sp.c	/^void fe_hamming_window(double *in, double *window, int32 in_len)$/;"	f
+fe_hamming_window	sphinx3.s	/^fe_hamming_window:                      # @fe_hamming_window$/;"	l
+fe_init	new_fe.c	/^fe_t *fe_init(param_t *P)$/;"	f
+fe_init	sphinx3.s	/^fe_init:                                # @fe_init$/;"	l
+fe_mel	new_fe_sp.c	/^float fe_mel(float x)$/;"	f
+fe_mel	sphinx3.s	/^fe_mel:                                 # @fe_mel$/;"	l
+fe_mel_cep	new_fe_sp.c	/^void fe_mel_cep(fe_t *FE, double *mfspec, double *mfcep)$/;"	f
+fe_mel_cep	sphinx3.s	/^fe_mel_cep:                             # @fe_mel_cep$/;"	l
+fe_mel_spec	new_fe_sp.c	/^void fe_mel_spec(fe_t *FE, double *spec, double *mfspec)$/;"	f
+fe_mel_spec	sphinx3.s	/^fe_mel_spec:                            # @fe_mel_spec$/;"	l
+fe_melinv	new_fe_sp.c	/^float fe_melinv(float x)$/;"	f
+fe_melinv	sphinx3.s	/^fe_melinv:                              # @fe_melinv$/;"	l
+fe_parse_general_params	new_fe_sp.c	/^void fe_parse_general_params(param_t *P, fe_t *FE)$/;"	f
+fe_parse_general_params	sphinx3.s	/^fe_parse_general_params:                # @fe_parse_general_params$/;"	l
+fe_parse_melfb_params	new_fe_sp.c	/^void fe_parse_melfb_params(param_t *P, melfb_t *MEL)$/;"	f
+fe_parse_melfb_params	sphinx3.s	/^fe_parse_melfb_params:                  # @fe_parse_melfb_params$/;"	l
+fe_pre_emphasis	new_fe_sp.c	/^void fe_pre_emphasis(int16 *in, double *out, int32 len, float$/;"	f
+fe_pre_emphasis	sphinx3.s	/^fe_pre_emphasis:                        # @fe_pre_emphasis$/;"	l
+fe_print_current	new_fe_sp.c	/^void fe_print_current(fe_t *FE)$/;"	f
+fe_print_current	sphinx3.s	/^fe_print_current:                       # @fe_print_current$/;"	l
+fe_process_utt	new_fe.c	/^int32 fe_process_utt(fe_t *FE, int16 *spch, int32 nsamps, float32 ***cep_block)	\/* RAH, upgraded cep_block to float32 *\/$/;"	f
+fe_process_utt	sphinx3.s	/^fe_process_utt:                         # @fe_process_utt$/;"	l
+fe_short_to_double	new_fe_sp.c	/^void fe_short_to_double(int16 *in, double *out, int32 len)$/;"	f
+fe_short_to_double	sphinx3.s	/^fe_short_to_double:                     # @fe_short_to_double$/;"	l
+fe_spec_magnitude	new_fe_sp.c	/^void fe_spec_magnitude(double *data, int32 data_len, double *spec, int32 fftsize)$/;"	f
+fe_spec_magnitude	sphinx3.s	/^fe_spec_magnitude:                      # @fe_spec_magnitude$/;"	l
+fe_start_utt	new_fe.c	/^int32 fe_start_utt(fe_t *FE)$/;"	f
+fe_start_utt	sphinx3.s	/^fe_start_utt:                           # @fe_start_utt$/;"	l
+fe_t	new_fe.h	/^} fe_t;$/;"	t	typeref:struct:__anon7
+feat	kb.h	/^    float32 ***feat;		\/* Feature frames *\/$/;"	m	struct:__anon49
+feat_1s_c_d_dd_cep2feat	feat.c	/^void feat_1s_c_d_dd_cep2feat (feat_t *fcb, float32 **mfc, float32 **feat)$/;"	f
+feat_1s_c_d_dd_cep2feat	sphinx3.s	/^feat_1s_c_d_dd_cep2feat:                # @feat_1s_c_d_dd_cep2feat$/;"	l
+feat_array_alloc	feat.c	/^float32 ***feat_array_alloc (feat_t *fcb, int32 nfr)$/;"	f
+feat_array_alloc	sphinx3.s	/^feat_array_alloc:                       # @feat_array_alloc$/;"	l
+feat_cepsize	feat.h	94;"	d
+feat_cepsize_used	feat.h	95;"	d
+feat_free	feat.c	/^void feat_free (feat_t *f)$/;"	f
+feat_free	sphinx3.s	/^feat_free:                              # @feat_free$/;"	l
+feat_init	feat.c	/^feat_t *feat_init (char *type, char *cmn, char *varnorm, char *agc)$/;"	f
+feat_init	sphinx3.s	/^feat_init:                              # @feat_init$/;"	l
+feat_n_stream	feat.h	96;"	d
+feat_name	feat.h	93;"	d
+feat_print	feat.c	/^void feat_print (feat_t *fcb, float32 ***feat, int32 nfr, FILE *fp)$/;"	f
+feat_print	sphinx3.s	/^feat_print:                             # @feat_print$/;"	l
+feat_readfile	feat.c	/^int32 feat_readfile (feat_t *fcb, char *file, int32 sf, int32 ef, float32 ***feat, int32 maxfr)$/;"	f
+feat_readfile	sphinx3.s	/^feat_readfile:                          # @feat_readfile$/;"	l
+feat_s	feat.h	/^typedef struct feat_s {$/;"	s
+feat_s2_4x_cep2feat	feat.c	/^static void feat_s2_4x_cep2feat (feat_t *fcb, float32 **mfc, float32 **feat)$/;"	f	file:
+feat_s2_4x_cep2feat	sphinx3.s	/^feat_s2_4x_cep2feat:                    # @feat_s2_4x_cep2feat$/;"	l
+feat_s2mfc2feat	feat.c	/^int32 feat_s2mfc2feat (feat_t *fcb, char *file, char *dir, int32 sf, int32 ef, float32 ***feat,$/;"	f
+feat_s2mfc2feat	sphinx3.s	/^feat_s2mfc2feat:                        # @feat_s2mfc2feat$/;"	l
+feat_s2mfc2feat_block	feat.c	/^int32 feat_s2mfc2feat_block(feat_t *fcb, float32 **uttcep, int32 nfr,$/;"	f
+feat_s2mfc2feat_block	sphinx3.s	/^feat_s2mfc2feat_block:                  # @feat_s2mfc2feat_block$/;"	l
+feat_s2mfc_read	feat.c	/^int32 feat_s2mfc_read (char *file, int32 sf, int32 ef, float32 **mfc, int32 maxfr)$/;"	f
+feat_s2mfc_read	sphinx3.s	/^feat_s2mfc_read:                        # @feat_s2mfc_read$/;"	l
+feat_s3_1x39_cep2feat	feat.c	/^static void feat_s3_1x39_cep2feat (feat_t *fcb, float32 **mfc, float32 **feat)$/;"	f	file:
+feat_s3_1x39_cep2feat	sphinx3.s	/^feat_s3_1x39_cep2feat:                  # @feat_s3_1x39_cep2feat$/;"	l
+feat_s3_cep	feat.c	/^static void feat_s3_cep (feat_t *fcb, float32 **mfc, float32 **feat)$/;"	f	file:
+feat_s3_cep	sphinx3.s	/^feat_s3_cep:                            # @feat_s3_cep$/;"	l
+feat_s3_cep_dcep	feat.c	/^static void feat_s3_cep_dcep (feat_t *fcb, float32 **mfc, float32 **feat)$/;"	f	file:
+feat_s3_cep_dcep	sphinx3.s	/^feat_s3_cep_dcep:                       # @feat_s3_cep_dcep$/;"	l
+feat_stream_len	feat.h	97;"	d
+feat_stream_len_sum	feat.c	/^static int32 feat_stream_len_sum (feat_t *fcb)$/;"	f	file:
+feat_t	feat.h	/^} feat_t;$/;"	t	typeref:struct:feat_s
+feat_vector_alloc	feat.c	/^float32 **feat_vector_alloc (feat_t *fcb)$/;"	f
+feat_vector_alloc	sphinx3.s	/^feat_vector_alloc:                      # @feat_vector_alloc$/;"	l
+feat_window_size	feat.h	98;"	d
+feat_writefile	feat.c	/^int32 feat_writefile (feat_t *fcb, char *file, float32 ***feat, int32 nfr)$/;"	f
+feat_writefile	sphinx3.s	/^feat_writefile:                         # @feat_writefile$/;"	l
+featdim	subvq.h	/^    int32 **featdim;		\/* featdim[s] = Original feature dimensions in subvector s *\/$/;"	m	struct:__anon46
+fef	vithist.c	/^    int32 fef, lef;$/;"	m	struct:__anon47	file:
+fft_size	new_fe.h	/^    int32 fft_size;$/;"	m	struct:__anon6
+filler	mdef.h	/^    int32 filler;		\/* Whether a filler phone; if so, can be substituted by$/;"	m	struct:__anon9
+filler_end	dict.h	/^    int32 filler_end;	\/* Last filler word id (read from filler dict) *\/$/;"	m	struct:__anon44
+filler_start	dict.h	/^    int32 filler_start;	\/* First filler word id (read from filler dict) *\/$/;"	m	struct:__anon44
+fillertree	kb.h	/^    lextree_t **fillertree;$/;"	m	struct:__anon49
+fillpen	fillpen.c	/^int32 fillpen (fillpen_t *f, s3wid_t w)$/;"	f
+fillpen	kbcore.h	/^    fillpen_t *fillpen;$/;"	m	struct:__anon22
+fillpen	sphinx3.s	/^fillpen:                                # @fillpen$/;"	l
+fillpen_free	fillpen.c	/^void fillpen_free (fillpen_t *f)$/;"	f
+fillpen_free	sphinx3.s	/^fillpen_free:                           # @fillpen_free$/;"	l
+fillpen_init	fillpen.c	/^fillpen_t *fillpen_init (dict_t *dict, char *file, float64 silprob, float64 fillprob,$/;"	f
+fillpen_init	sphinx3.s	/^fillpen_init:                           # @fillpen_init$/;"	l
+fillpen_t	fillpen.h	/^} fillpen_t;$/;"	t	typeref:struct:__anon1
+filter_coeffs	new_fe.h	/^    float **filter_coeffs;$/;"	m	struct:__anon6
+find_bg	lm.c	/^static int32 find_bg (bg_t *bg, int32 n, s3lmwid_t w)$/;"	f	file:
+find_ph_lc	mdef.c	/^static ph_lc_t *find_ph_lc (ph_lc_t *lclist, s3cipid_t lc)$/;"	f	file:
+find_ph_rc	mdef.c	/^static ph_rc_t *find_ph_rc (ph_rc_t *rclist, s3cipid_t rc)$/;"	f	file:
+find_tg	lm.c	/^static int32 find_tg (tg_t *tg, int32 n, s3lmwid_t w)$/;"	f	file:
+finishlwid	lm.h	/^    s3lmwid_t finishlwid;	\/* S3_FINISH_WORD id, if it exists *\/$/;"	m	struct:lm_s
+finishwid	dict.h	/^    s3wid_t finishwid;	\/* FOR INTERNAL-USE ONLY *\/$/;"	m	struct:__anon44
+firstbg	lm.h	/^    int32 firstbg;	\/* 1st bigram entry on disk *\/$/;"	m	struct:__anon13
+firsttg	lm.h	/^    uint16 firsttg;     \/* 1st trigram entry on disk (see tg_segbase below) *\/$/;"	m	struct:__anon14
+float32	libutil/prim_type.h	/^    float32 float32;$/;"	m	union:anytype_s
+float32	libutil/prim_type.h	/^typedef float		float32;$/;"	t
+float64	libutil/prim_type.h	/^    float64 float64;$/;"	m	union:anytype_s
+float64	libutil/prim_type.h	/^typedef double		float64;$/;"	t
+fopen_comp	io.c	/^FILE *fopen_comp (char *file, char *mode, int32 *ispipe)$/;"	f
+fopen_comp	sphinx3.s	/^fopen_comp:                             # @fopen_comp$/;"	l
+fopen_compchk	io.c	/^FILE *fopen_compchk (char *file, int32 *ispipe)$/;"	f
+fopen_compchk	sphinx3.s	/^fopen_compchk:                          # @fopen_compchk$/;"	l
+fp	gs.h	/^  FILE *fp;$/;"	m	struct:gs_s
+fp	lm.h	/^    FILE *fp;$/;"	m	struct:lm_s
+fpoint_t	vector.h	/^} fpoint_t;		\/* Like point_t, but with float32 values *\/$/;"	t	typeref:struct:__anon25
+frame	lextree.h	/^    s3frmid_t frame;	\/* Frame in which this node was last active; <0 if inactive *\/$/;"	m	struct:__anon2
+frame_start	vithist.h	/^    int32 *frame_start;		\/* For each frame, the first vithist ID in that frame; (the$/;"	m	struct:__anon40
+fread_retry	io.c	/^int32 fread_retry(void *pointer, int32 size, int32 num_items, FILE *stream)$/;"	f
+fread_retry	sphinx3.s	/^fread_retry:                            # @fread_retry$/;"	l
+freelist	ckd_alloc.c	/^    char **freelist;		\/* ptr to first element in freelist *\/$/;"	m	struct:mylist_s	file:
+frm_gau_eval	cont_mgau.h	/^    int32 frm_gau_eval;		\/* #Gaussian densities evaluated in the most recent frame *\/$/;"	m	struct:__anon20
+frm_sen_eval	cont_mgau.h	/^    int32 frm_sen_eval;		\/* #Senones evaluated in the most recent frame *\/$/;"	m	struct:__anon20
+gau_type	cont_mgau.h	/^  int32 gau_type; \/* gau_type=CONTHMM if it is fully continous HMM, $/;"	m	struct:__anon20
+gauscore	subvq.h	/^    int32 *gauscore;		\/* Subvq-based approx. Gaussian density scores for one mixture *\/$/;"	m	struct:__anon46
+gautbl	subvq.h	/^    vector_gautbl_t *gautbl;	\/* Vector-quantized Gaussians table for each sub-vector *\/$/;"	m	struct:__anon46
+gc_compute_closest_cw	gs.c	/^int32 gc_compute_closest_cw (gs_t *gs, float32 *feat)$/;"	f
+gc_compute_closest_cw	sphinx3.s	/^gc_compute_closest_cw:                  # @gc_compute_closest_cw$/;"	l
+glist_add_float32	glist.c	/^glist_t glist_add_float32 (glist_t g, float32 val)$/;"	f
+glist_add_float32	sphinx3.s	/^glist_add_float32:                      # @glist_add_float32$/;"	l
+glist_add_float64	glist.c	/^glist_t glist_add_float64 (glist_t g, float64 val)$/;"	f
+glist_add_float64	sphinx3.s	/^glist_add_float64:                      # @glist_add_float64$/;"	l
+glist_add_int32	glist.c	/^glist_t glist_add_int32 (glist_t g, int32 val)$/;"	f
+glist_add_int32	sphinx3.s	/^glist_add_int32:                        # @glist_add_int32$/;"	l
+glist_add_ptr	glist.c	/^glist_t glist_add_ptr (glist_t g, void *ptr)$/;"	f
+glist_add_ptr	sphinx3.s	/^glist_add_ptr:                          # @glist_add_ptr$/;"	l
+glist_add_uint32	glist.c	/^glist_t glist_add_uint32 (glist_t g, uint32 val)$/;"	f
+glist_add_uint32	sphinx3.s	/^glist_add_uint32:                       # @glist_add_uint32$/;"	l
+glist_apply_float32	glist.c	/^void glist_apply_float32 (glist_t g, void (*func)(float32))$/;"	f
+glist_apply_float32	sphinx3.s	/^glist_apply_float32:                    # @glist_apply_float32$/;"	l
+glist_apply_float64	glist.c	/^void glist_apply_float64 (glist_t g, void (*func)(float64))$/;"	f
+glist_apply_float64	sphinx3.s	/^glist_apply_float64:                    # @glist_apply_float64$/;"	l
+glist_apply_int32	glist.c	/^void glist_apply_int32 (glist_t g, void (*func)(int32))$/;"	f
+glist_apply_int32	sphinx3.s	/^glist_apply_int32:                      # @glist_apply_int32$/;"	l
+glist_apply_ptr	glist.c	/^void glist_apply_ptr (glist_t g, void (*func)(void *))$/;"	f
+glist_apply_ptr	sphinx3.s	/^glist_apply_ptr:                        # @glist_apply_ptr$/;"	l
+glist_apply_uint32	glist.c	/^void glist_apply_uint32 (glist_t g, void (*func)(uint32))$/;"	f
+glist_apply_uint32	sphinx3.s	/^glist_apply_uint32:                     # @glist_apply_uint32$/;"	l
+glist_chkdup_float32	glist.c	/^int32 glist_chkdup_float32 (glist_t g, float32 val)$/;"	f
+glist_chkdup_float32	sphinx3.s	/^glist_chkdup_float32:                   # @glist_chkdup_float32$/;"	l
+glist_chkdup_float64	glist.c	/^int32 glist_chkdup_float64 (glist_t g, float64 val)$/;"	f
+glist_chkdup_float64	sphinx3.s	/^glist_chkdup_float64:                   # @glist_chkdup_float64$/;"	l
+glist_chkdup_int32	glist.c	/^int32 glist_chkdup_int32 (glist_t g, int32 val)$/;"	f
+glist_chkdup_int32	sphinx3.s	/^glist_chkdup_int32:                     # @glist_chkdup_int32$/;"	l
+glist_chkdup_ptr	glist.c	/^int32 glist_chkdup_ptr (glist_t g, void *val)$/;"	f
+glist_chkdup_ptr	sphinx3.s	/^glist_chkdup_ptr:                       # @glist_chkdup_ptr$/;"	l
+glist_chkdup_uint32	glist.c	/^int32 glist_chkdup_uint32 (glist_t g, uint32 val)$/;"	f
+glist_chkdup_uint32	sphinx3.s	/^glist_chkdup_uint32:                    # @glist_chkdup_uint32$/;"	l
+glist_count	glist.c	/^int32 glist_count (glist_t g)$/;"	f
+glist_count	sphinx3.s	/^glist_count:                            # @glist_count$/;"	l
+glist_free	glist.c	/^void glist_free (glist_t g)$/;"	f
+glist_free	sphinx3.s	/^glist_free:                             # @glist_free$/;"	l
+glist_myfree	glist.c	/^void glist_myfree (glist_t g, int32 datasize)$/;"	f
+glist_myfree	sphinx3.s	/^glist_myfree:                           # @glist_myfree$/;"	l
+glist_reverse	glist.c	/^glist_t glist_reverse (glist_t g)$/;"	f
+glist_reverse	sphinx3.s	/^glist_reverse:                          # @glist_reverse$/;"	l
+glist_t	libutil/glist.h	/^typedef gnode_t *glist_t;	\/* Head of a list of gnodes *\/$/;"	t
+glist_tail	glist.c	/^gnode_t *glist_tail (glist_t g)$/;"	f
+glist_tail	sphinx3.s	/^glist_tail:                             # @glist_tail$/;"	l
+gnode_float32	libutil/glist.h	87;"	d
+gnode_float64	libutil/glist.h	88;"	d
+gnode_int32	libutil/glist.h	85;"	d
+gnode_next	libutil/glist.h	89;"	d
+gnode_ptr	libutil/glist.h	84;"	d
+gnode_s	libutil/glist.h	/^typedef struct gnode_s {$/;"	s
+gnode_t	libutil/glist.h	/^} gnode_t;$/;"	t	typeref:struct:gnode_s
+gnode_uint32	libutil/glist.h	86;"	d
+gs	kbcore.h	/^    gs_t *gs;$/;"	m	struct:__anon22
+gs4gs	kb.h	/^  int32 gs4gs;                \/* Whether the GS map is used for Gaussian Selection or not $/;"	m	struct:__anon49
+gs_delete	gs.c	/^int32 gs_delete(char *file)$/;"	f
+gs_delete	sphinx3.s	/^gs_delete:                              # @gs_delete$/;"	l
+gs_display	gs.c	/^int gs_display(char *file,gs_t *gs)$/;"	f
+gs_display	sphinx3.s	/^gs_display:                             # @gs_display$/;"	l
+gs_fread_bitvec_t	gs.c	/^void gs_fread_bitvec_t(bitvec_t val,gs_t *gs)$/;"	f
+gs_fread_bitvec_t	sphinx3.s	/^gs_fread_bitvec_t:                      # @gs_fread_bitvec_t$/;"	l
+gs_fread_float32	gs.c	/^float32 gs_fread_float32(gs_t *gs)$/;"	f
+gs_fread_float32	sphinx3.s	/^gs_fread_float32:                       # @gs_fread_float32$/;"	l
+gs_fread_int32	gs.c	/^int32 gs_fread_int32(gs_t *gs)$/;"	f
+gs_fread_int32	sphinx3.s	/^gs_fread_int32:                         # @gs_fread_int32$/;"	l
+gs_free	gs.c	/^int gs_free(gs_t* gs)$/;"	f
+gs_free	sphinx3.s	/^gs_free:                                # @gs_free$/;"	l
+gs_mgau_shortlist	gs.c	/^int32 gs_mgau_shortlist(gs_t *gs, int m, int n,float32 *feat,int bst_codeid)$/;"	f
+gs_mgau_shortlist	sphinx3.s	/^gs_mgau_shortlist:                      # @gs_mgau_shortlist$/;"	l
+gs_read	gs.c	/^gs_t* gs_read(char *file)$/;"	f
+gs_read	sphinx3.s	/^gs_read:                                # @gs_read$/;"	l
+gs_s	gs.h	/^typedef struct gs_s {$/;"	s
+gs_t	gs.h	/^} gs_t;$/;"	t	typeref:struct:gs_s
+hash_enter	hash.c	/^int32 hash_enter (hash_table_t *h, const char *key, int32 val)$/;"	f
+hash_enter	sphinx3.s	/^hash_enter:                             # @hash_enter$/;"	l
+hash_enter_bkey	hash.c	/^int32 hash_enter_bkey (hash_table_t *h, const char *key, int32 len, int32 val)$/;"	f
+hash_enter_bkey	sphinx3.s	/^hash_enter_bkey:                        # @hash_enter_bkey$/;"	l
+hash_entry_key	libutil/hash.h	109;"	d
+hash_entry_len	libutil/hash.h	110;"	d
+hash_entry_s	libutil/hash.h	/^typedef struct hash_entry_s {$/;"	s
+hash_entry_t	libutil/hash.h	/^} hash_entry_t;$/;"	t	typeref:struct:hash_entry_s
+hash_entry_val	libutil/hash.h	108;"	d
+hash_free	hash.c	/^void hash_free (hash_table_t *h)$/;"	f
+hash_free	sphinx3.s	/^hash_free:                              # @hash_free$/;"	l
+hash_lookup	hash.c	/^int32 hash_lookup (hash_table_t *h, const char *key, int32 *val)$/;"	f
+hash_lookup	sphinx3.s	/^hash_lookup:                            # @hash_lookup$/;"	l
+hash_lookup_bkey	hash.c	/^int32 hash_lookup_bkey (hash_table_t *h, const char *key, int32 len, int32 *val)$/;"	f
+hash_lookup_bkey	sphinx3.s	/^hash_lookup_bkey:                       # @hash_lookup_bkey$/;"	l
+hash_new	hash.c	/^hash_table_t *hash_new (int32 size, int32 casearg)$/;"	f
+hash_new	sphinx3.s	/^hash_new:                               # @hash_new$/;"	l
+hash_table_size	libutil/hash.h	111;"	d
+hash_table_t	libutil/hash.h	/^} hash_table_t;$/;"	t	typeref:struct:__anon30
+hash_tolist	hash.c	/^glist_t hash_tolist (hash_table_t *h, int32 *count)$/;"	f
+hash_tolist	sphinx3.s	/^hash_tolist:                            # @hash_tolist$/;"	l
+head	ckd_alloc.c	/^static mylist_t *head = NULL;$/;"	v	file:
+heap_destroy	heap.c	/^int32 heap_destroy (heap_t heap)$/;"	f
+heap_destroy	sphinx3.s	/^heap_destroy:                           # @heap_destroy$/;"	l
+heap_insert	heap.c	/^int32 heap_insert (heap_t heap, void *data, int32 val)$/;"	f
+heap_insert	sphinx3.s	/^heap_insert:                            # @heap_insert$/;"	l
+heap_new	heap.c	/^heap_t heap_new ( void )$/;"	f
+heap_new	sphinx3.s	/^heap_new:                               # @heap_new$/;"	l
+heap_pop	heap.c	/^int32 heap_pop (heap_t heap, void **data, int32 *val)$/;"	f
+heap_pop	sphinx3.s	/^heap_pop:                               # @heap_pop$/;"	l
+heap_s	heap.c	/^typedef struct heap_s {$/;"	s	file:
+heap_t	libutil/heap.h	/^typedef void *heap_t;$/;"	t
+heap_top	heap.c	/^int32 heap_top (heap_t heap, void **data, int32 *val)$/;"	f
+heap_top	sphinx3.s	/^heap_top:                               # @heap_top$/;"	l
+heapnode_t	heap.c	/^} heapnode_t;$/;"	t	typeref:struct:heap_s	file:
+history	hmm.h	/^    int32 history;	\/* History index *\/$/;"	m	struct:__anon34
+hmm	beam.h	/^    int32 hmm;		\/* For selecting active HMMs, relative to best *\/$/;"	m	struct:__anon45
+hmm	lextree.h	/^    hmm_t hmm;		\/* HMM states *\/$/;"	m	struct:__anon2
+hmm_clear	hmm.c	/^void hmm_clear (hmm_t *h, int32 n_state)$/;"	f
+hmm_clear	sphinx3.s	/^hmm_clear:                              # @hmm_clear$/;"	l
+hmm_dump	hmm.c	/^void hmm_dump (hmm_t *hmm, int32 n_state, s3senid_t *senid, int32 *senscr, FILE *fp)$/;"	f
+hmm_dump	sphinx3.s	/^hmm_dump:                               # @hmm_dump$/;"	l
+hmm_dump_vit_eval	hmm.c	/^int32 hmm_dump_vit_eval (hmm_t *hmm, int32 n_state, s3senid_t *senid, int32 *senscr, FILE *fp)$/;"	f
+hmm_dump_vit_eval	sphinx3.s	/^hmm_dump_vit_eval:                      # @hmm_dump_vit_eval$/;"	l
+hmm_hist	kb.h	/^    int32 *hmm_hist;		\/* Histogram: #frames in which a given no. of HMMs are active *\/$/;"	m	struct:__anon49
+hmm_hist_bins	kb.h	/^    int32 hmm_hist_bins;	\/* #Bins in above histogram *\/$/;"	m	struct:__anon49
+hmm_hist_binsize	kb.h	/^    int32 hmm_hist_binsize;	\/* Binsize in above histogram (#HMMs\/bin) *\/$/;"	m	struct:__anon49
+hmm_state_t	hmm.h	/^} hmm_state_t;$/;"	t	typeref:struct:__anon34
+hmm_t	hmm.h	/^} hmm_t;$/;"	t	typeref:struct:__anon35
+hmm_vit_eval_3st	hmm.c	/^int32 hmm_vit_eval_3st (hmm_t *hmm, s3senid_t *senid, int32 *senscr)$/;"	f
+hmm_vit_eval_3st	sphinx3.s	/^hmm_vit_eval_3st:                       # @hmm_vit_eval_3st$/;"	l
+hmm_vit_eval_5st	hmm.c	/^int32 hmm_vit_eval_5st (hmm_t *hmm, s3senid_t *senid, int32 *senscr)$/;"	f
+hmm_vit_eval_5st	sphinx3.s	/^hmm_vit_eval_5st:                       # @hmm_vit_eval_5st$/;"	l
+hmmdumpfp	live.c	/^static FILE  *hmmdumpfp;$/;"	v	file:
+host_endian	profile.c	/^int32 host_endian ( void )$/;"	f
+host_endian	sphinx3.s	/^host_endian:                            # @host_endian$/;"	l
+host_pclk	profile.c	/^int32 host_pclk (int32 dummy)$/;"	f
+host_pclk	sphinx3.s	/^host_pclk:                              # @host_pclk$/;"	l
+ht	cmd_ln.c	/^static hash_table_t *ht;	\/* Hash table *\/$/;"	v	file:
+ht	corpus.h	/^    hash_table_t *ht;	\/* Hash table for IDs; CASE-SENSITIVE *\/$/;"	m	struct:__anon42
+ht	dict.h	/^    hash_table_t *ht;	\/* Hash table for mapping word strings to word ids *\/$/;"	m	struct:__anon44
+hyp_seglen	kb.h	/^  int32		hyp_seglen;	\/* number of hypthesis segments *\/$/;"	m	struct:__anon49
+hyp_segs	kb.h	/^  hyp_t		**hyp_segs;	\/* hypothesis segments *\/$/;"	m	struct:__anon49
+hyp_str	kb.h	/^  char		*hyp_str;	\/* hypothesis string *\/$/;"	m	struct:__anon49
+hyp_strlen	kb.h	/^  int32		hyp_strlen;	\/* hypothesis string length *\/$/;"	m	struct:__anon49
+hyp_t	hyp.h	/^} hyp_t;$/;"	t	typeref:struct:__anon27
+i	new_fe_sp.h	/^typedef struct { double r, i; } complex;$/;"	m	struct:__anon33
+id	hyp.h	/^    int32 id;		\/* Token ID; could be s3wid_t, s3cipid_t...  Interpreted by client. *\/$/;"	m	struct:__anon27
+in	hmm.h	/^    hmm_state_t in;	\/* Non-emitting entry state *\/$/;"	m	struct:__anon35
+inclass_ugscore	lm.h	/^  int32 *inclass_ugscore;$/;"	m	struct:lm_s
+input_format	new_fe.h	/^    int32 input_format;$/;"	m	struct:__anon5
+int16	libutil/prim_type.h	/^typedef short		int16;$/;"	t
+int32	libutil/prim_type.h	/^    int32 int32;$/;"	m	union:anytype_s
+int32	libutil/prim_type.h	/^typedef int		int32;$/;"	t
+int32	new_fe_sp.h	36;"	d
+int8	libutil/prim_type.h	/^typedef char		int8;$/;"	t
+internal	dict2pid.h	/^    s3ssid_t **internal;	\/* For internal phone positions (not first, not last), the$/;"	m	struct:__anon21
+invlog10B	logs3.c	/^static float64 B, logB, invlogB, invlog10B;$/;"	v	file:
+invlogB	logs3.c	/^static float64 B, logB, invlogB, invlog10B;$/;"	v	file:
+is_batch	new_fe.h	/^    int32 is_batch;$/;"	m	struct:__anon5
+is_single	new_fe.h	/^    int32 is_single;$/;"	m	struct:__anon5
+kb	live.c	/^kb_t  *kb;$/;"	v
+kb	live.c	/^static kb_t  *kb;$/;"	v	file:
+kb_free	kb.c	/^void kb_free (kb_t *kb)$/;"	f
+kb_free	sphinx3.s	/^kb_free:                                # @kb_free$/;"	l
+kb_freehyps	kb.c	/^kb_freehyps(kb_t *kb)$/;"	f
+kb_freehyps	sphinx3.s	/^kb_freehyps:                            # @kb_freehyps$/;"	l
+kb_init	kb.c	/^void kb_init (kb_t *kb)$/;"	f
+kb_init	sphinx3.s	/^kb_init:                                # @kb_init$/;"	l
+kb_lextree_active_swap	kb.c	/^void kb_lextree_active_swap (kb_t *kb)$/;"	f
+kb_lextree_active_swap	sphinx3.s	/^kb_lextree_active_swap:                 # @kb_lextree_active_swap$/;"	l
+kb_setlm	kb.c	/^void kb_setlm(char* lmname,kb_t* kb)$/;"	f
+kb_setlm	sphinx3.s	/^kb_setlm:                               # @kb_setlm$/;"	l
+kb_t	kb.h	/^} kb_t;$/;"	t	typeref:struct:__anon49
+kbcore	kb.h	/^    kbcore_t *kbcore;		\/* Core model structures *\/    $/;"	m	struct:__anon49
+kbcore	live.c	/^static kbcore_t *kbcore;$/;"	v	file:
+kbcore_dict	kbcore.h	148;"	d
+kbcore_dict2lmwid	kbcore.h	152;"	d
+kbcore_dict2pid	kbcore.h	149;"	d
+kbcore_fcb	kbcore.h	146;"	d
+kbcore_fillpen	kbcore.h	151;"	d
+kbcore_free	kbcore.c	/^void kbcore_free (kbcore_t *kbcore)$/;"	f
+kbcore_free	sphinx3.s	/^kbcore_free:                            # @kbcore_free$/;"	l
+kbcore_gs	kbcore.h	155;"	d
+kbcore_init	kbcore.c	/^kbcore_t *kbcore_init (float64 logbase,$/;"	f
+kbcore_init	sphinx3.s	/^kbcore_init:                            # @kbcore_init$/;"	l
+kbcore_lm	kbcore.h	150;"	d
+kbcore_lmset	kbcore.h	157;"	d
+kbcore_mdef	kbcore.h	147;"	d
+kbcore_mgau	kbcore.h	153;"	d
+kbcore_nlm	kbcore.h	158;"	d
+kbcore_svq	kbcore.h	154;"	d
+kbcore_t	kbcore.h	/^} kbcore_t;$/;"	t	typeref:struct:__anon22
+kbcore_tmat	kbcore.h	156;"	d
+key	libutil/hash.h	/^    const char *key;		\/* Key string, NULL if this is an empty slot.$/;"	m	struct:hash_entry_s
+key2hash	hash.c	/^static uint32 key2hash (hash_table_t *h, const char *key)$/;"	f	file:
+keycmp_case	hash.c	/^static int32 keycmp_case (hash_entry_t *entry, const char *key)$/;"	f	file:
+keycmp_nocase	hash.c	/^static int32 keycmp_nocase (hash_entry_t *entry, const char *key)$/;"	f	file:
+l	heap.c	/^    struct heap_s *l;	\/* Root of left descendant heap *\/$/;"	m	struct:heap_s	typeref:struct:heap_s::heap_s	file:
+l	lm.h	/^    int32 l;$/;"	m	union:__anon12
+lc	lextree.h	/^    s3cipid_t lc;	\/* Left context CIphone *\/$/;"	m	struct:__anon3
+lc	mdef.h	/^    s3cipid_t ci, lc, rc;	\/* Base, left, right context ciphones *\/$/;"	m	struct:__anon10
+lc	mdef.h	/^    s3cipid_t lc;		\/* Specific lc for a parent <wpos,ci> *\/$/;"	m	struct:ph_lc_s
+lcase	case.c	/^void lcase(register char *cp)$/;"	f
+lcase	sphinx3.s	/^lcase:                                  # @lcase$/;"	l
+lcroot	lextree.h	/^    lextree_lcroot_t *lcroot;	\/* Lists of subsets of root nodes; a list for each left context;$/;"	m	struct:__anon4
+ldiph_comsseq	dict2pid.c	/^static glist_t ldiph_comsseq (mdef_t *mdef, int32 b, int32 r)$/;"	f	file:
+ldiph_lc	dict2pid.h	/^    s3ssid_t ***ldiph_lc;	\/* For multi-phone words, [base][rc][lc] -> ssid; filled out for$/;"	m	struct:__anon21
+lef	vithist.c	/^    int32 fef, lef;$/;"	m	struct:__anon47	file:
+left_apex	new_fe.h	/^    float *left_apex;$/;"	m	struct:__anon6
+len	libutil/hash.h	/^    int32 len;			\/* Key-length; the key string does not have to be a C-style NULL$/;"	m	struct:hash_entry_s
+lextree_active	lextree.h	151;"	d
+lextree_active_swap	lextree.c	/^void lextree_active_swap (lextree_t *lextree)$/;"	f
+lextree_active_swap	sphinx3.s	/^lextree_active_swap:                    # @lextree_active_swap$/;"	l
+lextree_build	lextree.c	/^lextree_t *lextree_build (kbcore_t *kbc, wordprob_t *wordprob, int32 n_word, s3cipid_t *lc)$/;"	f
+lextree_build	sphinx3.s	/^lextree_build:                          # @lextree_build$/;"	l
+lextree_ci_active	lextree.c	/^void lextree_ci_active (lextree_t *lextree, bitvec_t ci_active)$/;"	f
+lextree_ci_active	sphinx3.s	/^lextree_ci_active:                      # @lextree_ci_active$/;"	l
+lextree_dump	lextree.c	/^void lextree_dump (lextree_t *lextree, dict_t *dict, FILE *fp)$/;"	f
+lextree_dump	sphinx3.s	/^lextree_dump:                           # @lextree_dump$/;"	l
+lextree_enter	lextree.c	/^void lextree_enter (lextree_t *lextree, s3cipid_t lc, int32 cf,$/;"	f
+lextree_enter	sphinx3.s	/^lextree_enter:                          # @lextree_enter$/;"	l
+lextree_free	lextree.c	/^void lextree_free (lextree_t *lextree)$/;"	f
+lextree_free	sphinx3.s	/^lextree_free:                           # @lextree_free$/;"	l
+lextree_hmm_eval	lextree.c	/^int32 lextree_hmm_eval (lextree_t *lextree, kbcore_t *kbc, ascr_t *ascr, int32 frm, FILE *fp)$/;"	f
+lextree_hmm_eval	sphinx3.s	/^lextree_hmm_eval:                       # @lextree_hmm_eval$/;"	l
+lextree_hmm_histbin	lextree.c	/^void lextree_hmm_histbin (lextree_t *lextree, int32 bestscr, int32 *bin, int32 nbin, int32 bw)$/;"	f
+lextree_hmm_histbin	sphinx3.s	/^lextree_hmm_histbin:                    # @lextree_hmm_histbin$/;"	l
+lextree_hmm_propagate	lextree.c	/^void lextree_hmm_propagate (lextree_t *lextree, kbcore_t *kbc, vithist_t *vh,$/;"	f
+lextree_hmm_propagate	sphinx3.s	/^lextree_hmm_propagate:                  # @lextree_hmm_propagate$/;"	l
+lextree_lcroot	lextree.h	148;"	d
+lextree_lcroot_t	lextree.h	/^} lextree_lcroot_t;$/;"	t	typeref:struct:__anon3
+lextree_n_active	lextree.h	153;"	d
+lextree_n_lc	lextree.h	149;"	d
+lextree_n_next_active	lextree.h	154;"	d
+lextree_n_node	lextree.h	150;"	d
+lextree_next_active	lextree.h	152;"	d
+lextree_node_alloc	lextree.c	/^static lextree_node_t *lextree_node_alloc (int32 wid, int32 prob,$/;"	f	file:
+lextree_node_composite	lextree.h	111;"	d
+lextree_node_frame	lextree.h	112;"	d
+lextree_node_print	lextree.c	/^static void lextree_node_print (lextree_node_t *ln, dict_t *dict, FILE *fp)$/;"	f	file:
+lextree_node_prob	lextree.h	109;"	d
+lextree_node_ssid	lextree.h	110;"	d
+lextree_node_t	lextree.h	/^} lextree_node_t;$/;"	t	typeref:struct:__anon2
+lextree_node_wid	lextree.h	108;"	d
+lextree_root	lextree.h	147;"	d
+lextree_ssid_active	lextree.c	/^void lextree_ssid_active (lextree_t *lextree, int32 *ssid, int32 *comssid)$/;"	f
+lextree_ssid_active	sphinx3.s	/^lextree_ssid_active:                    # @lextree_ssid_active$/;"	l
+lextree_subtree_free	lextree.c	/^static int32 lextree_subtree_free (lextree_node_t *ln, int32 level)$/;"	f	file:
+lextree_subtree_free	sphinx3.s	/^lextree_subtree_free:                   # @lextree_subtree_free$/;"	l
+lextree_subtree_print	lextree.c	/^static void lextree_subtree_print (lextree_node_t *ln, int32 level, dict_t *dict, FILE *fp)$/;"	f	file:
+lextree_subtree_print	sphinx3.s	/^lextree_subtree_print:                  # @lextree_subtree_print$/;"	l
+lextree_t	lextree.h	/^} lextree_t;$/;"	t	typeref:struct:__anon4
+lextree_type	lextree.h	146;"	d
+lextree_utt_end	lextree.c	/^void lextree_utt_end (lextree_t *l, kbcore_t *kbc)$/;"	f
+lextree_utt_end	sphinx3.s	/^lextree_utt_end:                        # @lextree_utt_end$/;"	l
+live_free_memory	live.c	/^int32 live_free_memory ()$/;"	f
+live_free_memory	sphinx3.s	/^live_free_memory:                       # @live_free_memory$/;"	l
+live_get_partialhyp	live.c	/^int32 live_get_partialhyp(int32 endutt)$/;"	f
+live_get_partialhyp	sphinx3.s	/^live_get_partialhyp:                    # @live_get_partialhyp$/;"	l
+live_initialize_decoder	live.c	/^void live_initialize_decoder(char *live_args)$/;"	f
+live_initialize_decoder	sphinx3.s	/^live_initialize_decoder:                # @live_initialize_decoder$/;"	l
+live_utt_decode_block	live.c	/^int32 live_utt_decode_block (int16 *samples, int32 nsamples, $/;"	f
+live_utt_decode_block	sphinx3.s	/^live_utt_decode_block:                  # @live_utt_decode_block$/;"	l
+live_utt_set_uttid	live.c	/^void live_utt_set_uttid(char uttname[])$/;"	f
+live_utt_set_uttid	sphinx3.s	/^live_utt_set_uttid:                     # @live_utt_set_uttid$/;"	l
+live_utt_summary	live.c	/^void live_utt_summary(){$/;"	f
+live_utt_summary	sphinx3.s	/^live_utt_summary:                       # @live_utt_summary$/;"	l
+liveargs	parse_args_file.c	/^static char **liveargs = NULL;		\/* RAH, make global so we can free it later *\/$/;"	v	file:
+lm	kbcore.h	/^    lm_t *lm;$/;"	m	struct:__anon22
+lm	lm.h	/^  lm_t *lm;$/;"	m	struct:lmset_s
+lm2logs3	lm.c	/^static void lm2logs3 (lm_t *lm, float64 uw)$/;"	f	file:
+lm3g	vithist.h	/^    } lm3g;$/;"	m	union:__anon36	typeref:struct:__anon36::__anon37
+lm_access_type	lm.h	264;"	d
+lm_bg_score	lm.c	/^int32 lm_bg_score (lm_t *lm, s3lmwid_t lw1, s3lmwid_t lw2, s3wid_t w2)$/;"	f
+lm_bg_score	sphinx3.s	/^lm_bg_score:                            # @lm_bg_score$/;"	l
+lm_bglist	lm.c	/^int32 lm_bglist (lm_t *lm, s3lmwid_t w1, bg_t **bgptr, int32 *bowt)$/;"	f
+lm_bglist	sphinx3.s	/^lm_bglist:                              # @lm_bglist$/;"	l
+lm_build_lmclass_info	lm.c	/^static int32 lm_build_lmclass_info(lm_t *lm,float64 lw, float64 uw, float64 wip,int32 n_lmclass_used,lmclass_t *lmclass)$/;"	f	file:
+lm_cache_reset	lm.c	/^void lm_cache_reset (lm_t *lm)$/;"	f
+lm_cache_reset	sphinx3.s	/^lm_cache_reset:                         # @lm_cache_reset$/;"	l
+lm_cache_stats_dump	lm.c	/^void lm_cache_stats_dump (lm_t *lm)$/;"	f
+lm_cache_stats_dump	sphinx3.s	/^lm_cache_stats_dump:                    # @lm_cache_stats_dump$/;"	l
+lm_delete	lm.c	/^int32 lm_delete (lm_t *lm,lmset_t *lmset)$/;"	f
+lm_delete	sphinx3.s	/^lm_delete:                              # @lm_delete$/;"	l
+lm_finishwid	lm.h	263;"	d
+lm_fread_int32	lm.c	/^static int32 lm_fread_int32 (lm_t *lm)$/;"	f	file:
+lm_free	lm.c	/^void lm_free (lm_t *lm)$/;"	f
+lm_free	sphinx3.s	/^lm_free:                                # @lm_free$/;"	l
+lm_get_classid	lm.c	/^int32 lm_get_classid (lm_t *model, char *name)$/;"	f
+lm_get_classid	sphinx3.s	/^lm_get_classid:                         # @lm_get_classid$/;"	l
+lm_lmwid2dictwid	lm.h	257;"	d
+lm_n_bg	lm.h	259;"	d
+lm_n_tg	lm.h	260;"	d
+lm_n_ug	lm.h	258;"	d
+lm_read	lm.c	/^lm_t *lm_read (char *file, float64 lw, float64 wip, float64 uw)$/;"	f
+lm_read	sphinx3.s	/^lm_read:                                # @lm_read$/;"	l
+lm_read_ctl	lm.c	/^lmset_t* lm_read_ctl(char *ctlfile,dict_t* dict,float64 lw, float64 wip, float64 uw,char *lmdumpdir,int32* n_lm, int32* n_alloclm,int32 dict_size)$/;"	f
+lm_read_ctl	sphinx3.s	/^lm_read_ctl:                            # @lm_read_ctl$/;"	l
+lm_read_dump	lm.c	/^static lm_t *lm_read_dump (char *file, float64 lw, float64 wip, float64 uw,int32 n_lmclass_used, lmclass_t *lmclass,int32 dict_size)$/;"	f	file:
+lm_read_dump	sphinx3.s	/^lm_read_dump:                           # @lm_read_dump$/;"	l
+lm_s	lm.h	/^typedef struct lm_s {$/;"	s
+lm_set_param	lm.c	/^void lm_set_param (lm_t *lm, float64 lw, float64 wip)$/;"	f
+lm_set_param	sphinx3.s	/^lm_set_param:                           # @lm_set_param$/;"	l
+lm_startwid	lm.h	262;"	d
+lm_t	lm.h	/^} lm_t;$/;"	t	typeref:struct:lm_s
+lm_tg_score	lm.c	/^int32 lm_tg_score (lm_t *lm, s3lmwid_t lw1, s3lmwid_t lw2, s3lmwid_t lw3, s3wid_t w3)$/;"	f
+lm_tg_score	sphinx3.s	/^lm_tg_score:                            # @lm_tg_score$/;"	l
+lm_tgcache_entry_t	lm.h	/^} lm_tgcache_entry_t;$/;"	t	typeref:struct:__anon17
+lm_tglist	lm.c	/^int32 lm_tglist (lm_t *lm, s3lmwid_t lw1, s3lmwid_t lw2, tg_t **tgptr, int32 *bowt)$/;"	f
+lm_tglist	sphinx3.s	/^lm_tglist:                              # @lm_tglist$/;"	l
+lm_ug_score	lm.c	/^int32 lm_ug_score (lm_t *lm, s3lmwid_t lwid, s3wid_t wid)$/;"	f
+lm_ug_score	sphinx3.s	/^lm_ug_score:                            # @lm_ug_score$/;"	l
+lm_ug_wordprob	lm.c	/^int32 lm_ug_wordprob (lm_t *lm, dict_t *dict,int32 th, wordprob_t *wp)$/;"	f
+lm_ug_wordprob	sphinx3.s	/^lm_ug_wordprob:                         # @lm_ug_wordprob$/;"	l
+lm_uglist	lm.c	/^int32 lm_uglist (lm_t *lm, ug_t **ugptr)$/;"	f
+lm_uglist	sphinx3.s	/^lm_uglist:                              # @lm_uglist$/;"	l
+lm_uw	lm.c	/^static void lm_uw (lm_t *lm, float64 uw)$/;"	f	file:
+lm_wid	lm.c	/^s3lmwid_t lm_wid (lm_t *lm, char *word)$/;"	f
+lm_wid	sphinx3.s	/^lm_wid:                                 # @lm_wid$/;"	l
+lm_wordstr	lm.h	261;"	d
+lmclass	lm.h	/^  lmclass_t *lmclass;$/;"	m	struct:lm_s
+lmclass_add	lmclass.c	/^static lmclass_set_t lmclass_add (lmclass_set_t set, lmclass_t new)$/;"	f	file:
+lmclass_addword	lmclass.c	/^static lmclass_t lmclass_addword (lmclass_t class, lmclass_word_t new)$/;"	f	file:
+lmclass_dump	lmclass.c	/^void lmclass_dump (lmclass_t cl, FILE *fp)$/;"	f
+lmclass_dump	sphinx3.s	/^lmclass_dump:                           # @lmclass_dump$/;"	l
+lmclass_firstclass	lmclass.h	152;"	d
+lmclass_firstword	lmclass.h	145;"	d
+lmclass_get_lmclass	lmclass.c	/^lmclass_t lmclass_get_lmclass (lmclass_set_t set, char *name)$/;"	f
+lmclass_get_lmclass	sphinx3.s	/^lmclass_get_lmclass:                    # @lmclass_get_lmclass$/;"	l
+lmclass_get_nclass	lmclass.c	/^int32 lmclass_get_nclass (lmclass_set_t set)$/;"	f
+lmclass_get_nclass	sphinx3.s	/^lmclass_get_nclass:                     # @lmclass_get_nclass$/;"	l
+lmclass_getname	lmclass.h	144;"	d
+lmclass_getprob	lmclass.h	149;"	d
+lmclass_getwid	lmclass.h	147;"	d
+lmclass_getword	lmclass.h	148;"	d
+lmclass_isclass	lmclass.h	150;"	d
+lmclass_isword	lmclass.h	151;"	d
+lmclass_list	lmclass.h	/^    lmclass_t lmclass_list;	\/* Head of list of LM classes in this module *\/$/;"	m	struct:lmclass_set_s
+lmclass_loadfile	lmclass.c	/^lmclass_set_t lmclass_loadfile (lmclass_set_t lmclass_set, char *file)$/;"	f
+lmclass_loadfile	sphinx3.s	/^lmclass_loadfile:                       # @lmclass_loadfile$/;"	l
+lmclass_newset	lmclass.c	/^lmclass_set_t lmclass_newset ( void )$/;"	f
+lmclass_newset	sphinx3.s	/^lmclass_newset:                         # @lmclass_newset$/;"	l
+lmclass_nextclass	lmclass.h	153;"	d
+lmclass_nextword	lmclass.h	146;"	d
+lmclass_s	lmclass.h	/^typedef struct lmclass_s {$/;"	s
+lmclass_set_dictwid	lmclass.c	/^void lmclass_set_dictwid (lmclass_word_t w, int32 dictwid)$/;"	f
+lmclass_set_dictwid	sphinx3.s	/^lmclass_set_dictwid:                    # @lmclass_set_dictwid$/;"	l
+lmclass_set_dump	lmclass.c	/^void lmclass_set_dump (lmclass_set_t set, FILE *fp)$/;"	f
+lmclass_set_dump	sphinx3.s	/^lmclass_set_dump:                       # @lmclass_set_dump$/;"	l
+lmclass_set_s	lmclass.h	/^typedef struct lmclass_set_s {$/;"	s
+lmclass_set_t	lmclass.h	/^} *lmclass_set_t;$/;"	t	typeref:struct:lmclass_set_s
+lmclass_t	lmclass.h	/^} *lmclass_t;$/;"	t	typeref:struct:lmclass_s
+lmclass_word_s	lmclass.h	/^typedef struct lmclass_word_s {$/;"	s
+lmclass_word_t	lmclass.h	/^} *lmclass_word_t;$/;"	t	typeref:struct:lmclass_word_s
+lmlog_t	lm.h	/^} lmlog_t;$/;"	t	typeref:union:__anon12
+lms2vh_root	vithist.h	/^    vh_lms2vh_t **lms2vh_root;	\/* lms2vh[w]= Root of LM states ending in w in current frame *\/$/;"	m	struct:__anon40
+lmset	kbcore.h	/^    lmset_t *lmset;$/;"	m	struct:__anon22
+lmset_s	lm.h	/^typedef struct lmset_s {$/;"	s
+lmset_t	lm.h	/^} lmset_t;$/;"	t	typeref:struct:lmset_s
+lmstate	vithist.h	/^    vh_lmstate_t lmstate;	\/* LM state *\/$/;"	m	struct:__anon38
+load_bg	lm.c	/^static void load_bg (lm_t *lm, s3lmwid_t lw1)$/;"	f	file:
+load_bg	sphinx3.s	/^load_bg:                                # @load_bg$/;"	l
+load_tg	lm.c	/^static void load_tg (lm_t *lm, s3lmwid_t lw1, s3lmwid_t lw2)$/;"	f	file:
+load_tg	sphinx3.s	/^load_tg:                                # @load_tg$/;"	l
+log10_to_logs3	logs3.c	/^int32 log10_to_logs3 (float64 log10p)$/;"	f
+log10_to_logs3	sphinx3.s	/^log10_to_logs3:                         # @log10_to_logs3$/;"	l
+logB	logs3.c	/^static float64 B, logB, invlogB, invlog10B;$/;"	v	file:
+log_bg_seg_sz	lm.h	/^    int32 log_bg_seg_sz;\/* See big comment above *\/$/;"	m	struct:lm_s
+log_to_logs3	logs3.c	/^int32 log_to_logs3 (float64 logp)$/;"	f
+log_to_logs3	sphinx3.s	/^log_to_logs3:                           # @log_to_logs3$/;"	l
+log_to_logs3_factor	logs3.c	/^float64 log_to_logs3_factor ( void )$/;"	f
+log_to_logs3_factor	sphinx3.s	/^log_to_logs3_factor:                    # @log_to_logs3_factor$/;"	l
+logs3	logs3.c	/^int32 logs3 (float64 p)$/;"	f
+logs3	sphinx3.s	/^logs3:                                  # @logs3$/;"	l
+logs3_add	logs3.c	/^int32 logs3_add (int32 logp, int32 logq)$/;"	f
+logs3_add	sphinx3.s	/^logs3_add:                              # @logs3_add$/;"	l
+logs3_init	logs3.c	/^int32 logs3_init (float64 base)$/;"	f
+logs3_init	sphinx3.s	/^logs3_init:                             # @logs3_init$/;"	l
+logs3_to_log	logs3.c	/^float64 logs3_to_log (int32 logs3p)$/;"	f
+logs3_to_log	sphinx3.s	/^logs3_to_log:                           # @logs3_to_log$/;"	l
+logs3_to_p	logs3.c	/^float64 logs3_to_p (int32 logs3p)$/;"	f
+logs3_to_p	sphinx3.s	/^logs3_to_p:                             # @logs3_to_p$/;"	l
+logs_free	logs3.c	/^void logs_free ()$/;"	f
+logs_free	sphinx3.s	/^logs_free:                              # @logs_free$/;"	l
+lookup	hash.c	/^static int32 lookup (hash_table_t *h, uint32 hash, const char *key, int32 len, int32 *val)$/;"	f	file:
+lookup	sphinx3.s	/^lookup:                                 # @lookup$/;"	l
+lower_filt_freq	new_fe.h	/^    float lower_filt_freq;$/;"	m	struct:__anon6
+lrd	cont_mgau.h	/^    float32 *lrd;	\/* Log(Reciprocal(Determinant (variance))).  (Then there is also a$/;"	m	struct:__anon19
+lrd	vector.h	/^    float32 *lrd;	\/* Log(Reciprocal(Determinant(Co-var. matrix))) *\/$/;"	m	struct:__anon26
+lscr	hyp.h	/^    int32 lscr;		\/* LM score for transition to this segment (if applicable) *\/$/;"	m	struct:__anon27
+lscr	live.h	/^    int32 lscr;$/;"	m	struct:__anon48
+lscr	lm.h	/^    int32 lscr;			\/* LM score for above trigram *\/$/;"	m	struct:__anon17
+lscr	vithist.h	/^    int32 lscr;			\/* LM score for this node, given its Viterbi history *\/$/;"	m	struct:__anon38
+lw	fillpen.h	/^    float64 lw;		\/* Language weight *\/$/;"	m	struct:__anon1
+lw	lm.h	/^    float32 lw;		\/* Language weight currently in effect for this LM *\/$/;"	m	struct:lm_s
+lwid	lm.h	/^    s3lmwid_t lwid[3];		\/* 0 = oldest, 2 = newest (i.e., P(2|0,1)) *\/$/;"	m	struct:__anon17
+lwid	vithist.h	/^	s3lmwid_t lwid[2];	\/* 2-word history; [0] is most recent *\/$/;"	m	struct:__anon36::__anon37
+lwidlist	vithist.h	/^    glist_t lwidlist;		\/* List of LM word IDs with entries in lms2vh_root *\/$/;"	m	struct:__anon40
+main	dict.c	/^main (int32 argc, char *argv[])$/;"	f
+main	err.c	/^main()$/;"	f
+main	lm.c	/^main (int32 argc, char *argv[])$/;"	f
+main	logs3.c	/^main (int argc, char *argv[])$/;"	f
+main	spec_main_live_pretend.c	/^int main (int argc, char *argv[])$/;"	f
+main	sphinx3.s	/^main:                                   # @main$/;"	l
+main	tmat.c	/^main (int32 argc, char *argv[])$/;"	f
+make_sec	profile.c	/^static float64 make_sec (FILETIME *tm)$/;"	f	file:
+make_sec	profile.c	/^static float64 make_sec (struct timeval *s)$/;"	f	file:
+makekey	hash.c	/^static char *makekey (uint8 *data, int32 len, char *key)$/;"	f	file:
+map	subvq.h	/^    int32 ***map;		\/* map[i][j] = map from original codebook(i)\/codeword(j) to$/;"	m	struct:__anon46
+match_write	sphinx3.s	/^match_write:                            # @match_write$/;"	l
+match_write	utt.c	/^void match_write (FILE *fp, kb_t *kb, glist_t hyp, char *hdr)$/;"	f
+matchfp	kb.h	/^  FILE *matchfp;$/;"	m	struct:__anon49
+matchseg_write	sphinx3.s	/^matchseg_write:                         # @matchseg_write$/;"	l
+matchseg_write	utt.c	/^void matchseg_write (FILE *fp, kb_t *kb, glist_t hyp, char *hdr)$/;"	f
+matchsegfp	kb.h	/^    FILE *matchsegfp;$/;"	m	struct:__anon49
+max_comp	cont_mgau.h	/^    int32 max_comp;	\/* Max components in any mixture *\/$/;"	m	struct:__anon20
+max_ug	lm.h	/^    int32 max_ug;       \/* To which n_ug can grow with dynamic addition of words *\/$/;"	m	struct:lm_s
+max_words	dict.h	/^    int32 max_words;	\/* #Entries allocated in dict, including empty slots *\/$/;"	m	struct:__anon44
+maxhistpf	live.c	/^static int32 maxhistpf;$/;"	v	file:
+maxhmmpf	live.c	/^static int32 maxhmmpf;$/;"	v	file:
+maxwpf	live.c	/^static int32 maxwpf;$/;"	v	file:
+mdef	dict.h	/^    mdef_t *mdef;	\/* Model definition used for phone IDs; NULL if none used *\/$/;"	m	struct:__anon44
+mdef	kbcore.h	/^    mdef_t *mdef;$/;"	m	struct:__anon22
+mdef_cd2cisen	mdef.h	164;"	d
+mdef_ciphone_id	mdef.c	/^s3cipid_t mdef_ciphone_id (mdef_t *m, char *ci)$/;"	f
+mdef_ciphone_id	sphinx3.s	/^mdef_ciphone_id:                        # @mdef_ciphone_id$/;"	l
+mdef_ciphone_str	mdef.c	/^const char *mdef_ciphone_str (mdef_t *m, s3cipid_t id)$/;"	f
+mdef_ciphone_str	sphinx3.s	/^mdef_ciphone_str:                       # @mdef_ciphone_str$/;"	l
+mdef_dump	mdef.c	/^void mdef_dump (FILE *fp, mdef_t *m)$/;"	f
+mdef_dump	sphinx3.s	/^mdef_dump:                              # @mdef_dump$/;"	l
+mdef_free	mdef.c	/^void mdef_free (mdef_t *m)$/;"	f
+mdef_free	sphinx3.s	/^mdef_free:                              # @mdef_free$/;"	l
+mdef_free_recursive_lc	mdef.c	/^void mdef_free_recursive_lc (ph_lc_t *lc)$/;"	f
+mdef_free_recursive_lc	sphinx3.s	/^mdef_free_recursive_lc:                 # @mdef_free_recursive_lc$/;"	l
+mdef_free_recursive_rc	mdef.c	/^void mdef_free_recursive_rc (ph_rc_t *rc)$/;"	f
+mdef_free_recursive_rc	sphinx3.s	/^mdef_free_recursive_rc:                 # @mdef_free_recursive_rc$/;"	l
+mdef_init	mdef.c	/^mdef_t *mdef_init (char *mdeffile)$/;"	f
+mdef_init	sphinx3.s	/^mdef_init:                              # @mdef_init$/;"	l
+mdef_is_ciphone	mdef.c	/^int32 mdef_is_ciphone (mdef_t *m, s3pid_t p)$/;"	f
+mdef_is_ciphone	sphinx3.s	/^mdef_is_ciphone:                        # @mdef_is_ciphone$/;"	l
+mdef_is_fillerphone	mdef.h	153;"	d
+mdef_n_ciphone	mdef.h	154;"	d
+mdef_n_emit_state	mdef.h	157;"	d
+mdef_n_phone	mdef.h	155;"	d
+mdef_n_sen	mdef.h	158;"	d
+mdef_n_sseq	mdef.h	156;"	d
+mdef_n_tmat	mdef.h	159;"	d
+mdef_phone_components	mdef.c	/^int32 mdef_phone_components (mdef_t *m,$/;"	f
+mdef_phone_components	sphinx3.s	/^mdef_phone_components:                  # @mdef_phone_components$/;"	l
+mdef_phone_id	mdef.c	/^s3pid_t mdef_phone_id (mdef_t *m, $/;"	f
+mdef_phone_id	sphinx3.s	/^mdef_phone_id:                          # @mdef_phone_id$/;"	l
+mdef_phone_id_nearest	mdef.c	/^s3pid_t mdef_phone_id_nearest (mdef_t *m, $/;"	f
+mdef_phone_id_nearest	sphinx3.s	/^mdef_phone_id_nearest:                  # @mdef_phone_id_nearest$/;"	l
+mdef_phone_str	mdef.c	/^int32 mdef_phone_str (mdef_t *m, s3pid_t pid, char *buf)$/;"	f
+mdef_phone_str	sphinx3.s	/^mdef_phone_str:                         # @mdef_phone_str$/;"	l
+mdef_pid2ssid	mdef.h	160;"	d
+mdef_pid2tmatid	mdef.h	161;"	d
+mdef_sen2cimap	mdef.h	163;"	d
+mdef_silphone	mdef.h	162;"	d
+mdef_sseq2sen_active	mdef.c	/^void mdef_sseq2sen_active (mdef_t *mdef, int32 *sseq, int32 *sen)$/;"	f
+mdef_sseq2sen_active	sphinx3.s	/^mdef_sseq2sen_active:                   # @mdef_sseq2sen_active$/;"	l
+mdef_t	mdef.h	/^} mdef_t;$/;"	t	typeref:struct:__anon11
+mean	cont_mgau.h	/^    float32 **mean;	\/* The n_comp means of the Gaussians. *\/$/;"	m	struct:__anon19
+mean	vector.h	/^    float32 **mean;	\/* n_cw x veclen mean values *\/$/;"	m	struct:__anon26
+mel_cosine	new_fe.h	/^    float **mel_cosine;$/;"	m	struct:__anon6
+melfb_t	new_fe.h	/^}melfb_t;$/;"	t	typeref:struct:__anon6
+membg	lm.h	/^    membg_t *membg;	\/* membg[w1] = bigrams for lm wid w1 (used iff disk-based) *\/$/;"	m	struct:lm_s
+membg_t	lm.h	/^} membg_t;$/;"	t	typeref:struct:__anon16
+mgau	cont_mgau.h	/^    mgau_t *mgau;	\/* The n_mgau mixture Gaussians *\/$/;"	m	struct:__anon20
+mgau	kbcore.h	/^    mgau_model_t *mgau;$/;"	m	struct:__anon22
+mgau_comp_eval	cont_mgau.c	/^int32 mgau_comp_eval (mgau_model_t *g, int32 s, float32 *x, int32 *score)$/;"	f
+mgau_comp_eval	sphinx3.s	/^mgau_comp_eval:                         # @mgau_comp_eval$/;"	l
+mgau_eval	cont_mgau.c	/^int32 mgau_eval (mgau_model_t *g, int32 m, int32 *active, float32 *x)$/;"	f
+mgau_eval	sphinx3.s	/^mgau_eval:                              # @mgau_eval$/;"	l
+mgau_file_read	cont_mgau.c	/^static int32 mgau_file_read(mgau_model_t *g, char *file_name, int32 type)$/;"	f	file:
+mgau_file_read	sphinx3.s	/^mgau_file_read:                         # @mgau_file_read$/;"	l
+mgau_free	cont_mgau.c	/^void mgau_free (mgau_model_t *g)$/;"	f
+mgau_free	sphinx3.s	/^mgau_free:                              # @mgau_free$/;"	l
+mgau_frm_gau_eval	cont_mgau.h	143;"	d
+mgau_frm_sen_eval	cont_mgau.h	142;"	d
+mgau_init	cont_mgau.c	/^mgau_model_t *mgau_init (char *meanfile, char *varfile, float64 varfloor,$/;"	f
+mgau_init	sphinx3.s	/^mgau_init:                              # @mgau_init$/;"	l
+mgau_lrd	cont_mgau.h	140;"	d
+mgau_lrdi	cont_mgau.h	141;"	d
+mgau_max_comp	cont_mgau.h	134;"	d
+mgau_mean	cont_mgau.h	137;"	d
+mgau_mixw	cont_mgau.h	139;"	d
+mgau_mixw_read	cont_mgau.c	/^static int32 mgau_mixw_read(mgau_model_t *g, char *file_name, float64 mixwfloor)$/;"	f	file:
+mgau_model_t	cont_mgau.h	/^} mgau_model_t;$/;"	t	typeref:struct:__anon20
+mgau_n_comp	cont_mgau.h	136;"	d
+mgau_n_mgau	cont_mgau.h	133;"	d
+mgau_precomp	cont_mgau.c	/^static int32 mgau_precomp (mgau_model_t *g)$/;"	f	file:
+mgau_sl	gs.h	/^  int32* mgau_sl; \/* The short list *\/$/;"	m	struct:gs_s
+mgau_sl	subvq.h	/^    int32 *mgau_sl;		\/* Shortlist for one mixture (based on gauscore[]) *\/$/;"	m	struct:__anon46
+mgau_t	cont_mgau.h	/^} mgau_t;$/;"	t	typeref:struct:__anon19
+mgau_uninit_compact	cont_mgau.c	/^static void mgau_uninit_compact (mgau_model_t *g)$/;"	f	file:
+mgau_var	cont_mgau.h	138;"	d
+mgau_var_floor	cont_mgau.c	/^static void mgau_var_floor (mgau_model_t *g, float64 floor)$/;"	f	file:
+mgau_var_nzvec_floor	cont_mgau.c	/^int32 mgau_var_nzvec_floor (mgau_model_t *g, float64 floor)$/;"	f
+mgau_var_nzvec_floor	sphinx3.s	/^mgau_var_nzvec_floor:                   # @mgau_var_nzvec_floor$/;"	l
+mgau_veclen	cont_mgau.h	135;"	d
+mixw	cont_mgau.h	/^  int32 *mixw;	\/* Mixture weights for the n_comp components (int32 instead of float32$/;"	m	struct:__anon19
+most_recent_best_cid	approx_cont_mgau.c	/^int32 most_recent_best_cid=-1;$/;"	v
+most_recent_best_cid	sphinx3.s	/^most_recent_best_cid:$/;"	l
+myfopen	libutil/io.h	97;"	d
+myfree	libutil/ckd_alloc.h	171;"	d
+mylist_s	ckd_alloc.c	/^typedef struct mylist_s {$/;"	s	file:
+mylist_t	ckd_alloc.c	/^} mylist_t;$/;"	t	typeref:struct:mylist_s	file:
+mymalloc	libutil/ckd_alloc.h	170;"	d
+n	corpus.h	/^    int32 n;		\/* #IDs (and corresponding argument strings) in the corpus *\/$/;"	m	struct:__anon42
+n_active	lextree.h	/^    int32 n_active;		\/* No. of nodes active in current frame *\/$/;"	m	struct:__anon4
+n_alloclm	kbcore.h	/^  int32 n_alloclm;$/;"	m	struct:__anon22
+n_bg	lm.h	/^    int32 n_bg;         \/* #bigrams in entire LM *\/$/;"	m	struct:lm_s
+n_bg_bo	lm.h	/^    int32 n_bg_bo;	\/* #bg_score ops backed off to ug *\/$/;"	m	struct:lm_s
+n_bg_fill	lm.h	/^    int32 n_bg_fill;    \/* #bg fill operations *\/$/;"	m	struct:lm_s
+n_bg_inmem	lm.h	/^    int32 n_bg_inmem;   \/* #bg in memory *\/$/;"	m	struct:lm_s
+n_bg_score	lm.h	/^    int32 n_bg_score;   \/* #bg_score operations *\/$/;"	m	struct:lm_s
+n_bgprob	lm.h	/^    int32 n_bgprob;$/;"	m	struct:lm_s
+n_ci_sen	mdef.h	/^    int32 n_ci_sen;		\/* #CI senones; these are the first *\/$/;"	m	struct:__anon11
+n_ciphone	dict.h	/^    int32 n_ciphone;	\/* Used only if CI phones handled internally (mdef == NULL) *\/$/;"	m	struct:__anon44
+n_ciphone	mdef.h	/^    int32 n_ciphone;		\/* #basephones actually present *\/$/;"	m	struct:__anon11
+n_code	gs.h	/^  int32 n_code;$/;"	m	struct:gs_s
+n_comp	cont_mgau.h	/^    int32 n_comp;	\/* #Component Gaussians in this mixture.  NOTE: May be 0 (for the$/;"	m	struct:__anon19
+n_comp	dict.h	/^    int32 n_comp;	\/* If this is a compound word, no. of component words; else 0.$/;"	m	struct:__anon43
+n_comsseq	dict2pid.h	/^    int32 n_comsseq;		\/* #Composite senone sequences *\/$/;"	m	struct:__anon21
+n_comstate	dict2pid.h	/^    int32 n_comstate;		\/* #Composite states *\/$/;"	m	struct:__anon21
+n_density	gs.h	/^  int32 n_density;$/;"	m	struct:gs_s
+n_emit_state	mdef.h	/^    int32 n_emit_state;		\/* #emitting states per phone *\/$/;"	m	struct:__anon11
+n_entry	vithist.h	/^    int32 n_entry;		\/* Total #entries used (generates global seq no. or ID) *\/$/;"	m	struct:__anon40
+n_feat	gs.h	/^  int32 n_feat;$/;"	m	struct:gs_s
+n_featlen	gs.h	/^  int32 n_featlen;$/;"	m	struct:gs_s
+n_frm	vithist.h	/^    int32 n_frm;		\/* No. of frames processed so far in this utterance *\/$/;"	m	struct:__anon40
+n_gau	vector.h	/^    int32 n_gau;	\/* #Gaussians in table *\/$/;"	m	struct:__anon26
+n_lc	lextree.h	/^    int32 n_lc;		\/* No. of separate left contexts being maintained, if any *\/$/;"	m	struct:__anon4
+n_lextrans	kb.h	/^    int32 n_lextrans;		\/* #Transitions to lextree (root) made so far *\/$/;"	m	struct:__anon49
+n_lextree	kb.h	/^    int32 n_lextree;		\/* See above comment about n_lextree *\/$/;"	m	struct:__anon49
+n_lm	kbcore.h	/^  int32 n_lm;$/;"	m	struct:__anon22
+n_lmclass	lm.h	/^  int32 n_lmclass;$/;"	m	struct:lm_s
+n_mbyte	gs.h	/^  int32 n_mbyte; \/* number of bytes to read each time *\/$/;"	m	struct:gs_s
+n_mgau	cont_mgau.h	/^    int32 n_mgau;	\/* #Mixture Gaussians in this model (i.e., #senones) *\/$/;"	m	struct:__anon20
+n_mgau	gs.h	/^  int32 n_mgau;$/;"	m	struct:gs_s
+n_next_active	lextree.h	/^    int32 n_next_active;	\/* No. of nodes active in current frame *\/$/;"	m	struct:__anon4
+n_node	lextree.h	/^    int32 n_node;	\/* No. of nodes in this lextree *\/$/;"	m	struct:__anon4
+n_phone	mdef.h	/^    int32 n_phone;		\/* #basephones + #triphones actually present *\/$/;"	m	struct:__anon11
+n_sen	mdef.h	/^    int32 n_sen;		\/* #senones (CI+CD) *\/$/;"	m	struct:__anon11
+n_sseq	mdef.h	/^    int32 n_sseq;		\/* No. of unique senone sequences in this model *\/$/;"	m	struct:__anon11
+n_state	tmat.h	/^    int32 n_state;	\/* #source states in matrix (only the emitting states);$/;"	m	struct:__anon32
+n_stream	feat.h	/^    int32 n_stream;	\/* #Feature streams; e.g., 4 in Sphinx-II *\/$/;"	m	struct:feat_s
+n_sv	subvq.h	/^    int32 n_sv;			\/* #Subvectors *\/$/;"	m	struct:__anon46
+n_tg	lm.h	/^    int32 n_tg;			\/* #tg for parent bigram w1,w2 *\/$/;"	m	struct:tginfo_s
+n_tg	lm.h	/^    int32 n_tg;         \/* #trigrams in entire LM *\/$/;"	m	struct:lm_s
+n_tg_bo	lm.h	/^    int32 n_tg_bo;$/;"	m	struct:lm_s
+n_tg_fill	lm.h	/^    int32 n_tg_fill;	\/* Similar stats for trigrams *\/$/;"	m	struct:lm_s
+n_tg_inmem	lm.h	/^    int32 n_tg_inmem;$/;"	m	struct:lm_s
+n_tg_score	lm.h	/^    int32 n_tg_score;$/;"	m	struct:lm_s
+n_tgbowt	lm.h	/^    int32 n_tgbowt;$/;"	m	struct:lm_s
+n_tgcache_hit	lm.h	/^    int32 n_tgcache_hit;$/;"	m	struct:lm_s
+n_tgprob	lm.h	/^    int32 n_tgprob;$/;"	m	struct:lm_s
+n_tmat	mdef.h	/^    int32 n_tmat;		\/* #transition matrices *\/$/;"	m	struct:__anon11
+n_tmat	tmat.h	/^    int32 n_tmat;	\/* #matrices *\/$/;"	m	struct:__anon32
+n_ug	lm.h	/^    int32 n_ug;         \/* #unigrams in LM *\/$/;"	m	struct:lm_s
+n_word	dict.h	/^    int32 n_word;	\/* #Occupied entries in dict; ie, excluding empty slots *\/$/;"	m	struct:__anon44
+name	feat.h	/^    char *name;		\/* Printable name for this feature type *\/$/;"	m	struct:feat_s
+name	libutil/cmd_ln.h	/^    char *name;		\/* Name of the command line switch (case-insensitive) *\/$/;"	m	struct:__anon31
+name	libutil/profile.h	/^    const char *name;		\/* Counter print name; NULL terminates array of counters.$/;"	m	struct:__anon28
+name	libutil/profile.h	/^    const char *name;		\/* Timer print name; NULL terminates an array of timers.$/;"	m	struct:__anon29
+name	lm.h	/^  char *name;$/;"	m	struct:lmset_s
+name	lmclass.h	/^    char *name;			\/* Name for this LM class *\/$/;"	m	struct:lmclass_s
+name	mdef.h	/^    char *name;$/;"	m	struct:__anon9
+next	ckd_alloc.c	/^    struct mylist_s *next;	\/* Next linked list *\/$/;"	m	struct:mylist_s	typeref:struct:mylist_s::mylist_s	file:
+next	libutil/glist.h	/^    struct gnode_s *next;	\/* Next node in list *\/$/;"	m	struct:gnode_s	typeref:struct:gnode_s::gnode_s
+next	libutil/hash.h	/^    struct hash_entry_s *next;	\/* For collision resolution *\/$/;"	m	struct:hash_entry_s	typeref:struct:hash_entry_s::hash_entry_s
+next	lm.h	/^    struct tginfo_s *next;	\/* Next w1 with same parent w2 *\/$/;"	m	struct:tginfo_s	typeref:struct:tginfo_s::tginfo_s
+next	lmclass.h	/^    struct lmclass_s *next;	\/* For linking together multiple LM classes in the$/;"	m	struct:lmclass_s	typeref:struct:lmclass_s::lmclass_s
+next	lmclass.h	/^    struct lmclass_word_s *next;	\/* For linking together words in this LM class,$/;"	m	struct:lmclass_word_s	typeref:struct:lmclass_word_s::lmclass_word_s
+next	mdef.h	/^    struct ph_lc_s *next;	\/* Next lc entry for same parent <wpos,ci> *\/$/;"	m	struct:ph_lc_s	typeref:struct:ph_lc_s::ph_lc_s
+next	mdef.h	/^    struct ph_rc_s *next;	\/* Next rc entry for same parent <wpos,ci,lc> *\/$/;"	m	struct:ph_rc_s	typeref:struct:ph_rc_s::ph_rc_s
+next_active	lextree.h	/^    lextree_node_t **next_active;	\/* Like active, but temporary space for constructing the$/;"	m	struct:__anon4
+nfr	kb.h	/^    int32 nfr;			\/* #Frames in feat in current utterance *\/$/;"	m	struct:__anon49
+nl	heap.c	/^    int32 nl, nr;	\/* #left\/right descendants of this node (for balancing heap) *\/$/;"	m	struct:heap_s	file:
+nocase	libutil/hash.h	/^    uint8 nocase;		\/* Whether case insensitive for key comparisons *\/$/;"	m	struct:__anon30
+noncomment_line	mdef.c	/^static int32 noncomment_line(char *line, int32 size, FILE *fp)$/;"	f	file:
+nr	heap.c	/^    int32 nl, nr;	\/* #left\/right descendants of this node (for balancing heap) *\/$/;"	m	struct:heap_s	file:
+num_cepstra	new_fe.h	/^    int32 num_cepstra;$/;"	m	struct:__anon6
+num_filters	new_fe.h	/^    int32 num_filters;$/;"	m	struct:__anon6
+origsize	subvq.h	/^    arraysize_t origsize;	\/* origsize.r = #codebooks (or states) in original model;$/;"	m	struct:__anon46
+out	hmm.h	/^    hmm_state_t out;	\/* Non-emitting exit state *\/$/;"	m	struct:__anon35
+param_t	new_fe.h	/^} param_t;$/;"	t	typeref:struct:__anon5
+parse_args_file	parse_args_file.c	/^void  parse_args_file(char *live_args)$/;"	f
+parse_args_file	sphinx3.s	/^parse_args_file:                        # @parse_args_file$/;"	l
+parse_args_free	parse_args_file.c	/^void parse_args_free()$/;"	f
+parse_args_free	sphinx3.s	/^parse_args_free:                        # @parse_args_free$/;"	l
+parse_base_line	mdef.c	/^static void parse_base_line (mdef_t *m, char *line, s3pid_t p)$/;"	f	file:
+parse_tmat_senmap	mdef.c	/^static void parse_tmat_senmap (mdef_t *m, char *line, int32 off, s3pid_t p)$/;"	f	file:
+parse_tmat_senmap	sphinx3.s	/^parse_tmat_senmap:                      # @parse_tmat_senmap$/;"	l
+parse_tri_line	mdef.c	/^static void parse_tri_line (mdef_t *m, char *line, s3pid_t p)$/;"	f	file:
+parthyp	live.c	/^static partialhyp_t *parthyp = NULL;$/;"	v	file:
+partialhyp_t	live.h	/^} partialhyp_t;$/;"	t	typeref:struct:__anon48
+pctr_print_all	profile.c	/^void pctr_print_all (FILE *fp, pctr_t *ctr)$/;"	f
+pctr_print_all	sphinx3.s	/^pctr_print_all:                         # @pctr_print_all$/;"	l
+pctr_reset	profile.c	/^void pctr_reset (pctr_t *ctr)$/;"	f
+pctr_reset	sphinx3.s	/^pctr_reset:                             # @pctr_reset$/;"	l
+pctr_reset_all	profile.c	/^void pctr_reset_all (pctr_t *ctr)$/;"	f
+pctr_reset_all	sphinx3.s	/^pctr_reset_all:                         # @pctr_reset_all$/;"	l
+pctr_t	libutil/profile.h	/^} pctr_t;$/;"	t	typeref:struct:__anon28
+ph_lc_s	mdef.h	/^typedef struct ph_lc_s {$/;"	s
+ph_lc_t	mdef.h	/^} ph_lc_t;$/;"	t	typeref:struct:ph_lc_s
+ph_rc_s	mdef.h	/^typedef struct ph_rc_s {$/;"	s
+ph_rc_t	mdef.h	/^} ph_rc_t;$/;"	t	typeref:struct:ph_rc_s
+phn_heur_list	kb.h	/^  int32 *phn_heur_list;          \/* Cache of best the ci phoneme scores in the next pl_windows, include this frame*\/$/;"	m	struct:__anon49
+phone	mdef.h	/^    phone_t *phone;		\/* Information for all ciphones and triphones *\/$/;"	m	struct:__anon11
+phone_t	mdef.h	/^} phone_t;$/;"	t	typeref:struct:__anon10
+pht	dict.h	/^    hash_table_t *pht;	\/* Used only if CI phones handled internally (mdef == NULL) *\/$/;"	m	struct:__anon44
+pid	mdef.h	/^    s3pid_t pid;		\/* Triphone id for above rc instance *\/$/;"	m	struct:ph_rc_s
+pl_beam	kb.h	/^  int32 pl_beam;              \/* Beam for phoneme look-ahead *\/$/;"	m	struct:__anon49
+pl_window	kb.h	/^  int32 pl_window;            \/* The window size of phoneme look-ahead *\/$/;"	m	struct:__anon49
+pl_window_effective	kb.h	/^  int32 pl_window_effective;  \/* Effective window size in livemode *\/$/;"	m	struct:__anon49
+pl_window_start	kb.h	/^  int32 pl_window_start;      \/* The start index of the window near the end of a block *\/$/;"	m	struct:__anon49
+point_t	vector.h	/^} point_t;$/;"	t	typeref:struct:__anon24
+pred	vithist.h	/^    int32 pred;			\/* Immediate predecessor *\/$/;"	m	struct:__anon38
+prime	hash.c	/^static int32 prime[] = {$/;"	v	file:
+prime	sphinx3.s	/^prime:$/;"	l
+prime_size	hash.c	/^static int32 prime_size (int32 size)$/;"	f	file:
+prob	fillpen.h	/^    int32 *prob;	\/* Filler word probability (in logs3 space, after$/;"	m	struct:__anon1
+prob	lextree.h	/^    int32 prob;		\/* LM probability of this node (of all words leading from this node) *\/$/;"	m	struct:__anon2
+prob	lm.h	/^    int32 prob;$/;"	m	struct:__anon18
+prob	lm.h	/^    lmlog_t prob;$/;"	m	struct:__anon13
+probid	lm.h	/^    uint16 probid;$/;"	m	struct:__anon14
+probid	lm.h	/^    uint16 probid;$/;"	m	struct:__anon15
+pronlen	dict.h	/^    int32 pronlen;	\/* Pronunciation length *\/$/;"	m	struct:__anon43
+ptmr_init	profile.c	/^void ptmr_init (ptmr_t *tm)$/;"	f
+ptmr_init	sphinx3.s	/^ptmr_init:                              # @ptmr_init$/;"	l
+ptmr_print_all	profile.c	/^void ptmr_print_all (FILE *fp, ptmr_t *tm, float64 norm)$/;"	f
+ptmr_print_all	sphinx3.s	/^ptmr_print_all:                         # @ptmr_print_all$/;"	l
+ptmr_reset	profile.c	/^void ptmr_reset (ptmr_t *tm)$/;"	f
+ptmr_reset	sphinx3.s	/^ptmr_reset:                             # @ptmr_reset$/;"	l
+ptmr_reset_all	profile.c	/^void ptmr_reset_all (ptmr_t *tm)$/;"	f
+ptmr_reset_all	sphinx3.s	/^ptmr_reset_all:                         # @ptmr_reset_all$/;"	l
+ptmr_start	profile.c	/^void ptmr_start (ptmr_t *tm)$/;"	f
+ptmr_start	sphinx3.s	/^ptmr_start:                             # @ptmr_start$/;"	l
+ptmr_stop	profile.c	/^void ptmr_stop (ptmr_t *tm)$/;"	f
+ptmr_stop	sphinx3.s	/^ptmr_stop:                              # @ptmr_stop$/;"	l
+ptmr_t	libutil/profile.h	/^} ptmr_t;$/;"	t	typeref:struct:__anon29
+ptr	cmd_ln.c	/^    const void *ptr;	\/* Needed (with NULL value) in case there is no default *\/$/;"	m	struct:argval_s	file:
+ptr	libutil/prim_type.h	/^    void *ptr;		\/* User defined data types at this ptr *\/$/;"	m	union:anytype_s
+ptrans	beam.h	/^    int32 ptrans;	\/* For determining which HMMs transition to their successors *\/$/;"	m	struct:__anon45
+ptranskip	live.c	/^static int32 ptranskip;$/;"	v	file:
+r	heap.c	/^    struct heap_s *r;	\/* Root of right descendant heap *\/$/;"	m	struct:heap_s	typeref:struct:heap_s::heap_s	file:
+r	new_fe_sp.h	/^typedef struct { double r, i; } complex;$/;"	m	struct:__anon33
+r	vector.h	/^    int32 r;		\/* #rows, *\/$/;"	m	struct:__anon23
+rc	mdef.h	/^    s3cipid_t ci, lc, rc;	\/* Base, left, right context ciphones *\/$/;"	m	struct:__anon10
+rc	mdef.h	/^    s3cipid_t rc;		\/* Specific rc for a parent <wpos,ci,lc> *\/$/;"	m	struct:ph_rc_s
+rclist	mdef.h	/^    ph_rc_t *rclist;		\/* rc list for above lc instance *\/$/;"	m	struct:ph_lc_s
+rdiph_comsseq	dict2pid.c	/^static glist_t rdiph_comsseq (mdef_t *mdef, int32 b, int32 l)$/;"	f	file:
+rec_bst_senscr	kb.h	/^  int32 rec_bst_senscr;$/;"	m	struct:__anon49
+rec_bstcid	kb.h	/^  int32 rec_bstcid;$/;"	m	struct:__anon49
+rec_sen_active	kb.h	/^  int32 *rec_sen_active;        \/* Most recent senone active state *\/$/;"	m	struct:__anon49
+root	lextree.h	/^    glist_t root;	\/* Its data.ptr are the root nodes (lextree_node_t *) of interest; subset$/;"	m	struct:__anon3
+root	lextree.h	/^    glist_t root;	\/* The entire set of root nodes (lextree_node_t) for this lextree *\/$/;"	m	struct:__anon4
+s3cipid_t	s3types.h	/^typedef int8		s3cipid_t;	\/* Ci phone id *\/$/;"	t
+s3frmid_t	s3types.h	/^typedef int16   	s3frmid_t;	\/* Frame id (must be SIGNED integer) *\/$/;"	t
+s3latid_t	s3types.h	/^typedef int32		s3latid_t;	\/* Lattice entry id *\/$/;"	t
+s3lmwid_t	s3types.h	/^typedef uint16		s3lmwid_t;	\/* LM word id (uint16 for conserving space) *\/$/;"	t
+s3mgauid_t	s3types.h	/^typedef int16   	s3mgauid_t;	\/* Mixture-gaussian codebook id *\/$/;"	t
+s3pid_t	s3types.h	/^typedef int32		s3pid_t;	\/* Phone id (triphone or ciphone) *\/$/;"	t
+s3senid_t	s3types.h	/^typedef int16   	s3senid_t;	\/* Senone id *\/$/;"	t
+s3ssid_t	s3types.h	/^typedef s3pid_t		s3ssid_t;	\/* Senone sequence id (triphone or ciphone) *\/$/;"	t
+s3tmatid_t	s3types.h	/^typedef int32		s3tmatid_t;	\/* Transition matrix id; there can be as many as pids *\/$/;"	t
+s3wid_t	s3types.h	/^typedef int32		s3wid_t;	\/* Dictionary word id *\/$/;"	t
+sampling_rate	new_fe.h	/^    float sampling_rate;$/;"	m	struct:__anon6
+score	hmm.h	/^    int32 score;	\/* State score (path log-likelihood) *\/$/;"	m	struct:__anon34
+score	vithist.h	/^    int32 score;		\/* Total path score ending here *\/$/;"	m	struct:__anon38
+seedi	specrand.c	/^static int seedi;$/;"	v	file:
+sen	ascr.h	/^    int32 *sen;		\/* Senone scores in current frame *\/$/;"	m	struct:__anon41
+sen2cimap	mdef.h	/^    s3cipid_t *sen2cimap;	\/* Parent CI-phone for each senone (CI or CD) *\/$/;"	m	struct:__anon11
+sen_active	kb.h	/^  int32 *sen_active;$/;"	m	struct:__anon49
+sentence_lmscore	lm.c	/^static int32 sentence_lmscore (lm_t *lm, char *line)$/;"	f	file:
+seqid	vithist.c	/^    int32 seqid;	\/* Node sequence no. *\/$/;"	m	struct:__anon47	file:
+sf	hyp.h	/^    int32 sf, ef;	\/* Start\/end frames, inclusive, for this segment *\/$/;"	m	struct:__anon27
+sf	live.h	/^    int32 sf;$/;"	m	struct:__anon48
+sf	vithist.h	/^    s3frmid_t sf, ef;		\/* Start and end frames for this entry *\/$/;"	m	struct:__anon38
+sil	mdef.h	/^    s3cipid_t sil;		\/* SILENCE_CIPHONE id *\/$/;"	m	struct:__anon11
+silwid	dict.h	/^    s3wid_t silwid;	\/* FOR INTERNAL-USE ONLY *\/$/;"	m	struct:__anon44
+single_comsseq	dict2pid.c	/^static glist_t single_comsseq (mdef_t *mdef, int32 b)$/;"	f	file:
+single_lc	dict2pid.h	/^    s3ssid_t **single_lc;	\/* For single phone words, [base][lc] -> composite ssid; filled$/;"	m	struct:__anon21
+single_lc_comsseq	dict2pid.c	/^static glist_t single_lc_comsseq (mdef_t *mdef, int32 b, int32 l)$/;"	f	file:
+size	libutil/hash.h	/^    int32 size;			\/* Primary hash table size, (is a prime#); NOTE: This is the$/;"	m	struct:__anon30
+skip_count	kb.h	/^  int32 skip_count;$/;"	m	struct:__anon49
+spec_rand	specrand.c	/^double spec_rand(void)$/;"	f
+spec_rand	sphinx3.s	/^spec_rand:                              # @spec_rand$/;"	l
+spec_srand	specrand.c	/^void spec_srand(int seed) {$/;"	f
+spec_srand	sphinx3.s	/^spec_srand:                             # @spec_srand$/;"	l
+sseq	mdef.h	/^    s3senid_t **sseq;		\/* Unique state (or senone) sequences in this model, shared$/;"	m	struct:__anon11
+sseq_compress	mdef.c	/^static void sseq_compress (mdef_t *m)$/;"	f	file:
+ssid	lextree.h	/^    int32 ssid;		\/* Senone-sequence ID (or composite state-seq ID if composite) *\/$/;"	m	struct:__anon2
+ssid	mdef.h	/^    s3ssid_t ssid;		\/* State sequence (or senone sequence) ID, considering the$/;"	m	struct:__anon10
+ssid_active	kb.h	/^    int32 *ssid_active;		\/* For determining the active senones in any frame *\/$/;"	m	struct:__anon49
+ssid_lc	lextree.h	/^    s3ssid_t *ssid_lc;	\/* Array of ssid's (composite or not) for each left context CIphone;$/;"	m	struct:__anon2
+ssidlist2comsseq	dict2pid.c	/^static s3ssid_t ssidlist2comsseq (glist_t g, mdef_t *mdef, dict2pid_t *dict2pid,$/;"	f	file:
+ssidlist2comsseq	sphinx3.s	/^ssidlist2comsseq:                       # @ssidlist2comsseq$/;"	l
+start_cpu	libutil/profile.h	/^    float64 start_cpu;		\/* ---- FOR INTERNAL USE ONLY ---- *\/$/;"	m	struct:__anon29
+start_elapsed	libutil/profile.h	/^    float64 start_elapsed;	\/* ---- FOR INTERNAL USE ONLY ---- *\/$/;"	m	struct:__anon29
+startlwid	lm.h	/^    s3lmwid_t startlwid;	\/* S3_START_WORD id, if it exists *\/$/;"	m	struct:lm_s
+startwid	dict.h	/^    s3wid_t startwid;	\/* FOR INTERNAL-USE ONLY *\/$/;"	m	struct:__anon44
+stat_mtime	io.c	/^int32 stat_mtime (char *file)$/;"	f
+stat_mtime	sphinx3.s	/^stat_mtime:                             # @stat_mtime$/;"	l
+stat_retry	io.c	/^int32 stat_retry (char *file, struct stat *statbuf)$/;"	f
+stat_retry	sphinx3.s	/^stat_retry:                             # @stat_retry$/;"	l
+state	hmm.h	/^    hmm_state_t *state;	\/* Per-state data for emitting states *\/$/;"	m	struct:__anon35
+state	vithist.h	/^    int32 state;		\/* (Part of) the state information *\/$/;"	m	struct:__anon39
+str	corpus.h	/^    char **str;		\/* The argument strings *\/$/;"	m	struct:__anon42
+str2words	sphinx3.s	/^str2words:                              # @str2words$/;"	l
+str2words	str2words.c	/^int32 str2words (char *line, char **ptr, int32 max_ptr)$/;"	f
+strcmp_nocase	case.c	/^int32 strcmp_nocase (const char *str1, const char *str2)$/;"	f
+strcmp_nocase	sphinx3.s	/^strcmp_nocase:                          # @strcmp_nocase$/;"	l
+stream_len	feat.h	/^    int32 *stream_len;	\/* Vector length of each feature stream *\/$/;"	m	struct:feat_s
+subheap_insert	heap.c	/^static heapnode_t *subheap_insert (heapnode_t *root, void *data, int32 val)$/;"	f	file:
+subheap_insert	sphinx3.s	/^subheap_insert:                         # @subheap_insert$/;"	l
+subheap_pop	heap.c	/^static heapnode_t *subheap_pop (heapnode_t *root)$/;"	f	file:
+subheap_pop	sphinx3.s	/^subheap_pop:                            # @subheap_pop$/;"	l
+subvec	subvq.h	/^    float32 *subvec;		\/* Subvector extracted from feature vector *\/$/;"	m	struct:__anon46
+subvq	beam.h	/^    int32 subvq;	\/* For selecting active mixture components based on subvq scores *\/$/;"	m	struct:__anon45
+subvq_frame_eval	sphinx3.s	/^subvq_frame_eval:                       # @subvq_frame_eval$/;"	l
+subvq_frame_eval	subvq.c	/^int32 subvq_frame_eval (subvq_t *vq, mgau_model_t *g, int32 beam, float32 *feat,$/;"	f
+subvq_free	sphinx3.s	/^subvq_free:                             # @subvq_free$/;"	l
+subvq_free	subvq.c	/^void subvq_free (subvq_t *s)$/;"	f
+subvq_gautbl_eval_logs3	sphinx3.s	/^subvq_gautbl_eval_logs3:                # @subvq_gautbl_eval_logs3$/;"	l
+subvq_gautbl_eval_logs3	subvq.c	/^void subvq_gautbl_eval_logs3 (subvq_t *vq, float32 *feat)$/;"	f
+subvq_init	sphinx3.s	/^subvq_init:                             # @subvq_init$/;"	l
+subvq_init	subvq.c	/^subvq_t *subvq_init (char *file, float64 varfloor, int32 max_sv, mgau_model_t *g)$/;"	f
+subvq_maha_precomp	subvq.c	/^static void subvq_maha_precomp (subvq_t *svq, float64 floor)$/;"	f	file:
+subvq_map_compact	subvq.c	/^static void subvq_map_compact (subvq_t *vq, mgau_model_t *g)$/;"	f	file:
+subvq_map_linearize	subvq.c	/^static void subvq_map_linearize (subvq_t *vq)$/;"	f	file:
+subvq_mgau_eval	sphinx3.s	/^subvq_mgau_eval:                        # @subvq_mgau_eval$/;"	l
+subvq_mgau_eval	subvq.c	/^int32 subvq_mgau_eval (mgau_model_t *g, subvq_t *vq, int32 m, int32 n, int32 *active)$/;"	f
+subvq_mgau_shortlist	sphinx3.s	/^subvq_mgau_shortlist:                   # @subvq_mgau_shortlist$/;"	l
+subvq_mgau_shortlist	subvq.c	/^int32 subvq_mgau_shortlist (subvq_t *vq,$/;"	f
+subvq_subvec_eval_logs3	sphinx3.s	/^subvq_subvec_eval_logs3:                # @subvq_subvec_eval_logs3$/;"	l
+subvq_subvec_eval_logs3	subvq.c	/^void subvq_subvec_eval_logs3 (subvq_t *vq, float32 *feat, int32 s)$/;"	f
+subvq_t	subvq.h	/^} subvq_t;$/;"	t	typeref:struct:__anon46
+svq	kbcore.h	/^    subvq_t *svq;$/;"	m	struct:__anon22
+svq4svq	kb.h	/^  int32 svq4svq;              \/* Whether SVQ scores would be used as the Gaussian Scores *\/$/;"	m	struct:__anon49
+swap_buf	bio.c	/^static void swap_buf (void *buf, int32 el_sz, int32 n_el)$/;"	f	file:
+swap_check	bio.c	/^static int32 swap_check(FILE *fp)$/;"	f	file:
+t_cpu	libutil/profile.h	/^    float64 t_cpu;		\/* CPU time accumulated since most recent reset op *\/$/;"	m	struct:__anon29
+t_elapsed	libutil/profile.h	/^    float64 t_elapsed;		\/* Elapsed time accumulated since most recent reset *\/$/;"	m	struct:__anon29
+t_tot_cpu	libutil/profile.h	/^    float64 t_tot_cpu;		\/* Total CPU time since creation *\/$/;"	m	struct:__anon29
+t_tot_elapsed	libutil/profile.h	/^    float64 t_tot_elapsed;	\/* Total elapsed time since creation *\/$/;"	m	struct:__anon29
+table	libutil/hash.h	/^    hash_entry_t *table;	\/* Primary hash table, excluding entries that collide *\/$/;"	m	struct:__anon30
+tg	lm.h	/^    tg_t *tg;			\/* Trigrams for w1,w2 *\/$/;"	m	struct:tginfo_s
+tg	lm.h	/^    tg_t *tg;		\/* NULL iff disk-based *\/$/;"	m	struct:lm_s
+tg_segbase	lm.h	/^    int32 *tg_segbase;  \/* tg_segbase[i>>lm_t.log_bg_seg_sz] = index of 1st$/;"	m	struct:lm_s
+tg_t	lm.h	/^} tg_t;$/;"	t	typeref:struct:__anon15
+tgbowt	lm.h	/^    lmlog_t *tgbowt;    \/* Table of actual trigram backoff weights *\/$/;"	m	struct:lm_s
+tgcache	lm.h	/^    lm_tgcache_entry_t *tgcache;$/;"	m	struct:lm_s
+tginfo	lm.h	/^    tginfo_t **tginfo;	\/* tginfo[w2] = fast trigram access info for bigrams (*,w2) *\/$/;"	m	struct:lm_s
+tginfo_s	lm.h	/^typedef struct tginfo_s {$/;"	s
+tginfo_t	lm.h	/^} tginfo_t;$/;"	t	typeref:struct:tginfo_s
+tgoff	lm.h	/^    int32 tgoff;$/;"	m	struct:lm_s
+tgprob	lm.h	/^    lmlog_t *tgprob;    \/* Table of actual trigram probs *\/$/;"	m	struct:lm_s
+tm_ovrhd	kb.h	/^    ptmr_t tm_ovrhd;$/;"	m	struct:__anon49
+tm_sen	kb.h	/^    ptmr_t tm_sen;$/;"	m	struct:__anon49
+tm_srch	kb.h	/^    ptmr_t tm_srch;$/;"	m	struct:__anon49
+tmat	kbcore.h	/^    tmat_t *tmat;$/;"	m	struct:__anon22
+tmat	mdef.h	/^    s3tmatid_t tmat;		\/* Transition matrix id *\/$/;"	m	struct:__anon10
+tmat_chk_1skip	sphinx3.s	/^tmat_chk_1skip:                         # @tmat_chk_1skip$/;"	l
+tmat_chk_1skip	tmat.c	/^int32 tmat_chk_1skip (tmat_t *tmat)$/;"	f
+tmat_chk_uppertri	sphinx3.s	/^tmat_chk_uppertri:                      # @tmat_chk_uppertri$/;"	l
+tmat_chk_uppertri	tmat.c	/^int32 tmat_chk_uppertri (tmat_t *tmat)$/;"	f
+tmat_dump	sphinx3.s	/^tmat_dump:                              # @tmat_dump$/;"	l
+tmat_dump	tmat.c	/^void tmat_dump (tmat_t *tmat, FILE *fp)$/;"	f
+tmat_free	sphinx3.s	/^tmat_free:                              # @tmat_free$/;"	l
+tmat_free	tmat.c	/^void tmat_free (tmat_t *t)$/;"	f
+tmat_init	sphinx3.s	/^tmat_init:                              # @tmat_init$/;"	l
+tmat_init	tmat.c	/^tmat_t *tmat_init (char *file_name, float64 tpfloor)$/;"	f
+tmat_t	tmat.h	/^} tmat_t;$/;"	t	typeref:struct:__anon32
+tmp_defn	cmd_ln.c	/^static arg_t *tmp_defn;$/;"	v	file:
+tot_considered	sphinx3.s	/^tot_considered:$/;"	l
+tot_considered	utt.c	/^long tot_considered=0;$/;"	v
+tot_fr	kb.h	/^    int32 tot_fr;$/;"	m	struct:__anon49
+tot_gau_eval	kb.h	/^    float64 tot_gau_eval;	\/* Gaussian densities evaluated over the entire session *\/$/;"	m	struct:__anon49
+tot_hmm_eval	kb.h	/^    float64 tot_hmm_eval;	\/* HMMs evaluated over the entire session *\/$/;"	m	struct:__anon49
+tot_sen_eval	kb.h	/^    float64 tot_sen_eval;	\/* Senones evaluated over the entire session *\/$/;"	m	struct:__anon49
+tot_wd_exit	kb.h	/^    float64 tot_wd_exit;	\/* Words hypothesized over the entire session *\/$/;"	m	struct:__anon49
+tp	hmm.h	/^    int32 **tp;		\/* State transition scores tp[from][to] (logs3 values) *\/$/;"	m	struct:__anon35
+tp	tmat.h	/^    int32 ***tp;	\/* The transition matrices; int32 since probs in logs3 domain:$/;"	m	struct:__anon32
+triphone_add	mdef.c	/^static void triphone_add (mdef_t *m,$/;"	f	file:
+triphone_add	sphinx3.s	/^triphone_add:                           # @triphone_add$/;"	l
+type	hyp.h	/^    int32 type;		\/* Uninterpreted data; see vithist_entry_t in vithist.h *\/$/;"	m	struct:__anon27
+type	lextree.h	/^    int32 type;		\/* For use by other modules; NOT maintained here.  For example:$/;"	m	struct:__anon4
+type	libutil/cmd_ln.h	/^    argtype_t type;$/;"	m	struct:__anon31
+type	vithist.h	/^    int32 type;			\/* >=0: regular n-gram word; <0: filler word entry *\/$/;"	m	struct:__anon38
+ucase	case.c	/^void ucase(register char *cp)$/;"	f
+ucase	sphinx3.s	/^ucase:                                  # @ucase$/;"	l
+ug	lm.h	/^    ug_t *ug;           \/* Unigrams *\/$/;"	m	struct:lm_s
+ug_t	lm.h	/^} ug_t;$/;"	t	typeref:struct:__anon13
+ugtree	kb.h	/^    lextree_t **ugtree;$/;"	m	struct:__anon49
+ugtreeMulti	kb.h	/^  lextree_t **ugtreeMulti;  \/* This data structure allocate all trees for all LMs specified by the users *\/$/;"	m	struct:__anon49
+uint16	libutil/prim_type.h	/^typedef unsigned short	uint16;$/;"	t
+uint32	libutil/prim_type.h	/^    uint32 uint32;$/;"	m	union:anytype_s
+uint32	libutil/prim_type.h	/^typedef unsigned int	uint32;$/;"	t
+uint8	libutil/prim_type.h	/^typedef unsigned char	uint8;$/;"	t
+unlimit	sphinx3.s	/^unlimit:                                # @unlimit$/;"	l
+unlimit	unlimit.c	/^void unlimit ( void )$/;"	f
+upper_filt_freq	new_fe.h	/^    float upper_filt_freq;$/;"	m	struct:__anon6
+used	lm.h	/^    int32 used;			\/* whether used since last lm_reset *\/$/;"	m	struct:tginfo_s
+used	lm.h	/^    int32 used;		\/* Whether used since last lm_reset.  If not used, at the next$/;"	m	struct:__anon16
+utt_begin	sphinx3.s	/^utt_begin:                              # @utt_begin$/;"	l
+utt_begin	utt.c	/^void utt_begin (kb_t *kb)$/;"	f
+utt_decode	utt.c	/^void utt_decode (void *data, char *uttfile, int32 sf, int32 ef, char *uttid)$/;"	f
+utt_decode_block	sphinx3.s	/^utt_decode_block:                       # @utt_decode_block$/;"	l
+utt_decode_block	utt.c	/^void utt_decode_block (float ***block_feat,   \/* Incoming block of featurevecs *\/$/;"	f
+utt_end	sphinx3.s	/^utt_end:                                # @utt_end$/;"	l
+utt_end	utt.c	/^void utt_end (kb_t *kb)$/;"	f
+utt_gau_eval	kb.h	/^    int32 utt_gau_eval;$/;"	m	struct:__anon49
+utt_hmm_eval	kb.h	/^    int32 utt_hmm_eval;$/;"	m	struct:__anon49
+utt_sen_eval	kb.h	/^    int32 utt_sen_eval;$/;"	m	struct:__anon49
+utt_word_trans	sphinx3.s	/^utt_word_trans:                         # @utt_word_trans$/;"	l
+utt_word_trans	utt.c	/^void utt_word_trans (kb_t *kb, int32 cf)$/;"	f
+uttid	kb.h	/^    char *uttid;$/;"	m	struct:__anon49
+val	cmd_ln.c	/^    anytype_t val;$/;"	m	struct:argval_s	file:
+val	heap.c	/^    int32 val;		\/* Associated with above application data; according to which$/;"	m	struct:heap_s	file:
+val	libutil/hash.h	/^    int32 val;			\/* Value associated with above key *\/$/;"	m	struct:hash_entry_s
+valid	vithist.h	/^    int32 valid;		\/* Whether it should be a valid history for LM rescoring *\/$/;"	m	struct:__anon38
+var	cont_mgau.h	/^  float32 **var;	\/* The n_comp (diagonal) variances of the Gaussians.  Could be$/;"	m	struct:__anon19
+var	vector.h	/^    float32 **var;	\/* n_cw x veclen corresponding (diagonal) variance values *\/$/;"	m	struct:__anon26
+varnorm	feat.h	/^    int32 varnorm;	\/* Whether variance normalization is to be performed on each utt;$/;"	m	struct:feat_s
+ve	vithist.h	/^    vithist_entry_t *ve;	\/* Entry ptr corresponding to vhid (only for leaf nodes) *\/$/;"	m	struct:__anon39
+veclen	cont_mgau.h	/^    int32 veclen;	\/* Vector length of the Gaussian density means (and diagonal vars) *\/$/;"	m	struct:__anon20
+veclen	vector.h	/^    int32 veclen;	\/* Vector length *\/$/;"	m	struct:__anon26
+vector_accum	sphinx3.s	/^vector_accum:                           # @vector_accum$/;"	l
+vector_accum	vector.c	/^void vector_accum (float32 *dst, float32 *src, int32 len)$/;"	f
+vector_cmp	sphinx3.s	/^vector_cmp:                             # @vector_cmp$/;"	l
+vector_cmp	vector.c	/^int32 vector_cmp (float32 *v1, float32 *v2, int32 len)$/;"	f
+vector_dist_eucl	sphinx3.s	/^vector_dist_eucl:                       # @vector_dist_eucl$/;"	l
+vector_dist_eucl	vector.c	/^float64 vector_dist_eucl (float32 *v1, float32 *v2, int32 len)$/;"	f
+vector_dist_maha	sphinx3.s	/^vector_dist_maha:                       # @vector_dist_maha$/;"	l
+vector_dist_maha	vector.c	/^float64 vector_dist_maha (float32 *vec, float32 *mean, float32 *varinv, float64 loginvdet,$/;"	f
+vector_floor	sphinx3.s	/^vector_floor:                           # @vector_floor$/;"	l
+vector_floor	vector.c	/^void vector_floor (float32 *vec, int32 len, float64 flr)$/;"	f
+vector_gautbl_alloc	sphinx3.s	/^vector_gautbl_alloc:                    # @vector_gautbl_alloc$/;"	l
+vector_gautbl_alloc	vector.c	/^void vector_gautbl_alloc (vector_gautbl_t *gautbl, int32 n_gau, int32 veclen)$/;"	f
+vector_gautbl_eval_logs3	sphinx3.s	/^vector_gautbl_eval_logs3:               # @vector_gautbl_eval_logs3$/;"	l
+vector_gautbl_eval_logs3	vector.c	/^void vector_gautbl_eval_logs3 (vector_gautbl_t *gautbl,$/;"	f
+vector_gautbl_free	sphinx3.s	/^vector_gautbl_free:                     # @vector_gautbl_free$/;"	l
+vector_gautbl_free	vector.c	/^void vector_gautbl_free (vector_gautbl_t *gautbl)$/;"	f
+vector_gautbl_maha_precomp	sphinx3.s	/^vector_gautbl_maha_precomp:             # @vector_gautbl_maha_precomp$/;"	l
+vector_gautbl_maha_precomp	vector.c	/^void vector_gautbl_maha_precomp (vector_gautbl_t *gautbl)$/;"	f
+vector_gautbl_t	vector.h	/^} vector_gautbl_t;$/;"	t	typeref:struct:__anon26
+vector_gautbl_var_floor	sphinx3.s	/^vector_gautbl_var_floor:                # @vector_gautbl_var_floor$/;"	l
+vector_gautbl_var_floor	vector.c	/^void vector_gautbl_var_floor (vector_gautbl_t *gautbl, float64 floor)$/;"	f
+vector_is_zero	sphinx3.s	/^vector_is_zero:                         # @vector_is_zero$/;"	l
+vector_is_zero	vector.c	/^int32 vector_is_zero (float32 *vec, int32 len)$/;"	f
+vector_maha_precomp	sphinx3.s	/^vector_maha_precomp:                    # @vector_maha_precomp$/;"	l
+vector_maha_precomp	vector.c	/^float64 vector_maha_precomp (float32 *var, int32 len)$/;"	f
+vector_maxcomp_float32	sphinx3.s	/^vector_maxcomp_float32:                 # @vector_maxcomp_float32$/;"	l
+vector_maxcomp_float32	vector.c	/^int32 vector_maxcomp_float32 (float32 *val, int32 len)$/;"	f
+vector_maxcomp_int32	sphinx3.s	/^vector_maxcomp_int32:                   # @vector_maxcomp_int32$/;"	l
+vector_maxcomp_int32	vector.c	/^int32 vector_maxcomp_int32 (int32 *val, int32 len)$/;"	f
+vector_mean	sphinx3.s	/^vector_mean:                            # @vector_mean$/;"	l
+vector_mean	vector.c	/^int32 vector_mean (float32 *mean, float32 **data, int32 n_vec, int32 n_dim)$/;"	f
+vector_mincomp_float32	sphinx3.s	/^vector_mincomp_float32:                 # @vector_mincomp_float32$/;"	l
+vector_mincomp_float32	vector.c	/^int32 vector_mincomp_float32 (float32 *val, int32 len)$/;"	f
+vector_mincomp_int32	sphinx3.s	/^vector_mincomp_int32:                   # @vector_mincomp_int32$/;"	l
+vector_mincomp_int32	vector.c	/^int32 vector_mincomp_int32 (int32 *val, int32 len)$/;"	f
+vector_nz_floor	sphinx3.s	/^vector_nz_floor:                        # @vector_nz_floor$/;"	l
+vector_nz_floor	vector.c	/^void vector_nz_floor (float32 *vec, int32 len, float64 flr)$/;"	f
+vector_pdf_cross_entropy	sphinx3.s	/^vector_pdf_cross_entropy:               # @vector_pdf_cross_entropy$/;"	l
+vector_pdf_cross_entropy	vector.c	/^float64 vector_pdf_cross_entropy (float32 *p1, float32 *p2, int32 len)$/;"	f
+vector_pdf_entropy	sphinx3.s	/^vector_pdf_entropy:                     # @vector_pdf_entropy$/;"	l
+vector_pdf_entropy	vector.c	/^float64 vector_pdf_entropy (float32 *p, int32 len)$/;"	f
+vector_print	sphinx3.s	/^vector_print:                           # @vector_print$/;"	l
+vector_print	vector.c	/^void vector_print(FILE *fp, vector_t v, int32 dim)$/;"	f
+vector_sum_norm	sphinx3.s	/^vector_sum_norm:                        # @vector_sum_norm$/;"	l
+vector_sum_norm	vector.c	/^float64 vector_sum_norm (float32 *vec, int32 len)$/;"	f
+vector_t	vector.h	/^typedef float32 *vector_t;$/;"	t
+vector_vqgen	sphinx3.s	/^vector_vqgen:                           # @vector_vqgen$/;"	l
+vector_vqgen	vector.c	/^float64 vector_vqgen (float32 **data, int32 rows, int32 cols, int32 vqrows,$/;"	f
+vector_vqlabel	sphinx3.s	/^vector_vqlabel:                         # @vector_vqlabel$/;"	l
+vector_vqlabel	vector.c	/^int32 vector_vqlabel (float32 *vec, float32 **mean, int32 rows, int32 cols, float64 *sqerr)$/;"	f
+velist	vithist.c	/^    glist_t velist;	\/* Vithist entries for this dagnode *\/$/;"	m	struct:__anon47	file:
+verbose	new_fe.h	/^    int32 verbose;$/;"	m	struct:__anon5
+vh_lms2vh_t	vithist.h	/^} vh_lms2vh_t;$/;"	t	typeref:struct:__anon39
+vh_lmstate_find	vithist.c	/^static int32 vh_lmstate_find (vithist_t *vh, vh_lmstate_t *lms)$/;"	f	file:
+vh_lmstate_t	vithist.h	/^} vh_lmstate_t;$/;"	t	typeref:union:__anon36
+vhid	hyp.h	/^    int32 vhid;		\/* Viterbi history (lattice) ID from which this entry created *\/$/;"	m	struct:__anon27
+vhid	vithist.h	/^    int32 vhid;			\/* Associated vithist ID (only for leaf nodes) *\/$/;"	m	struct:__anon39
+vithist	kb.h	/^    vithist_t *vithist;		\/* Viterbi history, built during search *\/$/;"	m	struct:__anon49
+vithist_backtrace	sphinx3.s	/^vithist_backtrace:                      # @vithist_backtrace$/;"	l
+vithist_backtrace	vithist.c	/^glist_t vithist_backtrace (vithist_t *vh, int32 id)$/;"	f
+vithist_bestscore	vithist.h	163;"	d
+vithist_bestvh	vithist.h	164;"	d
+vithist_dag_write	sphinx3.s	/^vithist_dag_write:                      # @vithist_dag_write$/;"	l
+vithist_dag_write	vithist.c	/^void vithist_dag_write (vithist_t *vh, glist_t hyp, dict_t *dict, int32 oldfmt, FILE *fp)$/;"	f
+vithist_dump	sphinx3.s	/^vithist_dump:                           # @vithist_dump$/;"	l
+vithist_dump	vithist.c	/^void vithist_dump (vithist_t *vh, int32 frm, kbcore_t *kbc, FILE *fp)$/;"	f
+vithist_enter	sphinx3.s	/^vithist_enter:                          # @vithist_enter$/;"	l
+vithist_enter	vithist.c	/^static void vithist_enter (vithist_t *vh, kbcore_t *kbc, vithist_entry_t *tve)$/;"	f	file:
+vithist_entry_alloc	vithist.c	/^static vithist_entry_t *vithist_entry_alloc (vithist_t *vh)$/;"	f	file:
+vithist_entry_ascr	vithist.h	104;"	d
+vithist_entry_ef	vithist.h	103;"	d
+vithist_entry_lscr	vithist.h	105;"	d
+vithist_entry_pred	vithist.h	107;"	d
+vithist_entry_score	vithist.h	106;"	d
+vithist_entry_sf	vithist.h	102;"	d
+vithist_entry_t	vithist.h	/^} vithist_entry_t;$/;"	t	typeref:struct:__anon38
+vithist_entry_valid	vithist.h	108;"	d
+vithist_entry_wid	vithist.h	101;"	d
+vithist_first_entry	vithist.h	167;"	d
+vithist_frame_gc	vithist.c	/^static void vithist_frame_gc (vithist_t *vh, int32 frm)$/;"	f	file:
+vithist_frame_windup	sphinx3.s	/^vithist_frame_windup:                   # @vithist_frame_windup$/;"	l
+vithist_frame_windup	vithist.c	/^void vithist_frame_windup (vithist_t *vh, int32 frm, FILE *fp, kbcore_t *kbc)$/;"	f
+vithist_free	sphinx3.s	/^vithist_free:                           # @vithist_free$/;"	l
+vithist_free	vithist.c	/^void vithist_free (vithist_t *v)$/;"	f
+vithist_id2entry	sphinx3.s	/^vithist_id2entry:                       # @vithist_id2entry$/;"	l
+vithist_id2entry	vithist.c	/^vithist_entry_t *vithist_id2entry (vithist_t *vh, int32 id)$/;"	f
+vithist_init	sphinx3.s	/^vithist_init:                           # @vithist_init$/;"	l
+vithist_init	vithist.c	/^vithist_t *vithist_init (kbcore_t *kbc, int32 wbeam, int32 bghist)$/;"	f
+vithist_last_entry	vithist.h	168;"	d
+vithist_lms2vh_root	vithist.h	165;"	d
+vithist_lmstate_enter	vithist.c	/^static void vithist_lmstate_enter (vithist_t *vh, int32 vhid, vithist_entry_t *ve)$/;"	f	file:
+vithist_lmstate_reset	sphinx3.s	/^vithist_lmstate_reset:                  # @vithist_lmstate_reset$/;"	l
+vithist_lmstate_reset	vithist.c	/^static void vithist_lmstate_reset (vithist_t *vh)$/;"	f	file:
+vithist_lwidlist	vithist.h	166;"	d
+vithist_n_entry	vithist.h	162;"	d
+vithist_partialutt_end	sphinx3.s	/^vithist_partialutt_end:                 # @vithist_partialutt_end$/;"	l
+vithist_partialutt_end	vithist.c	/^int32 vithist_partialutt_end (vithist_t *vh, kbcore_t *kbc)$/;"	f
+vithist_prune	sphinx3.s	/^vithist_prune:                          # @vithist_prune$/;"	l
+vithist_prune	vithist.c	/^void vithist_prune (vithist_t *vh, dict_t *dict, int32 frm,$/;"	f
+vithist_rescore	sphinx3.s	/^vithist_rescore:                        # @vithist_rescore$/;"	l
+vithist_rescore	vithist.c	/^void vithist_rescore (vithist_t *vh, kbcore_t *kbc,$/;"	f
+vithist_t	vithist.h	/^} vithist_t;$/;"	t	typeref:struct:__anon40
+vithist_utt_begin	sphinx3.s	/^vithist_utt_begin:                      # @vithist_utt_begin$/;"	l
+vithist_utt_begin	vithist.c	/^int32 vithist_utt_begin (vithist_t *vh, kbcore_t *kbc)$/;"	f
+vithist_utt_end	sphinx3.s	/^vithist_utt_end:                        # @vithist_utt_end$/;"	l
+vithist_utt_end	vithist.c	/^int32 vithist_utt_end (vithist_t *vh, kbcore_t *kbc)$/;"	f
+vithist_utt_reset	sphinx3.s	/^vithist_utt_reset:                      # @vithist_utt_reset$/;"	l
+vithist_utt_reset	vithist.c	/^void vithist_utt_reset (vithist_t *vh)$/;"	f
+vqdist	subvq.h	/^    int32 **vqdist;		\/* vqdist[i][j] = score (distance) for i-th subvector compared$/;"	m	struct:__anon46
+vqsize	subvq.h	/^    int32 vqsize;		\/* #Codewords in each subvector quantized mean\/var table *\/$/;"	m	struct:__anon46
+w1	lm.h	/^    s3lmwid_t w1;		\/* w1 component of bigram w1,w2.  All bigrams with$/;"	m	struct:tginfo_s
+wavdir	new_fe.h	/^    char *wavdir;$/;"	m	struct:__anon5
+wavext	new_fe.h	/^    char *wavext;$/;"	m	struct:__anon5
+wavfile	new_fe.h	/^    char *wavfile;$/;"	m	struct:__anon5
+wbeam	vithist.h	/^    int32 wbeam;		\/* Pruning beamwidth *\/$/;"	m	struct:__anon40
+wbest	lextree.h	/^    int32 wbest;	\/* Best wordexit HMM state score in current frame (for pruning) *\/$/;"	m	struct:__anon4
+wend_beam	kb.h	/^  int32 wend_beam;            \/* Beam for word-end prunining *\/$/;"	m	struct:__anon49
+wid	lextree.h	/^    int32 wid;		\/* Dictionary word-ID if a leaf node; BAD_S3WID otherwise *\/$/;"	m	struct:__anon2
+wid	lm.h	/^    s3lmwid_t wid;	\/* LM wid (index into lm_t.ug) *\/$/;"	m	struct:__anon14
+wid	lm.h	/^    s3lmwid_t wid;	\/* LM wid (index into lm_t.ug) *\/$/;"	m	struct:__anon15
+wid	lm.h	/^    s3wid_t wid;	\/* NOTE: dictionary wid; may be BAD_S3WID if not available *\/$/;"	m	struct:__anon18
+wid	vithist.c	/^    s3wid_t wid;$/;"	m	struct:__anon47	file:
+wid	vithist.h	/^    s3wid_t wid;		\/* Dictionary word ID; exact word that just exited *\/$/;"	m	struct:__anon38
+wid_dict_lm_map	sphinx3.s	/^wid_dict_lm_map:                        # @wid_dict_lm_map$/;"	l
+wid_dict_lm_map	wid.c	/^s3lmwid_t *wid_dict_lm_map (dict_t *dict, lm_t *lm,int32 lw)$/;"	f
+wid_wordprob2alt	sphinx3.s	/^wid_wordprob2alt:                       # @wid_wordprob2alt$/;"	l
+wid_wordprob2alt	wid.c	/^int32 wid_wordprob2alt (dict_t *dict, wordprob_t *wp, int32 n)$/;"	f
+width	new_fe.h	/^    int32 *width;$/;"	m	struct:__anon6
+window_size	feat.h	/^    int32 window_size;	\/* #Extra frames around given input frame needed to compute$/;"	m	struct:feat_s
+wip	fillpen.h	/^    float64 wip;	\/* Word insertion penalty *\/$/;"	m	struct:__anon1
+wip	lm.h	/^    int32 wip;          \/* logs3(word insertion penalty) in effect for this LM *\/$/;"	m	struct:lm_s
+word	beam.h	/^    int32 word;		\/* For selecting words exited, relative to best HMM score *\/$/;"	m	struct:__anon45
+word	dict.h	/^    char *word;		\/* Ascii word string *\/$/;"	m	struct:__anon43
+word	dict.h	/^    dictword_t *word;	\/* Array of entries in dictionary *\/$/;"	m	struct:__anon44
+word	live.h	/^    char  *word;$/;"	m	struct:__anon48
+word	lmclass.h	/^    char *word;		\/* The word string *\/$/;"	m	struct:lmclass_word_s
+word_posn_t	mdef.h	/^} word_posn_t;$/;"	t	typeref:enum:__anon8
+wordlist	lmclass.h	/^    lmclass_word_t wordlist;	\/* Head of list of words in this class *\/$/;"	m	struct:lmclass_s
+wordprob_t	lm.h	/^} wordprob_t;$/;"	t	typeref:struct:__anon18
+wordstr	lm.h	/^    char **wordstr;	\/* The LM word list (in unigram order) *\/$/;"	m	struct:lm_s
+wpos	mdef.h	/^    word_posn_t wpos;		\/* Word position *\/$/;"	m	struct:__anon10
+wpos_ci_lclist	mdef.h	/^    ph_lc_t ***wpos_ci_lclist;	\/* wpos_ci_lclist[wpos][ci] = list of lc for <wpos,ci>.$/;"	m	struct:__anon11
+x	vector.h	/^    float32 x;		\/* x-coordinate, *\/$/;"	m	struct:__anon25
+x	vector.h	/^    int32 x;		\/* x-coordinate, *\/$/;"	m	struct:__anon24
+y	vector.h	/^    float32 y;		\/* y-coordinate of a point *\/$/;"	m	struct:__anon25
+y	vector.h	/^    int32 y;		\/* y-coordinate of a point *\/$/;"	m	struct:__anon24

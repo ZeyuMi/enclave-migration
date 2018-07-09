@@ -1,0 +1,3 @@
+BUG: cannot use internal heap
+
+~/workspace/sgx-driver/user gobmk_enclave < score2.tst

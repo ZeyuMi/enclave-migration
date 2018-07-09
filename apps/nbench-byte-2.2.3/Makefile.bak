@@ -1,0 +1,20 @@
+CC:=/home/tmac/workspace/sgx-driver/musl-libc/build/bin/musl-gcc
+CFLAGS := -static -fPIC -nodefaultlibs -nostdlib
+
+nbench := emfloat.o misc.o nbench0.o nbench1.o sysspec.o hardware.o
+
+all:
+	$(CC) $(CFLAGS) -c stub.S
+	$(CC) $(CFLAGS) -c test.c
+	$(CC) $(CFLAGS) -c ocall_syscall_wrapper.c
+	$(CC) $(CFLAGS) -c ocall_syscall.S
+	ld -T linker.lds -o temp stub.o test.o $(nbench) libc.a ocall_syscall_wrapper.o ocall_syscall.o
+	objcopy -O binary -j .text temp temp.text
+	objcopy -O binary -j .data temp temp.data
+	cat temp.text > enclave.text             
+	cat temp.data > enclave.data             
+	objdump -d temp > temp.asm
+
+clean:
+	rm -f *.asm temp* *.text *.data *.o
+

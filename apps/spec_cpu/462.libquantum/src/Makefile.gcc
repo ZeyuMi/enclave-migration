@@ -1,0 +1,14 @@
+CC=gcc
+CFLAGS := -DSPEC_CPU -DNDEBUG -I. -DSPEC_CPU_LP64 -O2 -DSPEC_CPU_LINUX -I/usr/local/include/openlibm
+
+OBJS=classic.o complex.o decoherence.o expn.o gates.o matrix.o measure.o oaddn.o objcode.o omuln.o qec.o qft.o qureg.o shor.o version.o specrand.o
+
+libquantum: $(OBJS)
+	$(CC) -o $@ $(OBJS) -lopenlibm -lm
+
+%.o: %.c
+	$(CC) -c $< $(CFLAGS)
+
+clean:
+	rm -rf *.o *.ll *.s *.tmp rt.c
+

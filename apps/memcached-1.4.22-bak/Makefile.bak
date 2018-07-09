@@ -1,0 +1,33 @@
+libc_dir := /home/tmac/workspace/sgx-driver/enclave
+
+CC:=/home/tmac/workspace/sgx-driver/musl-libc/build/bin/musl-gcc
+BIGFILES=-D_FILE_OFFSET_BITS=64
+CFLAGS := -static -fPIC -nodefaultlibs -nostdlib -I.
+#CFLAGS=-DSPEC_CPU -DNDEBUG -I. -O2 -DSPEC_CPU_LP64 -g
+
+stub_files := $(libc_dir)/stub.o
+init_files := $(libc_dir)/init.o $(libc_dir)/enclave_tls.o
+#with normal libc.a to build normal app
+#libc_files := $(libc_dir)/init.o $(libc_dir)/build/crt* $(libc_dir)/build/libc.a
+libc_files := $(libc_dir)/build/libc.a
+wrapper_files := $(libc_dir)/ocall_libcall_wrapper.o $(libc_dir)/ocall_syscall_wrapper.o $(libc_dir)/ocall_syscall.o
+lds := linker.lds
+#LDFLAGS := -static -no-gc-sections
+LDFLAGS := -static
+
+#================================
+
+OBJS=memcached-memcached.o murmur3_hash.c slabs.c items.c assoc.c thread.c daemon.c stats.c util.c
+#cache.c
+
+all: memcached test.c
+	$(CC) $(CFLAGS) -I$(libc_dir)/include -c test.c
+	ld $(LDFLAGS) -T $(lds) -o $< $(stub_files) test.o $(OBJS) $(init_files) $(libc_files) $(wrapper_files)
+	#objdump -d $< > $<.asm
+
+memcached: $(OBJS)
+
+clean:
+	rm -rf *.o *.ll *.s *.tmp rt.c
+
+
